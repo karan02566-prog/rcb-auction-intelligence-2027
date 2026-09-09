@@ -19,6 +19,18 @@ class IngestionError(RCBProjectError):
     pass
 
 
+class ProvenanceError(IngestionError):
+    """Raised when data provenance manifest checks or checksum validations fail."""
+
+    pass
+
+
+class DuplicateFileError(IngestionError):
+    """Raised when attempting to download or overwrite an existing raw file without permission."""
+
+    pass
+
+
 class ValidationError(RCBProjectError):
     """Raised when data contracts or schema validations fail."""
 
