@@ -355,3 +355,29 @@ Every AI agent must:
 AI agents must never assume that their previous conversation contains the complete project context.
 
 The repository is the source of truth. **memory.md** describes the current state of that repository; it must never pretend unfinished work is complete ai should not strictly waste any tokens reading codes just read memory.md to know current status and from where to resume
+
+## Phase 1.3 Status
+
+**Completed:** Canonical player identity ingestion and competition participation metadata.
+
+**Verified outputs:**
+- `data/raw/metadata/player_identity.csv`
+- `data/raw/metadata/player_participation.csv`
+- `data/raw/metadata/player_competition_summary.csv`
+- `reports/phase_1_3_metadata_qa.json`
+
+**Verified scale:**
+- 18,507 canonical Cricsheet people
+- 18,507 unique identifiers
+- 1,973 players appearing in acquired IPL/SMAT matches
+- 1,938 unique matches
+- 43,333 participation records
+- 7,366 player-season-competition records
+- 19 IPL seasons
+- 9 SMAT seasons
+
+**Important data decision:** The Cricsheet People Register provides canonical identity and external identifiers but does not provide authoritative age, nationality, role, batting position, or bowling style. These fields must not be fabricated or inferred from this source. Authoritative biographical sources remain pending.
+
+**Phase 1.3 QA:** PASS.
+
+**Next:** Phase 1.4 ? IPL Auction Data Ingestion.

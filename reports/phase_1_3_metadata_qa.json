@@ -1,0 +1,31 @@
+{
+  "phase": "1.3",
+  "title": "Metadata and Biographical Ingestion",
+  "status": "PARTIALLY_COMPLETE",
+  "completed_components": {
+    "canonical_player_identity": true,
+    "cross_source_identifiers": true,
+    "ipl_participation": true,
+    "sma_participation": true,
+    "player_competition_summary": true
+  },
+  "pending_components": {
+    "authoritative_age": true,
+    "authoritative_nationality": true,
+    "authoritative_role": true,
+    "authoritative_batting_position": true,
+    "authoritative_bowling_style": true
+  },
+  "qa": {
+    "canonical_players": 18507,
+    "unique_identifiers": 18507,
+    "participation_rows": 43333,
+    "unique_matches": 1938,
+    "unique_players_in_matches": 1973,
+    "summary_rows": 7366,
+    "ipl_seasons": 19,
+    "sma_seasons": 9,
+    "result": "PASS"
+  },
+  "decision": "Do not fabricate or infer biographical fields from the Cricsheet People Register. Add authoritative biographical sources before consuming these fields downstream."
+}
