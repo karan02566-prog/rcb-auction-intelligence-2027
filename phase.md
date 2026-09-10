@@ -1,6 +1,6 @@
 # RCB Auction Intelligence Engine — Implementation Roadmap (`phases.md`)
 
-**Document status:** Approved v1.0
+**Document status:** Approved v1.0, amended v1.1 (internship-timeline scope amendment — see below)
 
 **Authoritative context:** `PRD.md`, `architecture.md`, `rules.md`
 
@@ -16,11 +16,26 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 4. **Git Commit:** Execute a atomic Git commit adhering strictly to the commit convention specified in `rules.md`.
 5. **Memory Update:** Log subphase completion, decision rationale, and state in `memory.md`.
 
+## Scope Amendment (v1.1) — Internship-Timeline Descope
+
+**Reason:** The original v1.0 roadmap targets a comprehensive, portfolio-grade system (Power BI dashboard, full OR-Tools optimizer, SHAP explainability, exhaustive QA). The actual near-term goal is a credible, well-reasoned RCB IPL 2027 auction target shortlist to send to RCB's coaching staff, on a 1-2 month timeline. Every subphase below is tagged with its status under this amendment. **No subphase content below has been deleted or altered** — this amendment only adds scope tags so v1.0 remains fully recoverable if the timeline changes later.
+
+**Tags:**
+- **IN SCOPE** — required for the shortlist deliverable; do this.
+- **SCOPED DOWN** — do a lighter version than v1.0 describes (see note under the subphase); do not build the full version described.
+- **DESCOPED** — skip entirely for this timeline; revisit only if time remains or a future iteration is planned.
+
+**Known correction folded into this amendment:** Phase 1.4.1's locked 27-field auction schema (`retention_status`, `retention_price_inr_lakh`, `season_franchise_purse_crore`, etc.) was written before the chosen Kaggle source was checked against it. The source (`sunnyyadav754/ipl-auction-dataset-20132026`) only provides 7 raw columns (`Name`, `Nationality`, `BasePrices in Rs`, `Winning Bid in Rs`, `TeamName`, `Capped/UnCapped`, plus an index) — it has no retention data and no unsold-player records. Phase 1.4's exit criteria are revised down to match what this source can actually supply; the "verify sum of franchise spends aligns with purse caps" validation check is satisfied instead by `src/validation/purse_cap_check.py`, using an externally-sourced purse-cap-per-year reference table (`configs/purse_caps.yaml`) rather than a per-row field, since the source has no such field to provide.
+
+**Replacement deliverable for Phase 9 (Power BI):** a written PDF/deck (folded into Phase 11.1) rather than an interactive dashboard.
+
 ---
 
 ## PHASE 0 — Project Foundation
 
 ### 0.1 Repository Setup & Folder Hierarchy
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Establish the foundational directory layout, repository, and core tracking files per `architecture.md`.
 * **Inputs:** `PRD.md`, `architecture.md`, `rules.md`.
@@ -34,6 +49,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 0.2 Environment & Dependency Management
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Configure Python runtime environment and pinned dependency management.
 * **Inputs:** `rules.md` (Section 13 on approved libraries).
 * **Work:** Create `requirements.txt` with pinned versions (`pandas`, `numpy`, `duckdb`, `pyarrow`, `scikit-learn`, `xgboost`, `scipy`, `matplotlib`, `plotly`, `pytest`, `pandera`, `ortools`, `pyyaml`). Create `setup.py` / `pyproject.toml` for local editable package installation (`pip install -e .`).
@@ -45,6 +62,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Environment cleanly installs and all imports succeed without warnings.
 
 ### 0.3 Quality & Configuration Foundation
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Implement logging, configuration loading, custom exception classes, and `pytest` foundation.
 * **Inputs:** `rules.md` (Section 10 & 11).
@@ -62,6 +81,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 1.1 Source Inventory & Manifest Framework
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Document and structure all external data sources and define source manifest schemas.
 * **Inputs:** `PRD.md` Section 7.2, `rules.md` Section 2.
 * **Work:** Build `configs/source_manifest.json` cataloging Cricsheet formats, auction price datasets, player biographical links, and venue metadata. Create `src/ingestion/manifest.py` to validate source integrity and file hashes.
@@ -73,6 +94,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Source catalog fully populated for all required competitions (IPL, BBL, CPL, SA20, ILT20, MLC, The Hundred, Indian Domestic T20s).
 
 ### 1.2 Cricsheet Ball-by-Ball Ingestion
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Automated download, extraction, and verification of Cricsheet T20 ball-by-ball JSON/CSV datasets.
 * **Inputs:** `configs/source_manifest.json`.
@@ -86,6 +109,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 1.3 Metadata & Biographical Ingestion
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Ingest player rosters, official player IDs, roles, bowling styles, batting positions, and competition metadata.
 * **Inputs:** Official competition records, Cricsheet player registry.
 * **Work:** Implement `src/ingestion/metadata.py` to pull player profile attributes, official team historical rosters, and competition schedules into `data/raw/metadata/`.
@@ -98,6 +123,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 1.4 Auction Data Ingestion
 
+> **Scope status (v1.1):** SCOPED DOWN — exit criteria revised; see Scope Amendment note on the source's actual 7-column schema (no retention/unsold data available).
+
 * **Objective:** Ingest historical IPL auction prices, retention amounts, player price bands, and unsold lists (2018–2026).
 * **Inputs:** Public IPL auction records, official press releases.
 * **Work:** Implement `src/ingestion/auction.py` to structure historical auction datasets into `data/raw/auction/`. Capture player name, year, franchise, sold price, base price, retention status, and currency.
@@ -109,6 +136,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Complete historical auction table saved in `data/raw/auction/`.
 
 ### 1.5 Provenance & Source Manifest Verification
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Execute full verification of raw data layer and generate immutable source manifest report.
 * **Inputs:** Ingested files across `data/raw/`.
@@ -126,6 +155,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 2.1 Raw Data Normalization
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Parse raw JSON/CSV data structures into clean relational representations without altering underlying facts.
 * **Inputs:** `data/raw/cricsheet/*`.
 * **Work:** Write `src/cleaning/normalize_raw.py` to parse complex nested Cricsheet JSON structures into standardized tables (`interim/matches.parquet`, `interim/deliveries.parquet`). Handle extra/penalty runs, dismissal classifications, and legal ball flags.
@@ -137,6 +168,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Clean Parquet tables generated under `data/interim/`.
 
 ### 2.2 Match & Delivery Schema Construction
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Define explicit `pandera` schemas for matches and ball-by-ball delivery tables.
 * **Inputs:** `data/interim/*.parquet`.
@@ -150,6 +183,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 2.3 Player Identity Resolution & Canonical Mapping
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Resolve player name spelling variants across Cricsheet, auction files, and metadata into unique `player_id`s.
 * **Inputs:** `data/interim/deliveries.parquet`, `data/raw/metadata/`, `data/raw/auction/`.
 * **Work:** Build `src/cleaning/entity_resolution.py` using explicit mapping dictionary (`configs/player_mapping.json`) supplemented with string similarity matching. Map all historical occurrences to a canonical `player_id`.
@@ -161,6 +196,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** All player references across match and auction data resolve to single canonical `player_id`.
 
 ### 2.4 Competition & Season Normalization
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Standardize competition names, season formats, and match dates into uniform reference structures.
 * **Inputs:** `data/interim/matches.parquet`.
@@ -174,6 +211,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 2.5 Venue Normalization & Mapping
 
+> **Scope status (v1.1):** SCOPED DOWN — basic venue name/city normalization only, not full physical-characteristics profiling.
+
 * **Objective:** Standardize ground/venue names, city locations, and physical ground identity.
 * **Inputs:** `data/interim/matches.parquet`.
 * **Work:** Implement `src/cleaning/normalize_venues.py` mapping raw venue strings (e.g., "M. Chinnaswamy Stadium", "Chinnaswamy", "M Chinnaswamy Stadium, Bengaluru") to a canonical `venue_id` in `dim_venues.parquet`.
@@ -186,6 +225,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 2.6 DuckDB & Parquet Storage Layer Integration
 
+> **Scope status (v1.1):** DESCOPED — plain pandas + CSV/Parquet files are sufficient at this scale; skip the DuckDB query layer.
+
 * **Objective:** Build DuckDB analytical engine wrapper and persist processed tables to columnar Parquet format.
 * **Inputs:** `data/interim/*.parquet`, `data/processed/dim_*.parquet`.
 * **Work:** Implement `src/utils/db.py` setting up embedded DuckDB instance. Write ETL script `scripts/build_processed_layer.py` joining interim tables with resolved dimension keys, creating `data/processed/fact_deliveries.parquet` and `data/processed/fact_matches.parquet`.
@@ -197,6 +238,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** DuckDB queries run cleanly over `data/processed/*.parquet` files.
 
 ### 2.7 Automated Data-Quality Checks & Contract Validation
+
+> **Scope status (v1.1):** SCOPED DOWN — targeted checks on the fields the models actually use, not a full contract-validation suite.
 
 * **Objective:** Implement comprehensive data quality suite enforcing contract requirements before feature engineering.
 * **Inputs:** `data/processed/*.parquet`.
@@ -214,6 +257,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 3.1 League Scoring Environments & Baseline Comparison
 
+> **Scope status (v1.1):** SCOPED DOWN — quick sanity-check plots only, not a full comparative study.
+
 * **Objective:** Quantify baseline scoring environments (run rate, boundary %, wicket rate) across target competitions.
 * **Inputs:** `data/processed/fact_deliveries.parquet`, `data/processed/dim_competitions.parquet`.
 * **Work:** Build `src/analytics/eda_leagues.py` to calculate macro league parameters across seasons (2018–2026). Save output summary to `reports/eda_league_baselines.json`.
@@ -225,6 +270,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Baseline scoring metric export generated in `reports/`.
 
 ### 3.2 Venue Characteristics & Physical Environment Analysis
+
+> **Scope status (v1.1):** DESCOPED — not required for the shortlist; venue depth isn't the differentiator here.
 
 * **Objective:** Perform exploratory spatial and environmental profile analysis per canonical venue.
 * **Inputs:** `data/processed/fact_deliveries.parquet`, `data/processed/dim_venues.parquet`.
@@ -238,6 +285,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 3.3 Batter Distributions & Milestone Profile Analysis
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Analyze batting performance distributions, variance, and milestone conversion rates.
 * **Inputs:** `data/processed/fact_deliveries.parquet`, `data/processed/dim_players.parquet`.
 * **Work:** Implement `src/analytics/eda_batting.py` calculating score distributions, skewness, median innings score, 20+/30+/50+ transition rates, and duck frequencies across player cohorts.
@@ -249,6 +298,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Batting EDA distribution dataset exported to `reports/`.
 
 ### 3.4 Bowler Distributions & Spell Profile Analysis
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Analyze bowling spell variance, economy rate stability, and wicket-taking frequency.
 * **Inputs:** `data/processed/fact_deliveries.parquet`, `data/processed/dim_players.parquet`.
@@ -262,6 +313,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 3.5 Domestic vs Franchise Competition Comparison
 
+> **Scope status (v1.1):** IN SCOPE — directly supports the domestic-to-franchise translation work, which matters for uncapped/domestic targets.
+
 * **Objective:** Explore statistical divergence between domestic T20 performance (e.g., SMAT) and franchise T20s (IPL).
 * **Inputs:** `data/processed/fact_deliveries.parquet`.
 * **Work:** Implement `src/analytics/eda_domestic_translation.py` tracking crossover players who played both domestic and IPL in adjacent seasons. Compare scoring rates, dot ball percentages, and boundary concessions.
@@ -273,6 +326,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Crossover EDA output generated and logged.
 
 ### 3.6 Auction Economics & Historical Price Dynamics
+
+> **Scope status (v1.1):** IN SCOPE — partially complete via the purse-cap ceiling validation already built.
 
 * **Objective:** Explore historical auction price distributions, inflation rates, and role-based spending trends (2018–2026).
 * **Inputs:** `data/raw/auction/ipl_auction_history.csv`.
@@ -290,6 +345,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 4.1 Batting Features
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Engineer comprehensive volume, rate, acceleration, and boundary dependency features for batters.
 * **Inputs:** `data/processed/fact_deliveries.parquet`.
 * **Work:** Implement `src/features/batting.py`. Compute metrics per player-season: runs, balls faced, batting average, strike rate, dot ball %, boundary %, boundary dependency (boundary runs / total runs), rotation rate (singles+doubles / non-boundary balls), and scoring acceleration rate.
@@ -301,6 +358,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** `pytest tests/test_batting_features.py` passes 100%.
 
 ### 4.2 Bowling Features
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Engineer bowling rate, volume, spell-shape, and economy stability features.
 * **Inputs:** `data/processed/fact_deliveries.parquet`.
@@ -314,6 +373,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 4.3 Consistency Features
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Compute percentile-based outcome distributions, floor/ceiling metrics, and transparent consistency badges per PRD §5.
 * **Inputs:** `data/processed/fact_deliveries.parquet`.
 * **Work:** Implement `src/features/consistency.py`. Calculate player score/spell percentiles (P10, P25, P50, P75, P90), median score, failure rate (scores < 10 runs), high-impact rate (scores > 45 or 3+ wicket spells), and derive rule-based consistency badges ("High Floor", "Boom-or-Bust", "Elite").
@@ -325,6 +386,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Consistency feature dataset generated with passing unit tests.
 
 ### 4.4 Phase Features
+
+> **Scope status (v1.1):** SCOPED DOWN — basic powerplay/middle/death split only, not full granularity.
 
 * **Objective:** Compute phase-specific (Powerplay overs 1–6, Middle overs 7–15, Death overs 16–20) performance splits for batters and bowlers.
 * **Inputs:** `data/processed/fact_deliveries.parquet`.
@@ -338,6 +401,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 4.5 Matchup Features
 
+> **Scope status (v1.1):** DESCOPED — too time-intensive for this timeline relative to what it adds to a shortlist.
+
 * **Objective:** Build fine-grained matchup interaction features (vs Pace, vs Spin, vs LHB, vs RHB, vs Bowling sub-types) subject to sample limits.
 * **Inputs:** `data/processed/fact_deliveries.parquet`.
 * **Work:** Build `src/features/matchups.py`. Compute batter strike rate/average/dismissal rate against pace vs spin and bowling sub-types (Left-arm pace, Wrist spin, Off spin); compute bowler stats against LHB vs RHB. Enforce minimum sample threshold (e.g., minimum 30 deliveries) before reporting.
@@ -349,6 +414,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Matchup dataset exported with low-sample records flagged or masked.
 
 ### 4.6 Venue Features
+
+> **Scope status (v1.1):** DESCOPED — depends on descoped 2.5/3.2 venue depth.
 
 * **Objective:** Compute descriptive venue-level historical baseline statistics.
 * **Inputs:** `data/processed/fact_deliveries.parquet`, `data/processed/dim_venues.parquet`.
@@ -362,6 +429,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 4.7 Pitch/Environment Classification & Archetype Clustering
 
+> **Scope status (v1.1):** DESCOPED.
+
 * **Objective:** Empirical, data-driven clustering of match pitch environments per PRD §6.
 * **Inputs:** `data/processed/fact_deliveries.parquet`, `data/processed/fact_matches.parquet`.
 * **Work:** Implement `src/analytics/pitch_clustering.py`. Build feature matrix per match (1st innings run rate, boundary %, spin economy vs pace economy, phase 1-3 scoring gradient). Apply k-means / hierarchical clustering to classify match pitches into archetypes ("High-Scoring", "Spin-Friendly", "Pace/Movement", "Two-Paced/Tricky"). Assign cluster confidence score; tag unclassified/low-sample matches as "Unclassified".
@@ -373,6 +442,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Pitch archetype dataset exported with explicit confidence scores.
 
 ### 4.8 Pressure & Situational Context Features
+
+> **Scope status (v1.1):** DESCOPED — nice-to-have, not decision-critical.
 
 * **Objective:** Engineer situational features capturing performance under high pressure (high required run rate, close finishes, collapsed top-order).
 * **Inputs:** `data/processed/fact_deliveries.parquet`.
@@ -386,6 +457,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 4.9 League-Strength Adjustment Features
 
+> **Scope status (v1.1):** IN SCOPE — needed so BBL/CPL/SA20/domestic stats are comparable to IPL at all.
+
 * **Objective:** Compute empirical competition difficulty adjustment factors to enable cross-league comparability per PRD §7.3.
 * **Inputs:** `data/features/batting_features.parquet`, `data/features/bowling_features.parquet`.
 * **Work:** Implement `src/analytics/league_adjustment.py`. Compute relative competition strength indexing using crossover player performance differentials between IPL and external leagues (BBL, CPL, SA20, SMAT, etc.). Calculate league difficulty multiplier $M_{\text{league}}$.
@@ -397,6 +470,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Adjusted feature tables produced with transparent adjustment factor documentation.
 
 ### 4.10 Domestic-to-Franchise Translation Features
+
+> **Scope status (v1.1):** IN SCOPE — core to identifying strong uncapped/domestic targets, likely RCB's real gap area.
 
 * **Objective:** Engineer specific translation features for domestic uncapped entrants transitioning to IPL.
 * **Inputs:** `data/features/league_adjusted_features.parquet`.
@@ -414,6 +489,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 5.1 Squad Inventory & Roster State Assessment
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Ingest and structure RCB's pre-auction retained squad, released list, remaining purse, and overseas slot counts.
 * **Inputs:** Official IPL 2026 pre-auction retention releases, `data/processed/dim_players.parquet`.
 * **Work:** Build `configs/rcb_squad_state.json` detailing retained players, contract prices, remaining purse cap, total open slots, and open overseas slots. Write script `src/analytics/squad_inventory.py` to compile current roster table.
@@ -425,6 +502,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** RCB current squad state verified and saved in `configs/`.
 
 ### 5.2 Role Classification & Skill Tagging
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Map retained players and entire player pool into explicit role taxonomy per PRD §8.
 * **Inputs:** `data/processed/dim_players.parquet`, `data/features/*.parquet`.
@@ -438,6 +517,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 5.3 Existing Strengths Assessment
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Quantify the aggregated performance metrics of RCB's retained core to isolate existing strengths.
 * **Inputs:** `data/processed/rcb_squad_inventory.parquet`, `data/features/*.parquet`.
 * **Work:** Implement `src/analytics/squad_strengths.py`. Calculate retained squad's expected run contribution, phase-wise scoring rates, and bowling overs coverage based on prior season features.
@@ -449,6 +530,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Squad strength report generated in `reports/`.
 
 ### 5.4 Squad Weaknesses & Critical Gap Identification
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Identify explicit tactical gaps in RCB's squad by comparing retained coverage against winning T20 benchmarks.
 * **Inputs:** `reports/rcb_squad_strengths_analysis.json`, `configs/role_taxonomy.json`.
@@ -462,6 +545,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 5.5 Required Role Specifications & Target Profiles
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Convert identified squad gaps into explicit mathematical target profile criteria for candidate searching.
 * **Inputs:** `reports/rcb_squad_gaps_summary.json`.
 * **Work:** Build `src/analytics/role_profiles.py`. Define quantitative target criteria for each gap (e.g., Gap 1: Death Bowler -> Minimum 30% death overs bowled, Death Economy < 9.5, Death Wicket Rate > 0.05).
@@ -474,6 +559,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 5.6 Budget & Roster Slot Constraint Definition
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Define formal mathematical constraint equations for auction purse, overseas caps, and slot minimums.
 * **Inputs:** `configs/rcb_squad_state.json`.
 * **Work:** Build `src/optimization/constraints.py`. Construct linear constraint matrices for purse ($\sum \text{price}_i \le \text{Purse}_{\text{rem}}$), total roster ($18 \le N_{\text{total}} \le 25$), and overseas count ($N_{\text{overseas}} \le 8$).
@@ -485,6 +572,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Constraint validation module passes all unit tests.
 
 ### 5.7 Candidate Search Universe Generation
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Filter entire global player database into the broad candidate search universe for evaluation.
 * **Inputs:** `data/processed/dim_players.parquet`, `configs/target_role_profiles.json`.
@@ -502,6 +591,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 6.1 Universe Definition & Minimum Sample Filtering
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Apply Stage 1 funnel filtering based strictly on minimum sample thresholds.
 * **Inputs:** `data/processed/candidate_universe_broad.parquet`, `data/features/*.parquet`.
 * **Work:** Implement `src/analytics/funnel_sample.py`. Filter candidate pool against minimum sample cutoffs (e.g., minimum 100 batting balls or 60 bowling balls in recent window). Flag emerging uncapped players meeting domestic sample limits.
@@ -513,6 +604,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Stage 1 filtered dataset generated with step log.
 
 ### 6.2 Performance Threshold & Role Alignment Filtering
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Apply Stage 2 funnel filtering based on league-adjusted baseline performance and gap alignment.
 * **Inputs:** `data/interim/funnel_stage1_sample.parquet`, `data/features/league_adjusted_features.parquet`.
@@ -526,6 +619,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 6.3 Consistency & Floor/Ceiling Filtering
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Apply Stage 3 funnel filtering removing high-variance "boom-or-bust" candidates where squad gap demands floor reliability.
 * **Inputs:** `data/interim/funnel_stage2_performance.parquet`, `data/features/consistency_features.parquet`.
 * **Work:** Implement `src/analytics/funnel_consistency.py`. Evaluate candidate percentile distributions; filter candidates with high failure rates unless applying for high-ceiling lower-order roles.
@@ -538,6 +633,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 6.4 Pitch Adaptability & Matchup Filtering
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Apply Stage 4 funnel filtering testing candidate performance across pitch archetypes and critical matchups.
 * **Inputs:** `data/interim/funnel_stage3_consistency.parquet`, `data/features/pitch_archetypes.parquet`, `data/features/matchup_features.parquet`.
 * **Work:** Implement `src/analytics/funnel_adaptability.py`. Assess candidate performance on M. Chinnaswamy home archetype (high scoring/boundary ground) and spin/pace matchup vulnerabilities. Filter candidates with critical unmitigated weaknesses.
@@ -549,6 +646,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Stage 4 funnel output saved.
 
 ### 6.5 League Translation & Availability Filtering (Final Shortlist ~30–40 Candidates)
+
+> **Scope status (v1.1):** IN SCOPE
 
 * **Objective:** Apply final funnel stage incorporating domestic translation confidence, injury/availability records, and producing target ~30–40 candidate shortlist per PRD §1.4.
 * **Inputs:** `data/interim/funnel_stage4_adaptability.parquet`, `data/features/domestic_translation_features.parquet`.
@@ -566,6 +665,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 7.1 Statistical Baseline Models
 
+> **Scope status (v1.1):** IN SCOPE
+
 * **Objective:** Establish simple statistical baseline models for auction price and performance before training ML models per PRD §9.1.
 * **Inputs:** `data/processed/candidate_shortlist_30_40.parquet`, `data/raw/auction/ipl_auction_history.csv`.
 * **Work:** Implement `src/models/baselines.py`. Build simple linear/percentile baseline models: (1) Price baseline = historical role median price, (2) Performance baseline = raw domestic percentile. Calculate baseline MAE / RMSE.
@@ -577,6 +678,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Baseline evaluation script runs and writes metrics to `reports/`.
 
 ### 7.2 Auction Price Model (Model A1 — Expected Market Price)
+
+> **Scope status (v1.1):** IN SCOPE — needed to set a realistic expected price per target.
 
 * **Objective:** Train time-validated model predicting expected auction market price based on historical price patterns per `architecture.md` §8.
 * **Inputs:** Historical auction datasets, historical player feature tables (strictly point-in-time correct).
@@ -590,6 +693,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 7.3 Fair-Value Model (Model A2 — Objective Value)
 
+> **Scope status (v1.1):** SCOPED DOWN — a simpler statistical/heuristic fair-value baseline is enough; doesn't need to be a fully separate ML model.
+
 * **Objective:** Build objective performance-and-scarcity-grounded fair value estimation model distinct from market price per PRD §8.2.
 * **Inputs:** `data/features/league_adjusted_features.parquet`, `configs/role_taxonomy.json`.
 * **Work:** Implement `src/models/train_fair_value.py`. Construct fair value model ($Y_{\text{fair\_value}}$) deriving objective value from league-adjusted run/wicket impact, phase importance weighting, and role scarcity index ($S_{\text{role}}$). Keep separate from price prediction per `architecture.md` §8.
@@ -601,6 +706,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Model A2 serialized artifact generated and metrics logged.
 
 ### 7.4 Domestic-to-Franchise Translation Model (Model B)
+
+> **Scope status (v1.1):** IN SCOPE — same reason as 4.10/3.5.
 
 * **Objective:** Train transition model predicting IPL performance percentiles for domestic entrants based on domestic track records.
 * **Inputs:** Historical crossover player cohort features (domestic features vs subsequent IPL performance).
@@ -614,6 +721,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 7.5 Player Similarity & Clustering Model (Model C — Optional/Unsupervised)
 
+> **Scope status (v1.1):** DESCOPED — the roadmap itself marks this optional.
+
 * **Objective:** Implement unsupervised nearest-neighbor clustering to identify strategic backup alternatives for candidate targets per `architecture.md` §8.
 * **Inputs:** `data/features/league_adjusted_features.parquet` (role and style features only; price excluded).
 * **Work:** Implement `src/models/train_similarity.py`. Apply k-means / cosine similarity on normalized feature vectors to identify top-3 nearest-neighbor alternative players for every candidate.
@@ -626,6 +735,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 7.6 Model Validation, Temporal Evaluation & Leakage Audit
 
+> **Scope status (v1.1):** SCOPED DOWN — a basic temporal train/test holdout, not the full leakage-audit ceremony.
+
 * **Objective:** Conduct rigorous end-to-end model validation, temporal integrity audit, and target leakage verification across Models A, B, and C.
 * **Inputs:** `models/*.joblib`, `src/models/*.py`.
 * **Work:** Implement `src/models/validate_models.py`. Execute temporal validation routines, feature importance checks, and explicit data leakage audits (verifying zero future feature timestamps relative to prediction dates).
@@ -637,6 +748,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Comprehensive ML audit report passes with zero critical warnings.
 
 ### 7.7 Explainability Framework (SHAP / Feature Attribution)
+
+> **Scope status (v1.1):** DESCOPED — SHAP is valuable polish, not required to justify a shortlist in a written document.
 
 * **Objective:** Generate SHAP feature attributions for every candidate prediction to ensure 100% explainable valuations per PRD §9.2 & §12.
 * **Inputs:** `models/*.joblib`, `data/processed/candidate_shortlist_30_40.parquet`.
@@ -654,6 +767,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 8.1 Budget & Purse Allocation Model
 
+> **Scope status (v1.1):** SCOPED DOWN — simple purse-remaining arithmetic, not a standalone model.
+
 * **Objective:** Model purse allocation strategies and target expenditure bands across required squad roles.
 * **Inputs:** `configs/rcb_squad_state.json`, `data/processed/candidate_shortlist_30_40.parquet`.
 * **Work:** Implement `src/optimization/budget_model.py`. Calculate target purse distribution ranges per gap role (e.g., Tier 1 Marquee Target: 25–35% purse, Tier 2 Core Target: 12–18%, Tier 3 Depth: 3–7%).
@@ -665,6 +780,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Purse allocation configuration saved and validated.
 
 ### 8.2 Squad Constraint Solver Setup
+
+> **Scope status (v1.1):** DESCOPED — no OR-Tools solver for this timeline.
 
 * **Objective:** Configure OR-Tools constraint solver engine for squad selection under multi-variable constraints per `architecture.md` §9.
 * **Inputs:** `src/optimization/constraints.py`, candidate shortlist model predictions.
@@ -678,6 +795,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 8.3 Maximum Recommended Bid Logic
 
+> **Scope status (v1.1):** IN SCOPE — rule-based bid-ceiling logic (fair value + scarcity/role-need adjustment), computed directly rather than via a solver.
+
 * **Objective:** Calculate player-specific Maximum Rational Bid ceilings distinct from objective Fair Value per PRD §8.2.
 * **Inputs:** Model A2 Fair Value, Model A1 Expected Market Price, role scarcity indices, remaining purse.
 * **Work:** Implement `src/optimization/max_bid.py`. Compute Maximum Recommended Bid: $\text{MaxBid}_i = \text{FairValue}_i \times (1 + \text{ScarcityAdjustment}) \times \text{SquadFitMultiplier}$, bounded strictly by purse constraints.
@@ -689,6 +808,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Max bid calculations exported and validated with passing tests.
 
 ### 8.4 Player Combination Optimizer
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Run OR-Tools optimization engine to generate globally optimal squad combinations from candidate shortlist.
 * **Inputs:** `src/optimization/solver.py`, candidate predictions, max bids.
@@ -702,6 +823,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 8.5 Bargain Scenario Generator
 
+> **Scope status (v1.1):** SCOPED DOWN — flag undervalued players as a simple A1-vs-A2 gap, not a generated scenario set.
+
 * **Objective:** Optimize alternative squad scenario prioritizing high-value bargain targets (Fair Value >> Expected Price) to preserve purse.
 * **Inputs:** `src/optimization/solver.py`, candidate value gaps.
 * **Work:** Implement `src/optimization/scenarios.py` (Scenario A - Bargain Priority). Re-weight optimization objective to maximize total Value Gap ($\text{Fair Value} - \text{Expected Price}$).
@@ -713,6 +836,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Bargain scenario output exported to `data/exports/`.
 
 ### 8.6 Star-Player / Anchor Strategy Generator
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Optimize alternative squad scenario prioritizing top-tier marquee anchors (allocating 50%+ purse to 2 marquee targets).
 * **Inputs:** `src/optimization/solver.py`.
@@ -726,6 +851,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 8.7 Depth & Balance Scenario Generator
 
+> **Scope status (v1.1):** DESCOPED.
+
 * **Objective:** Optimize alternative squad scenario prioritizing balanced spend distribution across all roles (no single player > 15% purse).
 * **Inputs:** `src/optimization/solver.py`.
 * **Work:** Modify scenario solver parameters for Scenario C (Balanced Depth Strategy). Add upper-bound constraint capping individual bid at 15% total purse; maximize overall squad depth and floor consistency.
@@ -737,6 +864,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Balanced scenario output exported to `data/exports/`.
 
 ### 8.8 Multi-Scenario Comparison Framework
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Aggregate primary and alternative optimization scenarios into unified comparative analysis export for Power BI.
 * **Inputs:** `data/exports/scenario_*.parquet`.
@@ -754,6 +883,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 9.1 Data Model & Power Query Data Layer Exports
 
+> **Scope status (v1.1):** DESCOPED — no Power BI dashboard this cycle; see replacement deliverable note above.
+
 * **Objective:** Construct clean, denormalized Power BI export tables in `data/exports/` and build Power BI data model.
 * **Inputs:** `data/processed/*.parquet`, `data/features/*.parquet`, `data/exports/*.parquet`.
 * **Work:** Implement `scripts/build_powerbi_exports.py`. Create denormalized export tables optimized for Power BI star schema: `fact_candidate_evaluations.parquet`, `dim_players_pbi.parquet`, `dim_venues_pbi.parquet`, `fact_squad_gaps_pbi.parquet`, `fact_scenarios_pbi.parquet`. Load exports into Power BI (`powerbi/rcb_auction_intelligence.pbix`) via Power Query.
@@ -765,6 +896,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Power BI data model successfully connected and refreshed from `data/exports/`.
 
 ### 9.2 Design Theme, Color Palette & Typography
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Create and apply professional, decision-focused visual theme JSON for Power BI per `design.md`.
 * **Inputs:** PRD visual guidelines, `design.md`.
@@ -778,6 +911,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 9.3 Executive Overview Page
 
+> **Scope status (v1.1):** DESCOPED.
+
 * **Objective:** Build Page 1: One-screen executive summary for franchise decision-makers per PRD §11.
 * **Inputs:** `powerbi/rcb_auction_intelligence.pbix`, `data/exports/*`.
 * **Work:** Design Executive Overview page: Key KPI cards (Remaining Purse, Open Slots, Top Priority Gap, Headline Shortlist Target), Top 3 Squad Gaps summary card, Top Candidate Target shortlist table, and Headline Auction Recommendation banner.
@@ -789,6 +924,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Executive Overview page functional and cross-filtering cleanly.
 
 ### 9.4 Squad Gap Analysis Page
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Build Page 2: Diagnostic breakdown of RCB's roster weaknesses and phase coverage gaps.
 * **Inputs:** `fact_squad_gaps_pbi.parquet`.
@@ -802,6 +939,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 9.5 Player Discovery Page
 
+> **Scope status (v1.1):** DESCOPED.
+
 * **Objective:** Build Page 3: Interactive filtering and search visual for the 30–40 candidate shortlist.
 * **Inputs:** `fact_candidate_evaluations.parquet`.
 * **Work:** Design Player Discovery page: Slicers (Role, Overseas/Indian, Price Band, Gap Fit Score, Consistency Badge), Candidate Matrix table (Player, Role, Age, League Adjusted SR/Econ, Fair Value, Max Bid, Consistency Badge), and candidate detail tooltips.
@@ -813,6 +952,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Player Discovery page fully interactive with fast response times.
 
 ### 9.6 Player Profile Page
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Build Page 4: Deep-dive analytical view for an individual candidate player.
 * **Inputs:** Candidate evaluations, consistency distributions, SHAP explainability tables.
@@ -826,6 +967,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 9.7 Pitch/Venue Intelligence Page
 
+> **Scope status (v1.1):** DESCOPED.
+
 * **Objective:** Build Page 5: Environmental context, ground statistics, and empirical pitch archetype insights.
 * **Inputs:** `dim_venues_pbi.parquet`, `pitch_archetypes.parquet`.
 * **Work:** Design Pitch/Venue Intelligence page: M. Chinnaswamy home ground analytical summary, Empirical Pitch Archetype distribution breakdown, Venue performance impact matrix, and pitch classification confidence indicators per PRD §6.
@@ -837,6 +980,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Pitch/Venue page built and validated against upstream cluster outputs.
 
 ### 9.8 Matchup Intelligence Page
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Build Page 6: Head-to-head batter vs bowler and skill sub-type interaction matrix.
 * **Inputs:** `matchup_features.parquet`.
@@ -850,6 +995,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 9.9 Auction Value Page
 
+> **Scope status (v1.1):** DESCOPED.
+
 * **Objective:** Build Page 7: Valuation transparency page comparing Fair Value, Market Price, and Value Gaps.
 * **Inputs:** Valuation exports, Model A1/A2 outputs.
 * **Work:** Design Auction Value page: Valuation Scatter plot (Expected Market Price vs Objective Fair Value), Bargain Candidates list (Fair Value > Price), Overpayment Risk list (Price > Fair Value), Scarcity Premium adjustment breakdown, and Max Recommended Bid limits table.
@@ -861,6 +1008,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Auction Value page verified against model outputs.
 
 ### 9.10 Scenario Simulator / Auction Simulator Page
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Build Page 8: Interactive "what-if" scenario exploration visual per PRD §11 & `architecture.md` §7.
 * **Inputs:** `fact_scenarios_pbi.parquet`, `optimization_scenarios_comparison.parquet`.
@@ -874,6 +1023,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 9.11 Final Recommendation Page
 
+> **Scope status (v1.1):** DESCOPED.
+
 * **Objective:** Build Page 9: Definitive actionable target list, bid limits, and auction strategy playbook.
 * **Inputs:** All optimization and evaluation exports.
 * **Work:** Design Final Recommendation page: Target Shortlist by Role with explicit Max Recommended Bid ceilings, Priority Tier bidding order (Must-Have vs Target vs Value Backup), Purse allocation blueprint visual, and Contingency Backup map (Primary Target -> Model C Secondary Alternative).
@@ -885,6 +1036,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Final Recommendation page operational and fully cross-linked.
 
 ### 9.12 Methodology & Data Quality Page
+
+> **Scope status (v1.1):** DESCOPED.
 
 * **Objective:** Build Page 10: Complete methodology disclosure, data source catalog, sample thresholds, analytical layer attribution, and limitations per PRD §9.2 & §11.
 * **Inputs:** `reports/data_quality_report.json`, PRD §9.2 layer map.
@@ -902,6 +1055,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 10.1 Data QA & Lineage Validation
 
+> **Scope status (v1.1):** SCOPED DOWN — basic checks; some of this is already covered by purse_cap_check.py.
+
 * **Objective:** Re-run end-to-end data audit scripts validating raw-to-export data lineage.
 * **Inputs:** Full pipeline datasets across `data/`.
 * **Work:** Execute `scripts/run_data_qa.py`. Validate row counts, primary key uniqueness, foreign key integrity, and zero null values in critical export columns.
@@ -913,6 +1068,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Data QA script passes with 0 failures.
 
 ### 10.2 Formula & Metric Audit
+
+> **Scope status (v1.1):** SCOPED DOWN — spot-check the formulas actually feeding the shortlist, not every metric in the system.
 
 * **Objective:** Audit every custom feature formula in Python against manual benchmark calculations.
 * **Inputs:** `src/features/*.py`, manual test benchmarks.
@@ -926,6 +1083,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 10.3 ML Model Evaluation & Temporal Audit
 
+> **Scope status (v1.1):** IN SCOPE — a shortlist sent to a coaching staff needs an honestly-evaluated model behind it.
+
 * **Objective:** Final audit of ML model outputs, temporal split enforcement, and SHAP explainability values.
 * **Inputs:** `src/models/validate_models.py`, `models/*.joblib`.
 * **Work:** Execute ML audit pipeline verifying zero target leakage, temporal holdout validity, and SHAP value mathematical balance for all predictions.
@@ -937,6 +1096,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** ML audit report clean with 0 leakage warnings.
 
 ### 10.4 Dashboard QA & Interactivity Verification
+
+> **Scope status (v1.1):** DESCOPED — no dashboard to test.
 
 * **Objective:** Audit Power BI dashboard pages for interactivity, filter performance, visual formatting, and cross-filtering accuracy.
 * **Inputs:** `powerbi/rcb_auction_intelligence.pbix`.
@@ -950,6 +1111,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 10.5 Edge-Case, Outlier & Boundary Testing
 
+> **Scope status (v1.1):** SCOPED DOWN — check the edge cases likely to actually occur in the candidate pool.
+
 * **Objective:** Test pipeline resilience against extreme edge cases (0-ball players, unclassified venues, rain-affected matches, extreme price outliers).
 * **Inputs:** Pipeline scripts, synthetic edge-case dataset.
 * **Work:** Run `tests/test_edge_cases.py` feeding synthetic edge cases into ingestion, feature engineering, and optimization pipelines. Assert graceful handling, logging, and flagging without pipeline crashes.
@@ -961,6 +1124,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Edge case test suite passes 100%.
 
 ### 10.6 End-to-End Reproducibility & Fresh-Run Verification
+
+> **Scope status (v1.1):** SCOPED DOWN — confirm the pipeline reruns cleanly end-to-end once, not a formal reproducibility protocol.
 
 * **Objective:** Perform clean, automated end-to-end execution of full pipeline from raw data ingestion to export generation on a clean machine environment.
 * **Inputs:** Raw datasets, full repository codebase.
@@ -978,6 +1143,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 11.1 Executive Narrative & Decision Deck
 
+> **Scope status (v1.1):** IN SCOPE — this is the primary deliverable, produced as a written document/deck rather than a live dashboard walkthrough.
+
 * **Objective:** Produce presentation-ready executive decision narrative summarizing findings without requiring source code inspection per PRD §10 & §13.
 * **Inputs:** Dashboard exports, optimization scenarios, squad gap reports.
 * **Work:** Write standalone executive summary report `reports/RCB_Auction_Strategy_Executive_Deck.md` and export slide PDF outline. Structure: Executive Problem Statement, Identified Squad Gaps, Recommended Target Shortlist, Purse Allocation Blueprint, and Strategic Risk Management.
@@ -989,6 +1156,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Executive deck saved under `reports/`.
 
 ### 11.2 Target Player Shortlist & Bid Limits Documentation
+
+> **Scope status (v1.1):** IN SCOPE — this is the actual ask: the shortlist and bid ceilings.
 
 * **Objective:** Document complete 30–40 candidate target list, role fit, max recommended bids, and backup options.
 * **Inputs:** `candidate_shortlist_30_40.parquet`, candidate max bids, Model C similarity matrix.
@@ -1002,6 +1171,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 11.3 Alternative Strategy & Contingency Playbook
 
+> **Scope status (v1.1):** SCOPED DOWN — a brief alternatives section, not a full contingency playbook.
+
 * **Objective:** Produce operational auction-room playbook detailing contingency responses during live bidding dynamics (e.g. if target price exceeds Max Bid).
 * **Inputs:** Optimization scenarios (Bargain, Marquee, Balanced).
 * **Work:** Write `reports/auction_room_contingency_playbook.md`. Define decision trees: "If Target A exceeds Max Recommended Bid by > 10% -> Pivot to Backup Candidate B", "If Purse drops below ₹15 Cr before Death Bowler acquired -> Switch to Scenario A Bargain Strategy".
@@ -1013,6 +1184,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Playbook complete and saved under `reports/`.
 
 ### 11.4 Key Analytical Insights Summary
+
+> **Scope status (v1.1):** IN SCOPE — kept short.
 
 * **Objective:** Summarize major analytical discoveries (e.g. Chinnaswamy venue bias impact, domestic-to-franchise transition drop-off rate, phase scoring acceleration curves).
 * **Inputs:** Feature datasets, EDA reports, ML model outputs.
@@ -1026,6 +1199,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 11.5 System Limitations & Future Roadmap
 
+> **Scope status (v1.1):** IN SCOPE — should honestly name everything descoped in this amendment.
+
 * **Objective:** Document explicit system limitations and future technical/analytical roadmap per PRD §12 & §13.
 * **Inputs:** Data quality reports, model validation audits, PRD non-goals.
 * **Work:** Write `reports/system_limitations_and_roadmap.md` detailing: (1) Disclosed Data Limitations (e.g. lack of ball-tracking tracking data for wagon wheels, public availability tracking gaps), (2) Methodological Limitations (survivorship bias in domestic models), and (3) Future Enhancements (e.g. tracking physical fitness telemetry, real-time auction API integration).
@@ -1037,6 +1212,8 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 * **Exit Criteria:** Limitations and roadmap document complete and saved in `reports/`.
 
 ### 11.6 Independent Methodology & Technical Walkthrough
+
+> **Scope status (v1.1):** SCOPED DOWN — a short methodology appendix, not a standalone full walkthrough document.
 
 * **Objective:** Create complete technical portfolio walkthrough document enabling external technical review or interview presentation.
 * **Inputs:** Architecture specifications, pipeline codebase, validation reports.
