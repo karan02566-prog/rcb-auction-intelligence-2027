@@ -1,0 +1,182 @@
+{
+    "franchise": "Royal Challengers Bengaluru",
+    "season": 2026,
+    "source": "https://www.crictracker.com/cricket-news/rcb-squad-2026-player-list-complete-royal-challengers-bengaluru-squad-and-players-list-for-ipl-2026/",
+    "retrieval_date": "2026-09-10",
+    "captain": "Rajat Patidar",
+    "title_context": "Defending IPL 2025 champions (maiden title) heading into IPL 2026.",
+    "purse": {
+        "total_cap_inr_cr": 125.0,
+        "cap_confidence": "derived",
+        "cap_derivation_note": "Not an officially announced figure at time of retrieval. Derived internally as sum(retained_price_inr_cr) + sum(auction_buy_price_inr_cr) + remaining_purse_inr_cr = 108.6 + 16.15 + 0.25 = 125.0, which is internally consistent with the reported pre-auction purse of 16.4 Cr (16.4 - 16.15 spent = 0.25 remaining). Treat as high-confidence but not source-of-record; replace with an official BCCI figure if one is published.",
+        "remaining_after_auction_inr_cr": 0.25
+    },
+    "slots": {
+        "max_squad_size": 25,
+        "indian_filled": 17,
+        "indian_max": 25,
+        "overseas_filled": 8,
+        "overseas_max": 8,
+        "total_filled": 25,
+        "open_slots": 0
+    },
+    "retained_players": [
+        {
+            "player_name": "Devdutt Padikkal",
+            "nationality": "India",
+            "role": "Batter",
+            "price_inr_cr": 2.0
+        },
+        {
+            "player_name": "Tim David",
+            "nationality": "Australia",
+            "role": "Batter",
+            "price_inr_cr": 3.0
+        },
+        {
+            "player_name": "Virat Kohli",
+            "nationality": "India",
+            "role": "Batter",
+            "price_inr_cr": 21.0
+        },
+        {
+            "player_name": "Rajat Patidar",
+            "nationality": "India",
+            "role": "Batter",
+            "price_inr_cr": 11.0
+        },
+        {
+            "player_name": "Jitesh Sharma",
+            "nationality": "India",
+            "role": "Wicketkeeper",
+            "price_inr_cr": 11.0
+        },
+        {
+            "player_name": "Phil Salt",
+            "nationality": "England",
+            "role": "Wicketkeeper",
+            "price_inr_cr": 11.5
+        },
+        {
+            "player_name": "Krunal Pandya",
+            "nationality": "India",
+            "role": "All Rounder",
+            "price_inr_cr": 5.75
+        },
+        {
+            "player_name": "Romario Shepherd",
+            "nationality": "West Indies",
+            "role": "All Rounder",
+            "price_inr_cr": 1.5
+        },
+        {
+            "player_name": "Jacob Bethell",
+            "nationality": "England",
+            "role": "All Rounder",
+            "price_inr_cr": 2.6
+        },
+        {
+            "player_name": "Nuwan Thushara",
+            "nationality": "Sri Lanka",
+            "role": "Bowler",
+            "price_inr_cr": 1.6
+        },
+        {
+            "player_name": "Bhuvneshwar Kumar",
+            "nationality": "India",
+            "role": "Bowler",
+            "price_inr_cr": 10.75
+        },
+        {
+            "player_name": "Josh Hazlewood",
+            "nationality": "Australia",
+            "role": "Bowler",
+            "price_inr_cr": 12.5
+        },
+        {
+            "player_name": "Yash Dayal",
+            "nationality": "India",
+            "role": "Bowler",
+            "price_inr_cr": 5.0
+        },
+        {
+            "player_name": "Abhinandan Singh",
+            "nationality": "India",
+            "role": "Bowler",
+            "price_inr_cr": 0.3
+        },
+        {
+            "player_name": "Swapnil Singh",
+            "nationality": "India",
+            "role": "Bowler",
+            "price_inr_cr": 0.5
+        },
+        {
+            "player_name": "Suyash Sharma",
+            "nationality": "India",
+            "role": "Bowler",
+            "price_inr_cr": 2.6
+        },
+        {
+            "player_name": "Rasikh Dar Salam",
+            "nationality": "India",
+            "role": "Bowler",
+            "price_inr_cr": 6.0
+        }
+    ],
+    "auction_2026_buys": [
+        {
+            "player_name": "Venkatesh Iyer",
+            "nationality": "India",
+            "role": "All Rounder",
+            "price_inr_cr": 7.0
+        },
+        {
+            "player_name": "Jacob Duffy",
+            "nationality": "New Zealand",
+            "role": "Bowler",
+            "price_inr_cr": 2.0
+        },
+        {
+            "player_name": "Mangesh Yadav",
+            "nationality": "India",
+            "role": "All Rounder",
+            "price_inr_cr": 5.2
+        },
+        {
+            "player_name": "Jordan Cox",
+            "nationality": "England",
+            "role": "Wicketkeeper",
+            "price_inr_cr": 0.75
+        },
+        {
+            "player_name": "Satvik Deswal",
+            "nationality": "India",
+            "role": "All Rounder",
+            "price_inr_cr": 0.3
+        },
+        {
+            "player_name": "Vicky Ostwal",
+            "nationality": "India",
+            "role": "All Rounder",
+            "price_inr_cr": 0.3
+        },
+        {
+            "player_name": "Vihaan Malhotra",
+            "nationality": "India",
+            "role": "Bowler",
+            "price_inr_cr": 0.3
+        },
+        {
+            "player_name": "Kanishk Chouhan",
+            "nationality": "India",
+            "role": "All Rounder",
+            "price_inr_cr": 0.3
+        }
+    ],
+    "known_limitations": [
+        "Ages not yet captured per player - needed for succession-planning gap analysis (Phase 5.4); add in a follow-up pass.",
+        "Role labels here are broad franchise-listed roles (Batter/Bowler/All Rounder/Wicketkeeper), not the fine-grained skill tags Phase 5.2 requires (e.g. powerplay opener, death-overs pace, wrist-spin, finisher) - those require ball-by-ball data (Phase 1.2/4.x), not yet ingested.",
+        "2026 purse cap is derived, not officially sourced - see purse.cap_derivation_note."
+    ]
+}

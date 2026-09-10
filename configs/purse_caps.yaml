@@ -89,5 +89,13 @@ purse_caps:
     source_url: "https://www.timesofsports.com/cricket/ipl/2025-auction-purse-value/"
 
   2026:
-    cap_inr_cr: null
-    confidence: "unconfirmed"
+    cap_inr_cr: 125
+    confidence: "derived"
+    source_url: "https://www.crictracker.com/cricket-news/rcb-squad-2026-player-list-complete-royal-challengers-bengaluru-squad-and-players-list-for-ipl-2026/"
+    notes: >
+      Not an officially announced figure. Derived from RCB's own 2026 roster
+      accounting: retained spend (108.6 Cr) + 2026 auction spend (16.15 Cr) +
+      reported remaining purse (0.25 Cr) = 125.0 Cr, internally consistent
+      with RCB's reported pre-auction purse of 16.4 Cr. Single-team-derived;
+      would benefit from a second franchise's numbers to confirm the
+      league-wide cap figure rather than just RCB's internal accounting.
