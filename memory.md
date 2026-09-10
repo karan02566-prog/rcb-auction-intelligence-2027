@@ -309,9 +309,9 @@ Power BI[cite: 4]
 
 ## 18. Current Next Action
 
-CURRENT PHASE: Phase 0 â€” Project Foundation
-CURRENT SUBPHASE: 0.3 â€” Quality & Configuration Foundation
-NEXT ACTION: Implement local package setup (`setup.py` / `pyproject.toml`) and establish foundational quality/config infrastructure (`src/utils/config.py`, `logger.py`, `exceptions.py`, `tests/conftest.py`).
+CURRENT PHASE: Phase 1 — Data Ingestion
+CURRENT SUBPHASE: 1.1 — Auction History Consolidation
+NEXT ACTION: Validate franchise-total-vs-purse-cap consistency for the consolidated auction dataset (see Known Issues); add data_sources.yaml entry review to CI.
 BLOCKERS: None
 
 
