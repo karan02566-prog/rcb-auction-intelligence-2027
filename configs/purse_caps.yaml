@@ -1,0 +1,93 @@
+---
+# Reference table of the official total IPL auction purse cap per franchise,
+# by year, in INR crore. Used by src/validation/purse_cap_check.py as an
+# UPPER-BOUND sanity check against consolidated auction sold_price totals.
+#
+# IMPORTANT — this is a ceiling check, not an exact-match check:
+# the auction dataset (ipl_auction_history.csv) records only in-auction
+# purchases. It does NOT include pre-auction retention costs, which in
+# mega-auction years (2018, 2022, 2025, ...) consume a real chunk of the
+# same cap before bidding even starts. A franchise's summed sold_price for
+# a given year will therefore almost always sit BELOW the cap — that is
+# expected, not a data quality issue. The only thing this file should be
+# used to catch is a franchise total EXCEEDING the cap, which would
+# indicate a currency/scale/dedup bug upstream in ingestion.
+#
+# confidence: "confirmed" = directly sourced from a dated news report or
+# official BCCI/IPL statement (see source_url). "unconfirmed" = left null
+# deliberately; do not fill with a guessed number. Add a source_url before
+# changing null -> a value.
+
+purse_caps:
+  2013:
+    cap_inr_cr: null
+    confidence: "not_applicable"
+    notes: >
+      2013 rows in ipl_auction_history.csv are denominated in raw USD
+      (see configs/data_sources.yaml known_limitations), not INR. A crore
+      figure is not comparable without a documented historical FX rate,
+      which does not currently exist in this project. Excluded from
+      validation entirely rather than converted with a guessed rate.
+
+  2014:
+    cap_inr_cr: 60
+    confidence: "confirmed"
+    source_url: "https://www.pressreader.com/india/hindustan-times-delhi/20180125/282484299188916"
+
+  2015:
+    cap_inr_cr: null
+    confidence: "unconfirmed"
+
+  2016:
+    cap_inr_cr: null
+    confidence: "unconfirmed"
+
+  2017:
+    cap_inr_cr: 66
+    confidence: "confirmed"
+    source_url: "https://www.pressreader.com/india/business-standard/20171207/281483571715829"
+
+  2018:
+    cap_inr_cr: 80
+    confidence: "confirmed"
+    source_url: "https://www.pressreader.com/india/hindustan-times-delhi/20180125/282484299188916"
+
+  2019:
+    cap_inr_cr: null
+    confidence: "unconfirmed"
+
+  2020:
+    cap_inr_cr: 85
+    confidence: "confirmed"
+    source_url: "https://www.pressreader.com/india/business-standard/20171207/281483571715829"
+
+  2021:
+    cap_inr_cr: null
+    confidence: "unconfirmed"
+
+  2022:
+    cap_inr_cr: null
+    confidence: "unconfirmed"
+    notes: >
+      Mega auction year with a materially higher cap and a new
+      retention/RTM structure (max 4 retentions, ~42 Cr combined
+      retention cost reported across teams). Full per-team cap figure
+      not yet sourced — do not assume a number here.
+
+  2023:
+    cap_inr_cr: null
+    confidence: "unconfirmed"
+
+  2024:
+    cap_inr_cr: 100
+    confidence: "confirmed"
+    source_url: "https://www.timesofsports.com/cricket/ipl/2025-auction-purse-value/"
+
+  2025:
+    cap_inr_cr: 120
+    confidence: "confirmed"
+    source_url: "https://www.timesofsports.com/cricket/ipl/2025-auction-purse-value/"
+
+  2026:
+    cap_inr_cr: null
+    confidence: "unconfirmed"
