@@ -117,7 +117,8 @@
       "auction_year": 2025,
       "primary_source": {
         "organization": "IPL",
-        "type": "official auction list"
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/news/article/tata-ipl-2025-player-auction-list-announced"
       },
       "retention_source": {
         "organization": "IPL",
@@ -131,7 +132,8 @@
       },
       "secondary_source": {
         "organization": "ESPNcricinfo",
-        "type": "auction outcome cross-check"
+        "type": "auction outcome cross-check",
+        "url": "https://sports.ndtv.com/ipl-2025/ipl-2025-auction-live-full-list-of-sold-and-unsold-players-auction-price-7100116"
       }
     },
     {
@@ -153,7 +155,8 @@
       },
       "secondary_source": {
         "organization": "reputable cricket reporting",
-        "type": "auction outcome cross-check"
+        "type": "auction outcome cross-check",
+        "url": "https://indianexpress.com/article/sports/cricket/ipl-2026-auction-full-list-of-sold-and-unsold-players-10423307/"
       }
     }
   ],
