@@ -1,0 +1,181 @@
+{
+  "document": "RCB Auction Intelligence Engine — Auction Source Manifest",
+  "version": "1.0",
+  "status": "approved",
+  "coverage": {
+    "auction_year_start": 2018,
+    "auction_year_end": 2026
+  },
+  "source_policy": {
+    "primary_authority": "IPL/BCCI official publications",
+    "outcome_crosscheck": "reputable secondary cricket reporting",
+    "sole_authority_disallowed": [
+      "Wikipedia",
+      "Kaggle",
+      "fan-maintained datasets",
+      "unverified social media"
+    ],
+    "unknown_policy": "If available evidence cannot establish an outcome confidently, record UNKNOWN rather than infer UNSOLD."
+  },
+  "years": [
+    {
+      "auction_year": 2018,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction announcement",
+        "url": "https://www.iplt20.com/news/article/vivo-ipl-2018-player-auction-list-announced"
+      },
+      "result_source": {
+        "organization": "IPL",
+        "type": "official auction results",
+        "url": "https://www.iplt20.com/news/article/eight-franchises-buy-169-players-at-vivo-ipl-2018-player-auction"
+      },
+      "retention_source": {
+        "organization": "IPL",
+        "type": "official retention announcement",
+        "url": "https://www.iplt20.com/news/article/vivo-ipl-2018-player-retention-announced"
+      }
+    },
+    {
+      "auction_year": 2019,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/news/article/complete-list-of-vivo-ipl-2019-player-auction"
+      },
+      "secondary_source": {
+        "organization": "ESPNcricinfo",
+        "type": "auction outcome cross-check"
+      }
+    },
+    {
+      "auction_year": 2020,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/news/article/vivo-ipl-2020-player-auction-list-announced"
+      },
+      "secondary_source": {
+        "organization": "ESPNcricinfo",
+        "type": "auction outcome cross-check"
+      }
+    },
+    {
+      "auction_year": 2021,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/news/article/vivo-ipl-2021-player-auction-list-announced"
+      },
+      "secondary_source": {
+        "organization": "ESPNcricinfo",
+        "type": "auction outcome cross-check"
+      }
+    },
+    {
+      "auction_year": 2022,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/index.php/news/3721/ipl-2022-player-auction-list-announced"
+      },
+      "primary_document": {
+        "organization": "IPL",
+        "type": "official auction sets PDF",
+        "url": "https://documents.iplt20.com/documents/IPL/document/2022/02/IPL2022PlayerAuction_List_Sets.pdf"
+      },
+      "secondary_source": {
+        "organization": "ESPNcricinfo",
+        "type": "auction outcome cross-check"
+      }
+    },
+    {
+      "auction_year": 2023,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/news/article/tata-ipl-2023-player-auction-list-announced"
+      },
+      "secondary_source": {
+        "organization": "ESPNcricinfo",
+        "type": "auction outcome cross-check"
+      }
+    },
+    {
+      "auction_year": 2024,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/news/article/ipl-2024-player-auction-list-announced"
+      },
+      "secondary_source": {
+        "organization": "ESPNcricinfo",
+        "type": "auction outcome cross-check"
+      }
+    },
+    {
+      "auction_year": 2025,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list"
+      },
+      "retention_source": {
+        "organization": "IPL",
+        "type": "official retention announcement",
+        "url": "https://www.iplt20.com/news/article/tata-ipl-2025-player-retentions-list-announced"
+      },
+      "retention_document": {
+        "organization": "IPL",
+        "type": "official retained players PDF",
+        "url": "https://documents.iplt20.com/smart-images/1730381551643_IPL-2025-Retained-Players.pdf"
+      },
+      "secondary_source": {
+        "organization": "ESPNcricinfo",
+        "type": "auction outcome cross-check"
+      }
+    },
+    {
+      "auction_year": 2026,
+      "primary_source": {
+        "organization": "IPL",
+        "type": "official auction list",
+        "url": "https://www.iplt20.com/news/article/tata-ipl-2026-player-auction-list-announced"
+      },
+      "primary_document": {
+        "organization": "IPL",
+        "type": "official auction list PDF",
+        "url": "https://documents.iplt20.com/bcci/documents/1765197869375_TATA%20IPL%202026%20-%20Auction%20List%20-%208.12.25.pdf"
+      },
+      "retention_source": {
+        "organization": "IPL",
+        "type": "official retention announcement",
+        "url": "https://www.iplt20.com/news/article/tata-ipl-2026-player-retentions-announced"
+      },
+      "secondary_source": {
+        "organization": "reputable cricket reporting",
+        "type": "auction outcome cross-check"
+      }
+    }
+  ],
+  "ingestion_rules": {
+    "canonical_identity": "Deferred to Phase 2.3",
+    "raw_player_name": "Preserve exactly as published by source",
+    "cricsheet_player_id": "Nullable unless explicitly supported by approved provenance",
+    "currency": "INR",
+    "numeric_price_unit": "INR lakh",
+    "display_price": "Preserve human-readable source representation",
+    "match_fee": "Excluded from auction price fields",
+    "sold_price": "Auction purchase price only",
+    "retention_price": "Separate from auction purchase price",
+    "entry_mechanism": [
+      "AUCTION",
+      "DRAFT",
+      "UNKNOWN"
+    ],
+    "sold_status": [
+      "SOLD",
+      "UNSOLD",
+      "UNKNOWN"
+    ]
+  }
+}
