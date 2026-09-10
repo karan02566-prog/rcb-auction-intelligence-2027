@@ -202,7 +202,7 @@ The data model is intentionally a **star-like schema centered on players and mat
 
 | Entity | Primary key | Notes |
 |---|---|---|
-| `auction_history` | `player_id` + `auction_year` | Historical auction/retention prices; foreign key to `players` |
+| `auction_history` | `player_id` + `auction_year` | Historical auction/retention prices; foreign key to `players`. Raw ingestion preserves `auction_year`, source player names, auction purchase price, retention values, outcome status, entry mechanism, and provenance separately; canonical `player_id` resolution occurs in Phase 2.3. |
 | `squad_state` | `team_id` + `season` + `player_id` | Current roster composition, purse remaining, slot counts; foreign keys to `teams`, `players` |
 | `model_predictions` | `player_id` + `model_name` + `as_of_date` | Output of Models A/B/C (Section 8); `as_of_date` enforces the point-in-time discipline described in Section 8's leakage controls |
 | `optimization_scenarios` | `scenario_id` | One row per optimizer run; references a set of `model_predictions` and `squad_state` as inputs, and stores the resulting recommended squad(s) as output (Section 9) |

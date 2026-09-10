@@ -381,3 +381,62 @@ The repository is the source of truth. **memory.md** describes the current state
 **Phase 1.3 QA:** PASS.
 
 **Next:** Phase 1.4 ? IPL Auction Data Ingestion.
+
+## Phase 1.4.1 — Auction Source Discovery & Schema Decisions
+
+**Status:** Schema locked before implementation.
+
+### Locked raw auction schema
+
+The raw auction ingestion table contains 27 fields:
+
+1. uction_year
+2. uction_date
+3. uction_type
+4. player_name_raw
+5. cricsheet_player_id
+6. entry_mechanism
+7. sold_status
+8. etention_status
+9. ranchise_raw
+10. ase_price_inr_lakh
+11. ase_price_display
+12. sold_price_inr_lakh
+13. sold_price_display
+14. etention_price_inr_lakh
+15. etention_price_display
+16. etention_price_type
+17. currency
+18. price_note
+19. player_category
+20. season_franchise_purse_crore
+21. source_primary
+22. source_primary_url
+23. source_crosscheck
+24. source_crosscheck_url
+25. etrieval_date
+26. data_confidence
+27. source_conflict_note
+
+### Schema decisions
+
+- uction_year is used for auction-cycle identity and aligns with rchitecture.md (uction_history primary key includes uction_year).
+- Cricket performance tables continue using season.
+- etention_status is explicit and is not inferred from sold_status.
+- sold_price_* represents auction purchase price only.
+- etention_price_* represents retention-related deduction/contract value and is kept separate from auction sale price.
+- etention_price_type values: BCCI_PURSE_DEDUCTION, CONTRACTED_SALARY, UNKNOWN.
+- entry_mechanism = DRAFT is used for confirmed 2022 GT/LSG pre-auction draft selections.
+- Match fees are excluded from auction price fields.
+- Confirmed SOLD, confirmed UNSOLD, and UNKNOWN outcomes are retained.
+- ranchise_raw is nullable for UNSOLD and UNKNOWN records.
+- Raw player names are preserved exactly as sourced; canonical identity resolution is deferred to Phase 2.3.
+- cricsheet_player_id remains nullable unless explicitly supported by approved provenance.
+- Human-readable price strings are preserved alongside normalized numeric values in INR lakh.
+- Fair Value, Expected Market Price, and Maximum Recommended Bid are model/optimization outputs and are excluded from raw auction ingestion.
+- UNKNOWN must be used where available evidence cannot establish an auction outcome; records must not be silently classified as UNSOLD.
+
+### Downstream architecture alignment
+
+The processed uction_history entity will use the canonical player_id + auction_year grain defined in rchitecture.md. Player identity resolution occurs in Phase 2.3 rather than during raw auction ingestion.
+
