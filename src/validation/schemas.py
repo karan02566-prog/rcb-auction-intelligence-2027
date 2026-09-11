@@ -81,7 +81,8 @@ DELIVERY_SCHEMA = pa.DataFrameSchema(
 
 for _required_delivery_column in (
     "delivery_key", "match_id", "source_match_id", "competition", "source_path",
-    "batter", "bowler", "non_striker",
+    "batter", "bowler", "non_striker", "innings_number", "over_number",
+    "delivery_in_over", "dismissal_count",
 ):
     DELIVERY_SCHEMA.columns[_required_delivery_column].nullable = False
 
@@ -117,6 +118,14 @@ def _validate_json_columns(frame: pd.DataFrame, columns: set[str]) -> None:
             _json_value(value, column)
 
 
+def _validate_source_competitions(frame: pd.DataFrame) -> None:
+    source_competitions = frame["source_path"].astype("string").str.extract(
+        r"^data/raw/cricsheet/([^/]+)/[^/]+\.json$", expand=False
+    )
+    if source_competitions.isna().any() or (source_competitions != frame["competition"]).any():
+        raise ValueError("source_path competition directory disagrees with competition")
+
+
 def validate_matches(matches: pd.DataFrame, *, lazy: bool = True) -> pd.DataFrame:
     """Validate match columns and match-level value/JSON contracts."""
     _require_columns(matches, MATCH_COLUMNS, "matches")
@@ -128,6 +137,7 @@ def validate_matches(matches: pd.DataFrame, *, lazy: bool = True) -> pd.DataFram
             raise ValueError(f"{column} must be non-null")
     if not validated["competition"].isin(SUPPORTED_COMPETITIONS).all():
         raise ValueError("competition contains an unsupported Cricsheet directory")
+    _validate_source_competitions(validated)
     source_paths = validated["source_path"].astype("string")
     if not source_paths.str.startswith(CRICSHEET_SOURCE_PREFIX).all():
         raise ValueError("source_path must point to data/raw/cricsheet")
@@ -166,6 +176,7 @@ def validate_deliveries(deliveries: pd.DataFrame, *, lazy: bool = True) -> pd.Da
         raise ValueError("Duplicate delivery_key values detected")
     if not validated["competition"].isin(SUPPORTED_COMPETITIONS).all():
         raise ValueError("competition contains an unsupported Cricsheet directory")
+    _validate_source_competitions(validated)
     if not validated["source_path"].astype("string").str.startswith(CRICSHEET_SOURCE_PREFIX).all():
         raise ValueError("source_path must point to data/raw/cricsheet")
     if (validated["innings_number"] < 1).any():
@@ -179,6 +190,7 @@ def validate_deliveries(deliveries: pd.DataFrame, *, lazy: bool = True) -> pd.Da
     _validate_run_columns(validated)
     if (validated["dismissal_count"] < 0).any():
         raise ValueError("dismissal_count must be non-negative")
+    _validate_json_columns(validated, JSON_DELIVERY_COLUMNS)
 
     illegal = (validated["wides_runs"] > 0) | (validated["noballs_runs"] > 0)
     if (validated["is_legal_ball"] == illegal).any():
@@ -211,6 +223,9 @@ def validate_deliveries(deliveries: pd.DataFrame, *, lazy: bool = True) -> pd.Da
         mismatch = expected != validated[column]
         if mismatch.any():
             raise ValueError(f"{column} does not preserve extras_json[{key!r}] at row {mismatch.idxmax()}")
+    run_values = validated[["total_runs", "batter_runs", "extra_runs"]].dropna()
+    if (run_values["total_runs"] != run_values["batter_runs"] + run_values["extra_runs"]).any():
+        raise ValueError("total_runs must equal batter_runs plus extra_runs")
     order_columns = ["match_id", "innings_number", "over_number", "delivery_in_over"]
     if not validated[order_columns].sort_values(order_columns, kind="stable").index.equals(validated.index):
         raise ValueError("deliveries must be ordered by match_id, innings_number, over_number, delivery_in_over")

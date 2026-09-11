@@ -173,7 +173,7 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 * **Objective:** Define explicit `pandera` schemas for matches and ball-by-ball delivery tables.
 * **Inputs:** `data/interim/*.parquet`.
-* **Work:** Implemented `src/validation/schemas.py` with strict, non-coercing Pandera schemas for the exact Phase 2.1 match and delivery columns, plus separate semantic, referential, metadata, key, and ordering checks.
+* **Work:** Implemented `src/validation/schemas.py` with strict, non-coercing Pandera schemas for the exact Phase 2.1 match and delivery columns, plus separate semantic, referential, metadata, key, source-path, arithmetic, and ordering checks. All delivery JSON event columns are validated, required delivery integers are non-nullable, and a real `miscounted_overs` record is covered by tests.
 * **Deliverables:** `MATCH_SCHEMA` and `DELIVERY_SCHEMA`, real-Parquet validator, and focused tests in `tests/test_schemas.py`.
 * **Validation Checks:** Passed schema and cross-table validation over both generated `interim` Parquet datasets, including miscounted-over, super-over, and extra-run edge cases.
 * **Common Failure Modes:** Silent type coercions (e.g., string to float for integer IDs); unhandled boundary values.

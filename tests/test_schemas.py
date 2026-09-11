@@ -1,3 +1,5 @@
+import json
+
 import pandas as pd
 import pytest
 from pandera.errors import SchemaError, SchemaErrors
@@ -139,9 +141,32 @@ def test_dismissal_count_must_match_wickets_json(real_tables):
 
 
 def test_invalid_json_event_fields_fail(real_tables):
+    for column in ("extras_json", "review_json", "replacements_json"):
+        frame = real_tables[1].iloc[[0]].copy()
+        frame.loc[:, column] = "not json"
+        with pytest.raises(ValueError, match=column):
+            validate_deliveries(frame)
+
+
+@pytest.mark.parametrize("column", ["innings_number", "over_number", "delivery_in_over", "dismissal_count"])
+def test_required_delivery_integers_cannot_be_null(real_tables, column):
     frame = real_tables[1].iloc[[0]].copy()
-    frame.loc[:, "extras_json"] = "not json"
-    with pytest.raises(ValueError, match="extras_json"):
+    frame[column] = pd.array([pd.NA], dtype="Int64")
+    with pytest.raises((SchemaError, SchemaErrors)):
+        validate_deliveries(frame)
+
+
+def test_total_runs_must_equal_batter_plus_extra(real_tables):
+    frame = real_tables[1].iloc[[0]].copy()
+    frame.loc[:, "total_runs"] = frame["batter_runs"] + frame["extra_runs"] + 1
+    with pytest.raises(ValueError, match="total_runs"):
+        validate_deliveries(frame)
+
+
+def test_source_path_competition_must_agree(real_tables):
+    frame = real_tables[1].iloc[[0]].copy()
+    frame.loc[:, "competition"] = "ipl" if frame.loc[0, "competition"] != "ipl" else "bbl"
+    with pytest.raises(ValueError, match="source_path competition"):
         validate_deliveries(frame)
 
 
@@ -192,3 +217,22 @@ def test_real_edge_cases_and_miscounted_overs_pass(real_tables):
     assert (deliveries["wides_runs"] > 0).any()
     assert (deliveries["noballs_runs"] > 0).any()
     validate_interim_tables(matches, deliveries)
+
+
+def test_real_miscounted_over_metadata_is_preserved_and_validated(real_tables):
+    matches, deliveries = real_tables
+    match = matches.loc[matches["source_path"].str.endswith("/bbl/1152540.json")].iloc[0]
+    metadata = json.loads(match["innings_metadata_json"])
+    override = metadata[1]["miscounted_overs"]["1"]
+    over = deliveries[
+        (deliveries["match_id"] == match["match_id"])
+        & (deliveries["innings_number"] == 2)
+        & (deliveries["over_number"] == 1)
+    ]
+    assert int(override["balls"]) == 7
+    assert len(over) == 7
+    assert int(over["is_legal_ball"].sum()) == 7
+    validate_interim_tables(
+        matches[matches["match_id"] == match["match_id"]],
+        deliveries[deliveries["match_id"] == match["match_id"]],
+    )
