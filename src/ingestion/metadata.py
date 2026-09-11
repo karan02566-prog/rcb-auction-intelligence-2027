@@ -10,6 +10,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 METADATA_DIR = RAW_DIR / "metadata"
+CRICSHEET_DIR = RAW_DIR / "cricsheet"
 
 
 def load_people_register(path: Path | None = None) -> pd.DataFrame:
@@ -68,7 +69,6 @@ def build_player_identity_table(
     available = [column for column in columns if column in people_df.columns]
 
     result = people_df[available].copy()
-
     result = result.drop_duplicates(subset=["identifier"])
 
     return result
@@ -86,11 +86,7 @@ def extract_match_participation(
     competition_root: Path,
     competition_name: str,
 ) -> pd.DataFrame:
-    """Extract player/team/season participation from Cricsheet JSON.
-
-    This is intentionally participation metadata, not a biographical
-    profile. It records only facts directly available in match files.
-    """
+    """Extract player/team/season participation from Cricsheet JSON."""
     records: list[dict[str, Any]] = []
 
     for path in _iter_match_files(competition_root):
@@ -103,12 +99,9 @@ def extract_match_participation(
         dates = info.get("dates", [])
         venue = info.get("venue")
         city = info.get("city")
-
         teams = info.get("teams", [])
-
         players = info.get("players", {})
 
-        # Cricsheet stores players by team.
         for team, team_players in players.items():
             for player_name in team_players:
                 records.append(
@@ -124,7 +117,6 @@ def extract_match_participation(
                     }
                 )
 
-        # Preserve teams even if a player list is unexpectedly absent.
         if not players:
             for team in teams:
                 records.append(
@@ -144,21 +136,22 @@ def extract_match_participation(
 
 
 def build_competition_participation() -> pd.DataFrame:
-    """Build participation metadata for currently acquired competitions."""
+    """Build participation metadata for all acquired Cricsheet competitions."""
+    competition_map = {
+        "ipl": "Indian Premier League",
+        "sma": "Syed Mushtaq Ali Trophy",
+        "bbl": "Big Bash League",
+        "cpl": "Caribbean Premier League",
+        "sat": "SA20",
+        "ilt": "International League T20",
+        "mlc": "Major League Cricket",
+        "hnd": "The Hundred",
+    }
+
     frames: list[pd.DataFrame] = []
 
-    sources = [
-        (
-            RAW_DIR / "ipl_json",
-            "Indian Premier League",
-        ),
-        (
-            RAW_DIR / "sma_json",
-            "Syed Mushtaq Ali Trophy",
-        ),
-    ]
-
-    for root, competition in sources:
+    for code, competition in competition_map.items():
+        root = CRICSHEET_DIR / code
         frame = extract_match_participation(root, competition)
 
         if not frame.empty:
@@ -210,7 +203,7 @@ def build_player_competition_summary(
 
 
 def write_metadata_outputs() -> dict[str, Path]:
-    """Build and write Phase 1.3 raw metadata outputs."""
+    """Build and write Phase 1.3 metadata outputs."""
     METADATA_DIR.mkdir(parents=True, exist_ok=True)
 
     people = load_people_register()
