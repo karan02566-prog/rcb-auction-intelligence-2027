@@ -1,4 +1,4 @@
-"""Provenance manifest management and integrity verification utilities."""
+﻿"""Provenance manifest management and integrity verification utilities."""
 
 import hashlib
 import json
@@ -210,5 +210,137 @@ def verify_file_provenance(
             f"Integrity check failed for '{source_name}': expected SHA-256 {expected_sha256}, "
             f"got {actual_sha256}."
         )
+
+    return True
+
+
+# ---------------------------------------------------------------------------
+# Source catalog (configs/source_manifest.json) — Phase 1.1
+#
+# Distinct from the provenance functions above: those track per-file fetch
+# hashes/timestamps at data/raw/manifest.json; this section validates the
+# formal, project-level catalog of *where sources come from* (competitions,
+# URLs, license, scope, known limitations).
+# ---------------------------------------------------------------------------
+
+REQUIRED_SOURCE_FIELDS = (
+    "source_name",
+    "competition",
+    "provider",
+    "url",
+    "format",
+    "scope",
+    "license",
+    "authority_level",
+    "status",
+    "known_limitations",
+)
+
+VALID_SOURCE_STATUSES = ("active", "planned", "deprecated")
+
+
+def get_source_catalog_path(config_dir: Optional[Path] = None) -> Path:
+    """
+    Get the standard path to the source catalog file.
+
+    Args:
+        config_dir: Optional custom configs directory (defaults to configs/).
+
+    Returns:
+        Path to configs/source_manifest.json.
+    """
+    if config_dir is None:
+        config_dir = get_project_root() / "configs"
+    return Path(config_dir) / "source_manifest.json"
+
+
+def load_source_catalog(catalog_path: Optional[Path] = None) -> Dict[str, Any]:
+    """
+    Load the source catalog from JSON.
+
+    Args:
+        catalog_path: Optional path to catalog file (defaults to configs/source_manifest.json).
+
+    Returns:
+        Dictionary representing the source catalog.
+
+    Raises:
+        ProvenanceError: If the file is missing or invalid JSON.
+    """
+    if catalog_path is None:
+        catalog_path = get_source_catalog_path()
+
+    path = Path(catalog_path)
+    if not path.exists():
+        raise ProvenanceError(f"Source catalog not found: '{path}'.")
+
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError as exc:
+        raise ProvenanceError(f"Source catalog '{path}' is invalid JSON: {exc}") from exc
+
+    if not isinstance(data, dict) or "sources" not in data:
+        raise ProvenanceError(f"Source catalog '{path}' is malformed; missing 'sources' list.")
+
+    return data
+
+
+def validate_source_catalog(catalog: Dict[str, Any]) -> bool:
+    """
+    Validate a source catalog dictionary against the Phase 1.1 schema.
+
+    Checks: required fields present on every source, non-empty unique
+    source_name values, valid status values, URLs present for non-planned
+    sources, and full coverage of the catalog's declared required_competitions.
+
+    Args:
+        catalog: Loaded source catalog dictionary (see load_source_catalog).
+
+    Returns:
+        True if the catalog passes all checks.
+
+    Raises:
+        ProvenanceError: On the first validation failure, describing the issue.
+    """
+    sources = catalog.get("sources")
+    if not isinstance(sources, list) or not sources:
+        raise ProvenanceError("Source catalog must contain a non-empty 'sources' list.")
+
+    seen_names = set()
+    covered_competitions = set()
+
+    for entry in sources:
+        missing = [f for f in REQUIRED_SOURCE_FIELDS if f not in entry]
+        if missing:
+            raise ProvenanceError(
+                f"Source entry '{entry.get('source_name', '<unnamed>')}' missing required "
+                f"field(s): {missing}."
+            )
+
+        name = entry["source_name"]
+        if not name or not isinstance(name, str):
+            raise ProvenanceError("Source entry has empty or invalid 'source_name'.")
+        if name in seen_names:
+            raise ProvenanceError(f"Duplicate source_name in catalog: '{name}'.")
+        seen_names.add(name)
+
+        status = entry["status"]
+        if status not in VALID_SOURCE_STATUSES:
+            raise ProvenanceError(
+                f"Source '{name}' has invalid status '{status}'; expected one of {VALID_SOURCE_STATUSES}."
+            )
+
+        if status == "active" and not entry.get("url"):
+            raise ProvenanceError(f"Active source '{name}' is missing a 'url'.")
+
+        covered_competitions.add(entry["competition"])
+
+    required_competitions = catalog.get("required_competitions", [])
+    for competition in required_competitions:
+        if not any(competition in c for c in covered_competitions):
+            raise ProvenanceError(
+                f"Required competition '{competition}' is not covered by any catalog source."
+            )
 
     return True

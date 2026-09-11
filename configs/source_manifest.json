@@ -1,0 +1,165 @@
+{
+  "manifest_version": "1.0",
+  "purpose": "Formal source catalog and integrity documentation for the RCB Auction Intelligence Engine. Complements the operational fetch registry in configs/data_sources.yaml. Per-file retrieval timestamps and SHA-256 hashes for each fetched artifact are recorded separately at fetch time in the gitignored data/raw/**/manifest.json provenance log via src/ingestion/manifest.py.",
+  "required_competitions": [
+    "IPL", "BBL", "CPL", "SA20", "ILT20", "MLC", "The Hundred", "Indian Domestic T20s"
+  ],
+  "sources": [
+    {
+      "source_name": "Cricsheet IPL Ball-by-Ball Dataset",
+      "competition": "IPL",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/ipl_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "1,243 male IPL matches (2008-2025)",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "Lacks spatial ball-tracking coordinates and explicit fielding chance logs."
+    },
+    {
+      "source_name": "Cricsheet Big Bash League Ball-by-Ball Dataset",
+      "competition": "BBL",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/bbl_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "662 BBL matches",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "Australian pitch and ground dimensions differ from Indian venues."
+    },
+    {
+      "source_name": "Cricsheet Caribbean Premier League Ball-by-Ball Dataset",
+      "competition": "CPL",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/cpl_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "429 CPL matches",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "Caribbean pitch and venue conditions differ from Indian IPL venues."
+    },
+    {
+      "source_name": "Cricsheet SA20 Ball-by-Ball Dataset",
+      "competition": "SA20",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/sat_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "130 SA20 matches",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "South African pitch bounce and weather context differ from Indian IPL venues."
+    },
+    {
+      "source_name": "Cricsheet International League T20 Ball-by-Ball Dataset",
+      "competition": "ILT20",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/ilt_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "134 ILT20 matches",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "UAE venue pitch characteristics differ from Indian IPL venues."
+    },
+    {
+      "source_name": "Cricsheet Major League Cricket Ball-by-Ball Dataset",
+      "competition": "MLC",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/mlc_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "109 MLC matches",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "US venue pitch characteristics differ from Indian IPL venues."
+    },
+    {
+      "source_name": "Cricsheet The Hundred Ball-by-Ball Dataset",
+      "competition": "The Hundred",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/hnd_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "389 The Hundred matches",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "100-ball format structural differences relative to standard 20-over T20 matches."
+    },
+    {
+      "source_name": "Cricsheet Syed Mushtaq Ali Trophy Ball-by-Ball Dataset",
+      "competition": "Indian Domestic T20s",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/downloads/sma_json.zip",
+      "format": "JSON (ZIP archive)",
+      "scope": "695 SMAT matches",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "Unverified historical match completion percentage across earlier seasons."
+    },
+    {
+      "source_name": "Cricsheet People Register",
+      "competition": "Cross-competition (player identifiers)",
+      "provider": "Cricsheet (cricsheet.org)",
+      "url": "https://cricsheet.org/register/people.csv",
+      "format": "CSV",
+      "scope": "18,507 people; 28,401 identifiers across 12 identifier/data sources",
+      "license": "Open Data Commons Attribution License (ODC-By 1.0)",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "Does not contain auction valuation, retention, age, nationality, role, or bowling-style fields; identity/linkage data only."
+    },
+    {
+      "source_name": "Kaggle IPL Auction Dataset (2013-2026)",
+      "competition": "IPL Auctions",
+      "provider": "Kaggle (sunnyyadav754/ipl-auction-dataset-20132026)",
+      "url": "https://www.kaggle.com/datasets/sunnyyadav754/ipl-auction-dataset-20132026",
+      "format": "CSV (one file per auction year)",
+      "scope": "2013-2026, 1,381 player-auction records",
+      "license": "Compiled for non-commercial research per dataset author; not an official BCCI/IPL publication",
+      "authority_level": "secondary",
+      "status": "active",
+      "known_limitations": "Schema drift across years; no retention/RTM status field; 2013 prices in unconverted native USD; community-compiled, not independently audited by BCCI/IPL. Official iplt20.com/ESPNcricinfo automated fetch returned S3 AccessDenied / Akamai edge blocks as of 2026-09-10."
+    },
+    {
+      "source_name": "IPL Official Auction Archive",
+      "competition": "IPL Auctions",
+      "provider": "BCCI / IPL Official (iplt20.com)",
+      "url": "https://www.iplt20.com/auction",
+      "format": "Web HTML tables and official PDF press releases",
+      "scope": "2014-2025 verified on portal; 2008-2013 unverified on web portal",
+      "license": "Site terms of use apply; no explicit open-source data license documented",
+      "authority_level": "primary",
+      "status": "active",
+      "known_limitations": "Inconsistent web table layout across seasons; automated fetch blocked (bot detection) as of 2026-09-10, so used only for manual spot-check cross-verification, not primary ingestion."
+    },
+    {
+      "source_name": "Player Biographical Sources",
+      "competition": "Cross-competition (age, nationality, role, batting/bowling style)",
+      "provider": "TBD - candidates: ESPNcricinfo player pages, official franchise squad pages",
+      "url": null,
+      "format": "TBD",
+      "scope": "planned",
+      "license": "TBD",
+      "authority_level": "primary",
+      "status": "planned",
+      "known_limitations": "Not yet sourced. Cricsheet People Register does not provide these fields (see Phase 1.3 scoping note); required before Phase 4/5 player-profile work."
+    },
+    {
+      "source_name": "Venue Metadata Sources",
+      "competition": "Cross-competition (venue/ground characteristics)",
+      "provider": "TBD - candidates: ESPNcricinfo ground pages, Cricsheet match-level venue fields",
+      "url": null,
+      "format": "TBD",
+      "scope": "planned",
+      "license": "TBD",
+      "authority_level": "secondary",
+      "status": "planned",
+      "known_limitations": "Not yet sourced. Planned for Phase 2.5 venue normalization per roadmap; advanced pitch/venue features are otherwise DESCOPED."
+    }
+  ]
+}

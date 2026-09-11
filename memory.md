@@ -309,9 +309,9 @@ Power BI[cite: 4]
 
 ## 18. Current Next Action
 
-CURRENT PHASE: Phase 1 — Data Ingestion
-CURRENT SUBPHASE: 1.1 — Auction History Consolidation
-NEXT ACTION: Validate franchise-total-vs-purse-cap consistency for the consolidated auction dataset (see Known Issues); add data_sources.yaml entry review to CI.
+CURRENT PHASE: Phase 1 ï¿½ Data Ingestion
+CURRENT SUBPHASE: 1.1 ï¿½ Source Inventory & Manifest Framework (complete); next up 1.5 Provenance & Source Manifest Verification
+NEXT ACTION: Implement src/ingestion/verify_provenance.py and generate reports/data_provenance_manifest.json (Phase 1.5).
 BLOCKERS: None
 
 
@@ -356,6 +356,19 @@ AI agents must never assume that their previous conversation contains the comple
 
 The repository is the source of truth. **memory.md** describes the current state of that repository; it must never pretend unfinished work is complete ai should not strictly waste any tokens reading codes just read memory.md to know current status and from where to resume
 
+## Phase 1.1 Status
+
+**Completed:** Formal source catalog and integrity documentation, distinct from the operational fetch registry in configs/data_sources.yaml.
+
+**Verified outputs:**
+- configs/source_manifest.json (13 source entries)
+- src/ingestion/manifest.py extended with load_source_catalog / validate_source_catalog (existing provenance functions unchanged, fetcher.py compatibility preserved)
+- tests/test_manifest.py (14 tests, all passing)
+
+**Coverage:** All 8 required competitions (IPL, BBL, CPL, SA20, ILT20, MLC, The Hundred, Indian Domestic T20s) plus Cricsheet People Register, Kaggle IPL Auction Dataset, IPL Official Auction Archive. Player Biographical Sources and Venue Metadata Sources recorded with status "planned" (not yet sourced) rather than fabricated.
+
+**Known limitation:** Per-source retrieval_date is not stored in source_manifest.json itself; per-file retrieval timestamps/hashes remain tracked in the gitignored data/raw/manifest.json provenance log at fetch time, per the existing manifest.py design.
+
 ## Phase 1.3 Status
 
 **Completed:** Canonical player identity ingestion and competition participation metadata.
@@ -382,7 +395,7 @@ The repository is the source of truth. **memory.md** describes the current state
 
 **Next:** Phase 1.4 ? IPL Auction Data Ingestion.
 
-## Phase 1.4.1 — Auction Source Discovery & Schema Decisions
+## Phase 1.4.1 ï¿½ Auction Source Discovery & Schema Decisions
 
 **Status:** Schema locked before implementation.
 
@@ -397,15 +410,19 @@ The raw auction ingestion table contains 27 fields:
 5. cricsheet_player_id
 6. entry_mechanism
 7. sold_status
-8. etention_status
+8. 
+etention_status
 9. ranchise_raw
 10. ase_price_inr_lakh
 11. ase_price_display
 12. sold_price_inr_lakh
 13. sold_price_display
-14. etention_price_inr_lakh
-15. etention_price_display
-16. etention_price_type
+14. 
+etention_price_inr_lakh
+15. 
+etention_price_display
+16. 
+etention_price_type
 17. currency
 18. price_note
 19. player_category
@@ -414,7 +431,8 @@ The raw auction ingestion table contains 27 fields:
 22. source_primary_url
 23. source_crosscheck
 24. source_crosscheck_url
-25. etrieval_date
+25. 
+etrieval_date
 26. data_confidence
 27. source_conflict_note
 
@@ -422,10 +440,13 @@ The raw auction ingestion table contains 27 fields:
 
 - uction_year is used for auction-cycle identity and aligns with rchitecture.md (uction_history primary key includes uction_year).
 - Cricket performance tables continue using season.
-- etention_status is explicit and is not inferred from sold_status.
+- 
+etention_status is explicit and is not inferred from sold_status.
 - sold_price_* represents auction purchase price only.
-- etention_price_* represents retention-related deduction/contract value and is kept separate from auction sale price.
-- etention_price_type values: BCCI_PURSE_DEDUCTION, CONTRACTED_SALARY, UNKNOWN.
+- 
+etention_price_* represents retention-related deduction/contract value and is kept separate from auction sale price.
+- 
+etention_price_type values: BCCI_PURSE_DEDUCTION, CONTRACTED_SALARY, UNKNOWN.
 - entry_mechanism = DRAFT is used for confirmed 2022 GT/LSG pre-auction draft selections.
 - Match fees are excluded from auction price fields.
 - Confirmed SOLD, confirmed UNSOLD, and UNKNOWN outcomes are retained.
@@ -439,4 +460,3 @@ The raw auction ingestion table contains 27 fields:
 ### Downstream architecture alignment
 
 The processed uction_history entity will use the canonical player_id + auction_year grain defined in rchitecture.md. Player identity resolution occurs in Phase 2.3 rather than during raw auction ingestion.
-
