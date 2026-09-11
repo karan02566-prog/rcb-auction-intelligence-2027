@@ -169,17 +169,17 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 ### 2.2 Match & Delivery Schema Construction
 
-> **Scope status (v1.1):** IN SCOPE
+> **Scope status (v1.1):** IN SCOPE - COMPLETE
 
 * **Objective:** Define explicit `pandera` schemas for matches and ball-by-ball delivery tables.
 * **Inputs:** `data/interim/*.parquet`.
-* **Work:** Implement `src/validation/schemas.py` defining strict column types, nullability rules, and value ranges for deliveries (e.g., overs 0-19, legal ball counts, runs 0-6, innings 1-4).
-* **Deliverables:** `pandera` schema classes for Match and Delivery tables.
-* **Validation Checks:** Run `pandera` schema validation over all generated `interim` Parquet datasets.
+* **Work:** Implemented `src/validation/schemas.py` with strict, non-coercing Pandera schemas for the exact Phase 2.1 match and delivery columns, plus separate semantic, referential, metadata, key, and ordering checks.
+* **Deliverables:** `MATCH_SCHEMA` and `DELIVERY_SCHEMA`, real-Parquet validator, and focused tests in `tests/test_schemas.py`.
+* **Validation Checks:** Passed schema and cross-table validation over both generated `interim` Parquet datasets, including miscounted-over, super-over, and extra-run edge cases.
 * **Common Failure Modes:** Silent type coercions (e.g., string to float for integer IDs); unhandled boundary values.
 * **Commit Message:** `feat(validation): create pandera schemas for match and delivery records`
 * **memory.md Update Requirement:** Record schema rules and validation outcomes.
-* **Exit Criteria:** `pandera` validation succeeds across 100% of interim delivery records.
+* **Exit Criteria:** Complete. Pandera validation succeeds across 100% of interim delivery records and all focused tests pass.
 
 ### 2.3 Player Identity Resolution & Canonical Mapping
 

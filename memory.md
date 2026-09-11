@@ -16,7 +16,7 @@
 * **Current Phase:** Phase 2 — Data Engineering & Normalization
 
 
-* **Current Subphase:** 2.1 — Raw Data Normalization (complete)
+* **Current Subphase:** 2.2 — Match & Delivery Schema Construction (complete)
 
 
 
@@ -134,7 +134,7 @@ Power BI[cite: 4]
 | **Venue Metadata** | TODO | Mapping framework planned for Phase 2.5
 
  |
-| **Processed Deliveries & Matches** | TODO | Normalization planned for Phase 2.1–2.6
+| **Processed Deliveries & Matches** | IN PROGRESS | Interim normalization and Phase 2.2 schema validation complete; later processed-layer work remains
 
  |
 
@@ -310,8 +310,8 @@ Power BI[cite: 4]
 ## 18. Current Next Action
 
 CURRENT PHASE: Phase 2 — Data Engineering & Normalization
-CURRENT SUBPHASE: 2.1 — Raw Data Normalization (complete)
-NEXT ACTION: Begin Phase 2.2 Match & Delivery Schema Construction.
+CURRENT SUBPHASE: 2.2 — Match & Delivery Schema Construction (complete)
+NEXT ACTION: Begin Phase 2.3 Player Identity Resolution & Canonical Mapping.
 BLOCKERS: None
 
 
@@ -487,6 +487,24 @@ etention_price_type values: BCCI_PURSE_DEDUCTION, CONTRACTED_SALARY, UNKNOWN.
 **Edge-case decision:** Four apparent capacity violations were found. Each had explicit Cricsheet `miscounted_overs` metadata declaring one extra legal ball, so the validator now checks per-over capacity using that source metadata rather than assuming `info.overs * balls_per_over` universally.
 
 **Determinism:** Two independent normalizer runs produced identical row-content hashes and identical Parquet SHA-256 hashes.
+
+## Phase 2.2 Status
+
+**Completed:** Explicit Pandera contracts and semantic validation for the Phase 2.1 interim match and delivery tables.
+
+**Implementation:** `src/validation/schemas.py` exposes strict `MATCH_SCHEMA` and `DELIVERY_SCHEMA` definitions, `validate_matches`, `validate_deliveries`, `validate_interim_tables`, and `validate_interim_parquet`. Schemas preserve all 37 match and 33 delivery columns emitted by Phase 2.1. `tests/test_schemas.py` covers real Parquet integration plus focused failure mutations.
+
+**Strictness and coercion:** `strict=True` rejects missing or unexpected columns; `coerce=False` prevents strings from being silently converted to numeric or boolean values. Pandas nullable `Int64`, `boolean`, and `string` dtypes are required. Season and date fields remain the Phase 2.1 nullable-safe `string` dtype.
+
+**Nullable decisions:** Optional match metadata, venue city, outcome margin, player-of-match, officials, missing, and supersubs fields remain nullable. Delivery legal-ball numbers are nullable only for illegal deliveries; dismissal fields and review/replacement JSON remain nullable. Match identifiers, source identifiers/paths, competition, batter, bowler, non-striker, legal flags, and run fields follow the observed Phase 2.1 contracts.
+
+**Validation rules:** Match IDs and delivery keys are unique; competitions are restricted to the actual Cricsheet directories (`bbl`, `cpl`, `hnd`, `ilt`, `ipl`, `mlc`, `sat`, `sma`); source paths must use `data/raw/cricsheet/`; numeric ranges, non-negative runs, legal-ball semantics, decoded JSON types, dismissal counts, normalized extra values, deterministic ordering, innings references, and super-over metadata agreement are checked. Cross-table delivery `match_id` references are checked outside the individual schemas. No fixed six-ball-over, 120-ball-innings, or two-innings assumption is imposed.
+
+**Real dataset validation:** 3,798 matches and 871,141 deliveries passed. Legal deliveries: 839,635; illegal deliveries: 31,506. Match duplicate IDs: 0; delivery duplicate keys: 0; orphan delivery match IDs: 0; ordering violations: 0; semantic validation failures: 0. Nulls: match `city` 735, `officials_json` 603, `outcome_winner` 83, `outcome_margin_value` 83, `player_of_match_json` 722, `missing_json` 3,181, `supersubs_json` 3,758; delivery `legal_ball_number` 31,506, `dismissal_type` 825,309, `dismissal_player_out` 825,309, `review_json` 868,289, and `replacements_json` 870,122. All other columns have zero nulls.
+
+**Tests:** Focused Phase 2.2 suite passed: `23 passed in 18.24s`. Real edge-case integration passed, including miscounted-over records and penalty, bye, leg-bye, wide, and no-ball records.
+
+**Next action:** Phase 2.3 Player Identity Resolution & Canonical Mapping.
 
 ### Downstream architecture alignment
 
