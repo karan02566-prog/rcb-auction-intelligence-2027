@@ -1244,7 +1244,7 @@ To guarantee incremental progress, zero technical debt accumulation, and strict 
 
 
 * [ ] **PHASE 2 — Data Engineering & Normalization**
-* [ ] 2.1 Raw Data Normalization
+* [x] 2.1 Raw Data Normalization
 * [ ] 2.2 Match & Delivery Schema Construction
 * [ ] 2.3 Player Identity Resolution & Canonical Mapping
 * [ ] 2.4 Competition & Season Normalization

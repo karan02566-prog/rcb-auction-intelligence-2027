@@ -8,15 +8,15 @@
 * **Purpose:** Context-aware player evaluation and auction decision-support system
 
 
-* **Current Version/Stage:** v1.0 / Foundation Setup
+* **Current Version/Stage:** v1.0 / Data Engineering & Normalization
 
 
 * **Repository:** `rcb-auction-intelligence`
 
-* **Current Phase:** Phase 0 — Project Foundation
+* **Current Phase:** Phase 2 — Data Engineering & Normalization
 
 
-* **Current Subphase:** 0.3 — Quality & Configuration Foundation
+* **Current Subphase:** 2.1 — Raw Data Normalization (complete)
 
 
 
@@ -309,9 +309,9 @@ Power BI[cite: 4]
 
 ## 18. Current Next Action
 
-CURRENT PHASE: Phase 1 — Data Ingestion
-CURRENT SUBPHASE: 1.5 — Provenance & Source Manifest Verification (complete); Phase 1 fully complete
-NEXT ACTION: Begin Phase 2.1 Raw Data Normalization.
+CURRENT PHASE: Phase 2 — Data Engineering & Normalization
+CURRENT SUBPHASE: 2.1 — Raw Data Normalization (complete)
+NEXT ACTION: Begin Phase 2.2 Match & Delivery Schema Construction.
 BLOCKERS: None
 
 
@@ -469,6 +469,24 @@ etention_price_type values: BCCI_PURSE_DEDUCTION, CONTRACTED_SALARY, UNKNOWN.
 - Human-readable price strings are preserved alongside normalized numeric values in INR lakh.
 - Fair Value, Expected Market Price, and Maximum Recommended Bid are model/optimization outputs and are excluded from raw auction ingestion.
 - UNKNOWN must be used where available evidence cannot establish an auction outcome; records must not be silently classified as UNSOLD.
+
+## Phase 2.1 Status
+
+**Completed:** Parsed all raw Cricsheet JSON files into deterministic interim Parquet tables without modifying raw inputs.
+
+**Verified outputs:**
+- `src/cleaning/normalize_raw.py`
+- `data/interim/matches.parquet`
+- `data/interim/deliveries.parquet`
+- `tests/test_normalize_raw.py` (6 focused tests)
+
+**Verified scale:** 3,798 matches; 871,141 delivery events; 839,635 legal deliveries; 31,506 illegal deliveries; 45,834 dismissal events; 46,719 extra-bearing deliveries; 62 super-over innings.
+
+**Validation:** Required fields have 0 nulls; match and delivery keys are unique; 0 orphan deliveries; delivery and innings ordering is deterministic; wides/no-balls agree with legal-ball flags; byes, leg-byes, penalty runs, dismissals, and super-over markers are preserved.
+
+**Edge-case decision:** Four apparent capacity violations were found. Each had explicit Cricsheet `miscounted_overs` metadata declaring one extra legal ball, so the validator now checks per-over capacity using that source metadata rather than assuming `info.overs * balls_per_over` universally.
+
+**Determinism:** Two independent normalizer runs produced identical row-content hashes and identical Parquet SHA-256 hashes.
 
 ### Downstream architecture alignment
 
