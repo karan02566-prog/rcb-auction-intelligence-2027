@@ -1,0 +1,61 @@
+Unnamed: 0,Name,Price in rs,Role,TeamName,Name_canonical_id,Name_canonical_name,Name_mapping_method
+0,Mohit Sharma,"5,00,00,000",Bowler, Chennai Super Kings,cd9f6505,Mohit Sharma,exact_match
+1,Ruturaj Gaikwad ,"20,00,000",Batsman, Chennai Super Kings,45a43fe2,RD Gaikwad,surname_initials_matching
+2,Colin Ingram,"6,40,00,000",Batsman, Delhi Capitals,c995d726,CA Ingram,surname_initials_matching
+3,Axar Rajesh Patel,"5,00,00,000",All-Rounder, Delhi Capitals,UNRESOLVED,Axar Rajesh Patel,unresolved
+4,Hanuma Vihari,"2,00,00,000",Batsman, Delhi Capitals,UNRESOLVED,Hanuma Vihari,unresolved
+5,Sherfane Rutherford,"2,00,00,000",All-Rounder, Delhi Capitals,d014d5ac,SE Rutherford,surname_initials_matching
+6,Ishant Sharma,"1,10,00,000",Bowler, Delhi Capitals,ae85a996,Siddhant Sharma,fuzzy_string_matching
+7,Keemo Paul,"50,00,000",All-Rounder, Delhi Capitals,75224f22,KMA Paul,surname_initials_matching
+8,Jalaj Saxena,"20,00,000",All-Rounder, Delhi Capitals,249abedf,Jalaj S Saxena,fuzzy_string_matching
+9,Ankush Bains,"20,00,000",Wicket Keeper, Delhi Capitals,cb932841,AKS Bains,fuzzy_string_matching
+10,Nathu Singh,"20,00,000",Bowler, Delhi Capitals,UNRESOLVED,Nathu Singh,unresolved
+11,Bandaru Ayyappa,"20,00,000",Bowler, Delhi Capitals,cb4f31e2,Bandaru Ayyappa,exact_match
+12,Varun Chakaravarthy,"8,40,00,000",All-Rounder,Kings XI Punjab,UNRESOLVED,Varun Chakaravarthy,unresolved
+13,Sam Curran,"7,20,00,000",All-Rounder,Kings XI Punjab,e94915e6,SM Curran,fuzzy_string_matching
+14,Mohammad Shami,"4,80,00,000",Bowler,Kings XI Punjab,68ddabdb,Mohammad Sami,fuzzy_string_matching
+15,Prabhsimran Singh,"4,80,00,000",Wicket Keeper,Kings XI Punjab,9418198b,P Simran Singh,fuzzy_string_matching
+16,Nicolas Pooran,"4,20,00,000",Wicket Keeper,Kings XI Punjab,3241e3fd,N Pooran,surname_initials_matching
+17,Moises Henriques,"1,00,00,000",All-Rounder,Kings XI Punjab,32198ae0,MC Henriques,fuzzy_string_matching
+18,Hardus Viljoen,"75,00,000",Bowler,Kings XI Punjab,7a80e2a5,H Viljoen,surname_initials_matching
+19,Darshan Nalkande,"30,00,000",All-Rounder,Kings XI Punjab,cd8d2859,DG Nalkande,surname_initials_matching
+20,Sarfaraz Naushad Khan,"25,00,000",All-Rounder,Kings XI Punjab,UNRESOLVED,Sarfaraz Naushad Khan,unresolved
+21,Arshdeep Singh ,"20,00,000",Bowler,Kings XI Punjab,244048f6,Arshdeep Singh,exact_match
+22,Agnivesh Ayachi,"20,00,000",All-Rounder,Kings XI Punjab,UNRESOLVED,Agnivesh Ayachi,unresolved
+23,Harpreet Brar,"20,00,000",All-Rounder,Kings XI Punjab,c05edf8e,Harpreet Brar,exact_match
+24,M. Ashwin,"20,00,000",Bowler,Kings XI Punjab,e2db2409,M Ashwin,fuzzy_string_matching
+25,Carlos Brathwaite,"5,00,00,000",All-Rounder, Kolkata Knight Riders,e342e5fb,CR Brathwaite,fuzzy_string_matching
+26,Lockie Ferguson ,"1,60,00,000",Bowler, Kolkata Knight Riders,2f9d0389,LH Ferguson,surname_initials_matching
+27,Joe Denly ,"1,00,00,000",Batsman, Kolkata Knight Riders,a6581d15,JK Denly,fuzzy_string_matching
+28,Harry Gurney,"75,00,000",Bowler, Kolkata Knight Riders,e412cb64,HF Gurney,surname_initials_matching
+29,Nikhil Shankar Naik,"20,00,000",Wicket Keeper, Kolkata Knight Riders,aedc3b7c,NS Naik,surname_initials_matching
+30,Shrikant Mundhe,"20,00,000",All-Rounder, Kolkata Knight Riders,0af3426f,SS Mundhe,surname_initials_matching
+31,Prithvi Raj Yarra,"20,00,000",Bowler, Kolkata Knight Riders,UNRESOLVED,Prithvi Raj Yarra,unresolved
+32,Anrich Nortje,"20,00,000",Bowler, Kolkata Knight Riders,acdc62f5,A Nortje,surname_initials_matching
+33,Barinder Singh Sran,"3,40,00,000",Bowler, Mumbai Indians,d8b2f218,BB Sran,surname_initials_matching
+34,Lasith Malinga,"2,00,00,000",Bowler, Mumbai Indians,79eb117d,LN Malinga,surname_initials_matching
+35,Yuvraj Singh,"1,00,00,000",All-Rounder, Mumbai Indians,1c914163,Yuvraj Singh,fuzzy_string_matching
+36,Anmolpreet Singh,"80,00,000",Batsman, Mumbai Indians,1399b39c,Anmolpreet Singh,exact_match
+37,Pankaj Jaswal,"20,00,000",All-Rounder, Mumbai Indians,3bc10d5b,Pankaj Jaswal,exact_match
+38,Rasikh Dar,"20,00,000",Bowler, Mumbai Indians,b82354b3,Raza Ali Dar,surname_initials_matching
+39,Jaydev Unadkat,"8,40,00,000",Bowler, Rajasthan Royals,1e66c162,JD Unadkat,fuzzy_string_matching
+40,Varun Aaron,"2,40,00,000",Bowler, Rajasthan Royals,0a3d54b9,VR Aaron,fuzzy_string_matching
+41,Oshane Thomas ,"1,10,00,000",Bowler, Rajasthan Royals,UNRESOLVED,Oshane Thomas,unresolved
+42,Ashton Turner,"50,00,000",All-Rounder, Rajasthan Royals,UNRESOLVED,Ashton Turner,unresolved
+43,Liam Livingstone,"50,00,000",All-Rounder, Rajasthan Royals,50c6bc2b,LS Livingstone,fuzzy_string_matching
+44,Shashank Singh,"30,00,000",All-Rounder, Rajasthan Royals,26989d80,Shashank Singh,exact_match
+45,Riyan Parag,"20,00,000",All-Rounder, Rajasthan Royals,04a418e8,R Parag,surname_initials_matching
+46,Manan Vohra,"20,00,000",Batsman, Rajasthan Royals,c03e2850,M Vohra,surname_initials_matching
+47,Shubham Ranjane,"20,00,000",All-Rounder, Rajasthan Royals,6c7a68d0,Shubham Ranjane,exact_match
+48,Shivam Dube,"5,00,00,000",All-Rounder, Royal Challengers Bengaluru,a4e37e47,S Dube,surname_initials_matching
+49,Shimron Hetmyer,"4,20,00,000",Batsman, Royal Challengers Bengaluru,48a1d7b7,SO Hetmyer,fuzzy_string_matching
+50,Akshdeep Nath,"3,60,00,000",All-Rounder, Royal Challengers Bengaluru,f10e94c4,AD Nath,surname_initials_matching
+51,Prayas Ray Barman,"1,50,00,000",All-Rounder, Royal Challengers Bengaluru,441c72ae,P Ray Barman,fuzzy_string_matching
+52,Himmat Singh,"65,00,000",Batsman, Royal Challengers Bengaluru,ebcfef83,Himmat Singh,exact_match
+53,Gurkeerat Singh Mann,"50,00,000",All-Rounder, Royal Challengers Bengaluru,6eb146d2,Gurkeerat Singh,fuzzy_string_matching
+54,Heinrich Klaasen,"50,00,000",Wicket Keeper, Royal Challengers Bengaluru,235c2bb6,H Klaasen,surname_initials_matching
+55,Devdutt Padikkal,"20,00,000",Batsman, Royal Challengers Bengaluru,2c25d4f5,D Padikkal,surname_initials_matching
+56,Milind Kumar,"20,00,000",All-Rounder, Royal Challengers Bengaluru,b4296080,Milind Kumar,exact_match
+57,Jonny Bairstow ,"2,20,00,000",Wicket Keeper, Sunrisers Hyderabad,abb83e27,JM Bairstow,surname_initials_matching
+58,Wriddhiman Saha,"1,20,00,000",Wicket Keeper, Sunrisers Hyderabad,fe11caa6,WP Saha,surname_initials_matching
+59,Martin Guptill,"1,00,00,000",Batsman, Sunrisers Hyderabad,2be41edb,MJ Guptill,surname_initials_matching

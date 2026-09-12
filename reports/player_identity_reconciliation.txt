@@ -1,0 +1,5 @@
+observed_name_count=3601
+assigned_name_count=3604
+names_in_zero_buckets=[]
+names_in_multiple_buckets=[["C Hari Nishaanth", ["no_register_entry", "genuinely_unmatched_after_initials"]], ["Dinesh  Karthik", ["no_register_entry", "genuinely_unmatched_after_initials"]], ["Prithvi Raj Yarra", ["no_register_entry", "genuinely_unmatched_after_initials"]]]
+bucket_counts={"ambiguous_exact": 80, "ambiguous_initials": 132, "ambiguous_normalized": 0, "confident_exact": 2923, "confident_initials": 352, "confident_normalized": 28, "genuinely_unmatched_after_initials": 84, "no_register_entry": 5}

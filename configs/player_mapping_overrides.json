@@ -1,0 +1,4580 @@
+[
+  {
+    "source_name": "A Awasthi",
+    "canonical_id": "fa62a463",
+    "canonical_name": "A Awasthi",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "A Chopra",
+    "canonical_id": "e249fdaa",
+    "canonical_name": "A Chopra",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "A Hartley",
+    "canonical_id": "53d50717",
+    "canonical_name": "A Hartley",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "A Mishra",
+    "canonical_id": "6b19d823",
+    "canonical_name": "A Mishra",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "A Singh",
+    "canonical_id": "5b040b81",
+    "canonical_name": "A Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "A Tomar",
+    "canonical_id": "aa5d8c9e",
+    "canonical_name": "A Tomar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Abdul Samad",
+    "canonical_id": "8e514b4c",
+    "canonical_name": "Abdul Samad",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Abid Mushtaq",
+    "canonical_id": "f9979b69",
+    "canonical_name": "Abid Mushtaq",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Ahmed Shah",
+    "canonical_id": "63500b26",
+    "canonical_name": "Ahmed Shah",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Ajay Kumar",
+    "canonical_id": "ea02d56d",
+    "canonical_name": "Ajay Kumar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Ali Khan",
+    "canonical_id": "b0eaaac6",
+    "canonical_name": "Ali Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Amit Mishra",
+    "canonical_id": "1d8388eb",
+    "canonical_name": "Amit Mishra",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Arshad Khan",
+    "canonical_id": "0a4c6dfd",
+    "canonical_name": "Arshad Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Azam Khan",
+    "canonical_id": "ee8f1a6d",
+    "canonical_name": "Azam Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "BF Smith",
+    "canonical_id": "c64b7c5b",
+    "canonical_name": "BF Smith",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "C Esterhuizen",
+    "canonical_id": "ef9acbcc",
+    "canonical_name": "C Esterhuizen",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "CJ Anderson",
+    "canonical_id": "8abdf100",
+    "canonical_name": "CJ Anderson",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "D Forrester",
+    "canonical_id": "17bcec2a",
+    "canonical_name": "D Forrester",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "D Jansen",
+    "canonical_id": "c90346a0",
+    "canonical_name": "D Jansen",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "D Smith",
+    "canonical_id": "071cec83",
+    "canonical_name": "D Smith",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "DR Smith",
+    "canonical_id": "35205dfc",
+    "canonical_name": "DR Smith",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "E Jones",
+    "canonical_id": "971cb321",
+    "canonical_name": "E Jones",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Farhan Ahmed",
+    "canonical_id": "927694f7",
+    "canonical_name": "Farhan Ahmed",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "GJ Thompson",
+    "canonical_id": "91f0792f",
+    "canonical_name": "GJ Thompson",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "GS Sandhu",
+    "canonical_id": "1558d83b",
+    "canonical_name": "GS Sandhu",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Gagandeep Singh",
+    "canonical_id": "890de8cb",
+    "canonical_name": "Gagandeep Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Gaurav Singh",
+    "canonical_id": "92eefbc5",
+    "canonical_name": "Gaurav Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Haider Ali",
+    "canonical_id": "c13e34f4",
+    "canonical_name": "Haider Ali",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Hardeep Singh",
+    "canonical_id": "2123d0af",
+    "canonical_name": "Hardeep Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Harmeet Singh",
+    "canonical_id": "2a72fd4f",
+    "canonical_name": "Harmeet Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Hassan Khan",
+    "canonical_id": "486065b3",
+    "canonical_name": "Hassan Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Het Patel",
+    "canonical_id": "f543b251",
+    "canonical_name": "Het Patel",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "I Khan",
+    "canonical_id": "719c5146",
+    "canonical_name": "I Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Ibrar Ahmad",
+    "canonical_id": "aa47439d",
+    "canonical_name": "Ibrar Ahmad",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Iftikhar Ahmed",
+    "canonical_id": "29e253dd",
+    "canonical_name": "Iftikhar Ahmed",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "J Anderson",
+    "canonical_id": "d5bbb6a2",
+    "canonical_name": "J Anderson",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "J Botha",
+    "canonical_id": "7c503806",
+    "canonical_name": "J Botha",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "J Brown",
+    "canonical_id": "c122ab7f",
+    "canonical_name": "J Brown",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "JR Coleman",
+    "canonical_id": "de6efa4a",
+    "canonical_name": "JR Coleman",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Jaskaran Singh",
+    "canonical_id": "d7b3a420",
+    "canonical_name": "Jaskaran Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Junaid Siddique",
+    "canonical_id": "62e203d4",
+    "canonical_name": "Junaid Siddique",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "K White",
+    "canonical_id": "d60a26db",
+    "canonical_name": "K White",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Kamran Khan",
+    "canonical_id": "6ef60d3a",
+    "canonical_name": "Kamran Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "M Clarke",
+    "canonical_id": "55ed4228",
+    "canonical_name": "M Clarke",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "M Kelly",
+    "canonical_id": "68e26ec9",
+    "canonical_name": "M Kelly",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "MM Patel",
+    "canonical_id": "f0f628c7",
+    "canonical_name": "MM Patel",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Mandeep Singh",
+    "canonical_id": "c3a96caf",
+    "canonical_name": "Mandeep Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Manish Sharma",
+    "canonical_id": "b4ff4409",
+    "canonical_name": "Manish Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Mohammad Asif",
+    "canonical_id": "e03b66ec",
+    "canonical_name": "Mohammad Asif",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Mohammad Irfan",
+    "canonical_id": "a8e3170f",
+    "canonical_name": "Mohammad Irfan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Mohsin Khan",
+    "canonical_id": "2669d6b7",
+    "canonical_name": "Mohsin Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "N Joshi",
+    "canonical_id": "cfece11f",
+    "canonical_name": "N Joshi",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "NK Patel",
+    "canonical_id": "c6e10e5c",
+    "canonical_name": "NK Patel",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "R Sharma",
+    "canonical_id": "5d9a1a73",
+    "canonical_name": "R Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "RA Lewis",
+    "canonical_id": "be85b12d",
+    "canonical_name": "RA Lewis",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "RK Singh",
+    "canonical_id": "0a509d6b",
+    "canonical_name": "RK Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "RP Singh",
+    "canonical_id": "c3d1402f",
+    "canonical_name": "RP Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Rahul Singh",
+    "canonical_id": "adf454e9",
+    "canonical_name": "Rahul Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Rashid Khan",
+    "canonical_id": "5f547c8b",
+    "canonical_name": "Rashid Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Rohit Sharma",
+    "canonical_id": "94ed3e4b",
+    "canonical_name": "Rohit Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "S Arora",
+    "canonical_id": "7aa74830",
+    "canonical_name": "S Arora",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "S Rana",
+    "canonical_id": "90edaaa9",
+    "canonical_name": "S Rana",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "SB Wagh",
+    "canonical_id": "dddca1d6",
+    "canonical_name": "SB Wagh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "SC Williams",
+    "canonical_id": "afe57f7a",
+    "canonical_name": "SC Williams",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "SJ Cook",
+    "canonical_id": "679cd31e",
+    "canonical_name": "SJ Cook",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "SJ Coyte",
+    "canonical_id": "a5f488bc",
+    "canonical_name": "SJ Coyte",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "SK Patel",
+    "canonical_id": "f93b43dd",
+    "canonical_name": "SK Patel",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "SR Taylor",
+    "canonical_id": "92cf79a8",
+    "canonical_name": "SR Taylor",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Saurabh Kumar",
+    "canonical_id": "2a6afc6f",
+    "canonical_name": "Saurabh Kumar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Shahid Afridi",
+    "canonical_id": "0dc00542",
+    "canonical_name": "Shahid Afridi",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Shivam Sharma",
+    "canonical_id": "6f49cc6e",
+    "canonical_name": "Shivam Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Sumit Kumar",
+    "canonical_id": "8998a68f",
+    "canonical_name": "Sumit Kumar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Sumit Singh",
+    "canonical_id": "9ad3a550",
+    "canonical_name": "Sumit Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Suresh Kumar",
+    "canonical_id": "177eb92d",
+    "canonical_name": "Suresh Kumar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "T Murphy",
+    "canonical_id": "ac2e7ec0",
+    "canonical_name": "T Murphy",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Usman Khan",
+    "canonical_id": "e8a552ef",
+    "canonical_name": "Usman Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Usman Tariq",
+    "canonical_id": "e94d1dcd",
+    "canonical_name": "Usman Tariq",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Vishal Sharma",
+    "canonical_id": "f555bcf4",
+    "canonical_name": "Vishal Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Wasim Akram",
+    "canonical_id": "126e56a1",
+    "canonical_name": "Wasim Akram",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Yuvraj Singh",
+    "canonical_id": "1c914163",
+    "canonical_name": "Yuvraj Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "Aman Khan",
+    "canonical_id": "28392e11",
+    "canonical_name": "Zaman Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.947,
+    "evidence": "Auto-accepted fuzzy match with score 0.947"
+  },
+  {
+    "source_name": "Andre Russell",
+    "canonical_id": "bbd41817",
+    "canonical_name": "AD Russell",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "Aniket Choudhary",
+    "canonical_id": "c0e59e39",
+    "canonical_name": "Ankit Chaudhary",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.839,
+    "evidence": "Auto-accepted fuzzy match with score 0.839"
+  },
+  {
+    "source_name": "Anirudha Ashok Joshi",
+    "canonical_id": "40c1eeeb",
+    "canonical_name": "Aniruddha Joshi",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Ashish Reddy",
+    "canonical_id": "1c2a64cd",
+    "canonical_name": "A Ashish Reddy",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.923,
+    "evidence": "Auto-accepted fuzzy match with score 0.923"
+  },
+  {
+    "source_name": "Avinash Singh",
+    "canonical_id": "8b018008",
+    "canonical_name": "Vikash Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Brendan Taylor",
+    "canonical_id": "05e452c9",
+    "canonical_name": "Brian Taylor",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Corey Anderson",
+    "canonical_id": "4d277218",
+    "canonical_name": "C Anderson",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Dale Steyn",
+    "canonical_id": "14baca9f",
+    "canonical_name": "A Steyn",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Dan Christian",
+    "canonical_id": "3b1fa4cb",
+    "canonical_name": "DO Christian",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Daryl Mitchell",
+    "canonical_id": "3029417f",
+    "canonical_name": "A Mitchell",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Dhawal Kulkarni",
+    "canonical_id": "2d140b79",
+    "canonical_name": "AA Kulkarni",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Dilshan Madushanka",
+    "canonical_id": "d5464b57",
+    "canonical_name": "Shehan Madusanka",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Dwayne Smith",
+    "canonical_id": "6e1a8b04",
+    "canonical_name": "Verdayne Smith",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Evin Lewis",
+    "canonical_id": "0ebfb1ad",
+    "canonical_name": "E Lewis",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Finn Allen",
+    "canonical_id": "04f6c7f8",
+    "canonical_name": "N Allen",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Gautam Gambhir",
+    "canonical_id": "242a9261",
+    "canonical_name": "Gaurav Gambhir",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Gurinder Sandhu",
+    "canonical_id": "911d04ad",
+    "canonical_name": "Gurinder Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.828,
+    "evidence": "Auto-accepted fuzzy match with score 0.828"
+  },
+  {
+    "source_name": "Himanshu Sharma",
+    "canonical_id": "b4ff4409",
+    "canonical_name": "Manish Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Jack Edwards",
+    "canonical_id": "2a5ca58b",
+    "canonical_name": "A Edwards",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Jalaj Saxena",
+    "canonical_id": "249abedf",
+    "canonical_name": "Jalaj S Saxena",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.923,
+    "evidence": "Auto-accepted fuzzy match with score 0.923"
+  },
+  {
+    "source_name": "Jason Holder",
+    "canonical_id": "0f721006",
+    "canonical_name": "JO Holder",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Jayant Yadav",
+    "canonical_id": "c6355538",
+    "canonical_name": "Mayan Yadav",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "Jhye Richardson",
+    "canonical_id": "a5901a94",
+    "canonical_name": "J Richardson",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.889,
+    "evidence": "Auto-accepted fuzzy match with score 0.889"
+  },
+  {
+    "source_name": "Jitesh Sharma",
+    "canonical_id": "2085a934",
+    "canonical_name": "Hitesh Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.923,
+    "evidence": "Auto-accepted fuzzy match with score 0.923"
+  },
+  {
+    "source_name": "Joe Denly",
+    "canonical_id": "a6581d15",
+    "canonical_name": "JK Denly",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Karan Sharma",
+    "canonical_id": "691d15fb",
+    "canonical_name": "RA Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Karn Sharma",
+    "canonical_id": "1ba16d18",
+    "canonical_name": "Tarun Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "Kedar Jadhav",
+    "canonical_id": "6c18c062",
+    "canonical_name": "KA Jadhav",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Kuldip Yadav",
+    "canonical_id": "8d2c70ad",
+    "canonical_name": "Kuldeep Yadav",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Manan Ajay Sharma",
+    "canonical_id": "bfcff6cd",
+    "canonical_name": "Manan Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.828,
+    "evidence": "Auto-accepted fuzzy match with score 0.828"
+  },
+  {
+    "source_name": "Mark Wood",
+    "canonical_id": "8d92a2c3",
+    "canonical_name": "MA Wood",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.875,
+    "evidence": "Auto-accepted fuzzy match with score 0.875"
+  },
+  {
+    "source_name": "Mayank Yadav",
+    "canonical_id": "c6355538",
+    "canonical_name": "Mayan Yadav",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.957,
+    "evidence": "Auto-accepted fuzzy match with score 0.957"
+  },
+  {
+    "source_name": "Monu Singh",
+    "canonical_id": "8a98675d",
+    "canonical_name": "Sonu Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.9,
+    "evidence": "Auto-accepted fuzzy match with score 0.9"
+  },
+  {
+    "source_name": "Mujeeb Rahman",
+    "canonical_id": "7d92277a",
+    "canonical_name": "Mujeeb Ur Rahman",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.897,
+    "evidence": "Auto-accepted fuzzy match with score 0.897"
+  },
+  {
+    "source_name": "Mukul Choudhary",
+    "canonical_id": "765a4731",
+    "canonical_name": "Mukesh Choudhary",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.839,
+    "evidence": "Auto-accepted fuzzy match with score 0.839"
+  },
+  {
+    "source_name": "Munaf Patel",
+    "canonical_id": "9123301a",
+    "canonical_name": "NA Patel",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Nitish Kumar Reddy",
+    "canonical_id": "aad0c365",
+    "canonical_name": "Nithish Kumar Reddy",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.973,
+    "evidence": "Auto-accepted fuzzy match with score 0.973"
+  },
+  {
+    "source_name": "Nitish Rana",
+    "canonical_id": "62ccc063",
+    "canonical_name": "Nitish Rao",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Prabhsimran Singh",
+    "canonical_id": "9418198b",
+    "canonical_name": "P Simran Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.839,
+    "evidence": "Auto-accepted fuzzy match with score 0.839"
+  },
+  {
+    "source_name": "Praveen Kumar",
+    "canonical_id": "babc65d3",
+    "canonical_name": "Parveen Kumar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.923,
+    "evidence": "Auto-accepted fuzzy match with score 0.923"
+  },
+  {
+    "source_name": "Ramesh Kumar",
+    "canonical_id": "2c47dd7c",
+    "canonical_name": "Rakesh Kumar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.917,
+    "evidence": "Auto-accepted fuzzy match with score 0.917"
+  },
+  {
+    "source_name": "Rinku Singh",
+    "canonical_id": "0ab3c788",
+    "canonical_name": "Ritu Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Ripal Patel",
+    "canonical_id": "b5da6c24",
+    "canonical_name": "PA Patel",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Ross Taylor",
+    "canonical_id": "b9539fb8",
+    "canonical_name": "S Taylor",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Rudra Pratap Singh",
+    "canonical_id": "7700398a",
+    "canonical_name": "R Pratap Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.875,
+    "evidence": "Auto-accepted fuzzy match with score 0.875"
+  },
+  {
+    "source_name": "Sanjay Yadav",
+    "canonical_id": "33ffc3dd",
+    "canonical_name": "R Sanjay Yadav",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.923,
+    "evidence": "Auto-accepted fuzzy match with score 0.923"
+  },
+  {
+    "source_name": "Shahrukh Khan",
+    "canonical_id": "7dcb9bc9",
+    "canonical_name": "M Shahrukh Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.929,
+    "evidence": "Auto-accepted fuzzy match with score 0.929"
+  },
+  {
+    "source_name": "Shaik Rasheed",
+    "canonical_id": "cbf58a86",
+    "canonical_name": "SK Rasheed",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "Shivalik Sharma",
+    "canonical_id": "6f49cc6e",
+    "canonical_name": "Shivam Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Shubham Dubey",
+    "canonical_id": "58588e5a",
+    "canonical_name": "Shubham Chaubey",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Suryakumar Yadav",
+    "canonical_id": "a5501504",
+    "canonical_name": "Akshaykumar Yadav",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.788,
+    "evidence": "Auto-accepted fuzzy match with score 0.788"
+  },
+  {
+    "source_name": "Sushant Mishra",
+    "canonical_id": "c562ac6d",
+    "canonical_name": "Shantanu Mishra",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.828,
+    "evidence": "Auto-accepted fuzzy match with score 0.828"
+  },
+  {
+    "source_name": "Syed Mehdi Hasan",
+    "canonical_id": "5876c626",
+    "canonical_name": "Mehdi Hassan",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.786,
+    "evidence": "Auto-accepted fuzzy match with score 0.786"
+  },
+  {
+    "source_name": "Veer Pratap Singh",
+    "canonical_id": "7700398a",
+    "canonical_name": "R Pratap Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.903,
+    "evidence": "Auto-accepted fuzzy match with score 0.903"
+  },
+  {
+    "source_name": "Zaheer Khan",
+    "canonical_id": "fb0d3749",
+    "canonical_name": "Zameer Khan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.909,
+    "evidence": "Auto-accepted fuzzy match with score 0.909"
+  },
+  {
+    "source_name": "JJ Pollard",
+    "canonical_id": "89e8c5ff",
+    "canonical_name": "R Pollard",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "C Hari Nishaanth",
+    "canonical_id": "c3f37533",
+    "canonical_name": "Hari Nishaanth",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.933,
+    "evidence": "Auto-accepted fuzzy match with score 0.933"
+  },
+  {
+    "source_name": "Akash Vashisht",
+    "canonical_id": "35ccfdd4",
+    "canonical_name": "Akash Vasisht",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.963,
+    "evidence": "Auto-accepted fuzzy match with score 0.963"
+  },
+  {
+    "source_name": "Bhagath Varma",
+    "canonical_id": "5438ffba",
+    "canonical_name": "K Bhagath Varma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.929,
+    "evidence": "Auto-accepted fuzzy match with score 0.929"
+  },
+  {
+    "source_name": "C.Hari Nishaanth",
+    "canonical_id": "c3f37533",
+    "canonical_name": "Hari Nishaanth",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.933,
+    "evidence": "Auto-accepted fuzzy match with score 0.933"
+  },
+  {
+    "source_name": "Gurkeerat Singh Mann",
+    "canonical_id": "6eb146d2",
+    "canonical_name": "Gurkeerat Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Harpreet Bhatia",
+    "canonical_id": "c05edf8e",
+    "canonical_name": "Harpreet Brar",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.786,
+    "evidence": "Auto-accepted fuzzy match with score 0.786"
+  },
+  {
+    "source_name": "Iqbal Abdullah",
+    "canonical_id": "85aae393",
+    "canonical_name": "Iqbal Abdulla",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.963,
+    "evidence": "Auto-accepted fuzzy match with score 0.963"
+  },
+  {
+    "source_name": "J. Suchitch",
+    "canonical_id": "4125d931",
+    "canonical_name": "J Suchith",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.9,
+    "evidence": "Auto-accepted fuzzy match with score 0.9"
+  },
+  {
+    "source_name": "M. Harisankar Reddy",
+    "canonical_id": "791c088d",
+    "canonical_name": "Harishankar Reddy",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.889,
+    "evidence": "Auto-accepted fuzzy match with score 0.889"
+  },
+  {
+    "source_name": "M.S. Washington Sundar",
+    "canonical_id": "f19ccfad",
+    "canonical_name": "Washington Sundar",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.872,
+    "evidence": "Auto-accepted fuzzy match with score 0.872"
+  },
+  {
+    "source_name": "Mohammad Izhar",
+    "canonical_id": "510e33d3",
+    "canonical_name": "Mohammad Ihsan",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Mohammed Azharudeen",
+    "canonical_id": "4ae89f36",
+    "canonical_name": "Mohammed Azharuddeen",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.974,
+    "evidence": "Auto-accepted fuzzy match with score 0.974"
+  },
+  {
+    "source_name": "N. Tilak Varma",
+    "canonical_id": "b0482a1d",
+    "canonical_name": "Tilak Varma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Prasidh Krishna",
+    "canonical_id": "85e0cf10",
+    "canonical_name": "M Prasidh Krishna",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.938,
+    "evidence": "Auto-accepted fuzzy match with score 0.938"
+  },
+  {
+    "source_name": "Rassie Van Der Dussen",
+    "canonical_id": "9948e262",
+    "canonical_name": "HE van der Dussen",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Saurav Chuahan",
+    "canonical_id": "9e7225b0",
+    "canonical_name": "Saurav Chauhan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.929,
+    "evidence": "Auto-accepted fuzzy match with score 0.929"
+  },
+  {
+    "source_name": "Shahbaz Ahamad",
+    "canonical_id": "f9e6e7ef",
+    "canonical_name": "Shahbaz Ahmed",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.889,
+    "evidence": "Auto-accepted fuzzy match with score 0.889"
+  },
+  {
+    "source_name": "Suyash Prabhudesai",
+    "canonical_id": "9385de2e",
+    "canonical_name": "SS Prabhudessai",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.848,
+    "evidence": "Auto-accepted fuzzy match with score 0.848"
+  },
+  {
+    "source_name": "Tanay Thyagarajann",
+    "canonical_id": "f1809c03",
+    "canonical_name": "Tanay Thyagarajan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.971,
+    "evidence": "Auto-accepted fuzzy match with score 0.971"
+  },
+  {
+    "source_name": "Vansh Bedi",
+    "canonical_id": "51e68a46",
+    "canonical_name": "AS Bedi",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Abhishek Nayar",
+    "canonical_id": "c8ded7bc",
+    "canonical_name": "Abhishek Tanwar",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.828,
+    "evidence": "Auto-accepted fuzzy match with score 0.828"
+  },
+  {
+    "source_name": "Adam Milne",
+    "canonical_id": "eaa918a8",
+    "canonical_name": "D Milne",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Adam Zampa",
+    "canonical_id": "14f96089",
+    "canonical_name": "A Zampa",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Adil Rashid",
+    "canonical_id": "514a0408",
+    "canonical_name": "Fazil Rashid",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "Aiden Blizzard",
+    "canonical_id": "1efb8a28",
+    "canonical_name": "AC Blizzard",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Aiden Markram",
+    "canonical_id": "6a26221c",
+    "canonical_name": "AK Markram",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Akash  Deep",
+    "canonical_id": "0a67aec0",
+    "canonical_name": "Akash Deep",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.952,
+    "evidence": "Auto-accepted fuzzy match with score 0.952"
+  },
+  {
+    "source_name": "Akila Dananjaya",
+    "canonical_id": "5b16a806",
+    "canonical_name": "A Dananjaya",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Ambati Rayudu",
+    "canonical_id": "70d205c9",
+    "canonical_name": "AT Rayudu",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.818,
+    "evidence": "Auto-accepted fuzzy match with score 0.818"
+  },
+  {
+    "source_name": "Amit Paunikar",
+    "canonical_id": "3a02626a",
+    "canonical_name": "AG Paunikar",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Ankush Bains",
+    "canonical_id": "cb932841",
+    "canonical_name": "AKS Bains",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Arjun  Tendulkar",
+    "canonical_id": "44aac2f0",
+    "canonical_name": "Arjun Tendulkar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.968,
+    "evidence": "Auto-accepted fuzzy match with score 0.968"
+  },
+  {
+    "source_name": "Ayush Badoni",
+    "canonical_id": "872b03f7",
+    "canonical_name": "A Badoni",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "B. Sai Sudharsan",
+    "canonical_id": "d5130a30",
+    "canonical_name": "B Sai Sudharsan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.968,
+    "evidence": "Auto-accepted fuzzy match with score 0.968"
+  },
+  {
+    "source_name": "Baba Aparajith",
+    "canonical_id": "5b627626",
+    "canonical_name": "B Aparajith",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Baba Indrajith",
+    "canonical_id": "ff1e68fa",
+    "canonical_name": "B Indrajith",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Ben Cutting",
+    "canonical_id": "2e11c706",
+    "canonical_name": "BCJ Cutting",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.818,
+    "evidence": "Auto-accepted fuzzy match with score 0.818"
+  },
+  {
+    "source_name": "Ben Duckett",
+    "canonical_id": "5f26f677",
+    "canonical_name": "BM Duckett",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Ben Dwarshuis",
+    "canonical_id": "e1b9f3a9",
+    "canonical_name": "BJ Dwarshuis",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Ben Hilfenhaus",
+    "canonical_id": "f3171936",
+    "canonical_name": "BW Hilfenhaus",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.889,
+    "evidence": "Auto-accepted fuzzy match with score 0.889"
+  },
+  {
+    "source_name": "Ben Laughlin",
+    "canonical_id": "b2a79f17",
+    "canonical_name": "B Laughlin",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.909,
+    "evidence": "Auto-accepted fuzzy match with score 0.909"
+  },
+  {
+    "source_name": "Ben Stokes",
+    "canonical_id": "e087956b",
+    "canonical_name": "BA Stokes",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Beuran Hendricks",
+    "canonical_id": "b56dc5f7",
+    "canonical_name": "BE Hendricks",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Billy Stanlake",
+    "canonical_id": "6834d1f2",
+    "canonical_name": "B Stanlake",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "C.M. Gautam",
+    "canonical_id": "30a2649b",
+    "canonical_name": "CM Gautam",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.9,
+    "evidence": "Auto-accepted fuzzy match with score 0.9"
+  },
+  {
+    "source_name": "Carlos Brathwaite",
+    "canonical_id": "e342e5fb",
+    "canonical_name": "CR Brathwaite",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.867,
+    "evidence": "Auto-accepted fuzzy match with score 0.867"
+  },
+  {
+    "source_name": "Chris Woakes",
+    "canonical_id": "4c5d73db",
+    "canonical_name": "CR Woakes",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Christopher Gayle",
+    "canonical_id": "1f50a44a",
+    "canonical_name": "Christopher Taylor",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Colin De Grandhomme",
+    "canonical_id": "94d7f855",
+    "canonical_name": "C de Grandhomme",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.882,
+    "evidence": "Auto-accepted fuzzy match with score 0.882"
+  },
+  {
+    "source_name": "Cooper Connolly",
+    "canonical_id": "fe366f34",
+    "canonical_name": "C Connolly",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "David Miller",
+    "canonical_id": "fc0b4157",
+    "canonical_name": "David Mills",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "David Warner",
+    "canonical_id": "dcce6f09",
+    "canonical_name": "DA Warner",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Dhruv Shorey",
+    "canonical_id": "faa7365d",
+    "canonical_name": "DR Shorey",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Dishant Yagnik",
+    "canonical_id": "063b3673",
+    "canonical_name": "DH Yagnik",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Eoin Morgan",
+    "canonical_id": "a9b7e3e6",
+    "canonical_name": "O Morgan",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Faf Du Plessis",
+    "canonical_id": "3355b542",
+    "canonical_name": "F du Plessis",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.923,
+    "evidence": "Auto-accepted fuzzy match with score 0.923"
+  },
+  {
+    "source_name": "Gerald Coetzee",
+    "canonical_id": "3204c99f",
+    "canonical_name": "G Coetzee",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Gurnoor Singh Brar",
+    "canonical_id": "99258814",
+    "canonical_name": "Gurnoor Brar",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Gus Atkinson",
+    "canonical_id": "b6bdce2e",
+    "canonical_name": "DS Atkinson",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "Harpreet  Brar",
+    "canonical_id": "c05edf8e",
+    "canonical_name": "Harpreet Brar",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.963,
+    "evidence": "Auto-accepted fuzzy match with score 0.963"
+  },
+  {
+    "source_name": "Hrithik Shokeen",
+    "canonical_id": "0c9652b0",
+    "canonical_name": "HR Shokeen",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Ishant Sharma",
+    "canonical_id": "ae85a996",
+    "canonical_name": "Siddhant Sharma",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Jacob Bethell",
+    "canonical_id": "3c55c703",
+    "canonical_name": "JG Bethell",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Jacob Duffy",
+    "canonical_id": "dadbdb68",
+    "canonical_name": "JA Duffy",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Jake Fraser-Mcgurk",
+    "canonical_id": "9b6e1b3f",
+    "canonical_name": "J Fraser-McGurk",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.909,
+    "evidence": "Auto-accepted fuzzy match with score 0.909"
+  },
+  {
+    "source_name": "James Neesham",
+    "canonical_id": "9219eff0",
+    "canonical_name": "JDS Neesham",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Jason Behrendorff",
+    "canonical_id": "4933f499",
+    "canonical_name": "JP Behrendorff",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.839,
+    "evidence": "Auto-accepted fuzzy match with score 0.839"
+  },
+  {
+    "source_name": "Jaydev Unadkat",
+    "canonical_id": "1e66c162",
+    "canonical_name": "JD Unadkat",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Joe Root",
+    "canonical_id": "a343262c",
+    "canonical_name": "JE Root",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.933,
+    "evidence": "Auto-accepted fuzzy match with score 0.933"
+  },
+  {
+    "source_name": "John Hastings",
+    "canonical_id": "012829ff",
+    "canonical_name": "JW Hastings",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Jos Buttler",
+    "canonical_id": "99b75528",
+    "canonical_name": "JC Buttler",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Josh Hazlewood",
+    "canonical_id": "03806cf8",
+    "canonical_name": "JR Hazlewood",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Juan Theron",
+    "canonical_id": "dec8e038",
+    "canonical_name": "J Theron",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "K. Gowtham",
+    "canonical_id": "90de905a",
+    "canonical_name": "K Gowtham",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.947,
+    "evidence": "Auto-accepted fuzzy match with score 0.947"
+  },
+  {
+    "source_name": "K.Bhagath Varma",
+    "canonical_id": "5438ffba",
+    "canonical_name": "K Bhagath Varma",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.933,
+    "evidence": "Auto-accepted fuzzy match with score 0.933"
+  },
+  {
+    "source_name": "K.C Cariappa",
+    "canonical_id": "edb3d4f8",
+    "canonical_name": "KC Cariappa",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.957,
+    "evidence": "Auto-accepted fuzzy match with score 0.957"
+  },
+  {
+    "source_name": "K.C. Cariappa",
+    "canonical_id": "edb3d4f8",
+    "canonical_name": "KC Cariappa",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.917,
+    "evidence": "Auto-accepted fuzzy match with score 0.917"
+  },
+  {
+    "source_name": "K.M. Asif",
+    "canonical_id": "798cc28e",
+    "canonical_name": "KM Asif",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.875,
+    "evidence": "Auto-accepted fuzzy match with score 0.875"
+  },
+  {
+    "source_name": "K.S. Bharat",
+    "canonical_id": "44a89551",
+    "canonical_name": "KS Bharat",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.9,
+    "evidence": "Auto-accepted fuzzy match with score 0.9"
+  },
+  {
+    "source_name": "Kamlesh Nagarkoti",
+    "canonical_id": "b4f5c2d9",
+    "canonical_name": "KL Nagarkoti",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.828,
+    "evidence": "Auto-accepted fuzzy match with score 0.828"
+  },
+  {
+    "source_name": "Kane Richardson",
+    "canonical_id": "f308f629",
+    "canonical_name": "A Richardson",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.889,
+    "evidence": "Auto-accepted fuzzy match with score 0.889"
+  },
+  {
+    "source_name": "Kane Williamson",
+    "canonical_id": "d027ba9f",
+    "canonical_name": "KS Williamson",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Karun Nair",
+    "canonical_id": "06907633",
+    "canonical_name": "AR Nair",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Kuldeep Sen",
+    "canonical_id": "8c483884",
+    "canonical_name": "Kuldeep Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Kulwant Khejroliya",
+    "canonical_id": "fa2f1dde",
+    "canonical_name": "K Khejroliya",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Kwena Maphaka",
+    "canonical_id": "107c26fb",
+    "canonical_name": "KT Maphaka",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Kyle Jamieson",
+    "canonical_id": "68c56d09",
+    "canonical_name": "KA Jamieson",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Liam Livingstone",
+    "canonical_id": "50c6bc2b",
+    "canonical_name": "LS Livingstone",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.867,
+    "evidence": "Auto-accepted fuzzy match with score 0.867"
+  },
+  {
+    "source_name": "Litton Das",
+    "canonical_id": "0404d43c",
+    "canonical_name": "Liton Das",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.947,
+    "evidence": "Auto-accepted fuzzy match with score 0.947"
+  },
+  {
+    "source_name": "Luke Pomersbach",
+    "canonical_id": "b63ab531",
+    "canonical_name": "LA Pomersbach",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Luke Wood",
+    "canonical_id": "0996f198",
+    "canonical_name": "Luka Woods",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Luvnith Sisodia",
+    "canonical_id": "a689af4b",
+    "canonical_name": "LUVNITH SISODIA",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 1.0,
+    "evidence": "Auto-accepted fuzzy match with score 1.0"
+  },
+  {
+    "source_name": "M. Ashwin",
+    "canonical_id": "e2db2409",
+    "canonical_name": "M Ashwin",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.941,
+    "evidence": "Auto-accepted fuzzy match with score 0.941"
+  },
+  {
+    "source_name": "M. Siddharth",
+    "canonical_id": "cf0ccafa",
+    "canonical_name": "M Siddharth",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.957,
+    "evidence": "Auto-accepted fuzzy match with score 0.957"
+  },
+  {
+    "source_name": "Manoj Bhandage",
+    "canonical_id": "e96801ea",
+    "canonical_name": "MS Bhandage",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Matthew Wade",
+    "canonical_id": "3e331df6",
+    "canonical_name": "Matthew Walker",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Mayank Agarwal",
+    "canonical_id": "a457cfb5",
+    "canonical_name": "Mayank Dagar",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Mayank Markande",
+    "canonical_id": "a9fd84fb",
+    "canonical_name": "M Markande",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Mohammad  Nabi",
+    "canonical_id": "62af8546",
+    "canonical_name": "Mohammad Nabi",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.963,
+    "evidence": "Auto-accepted fuzzy match with score 0.963"
+  },
+  {
+    "source_name": "Mohammad Shami",
+    "canonical_id": "68ddabdb",
+    "canonical_name": "Mohammad Sami",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.963,
+    "evidence": "Auto-accepted fuzzy match with score 0.963"
+  },
+  {
+    "source_name": "Mohammad Siraj",
+    "canonical_id": "2f49c897",
+    "canonical_name": "Mohammed Siraj",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.929,
+    "evidence": "Auto-accepted fuzzy match with score 0.929"
+  },
+  {
+    "source_name": "Moises Henriques",
+    "canonical_id": "32198ae0",
+    "canonical_name": "MC Henriques",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.786,
+    "evidence": "Auto-accepted fuzzy match with score 0.786"
+  },
+  {
+    "source_name": "Muttiah Muralitharan",
+    "canonical_id": "4ba44e19",
+    "canonical_name": "M Muralitharan",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "N. Jagadeesan",
+    "canonical_id": "bd54eef5",
+    "canonical_name": "N Jagadeesan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.96,
+    "evidence": "Auto-accepted fuzzy match with score 0.96"
+  },
+  {
+    "source_name": "Nathan Coulter-Nile",
+    "canonical_id": "56ab442f",
+    "canonical_name": "NM Coulter-Nile",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Naveen Ul Haq",
+    "canonical_id": "c0c411cb",
+    "canonical_name": "Naveen-ul-Haq",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Nic Maddinson",
+    "canonical_id": "44afbf2d",
+    "canonical_name": "NJ Maddinson",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.88,
+    "evidence": "Auto-accepted fuzzy match with score 0.88"
+  },
+  {
+    "source_name": "Noor  Ahmad",
+    "canonical_id": "efc04be7",
+    "canonical_name": "Noor Ahmad",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.952,
+    "evidence": "Auto-accepted fuzzy match with score 0.952"
+  },
+  {
+    "source_name": "Nuwan Thushara",
+    "canonical_id": "ee1b6c27",
+    "canonical_name": "N Thushara",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.833,
+    "evidence": "Auto-accepted fuzzy match with score 0.833"
+  },
+  {
+    "source_name": "Parveez Rasool",
+    "canonical_id": "9170ff49",
+    "canonical_name": "Parvez Rasool",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.963,
+    "evidence": "Auto-accepted fuzzy match with score 0.963"
+  },
+  {
+    "source_name": "Pat Cummins",
+    "canonical_id": "ded9240e",
+    "canonical_name": "PJ Cummins",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Peter Handscomb",
+    "canonical_id": "ada15e88",
+    "canonical_name": "PSP Handscomb",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.786,
+    "evidence": "Auto-accepted fuzzy match with score 0.786"
+  },
+  {
+    "source_name": "Prasanth Parameswaran",
+    "canonical_id": "0c432afb",
+    "canonical_name": "P Parameswaran",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Pravin Tambe",
+    "canonical_id": "6aed7e79",
+    "canonical_name": "PV Tambe",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Prayas Ray Barman",
+    "canonical_id": "441c72ae",
+    "canonical_name": "P Ray Barman",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.828,
+    "evidence": "Auto-accepted fuzzy match with score 0.828"
+  },
+  {
+    "source_name": "R. Ashwin",
+    "canonical_id": "495d42a5",
+    "canonical_name": "R Ashwin",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.941,
+    "evidence": "Auto-accepted fuzzy match with score 0.941"
+  },
+  {
+    "source_name": "R. Sai Kishore",
+    "canonical_id": "c7a995d3",
+    "canonical_name": "R Sai Kishore",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.963,
+    "evidence": "Auto-accepted fuzzy match with score 0.963"
+  },
+  {
+    "source_name": "R. Sanjay Yadav",
+    "canonical_id": "33ffc3dd",
+    "canonical_name": "R Sanjay Yadav",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.966,
+    "evidence": "Auto-accepted fuzzy match with score 0.966"
+  },
+  {
+    "source_name": "Rahul Tripathi",
+    "canonical_id": "65ff7036",
+    "canonical_name": "Anshul Tripathi",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.897,
+    "evidence": "Auto-accepted fuzzy match with score 0.897"
+  },
+  {
+    "source_name": "Ramandeep  Singh",
+    "canonical_id": "be24ead0",
+    "canonical_name": "Ramandeep Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.968,
+    "evidence": "Auto-accepted fuzzy match with score 0.968"
+  },
+  {
+    "source_name": "Ravi Rampaul",
+    "canonical_id": "d68e7f48",
+    "canonical_name": "R Rampaul",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Ricky Bhui",
+    "canonical_id": "b63e358a",
+    "canonical_name": "RK Bhui",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.824,
+    "evidence": "Auto-accepted fuzzy match with score 0.824"
+  },
+  {
+    "source_name": "Ricky Ponting",
+    "canonical_id": "7d415ea5",
+    "canonical_name": "RT Ponting",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Riley Meredith",
+    "canonical_id": "64775749",
+    "canonical_name": "RP Meredith",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Robin Uthappa",
+    "canonical_id": "1c17e270",
+    "canonical_name": "RV Uthappa",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Ryan McLaren",
+    "canonical_id": "c654af19",
+    "canonical_name": "R McLaren",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Ryan Rickelton",
+    "canonical_id": "e66732f8",
+    "canonical_name": "RD Rickelton",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Ryan Ten Doeschate",
+    "canonical_id": "4ec07775",
+    "canonical_name": "RN ten Doeschate",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.941,
+    "evidence": "Auto-accepted fuzzy match with score 0.941"
+  },
+  {
+    "source_name": "Sahil Parakh",
+    "canonical_id": "8a3dd116",
+    "canonical_name": "Sahil Tarakhil",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.846,
+    "evidence": "Auto-accepted fuzzy match with score 0.846"
+  },
+  {
+    "source_name": "Sam Billings",
+    "canonical_id": "c16d4035",
+    "canonical_name": "SW Billings",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.87,
+    "evidence": "Auto-accepted fuzzy match with score 0.87"
+  },
+  {
+    "source_name": "Sam Curran",
+    "canonical_id": "e94915e6",
+    "canonical_name": "SM Curran",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.947,
+    "evidence": "Auto-accepted fuzzy match with score 0.947"
+  },
+  {
+    "source_name": "Sandeep Lamichhane",
+    "canonical_id": "b410bd3d",
+    "canonical_name": "S Lamichhane",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Sandeep Warrier",
+    "canonical_id": "cdc6bdba",
+    "canonical_name": "S Sandeep Warrier",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.938,
+    "evidence": "Auto-accepted fuzzy match with score 0.938"
+  },
+  {
+    "source_name": "Sean Abbott",
+    "canonical_id": "1a2676c5",
+    "canonical_name": "SA Abbott",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.9,
+    "evidence": "Auto-accepted fuzzy match with score 0.9"
+  },
+  {
+    "source_name": "Shashank  Singh",
+    "canonical_id": "26989d80",
+    "canonical_name": "Shashank Singh",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.966,
+    "evidence": "Auto-accepted fuzzy match with score 0.966"
+  },
+  {
+    "source_name": "Shimron Hetmyer",
+    "canonical_id": "48a1d7b7",
+    "canonical_name": "SO Hetmyer",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Shivam  Mavi",
+    "canonical_id": "c38d3503",
+    "canonical_name": "Shivam Mavi",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.957,
+    "evidence": "Auto-accepted fuzzy match with score 0.957"
+  },
+  {
+    "source_name": "Stuart Binny",
+    "canonical_id": "bd17b45f",
+    "canonical_name": "STR Binny",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Subhranshu Senapati",
+    "canonical_id": "0edcb652",
+    "canonical_name": "Subhransu Senapati",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.973,
+    "evidence": "Auto-accepted fuzzy match with score 0.973"
+  },
+  {
+    "source_name": "Suryansh  Shedge",
+    "canonical_id": "970ddd24",
+    "canonical_name": "Suryansh Shedge",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.968,
+    "evidence": "Auto-accepted fuzzy match with score 0.968"
+  },
+  {
+    "source_name": "Suyash Prabhudessai",
+    "canonical_id": "9385de2e",
+    "canonical_name": "SS Prabhudessai",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.882,
+    "evidence": "Auto-accepted fuzzy match with score 0.882"
+  },
+  {
+    "source_name": "T. Natarajan",
+    "canonical_id": "ce794613",
+    "canonical_name": "T Natarajan",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.957,
+    "evidence": "Auto-accepted fuzzy match with score 0.957"
+  },
+  {
+    "source_name": "Tejas Singh Baroka",
+    "canonical_id": "c28e9f12",
+    "canonical_name": "Tejas Baroka",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.8,
+    "evidence": "Auto-accepted fuzzy match with score 0.8"
+  },
+  {
+    "source_name": "Thisara Perera",
+    "canonical_id": "7af95dbb",
+    "canonical_name": "Ishara Perera",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.889,
+    "evidence": "Auto-accepted fuzzy match with score 0.889"
+  },
+  {
+    "source_name": "Tim David",
+    "canonical_id": "6495fd7b",
+    "canonical_name": "M David",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.875,
+    "evidence": "Auto-accepted fuzzy match with score 0.875"
+  },
+  {
+    "source_name": "Tim Seifert",
+    "canonical_id": "4663bd23",
+    "canonical_name": "TL Seifert",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Tim Southee",
+    "canonical_id": "13c35c9e",
+    "canonical_name": "TG Southee",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Tom Banton",
+    "canonical_id": "25f7b7d6",
+    "canonical_name": "T Banton",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.889,
+    "evidence": "Auto-accepted fuzzy match with score 0.889"
+  },
+  {
+    "source_name": "Tom Curran",
+    "canonical_id": "e86754b2",
+    "canonical_name": "TK Curran",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Tom Kohler-Cadmore",
+    "canonical_id": "f836b33d",
+    "canonical_name": "T Kohler-Cadmore",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.941,
+    "evidence": "Auto-accepted fuzzy match with score 0.941"
+  },
+  {
+    "source_name": "Tushar Deshpande",
+    "canonical_id": "46a9bea1",
+    "canonical_name": "TU Deshpande",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.857,
+    "evidence": "Auto-accepted fuzzy match with score 0.857"
+  },
+  {
+    "source_name": "Umran  Malik",
+    "canonical_id": "81c08fa3",
+    "canonical_name": "Umran Malik",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.957,
+    "evidence": "Auto-accepted fuzzy match with score 0.957"
+  },
+  {
+    "source_name": "Vaibhav Suryavanshi",
+    "canonical_id": "470f446b",
+    "canonical_name": "V Suryavanshi",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.812,
+    "evidence": "Auto-accepted fuzzy match with score 0.812"
+  },
+  {
+    "source_name": "Varun Aaron",
+    "canonical_id": "0a3d54b9",
+    "canonical_name": "VR Aaron",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.842,
+    "evidence": "Auto-accepted fuzzy match with score 0.842"
+  },
+  {
+    "source_name": "Venugopal Rao",
+    "canonical_id": "fe763256",
+    "canonical_name": "Y Venugopal Rao",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.929,
+    "evidence": "Auto-accepted fuzzy match with score 0.929"
+  },
+  {
+    "source_name": "Vidwath Kaverappa",
+    "canonical_id": "d4d929b0",
+    "canonical_name": "V Kaverappa",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.786,
+    "evidence": "Auto-accepted fuzzy match with score 0.786"
+  },
+  {
+    "source_name": "Vihaan Malhotra",
+    "canonical_id": "452837d1",
+    "canonical_name": "Vinay Malhotra",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.828,
+    "evidence": "Auto-accepted fuzzy match with score 0.828"
+  },
+  {
+    "source_name": "Vikramjeet Malik",
+    "canonical_id": "7d4a4371",
+    "canonical_name": "Ranjeet Mali",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.786,
+    "evidence": "Auto-accepted fuzzy match with score 0.786"
+  },
+  {
+    "source_name": "Wayne Parnell",
+    "canonical_id": "3a60e0b5",
+    "canonical_name": "WD Parnell",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.783,
+    "evidence": "Auto-accepted fuzzy match with score 0.783"
+  },
+  {
+    "source_name": "Yash  Dayal",
+    "canonical_id": "7210d461",
+    "canonical_name": "Yash Dayal",
+    "method": "fuzzy_string_matching",
+    "confidence": "high",
+    "score": 0.952,
+    "evidence": "Auto-accepted fuzzy match with score 0.952"
+  },
+  {
+    "source_name": "Zak Foulkes",
+    "canonical_id": "30f92334",
+    "canonical_name": "ZGF Foulkes",
+    "method": "fuzzy_string_matching",
+    "confidence": "medium",
+    "score": 0.818,
+    "evidence": "Auto-accepted fuzzy match with score 0.818"
+  },
+  {
+    "source_name": "Aaron Hardie",
+    "canonical_id": "d405c0d5",
+    "canonical_name": "AM Hardie",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AM Hardie"
+  },
+  {
+    "source_name": "Abhimanyu Mithun",
+    "canonical_id": "66cf56a5",
+    "canonical_name": "A Mithun",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to A Mithun"
+  },
+  {
+    "source_name": "Abhinav Manohar",
+    "canonical_id": "0890552f",
+    "canonical_name": "A Manohar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to A Manohar"
+  },
+  {
+    "source_name": "Aditya Tare",
+    "canonical_id": "855a210c",
+    "canonical_name": "AP Tare",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AP Tare"
+  },
+  {
+    "source_name": "Ajinkya Rahane",
+    "canonical_id": "29e95537",
+    "canonical_name": "AM Rahane",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AM Rahane"
+  },
+  {
+    "source_name": "Akeal Hosein",
+    "canonical_id": "4d7f517e",
+    "canonical_name": "AJ Hosein",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AJ Hosein"
+  },
+  {
+    "source_name": "Akhil Arvind Herwadkar",
+    "canonical_id": "4ed49d3d",
+    "canonical_name": "AA Herwadkar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AA Herwadkar"
+  },
+  {
+    "source_name": "Akshdeep Nath",
+    "canonical_id": "f10e94c4",
+    "canonical_name": "AD Nath",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AD Nath"
+  },
+  {
+    "source_name": "Alex Carey",
+    "canonical_id": "69d03465",
+    "canonical_name": "AT Carey",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AT Carey"
+  },
+  {
+    "source_name": "Alex Hales",
+    "canonical_id": "92aeac25",
+    "canonical_name": "AD Hales",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AD Hales"
+  },
+  {
+    "source_name": "Allah  Ghazanfar",
+    "canonical_id": "9ca68676",
+    "canonical_name": "AM Ghazanfar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AM Ghazanfar"
+  },
+  {
+    "source_name": "Alzarri Joseph",
+    "canonical_id": "b0946605",
+    "canonical_name": "AS Joseph",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AS Joseph"
+  },
+  {
+    "source_name": "Andrew Tye",
+    "canonical_id": "7c7d63a2",
+    "canonical_name": "AJ Tye",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AJ Tye"
+  },
+  {
+    "source_name": "Angelo Mathews",
+    "canonical_id": "896d78ad",
+    "canonical_name": "AD Mathews",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AD Mathews"
+  },
+  {
+    "source_name": "Angkrish Raghuvanshi",
+    "canonical_id": "d7017798",
+    "canonical_name": "A Raghuvanshi",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to A Raghuvanshi"
+  },
+  {
+    "source_name": "Ankit Singh Rajpoot",
+    "canonical_id": "db31895a",
+    "canonical_name": "AS Rajpoot",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AS Rajpoot"
+  },
+  {
+    "source_name": "Anrich Nortje",
+    "canonical_id": "acdc62f5",
+    "canonical_name": "A Nortje",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to A Nortje"
+  },
+  {
+    "source_name": "Anshul Kamboj",
+    "canonical_id": "fcc21ace",
+    "canonical_name": "A Kamboj",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to A Kamboj"
+  },
+  {
+    "source_name": "Apoorv Vijay Wankhade",
+    "canonical_id": "5708d0b6",
+    "canonical_name": "AV Wankhade",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AV Wankhade"
+  },
+  {
+    "source_name": "Ashish Nehra",
+    "canonical_id": "96fd40ae",
+    "canonical_name": "A Nehra",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to A Nehra"
+  },
+  {
+    "source_name": "Ashok Dinda",
+    "canonical_id": "66b30f71",
+    "canonical_name": "AB Dinda",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to AB Dinda"
+  },
+  {
+    "source_name": "Auqib Dar",
+    "canonical_id": "f02778d1",
+    "canonical_name": "Aleem Dar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to Aleem Dar"
+  },
+  {
+    "source_name": "Barinder Singh Sran",
+    "canonical_id": "d8b2f218",
+    "canonical_name": "BB Sran",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to BB Sran"
+  },
+  {
+    "source_name": "Ben Dunk",
+    "canonical_id": "272d796e",
+    "canonical_name": "BR Dunk",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to BR Dunk"
+  },
+  {
+    "source_name": "Benjamin Stokes",
+    "canonical_id": "e087956b",
+    "canonical_name": "BA Stokes",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to BA Stokes"
+  },
+  {
+    "source_name": "Benny Howell",
+    "canonical_id": "0bec3a6c",
+    "canonical_name": "BAC Howell",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to BAC Howell"
+  },
+  {
+    "source_name": "Brad Hodge",
+    "canonical_id": "b57f8a9a",
+    "canonical_name": "BJ Hodge",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to BJ Hodge"
+  },
+  {
+    "source_name": "Brendon McCullum",
+    "canonical_id": "b8a55852",
+    "canonical_name": "BB McCullum",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to BB McCullum"
+  },
+  {
+    "source_name": "Brydon Carse",
+    "canonical_id": "cad40f5e",
+    "canonical_name": "BA Carse",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to BA Carse"
+  },
+  {
+    "source_name": "Cameron Delport",
+    "canonical_id": "afa78c3a",
+    "canonical_name": "CS Delport",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CS Delport"
+  },
+  {
+    "source_name": "Chama Milind",
+    "canonical_id": "7b5b6311",
+    "canonical_name": "CV Milind",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CV Milind"
+  },
+  {
+    "source_name": "Chamika Karunaratne",
+    "canonical_id": "fb3e0d39",
+    "canonical_name": "C Karunaratne",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to C Karunaratne"
+  },
+  {
+    "source_name": "Chetan Sakariya",
+    "canonical_id": "2cdce1be",
+    "canonical_name": "C Sakariya",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to C Sakariya"
+  },
+  {
+    "source_name": "Cheteshwar Pujara",
+    "canonical_id": "d4f9dbd4",
+    "canonical_name": "CA Pujara",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CA Pujara"
+  },
+  {
+    "source_name": "Chris Jordan",
+    "canonical_id": "ffe699c0",
+    "canonical_name": "CJ Jordan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CJ Jordan"
+  },
+  {
+    "source_name": "Chris Lynn",
+    "canonical_id": "45eda7c8",
+    "canonical_name": "CA Lynn",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CA Lynn"
+  },
+  {
+    "source_name": "Christopher Barnwell",
+    "canonical_id": "0d51e658",
+    "canonical_name": "CD Barnwell",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CD Barnwell"
+  },
+  {
+    "source_name": "Clinton McKay",
+    "canonical_id": "94eac556",
+    "canonical_name": "CJ McKay",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CJ McKay"
+  },
+  {
+    "source_name": "Colin Ingram",
+    "canonical_id": "c995d726",
+    "canonical_name": "CA Ingram",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to CA Ingram"
+  },
+  {
+    "source_name": "Colin Munro",
+    "canonical_id": "af2c687b",
+    "canonical_name": "C Munro",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to C Munro"
+  },
+  {
+    "source_name": "Daniel Sams",
+    "canonical_id": "caf69bf7",
+    "canonical_name": "DR Sams",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DR Sams"
+  },
+  {
+    "source_name": "Danish Malewar",
+    "canonical_id": "9e6032fa",
+    "canonical_name": "DV Malewar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DV Malewar"
+  },
+  {
+    "source_name": "Darcy Short",
+    "canonical_id": "1a156c88",
+    "canonical_name": "DJM Short",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DJM Short"
+  },
+  {
+    "source_name": "Darren Sammy",
+    "canonical_id": "c03c6200",
+    "canonical_name": "DJG Sammy",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DJG Sammy"
+  },
+  {
+    "source_name": "Darshan Nalkande",
+    "canonical_id": "cd8d2859",
+    "canonical_name": "DG Nalkande",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DG Nalkande"
+  },
+  {
+    "source_name": "David Wiese",
+    "canonical_id": "aa8d28ae",
+    "canonical_name": "D Wiese",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to D Wiese"
+  },
+  {
+    "source_name": "David Willey",
+    "canonical_id": "7f048519",
+    "canonical_name": "DJ Willey",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DJ Willey"
+  },
+  {
+    "source_name": "Deepak Chahar",
+    "canonical_id": "23eeb873",
+    "canonical_name": "DL Chahar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DL Chahar"
+  },
+  {
+    "source_name": "Deepak Hooda",
+    "canonical_id": "73ad96ed",
+    "canonical_name": "DJ Hooda",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DJ Hooda"
+  },
+  {
+    "source_name": "Devdutt Padikkal",
+    "canonical_id": "2c25d4f5",
+    "canonical_name": "D Padikkal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to D Padikkal"
+  },
+  {
+    "source_name": "Devon Conway",
+    "canonical_id": "df5a6881",
+    "canonical_name": "DP Conway",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DP Conway"
+  },
+  {
+    "source_name": "Dewald Brevis",
+    "canonical_id": "844e79d1",
+    "canonical_name": "D Brevis",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to D Brevis"
+  },
+  {
+    "source_name": "Digvijay Deshmukh",
+    "canonical_id": "ddc7a53d",
+    "canonical_name": "DR Deshmukh",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DR Deshmukh"
+  },
+  {
+    "source_name": "Dinesh Salunkhe",
+    "canonical_id": "0264c10e",
+    "canonical_name": "D Salunkhe",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to D Salunkhe"
+  },
+  {
+    "source_name": "Dirk Nannes",
+    "canonical_id": "c404f58a",
+    "canonical_name": "DP Nannes",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DP Nannes"
+  },
+  {
+    "source_name": "Dominic Drakes",
+    "canonical_id": "34b332d3",
+    "canonical_name": "DC Drakes",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to DC Drakes"
+  },
+  {
+    "source_name": "Donovan Ferreira",
+    "canonical_id": "f0af99a7",
+    "canonical_name": "D Ferreira",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to D Ferreira"
+  },
+  {
+    "source_name": "Eklavya Dwivedi",
+    "canonical_id": "b274dbbd",
+    "canonical_name": "ER Dwivedi",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to ER Dwivedi"
+  },
+  {
+    "source_name": "Eshan Malinga",
+    "canonical_id": "5750bcb4",
+    "canonical_name": "E Malinga",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to E Malinga"
+  },
+  {
+    "source_name": "Farhaan Behardien",
+    "canonical_id": "dce2019b",
+    "canonical_name": "F Behardien",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to F Behardien"
+  },
+  {
+    "source_name": "Fidel Edwards",
+    "canonical_id": "a7c226e1",
+    "canonical_name": "FH Edwards",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to FH Edwards"
+  },
+  {
+    "source_name": "George Bailey",
+    "canonical_id": "5056011d",
+    "canonical_name": "GJ Bailey",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to GJ Bailey"
+  },
+  {
+    "source_name": "Glenn Maxwell",
+    "canonical_id": "b681e71e",
+    "canonical_name": "GJ Maxwell",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to GJ Maxwell"
+  },
+  {
+    "source_name": "Glenn Phillips",
+    "canonical_id": "9a46c4e5",
+    "canonical_name": "GD Phillips",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to GD Phillips"
+  },
+  {
+    "source_name": "Hardik Pandya",
+    "canonical_id": "dbe50b21",
+    "canonical_name": "HH Pandya",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to HH Pandya"
+  },
+  {
+    "source_name": "Hardus Viljoen",
+    "canonical_id": "7a80e2a5",
+    "canonical_name": "H Viljoen",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to H Viljoen"
+  },
+  {
+    "source_name": "Harry Brook",
+    "canonical_id": "4ae1755b",
+    "canonical_name": "HC Brook",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to HC Brook"
+  },
+  {
+    "source_name": "Harry Gurney",
+    "canonical_id": "e412cb64",
+    "canonical_name": "HF Gurney",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to HF Gurney"
+  },
+  {
+    "source_name": "Heinrich Klaasen",
+    "canonical_id": "235c2bb6",
+    "canonical_name": "H Klaasen",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to H Klaasen"
+  },
+  {
+    "source_name": "Irfan Pathan",
+    "canonical_id": "5fa06777",
+    "canonical_name": "IK Pathan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to IK Pathan"
+  },
+  {
+    "source_name": "Ishan Porel",
+    "canonical_id": "fdf7491e",
+    "canonical_name": "IC Porel",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to IC Porel"
+  },
+  {
+    "source_name": "Ishank Jaggi",
+    "canonical_id": "dded65e7",
+    "canonical_name": "IR Jaggi",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to IR Jaggi"
+  },
+  {
+    "source_name": "Isuru Udana",
+    "canonical_id": "ac5ae4af",
+    "canonical_name": "I Udana",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to I Udana"
+  },
+  {
+    "source_name": "Jacob Oram",
+    "canonical_id": "3eac9d95",
+    "canonical_name": "JDP Oram",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JDP Oram"
+  },
+  {
+    "source_name": "Jacques Kallis",
+    "canonical_id": "86dc8f2e",
+    "canonical_name": "JH Kallis",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JH Kallis"
+  },
+  {
+    "source_name": "Jagadeesha Suchith",
+    "canonical_id": "4125d931",
+    "canonical_name": "J Suchith",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to J Suchith"
+  },
+  {
+    "source_name": "James Faulkner",
+    "canonical_id": "808f425a",
+    "canonical_name": "JP Faulkner",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JP Faulkner"
+  },
+  {
+    "source_name": "Jamie Overton",
+    "canonical_id": "59559bc2",
+    "canonical_name": "J Overton",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to J Overton"
+  },
+  {
+    "source_name": "Jasprit Bumrah",
+    "canonical_id": "462411b3",
+    "canonical_name": "JJ Bumrah",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JJ Bumrah"
+  },
+  {
+    "source_name": "Jhathavedh Subramanyan",
+    "canonical_id": "eb19d010",
+    "canonical_name": "J Subramanyan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to J Subramanyan"
+  },
+  {
+    "source_name": "Joel Paris",
+    "canonical_id": "7c8f533d",
+    "canonical_name": "JS Paris",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JS Paris"
+  },
+  {
+    "source_name": "Jofra Archer",
+    "canonical_id": "5574750c",
+    "canonical_name": "JC Archer",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JC Archer"
+  },
+  {
+    "source_name": "Jonny Bairstow",
+    "canonical_id": "abb83e27",
+    "canonical_name": "JM Bairstow",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JM Bairstow"
+  },
+  {
+    "source_name": "Jos  Buttler",
+    "canonical_id": "99b75528",
+    "canonical_name": "JC Buttler",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JC Buttler"
+  },
+  {
+    "source_name": "Joshua Little",
+    "canonical_id": "9061a703",
+    "canonical_name": "J Little",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to J Little"
+  },
+  {
+    "source_name": "Joshua Philippe",
+    "canonical_id": "39086549",
+    "canonical_name": "JR Philippe",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to JR Philippe"
+  },
+  {
+    "source_name": "Kagiso Rabada",
+    "canonical_id": "e62dd25d",
+    "canonical_name": "K Rabada",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to K Rabada"
+  },
+  {
+    "source_name": "Keemo Paul",
+    "canonical_id": "75224f22",
+    "canonical_name": "KMA Paul",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KMA Paul"
+  },
+  {
+    "source_name": "Kevin Pietersen",
+    "canonical_id": "39f01cdb",
+    "canonical_name": "KP Pietersen",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KP Pietersen"
+  },
+  {
+    "source_name": "Kevon Cooper",
+    "canonical_id": "557153ca",
+    "canonical_name": "KK Cooper",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KK Cooper"
+  },
+  {
+    "source_name": "Kieron Pollard",
+    "canonical_id": "a757b0d8",
+    "canonical_name": "KA Pollard",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KA Pollard"
+  },
+  {
+    "source_name": "Kona Srikar Bharat",
+    "canonical_id": "44a89551",
+    "canonical_name": "KS Bharat",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KS Bharat"
+  },
+  {
+    "source_name": "Krishnappa Gowtham",
+    "canonical_id": "90de905a",
+    "canonical_name": "K Gowtham",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to K Gowtham"
+  },
+  {
+    "source_name": "Krismar Santokie",
+    "canonical_id": "531f0278",
+    "canonical_name": "K Santokie",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to K Santokie"
+  },
+  {
+    "source_name": "Kuldeep  Sen",
+    "canonical_id": "2e78f685",
+    "canonical_name": "KR Sen",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KR Sen"
+  },
+  {
+    "source_name": "Kunal Rathore",
+    "canonical_id": "e3851766",
+    "canonical_name": "KS Rathore",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KS Rathore"
+  },
+  {
+    "source_name": "Kyle Abbott",
+    "canonical_id": "a9da7784",
+    "canonical_name": "KJ Abbott",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KJ Abbott"
+  },
+  {
+    "source_name": "Kyle Mayers",
+    "canonical_id": "73c18486",
+    "canonical_name": "KR Mayers",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to KR Mayers"
+  },
+  {
+    "source_name": "Lakshmipathy Balaji",
+    "canonical_id": "b2b50355",
+    "canonical_name": "L Balaji",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to L Balaji"
+  },
+  {
+    "source_name": "Lasith Malinga",
+    "canonical_id": "79eb117d",
+    "canonical_name": "LN Malinga",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to LN Malinga"
+  },
+  {
+    "source_name": "Laxmi Ratan Shukla",
+    "canonical_id": "b1451597",
+    "canonical_name": "LR Shukla",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to LR Shukla"
+  },
+  {
+    "source_name": "Lizaad Williams",
+    "canonical_id": "a1d95bd8",
+    "canonical_name": "LB Williams",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to LB Williams"
+  },
+  {
+    "source_name": "Lockie Ferguson",
+    "canonical_id": "2f9d0389",
+    "canonical_name": "LH Ferguson",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to LH Ferguson"
+  },
+  {
+    "source_name": "Lukman Hussain Meriwala",
+    "canonical_id": "d3611425",
+    "canonical_name": "LI Meriwala",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to LI Meriwala"
+  },
+  {
+    "source_name": "Lungisani Ngidi",
+    "canonical_id": "f834dcfc",
+    "canonical_name": "L Ngidi",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to L Ngidi"
+  },
+  {
+    "source_name": "Madhav Tiwari",
+    "canonical_id": "fb5f69e4",
+    "canonical_name": "M Tiwari",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Tiwari"
+  },
+  {
+    "source_name": "Maheesh Theekshana",
+    "canonical_id": "f24c6701",
+    "canonical_name": "M Theekshana",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Theekshana"
+  },
+  {
+    "source_name": "Mahipal Lomror",
+    "canonical_id": "da934ee8",
+    "canonical_name": "MK Lomror",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MK Lomror"
+  },
+  {
+    "source_name": "Manan Vohra",
+    "canonical_id": "c03e2850",
+    "canonical_name": "M Vohra",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Vohra"
+  },
+  {
+    "source_name": "Manav Suthar",
+    "canonical_id": "025c4400",
+    "canonical_name": "MJ Suthar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MJ Suthar"
+  },
+  {
+    "source_name": "Manish Pandey",
+    "canonical_id": "93b4fc78",
+    "canonical_name": "MK Pandey",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MK Pandey"
+  },
+  {
+    "source_name": "Manoj Tiwary",
+    "canonical_id": "26e5cabf",
+    "canonical_name": "MK Tiwary",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MK Tiwary"
+  },
+  {
+    "source_name": "Manpreet Gony",
+    "canonical_id": "ae78bc32",
+    "canonical_name": "MS Gony",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MS Gony"
+  },
+  {
+    "source_name": "Manprit Juneja",
+    "canonical_id": "605b7efa",
+    "canonical_name": "MC Juneja",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MC Juneja"
+  },
+  {
+    "source_name": "Manvinder Bisla",
+    "canonical_id": "5afd4539",
+    "canonical_name": "MS Bisla",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MS Bisla"
+  },
+  {
+    "source_name": "Marchant De Lange",
+    "canonical_id": "d4eef961",
+    "canonical_name": "M de Lange",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M de Lange"
+  },
+  {
+    "source_name": "Marcus Stoinis",
+    "canonical_id": "d9273ee7",
+    "canonical_name": "MP Stoinis",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MP Stoinis"
+  },
+  {
+    "source_name": "Martin Guptill",
+    "canonical_id": "2be41edb",
+    "canonical_name": "MJ Guptill",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MJ Guptill"
+  },
+  {
+    "source_name": "Matheesha Pathirana",
+    "canonical_id": "64839cb3",
+    "canonical_name": "M Pathirana",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Pathirana"
+  },
+  {
+    "source_name": "Matthew Breetzke",
+    "canonical_id": "35f173a0",
+    "canonical_name": "MP Breetzke",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MP Breetzke"
+  },
+  {
+    "source_name": "Michael Hussey",
+    "canonical_id": "48fd7349",
+    "canonical_name": "MEK Hussey",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MEK Hussey"
+  },
+  {
+    "source_name": "Mitchell  Starc",
+    "canonical_id": "3fb19989",
+    "canonical_name": "MA Starc",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MA Starc"
+  },
+  {
+    "source_name": "Mitchell Marsh",
+    "canonical_id": "3d8feaf8",
+    "canonical_name": "MR Marsh",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MR Marsh"
+  },
+  {
+    "source_name": "Mitchell McClenaghan",
+    "canonical_id": "51a3c5ef",
+    "canonical_name": "MJ McClenaghan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MJ McClenaghan"
+  },
+  {
+    "source_name": "Mitchell Santner",
+    "canonical_id": "e4a0deae",
+    "canonical_name": "MJ Santner",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MJ Santner"
+  },
+  {
+    "source_name": "Mitchell Starc",
+    "canonical_id": "3fb19989",
+    "canonical_name": "MA Starc",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to MA Starc"
+  },
+  {
+    "source_name": "Mithun Manhas",
+    "canonical_id": "c42aaf71",
+    "canonical_name": "M Manhas",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Manhas"
+  },
+  {
+    "source_name": "Murali Kartik",
+    "canonical_id": "abfeb126",
+    "canonical_name": "M Kartik",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Kartik"
+  },
+  {
+    "source_name": "Murali Vijay",
+    "canonical_id": "4b57e452",
+    "canonical_name": "M Vijay",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Vijay"
+  },
+  {
+    "source_name": "Murugan Ashwin",
+    "canonical_id": "e2db2409",
+    "canonical_name": "M Ashwin",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to M Ashwin"
+  },
+  {
+    "source_name": "Naman Ojha",
+    "canonical_id": "890946a0",
+    "canonical_name": "NV Ojha",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to NV Ojha"
+  },
+  {
+    "source_name": "Naman Tiwari",
+    "canonical_id": "97f44626",
+    "canonical_name": "NK Tiwari",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to NK Tiwari"
+  },
+  {
+    "source_name": "Nandre Burger",
+    "canonical_id": "465aa633",
+    "canonical_name": "N Burger",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to N Burger"
+  },
+  {
+    "source_name": "Nathan Ellis",
+    "canonical_id": "9eb1455b",
+    "canonical_name": "NT Ellis",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to NT Ellis"
+  },
+  {
+    "source_name": "Nathan McCullum",
+    "canonical_id": "5673a3fc",
+    "canonical_name": "NL McCullum",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to NL McCullum"
+  },
+  {
+    "source_name": "Nehal Wadhera",
+    "canonical_id": "d1a60072",
+    "canonical_name": "N Wadhera",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to N Wadhera"
+  },
+  {
+    "source_name": "Nicholas Pooran",
+    "canonical_id": "3241e3fd",
+    "canonical_name": "N Pooran",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to N Pooran"
+  },
+  {
+    "source_name": "Nicolas Pooran",
+    "canonical_id": "3241e3fd",
+    "canonical_name": "N Pooran",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to N Pooran"
+  },
+  {
+    "source_name": "Nikhil Shankar Naik",
+    "canonical_id": "aedc3b7c",
+    "canonical_name": "NS Naik",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to NS Naik"
+  },
+  {
+    "source_name": "Nishant Sindhu",
+    "canonical_id": "3cea23da",
+    "canonical_name": "N Sindhu",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to N Sindhu"
+  },
+  {
+    "source_name": "Obed Mccoy",
+    "canonical_id": "529eb9e0",
+    "canonical_name": "OC McCoy",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to OC McCoy"
+  },
+  {
+    "source_name": "Paras Dogra",
+    "canonical_id": "2728e7e9",
+    "canonical_name": "P Dogra",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Dogra"
+  },
+  {
+    "source_name": "Pardeep Sahu",
+    "canonical_id": "9a0146b3",
+    "canonical_name": "P Sahu",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Sahu"
+  },
+  {
+    "source_name": "Parvinder Awana",
+    "canonical_id": "1a0c3177",
+    "canonical_name": "P Awana",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Awana"
+  },
+  {
+    "source_name": "Pathum Nissanka",
+    "canonical_id": "8ee36b18",
+    "canonical_name": "P Nissanka",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Nissanka"
+  },
+  {
+    "source_name": "Patrick Cummins",
+    "canonical_id": "ded9240e",
+    "canonical_name": "PJ Cummins",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PJ Cummins"
+  },
+  {
+    "source_name": "Pawan Negi",
+    "canonical_id": "f62772e5",
+    "canonical_name": "P Negi",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Negi"
+  },
+  {
+    "source_name": "Pawan Suyal",
+    "canonical_id": "cedc1d9a",
+    "canonical_name": "P Suyal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Suyal"
+  },
+  {
+    "source_name": "Phil Salt",
+    "canonical_id": "3d284ca3",
+    "canonical_name": "PD Salt",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PD Salt"
+  },
+  {
+    "source_name": "Philip Hughes",
+    "canonical_id": "004c9e85",
+    "canonical_name": "PJ Hughes",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PJ Hughes"
+  },
+  {
+    "source_name": "Piyush Chawla",
+    "canonical_id": "98ae73b1",
+    "canonical_name": "PP Chawla",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PP Chawla"
+  },
+  {
+    "source_name": "Pradeep Sangwan",
+    "canonical_id": "9fc0ef64",
+    "canonical_name": "PJ Sangwan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PJ Sangwan"
+  },
+  {
+    "source_name": "Praful Hinge",
+    "canonical_id": "ece7b6b3",
+    "canonical_name": "PP Hinge",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PP Hinge"
+  },
+  {
+    "source_name": "Pragyan Ojha",
+    "canonical_id": "6c6591ab",
+    "canonical_name": "PP Ojha",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PP Ojha"
+  },
+  {
+    "source_name": "Prashant Veer",
+    "canonical_id": "e148e6bd",
+    "canonical_name": "PR Veer",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PR Veer"
+  },
+  {
+    "source_name": "Praveen Dubey",
+    "canonical_id": "ed5a5510",
+    "canonical_name": "P Dubey",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Dubey"
+  },
+  {
+    "source_name": "Pravin Dubey",
+    "canonical_id": "ed5a5510",
+    "canonical_name": "P Dubey",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Dubey"
+  },
+  {
+    "source_name": "Prerak Mankad",
+    "canonical_id": "663b5e34",
+    "canonical_name": "PN Mankad",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PN Mankad"
+  },
+  {
+    "source_name": "Prince Choudhary",
+    "canonical_id": "dd7cc825",
+    "canonical_name": "P Choudhary",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to P Choudhary"
+  },
+  {
+    "source_name": "Priyam  Garg",
+    "canonical_id": "bb965e9a",
+    "canonical_name": "PK Garg",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PK Garg"
+  },
+  {
+    "source_name": "Priyam Garg",
+    "canonical_id": "bb965e9a",
+    "canonical_name": "PK Garg",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to PK Garg"
+  },
+  {
+    "source_name": "Quinton De Kock",
+    "canonical_id": "372455c4",
+    "canonical_name": "Q de Kock",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to Q de Kock"
+  },
+  {
+    "source_name": "R Samarth",
+    "canonical_id": "f2dbbff5",
+    "canonical_name": "Ravikumar Samarth",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to Ravikumar Samarth"
+  },
+  {
+    "source_name": "Rachin Ravindra",
+    "canonical_id": "ba5e1069",
+    "canonical_name": "R Ravindra",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Ravindra"
+  },
+  {
+    "source_name": "Rahul Ajay Tripathi",
+    "canonical_id": "77255a9e",
+    "canonical_name": "RA Tripathi",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RA Tripathi"
+  },
+  {
+    "source_name": "Rahul Chahar",
+    "canonical_id": "2ed569a0",
+    "canonical_name": "RD Chahar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RD Chahar"
+  },
+  {
+    "source_name": "Rahul Tewatia",
+    "canonical_id": "39a2dfa8",
+    "canonical_name": "R Tewatia",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Tewatia"
+  },
+  {
+    "source_name": "Raj Angad Bawa",
+    "canonical_id": "ba6b2f91",
+    "canonical_name": "RA Bawa",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RA Bawa"
+  },
+  {
+    "source_name": "Rajagopal Sathish",
+    "canonical_id": "626c5379",
+    "canonical_name": "R Sathish",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Sathish"
+  },
+  {
+    "source_name": "Rajat Patidar",
+    "canonical_id": "c740ea83",
+    "canonical_name": "RM Patidar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RM Patidar"
+  },
+  {
+    "source_name": "Rajvardhan Hangargekar",
+    "canonical_id": "c3c92b42",
+    "canonical_name": "RS Hangargekar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RS Hangargekar"
+  },
+  {
+    "source_name": "Rasikh Dar",
+    "canonical_id": "b82354b3",
+    "canonical_name": "Raza Ali Dar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to Raza Ali Dar"
+  },
+  {
+    "source_name": "Ravi Bopara",
+    "canonical_id": "7ca5e05d",
+    "canonical_name": "RS Bopara",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RS Bopara"
+  },
+  {
+    "source_name": "Ravichandaran Ashwin",
+    "canonical_id": "495d42a5",
+    "canonical_name": "R Ashwin",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Ashwin"
+  },
+  {
+    "source_name": "Ravichandran Ashwin",
+    "canonical_id": "495d42a5",
+    "canonical_name": "R Ashwin",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Ashwin"
+  },
+  {
+    "source_name": "Reece Topley",
+    "canonical_id": "8db7f47f",
+    "canonical_name": "RJW Topley",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RJW Topley"
+  },
+  {
+    "source_name": "Rilee Rossouw",
+    "canonical_id": "cad00a4d",
+    "canonical_name": "RR Rossouw",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RR Rossouw"
+  },
+  {
+    "source_name": "Rishabh Pant",
+    "canonical_id": "919a3be2",
+    "canonical_name": "RR Pant",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RR Pant"
+  },
+  {
+    "source_name": "Riyan Parag",
+    "canonical_id": "04a418e8",
+    "canonical_name": "R Parag",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Parag"
+  },
+  {
+    "source_name": "Robin Minz",
+    "canonical_id": "bafd0398",
+    "canonical_name": "R Minz",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Minz"
+  },
+  {
+    "source_name": "Romario Shepherd",
+    "canonical_id": "c5aef772",
+    "canonical_name": "R Shepherd",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to R Shepherd"
+  },
+  {
+    "source_name": "Ronit More",
+    "canonical_id": "b2b23612",
+    "canonical_name": "RG More",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RG More"
+  },
+  {
+    "source_name": "Ruturaj Gaikwad",
+    "canonical_id": "45a43fe2",
+    "canonical_name": "RD Gaikwad",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to RD Gaikwad"
+  },
+  {
+    "source_name": "Samuel Badree",
+    "canonical_id": "76388dc8",
+    "canonical_name": "S Badree",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Badree"
+  },
+  {
+    "source_name": "Sanju Samson",
+    "canonical_id": "a4cc73aa",
+    "canonical_name": "SV Samson",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SV Samson"
+  },
+  {
+    "source_name": "Sarabjit Ladda",
+    "canonical_id": "fb693839",
+    "canonical_name": "S Ladda",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Ladda"
+  },
+  {
+    "source_name": "Saurabh Tiwary",
+    "canonical_id": "709b0bac",
+    "canonical_name": "SS Tiwary",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SS Tiwary"
+  },
+  {
+    "source_name": "Sayan Sekhar Mandal",
+    "canonical_id": "fac3af0f",
+    "canonical_name": "SN Mandal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SN Mandal"
+  },
+  {
+    "source_name": "Scott Boland",
+    "canonical_id": "d167edd3",
+    "canonical_name": "SM Boland",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SM Boland"
+  },
+  {
+    "source_name": "Shadab Jakati",
+    "canonical_id": "c8179c68",
+    "canonical_name": "SB Jakati",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SB Jakati"
+  },
+  {
+    "source_name": "Shahbaz Nadeem",
+    "canonical_id": "9d80c5e1",
+    "canonical_name": "S Nadeem",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Nadeem"
+  },
+  {
+    "source_name": "Shai Hope",
+    "canonical_id": "1fc6ef83",
+    "canonical_name": "SD Hope",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SD Hope"
+  },
+  {
+    "source_name": "Shams Mulani",
+    "canonical_id": "9d704f6f",
+    "canonical_name": "SZ Mulani",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SZ Mulani"
+  },
+  {
+    "source_name": "Shane Watson",
+    "canonical_id": "4329fbb5",
+    "canonical_name": "SR Watson",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SR Watson"
+  },
+  {
+    "source_name": "Shaun Marsh",
+    "canonical_id": "508a1ea7",
+    "canonical_name": "SE Marsh",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SE Marsh"
+  },
+  {
+    "source_name": "Sheldon Cottrell",
+    "canonical_id": "a1d053dd",
+    "canonical_name": "SS Cottrell",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SS Cottrell"
+  },
+  {
+    "source_name": "Sherfane Rutherford",
+    "canonical_id": "d014d5ac",
+    "canonical_name": "SE Rutherford",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SE Rutherford"
+  },
+  {
+    "source_name": "Shikhar Dhawan",
+    "canonical_id": "0a476045",
+    "canonical_name": "S Dhawan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Dhawan"
+  },
+  {
+    "source_name": "Shivam Dube",
+    "canonical_id": "a4e37e47",
+    "canonical_name": "S Dube",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Dube"
+  },
+  {
+    "source_name": "Shivil Kaushik",
+    "canonical_id": "1da489ff",
+    "canonical_name": "S Kaushik",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Kaushik"
+  },
+  {
+    "source_name": "Shreevats Goswami",
+    "canonical_id": "541f85c9",
+    "canonical_name": "SP Goswami",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SP Goswami"
+  },
+  {
+    "source_name": "Shreyas Gopal",
+    "canonical_id": "7a8bd078",
+    "canonical_name": "S Gopal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Gopal"
+  },
+  {
+    "source_name": "Shrijith Krishnan",
+    "canonical_id": "798ce1ad",
+    "canonical_name": "SKG Krishnan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SKG Krishnan"
+  },
+  {
+    "source_name": "Shrikant Mundhe",
+    "canonical_id": "0af3426f",
+    "canonical_name": "SS Mundhe",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SS Mundhe"
+  },
+  {
+    "source_name": "Siddarth Kaul",
+    "canonical_id": "dcf81436",
+    "canonical_name": "S Kaul",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Kaul"
+  },
+  {
+    "source_name": "Siddharth  Kaul",
+    "canonical_id": "dcf81436",
+    "canonical_name": "S Kaul",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Kaul"
+  },
+  {
+    "source_name": "Siddhesh Dinesh Lad",
+    "canonical_id": "9601c534",
+    "canonical_name": "SD Lad",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to SD Lad"
+  },
+  {
+    "source_name": "Srikkanth Anirudha",
+    "canonical_id": "95a2ea61",
+    "canonical_name": "S Anirudha",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Anirudha"
+  },
+  {
+    "source_name": "Subramaniam Badrinath",
+    "canonical_id": "3576e47e",
+    "canonical_name": "S Badrinath",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Badrinath"
+  },
+  {
+    "source_name": "Sudeep Tyagi",
+    "canonical_id": "c24a2c5d",
+    "canonical_name": "S Tyagi",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Tyagi"
+  },
+  {
+    "source_name": "Sumit Narwal",
+    "canonical_id": "287686fd",
+    "canonical_name": "S Narwal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to S Narwal"
+  },
+  {
+    "source_name": "Tajinder Dhillon",
+    "canonical_id": "225412c5",
+    "canonical_name": "TR Dhillon",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to TR Dhillon"
+  },
+  {
+    "source_name": "Tanmay Mishra",
+    "canonical_id": "c9cac448",
+    "canonical_name": "T Mishra",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to T Mishra"
+  },
+  {
+    "source_name": "Tirumalasetti Suman",
+    "canonical_id": "aaa1b522",
+    "canonical_name": "TL Suman",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to TL Suman"
+  },
+  {
+    "source_name": "Travis Head",
+    "canonical_id": "12b610c2",
+    "canonical_name": "TM Head",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to TM Head"
+  },
+  {
+    "source_name": "Trent Boult",
+    "canonical_id": "a818c1be",
+    "canonical_name": "TA Boult",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to TA Boult"
+  },
+  {
+    "source_name": "Tripurana Vijay",
+    "canonical_id": "51ec3919",
+    "canonical_name": "T Vijay",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to T Vijay"
+  },
+  {
+    "source_name": "Tristan Stubbs",
+    "canonical_id": "85b3fab2",
+    "canonical_name": "T Stubbs",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to T Stubbs"
+  },
+  {
+    "source_name": "Tymal Mills",
+    "canonical_id": "245c97cb",
+    "canonical_name": "TS Mills",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to TS Mills"
+  },
+  {
+    "source_name": "Unmukt Chand",
+    "canonical_id": "0c94f480",
+    "canonical_name": "UBT Chand",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to UBT Chand"
+  },
+  {
+    "source_name": "Vaibhav Arora",
+    "canonical_id": "7c3b3b78",
+    "canonical_name": "VG Arora",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to VG Arora"
+  },
+  {
+    "source_name": "Vignesh Puthur",
+    "canonical_id": "1e030637",
+    "canonical_name": "V Puthur",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to V Puthur"
+  },
+  {
+    "source_name": "Vijay Shankar",
+    "canonical_id": "0994d0ae",
+    "canonical_name": "V Shankar",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to V Shankar"
+  },
+  {
+    "source_name": "Vijay Zol",
+    "canonical_id": "6dbcf855",
+    "canonical_name": "VH Zol",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to VH Zol"
+  },
+  {
+    "source_name": "Vikas Tokas",
+    "canonical_id": "cce2bcb2",
+    "canonical_name": "V Tokas",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to V Tokas"
+  },
+  {
+    "source_name": "Vipraj Nigam",
+    "canonical_id": "5ffc0565",
+    "canonical_name": "V Nigam",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to V Nigam"
+  },
+  {
+    "source_name": "Virender Sehwag",
+    "canonical_id": "8ba8195d",
+    "canonical_name": "V Sehwag",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to V Sehwag"
+  },
+  {
+    "source_name": "Will Jacks",
+    "canonical_id": "9caf69a1",
+    "canonical_name": "WG Jacks",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to WG Jacks"
+  },
+  {
+    "source_name": "Wriddhiman  Saha",
+    "canonical_id": "fe11caa6",
+    "canonical_name": "WP Saha",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to WP Saha"
+  },
+  {
+    "source_name": "Wriddhiman Saha",
+    "canonical_id": "fe11caa6",
+    "canonical_name": "WP Saha",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to WP Saha"
+  },
+  {
+    "source_name": "Xavier Bartlett",
+    "canonical_id": "3b53243a",
+    "canonical_name": "XC Bartlett",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to XC Bartlett"
+  },
+  {
+    "source_name": "Yash Dhull",
+    "canonical_id": "dd7e9b3b",
+    "canonical_name": "YV Dhull",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to YV Dhull"
+  },
+  {
+    "source_name": "Yashasvi Jaiswal",
+    "canonical_id": "6c19c6e5",
+    "canonical_name": "YBK Jaiswal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to YBK Jaiswal"
+  },
+  {
+    "source_name": "Yogesh Takawale",
+    "canonical_id": "4e04666c",
+    "canonical_name": "YV Takawale",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to YV Takawale"
+  },
+  {
+    "source_name": "Yusuf Pathan",
+    "canonical_id": "3c6ffae8",
+    "canonical_name": "YK Pathan",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to YK Pathan"
+  },
+  {
+    "source_name": "Yuzvendra Chahal",
+    "canonical_id": "57ee1fde",
+    "canonical_name": "YS Chahal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to YS Chahal"
+  },
+  {
+    "source_name": "Yuzvendra Singh Chahal",
+    "canonical_id": "57ee1fde",
+    "canonical_name": "YS Chahal",
+    "method": "surname_initials_matching",
+    "confidence": "high",
+    "evidence": "Unambiguous surname + initial match to YS Chahal"
+  }
+]

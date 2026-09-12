@@ -1,0 +1,142 @@
+source_name,category,suggested_id_1,suggested_name_1,score_1,suggested_id_2,suggested_name_2,score_2
+Aaron Finch,ambiguous_initials,b8d490fd,AJ Finch,0.737,fc63d916,AW Finch,0.737
+Abhijeet Tomar,ambiguous_initials,b91083bd,Abhijeet Ahuja,0.714,5fd3f9db,Abhijeet Saket,0.714
+Abu Nechim Ahmed,ambiguous_initials,,,,,,
+Akshar Rajesh Patel,ambiguous_initials,f15d17c7,Sarfaraj Patel,0.727,8372988e,Paresh Patel,0.71
+Aneeshwar Gautam,ambiguous_initials,8ea5d605,Anshuman Gautam,0.774,,,
+Ankit Nagendra Sharma,ambiguous_initials,24d94623,Ankit Sharma,0.727,,,
+Anukul Roy,ambiguous_initials,a7f2c013,AK Roy,0.75,f959a351,Pankaj Roy,0.7
+Arshin Kulkarni,ambiguous_initials,2d140b79,AA Kulkarni,0.769,d2a989fc,DS Kulkarni,0.769
+Ashton Turner,ambiguous_initials,1ea5598c,A Turner,0.762,7442f8dd,S Turner,0.762
+Axar Rajesh Patel,ambiguous_initials,8372988e,Paresh Patel,0.759,f15d17c7,Sarfaraj Patel,0.71
+Bevan John Jacobs,ambiguous_initials,,,,,,
+Bhuvneshwar Kumar,ambiguous_initials,,,,,,
+Cameron Green,ambiguous_initials,bf26cd81,AM Green,0.762,5412c5bf,CM Green,0.762
+Chris Green,ambiguous_initials,eaa76d3c,C Green,0.778,19b9f399,CJ Green,0.737
+Christopher Morris,ambiguous_initials,1f50a44a,Christopher Taylor,0.778,76419733,Sophie Morris,0.774
+Daniel Christian,ambiguous_initials,3b1fa4cb,DO Christian,0.786,2a2e6343,DT Christian,0.786
+Darren Bravo,ambiguous_initials,87e562a9,DJ Bravo,0.7,14b14cd8,DM Bravo,0.7
+Dawid Malan,ambiguous_initials,47a09f4f,D Malan,0.778,ad9c32a2,DJ Malan,0.737
+Debabrata Das,ambiguous_initials,a77f51d0,Debabrata Paul,0.815,347fb4e1,Debabrata Pradhan,0.8
+Digvesh Singh,ambiguous_initials,a446c7be,Vivek Singh,0.75,2be0cc2f,Bikash Singh,0.72
+Dwaine Pretorius,ambiguous_initials,11614d87,D Pretorius,0.815,398dd99c,N Pretorius,0.815
+Dwayne Bravo,ambiguous_initials,87e562a9,DJ Bravo,0.7,14b14cd8,DM Bravo,0.7
+Fabian Allen,ambiguous_initials,b52ffbbd,FA Allen,0.8,04f6c7f8,N Allen,0.737
+Harshal Patel,ambiguous_initials,c5147782,ARH Patel,0.818,eaeaf575,Anisha Patel,0.8
+Ishwar Chandra Pandey,ambiguous_initials,f8c7484e,Sachidanand Pandey,0.718,fe473dc2,Ishwar Chaudhary,0.703
+Jason Roy,ambiguous_initials,e4cdf230,AS Roy,0.8,e57d25fa,Jaison Jerome,0.727
+Jean-Paul Duminy,ambiguous_initials,2e8994e7,JP Duminy,0.72,,,
+Jesse Ryder,ambiguous_initials,d0444261,J Ryder,0.778,91ffa6c6,JD Ryder,0.737
+Johan Botha,ambiguous_initials,7c503806,J Botha,0.778,d8e79af0,AC Botha,0.737
+Jordan Cox,ambiguous_initials,,,,,,
+Josh Inglis,ambiguous_initials,b0ca6975,EJ Inglis,0.8,989889ff,JP Inglis,0.8
+Krunal Pandya,ambiguous_initials,75b4acc8,K Pandya,0.762,d38c03d4,Kunal Chandela,0.741
+Kuldeep Singh Yadav,ambiguous_initials,8c483884,Kuldeep Singh,0.812,8d2c70ad,Kuldeep Yadav,0.812
+Kumar Kartikeya Singh,ambiguous_initials,,,,,,
+Kusal Janith Perera,ambiguous_initials,d6e95fa4,Amantha Perera,0.727,,,
+Mandeep Hardev Singh,ambiguous_initials,c3a96caf,Mandeep Singh,0.788,d0d32c30,Amandeep Singh,0.765
+Mangesh Yadav,ambiguous_initials,f879ff6b,Avinash Yadav,0.769,ef342bdb,Santosh Yadav,0.769
+Marco Jansen,ambiguous_initials,81c36ee9,M Jansen,0.8,4fbfa544,MS Jansen,0.762
+Matt Henry,ambiguous_initials,8881d22d,MC Henry,0.778,e84ac20c,MJ Henry,0.778
+Matthew Short,ambiguous_initials,245ca608,Matthew Mount,0.769,a90e53ec,MW Short,0.762
+Michael Clarke,ambiguous_initials,bfb66913,Isabella Clarke,0.759,9417b5b6,A Clarke,0.727
+Mitchell Johnson,ambiguous_initials,b88db3be,CL Johnson,0.769,b0b14235,T Johnson,0.72
+Moeen Ali,ambiguous_initials,2e0a0806,Sameer Ali,0.737,6feba62f,MN Malik,0.706
+Mohd. Arshad Khan,ambiguous_initials,0a4c6dfd,Arshad Khan,0.786,cf785dd1,M Armghan Khan,0.71
+Morne Morkel,ambiguous_initials,5bb5a915,M Morkel,0.8,0c390eb1,Malan Morkel,0.75
+Nathu Singh,ambiguous_initials,adf454e9,Rahul Singh,0.818,5b040b81,A Singh,0.778
+Odean Smith,ambiguous_initials,a19f69c3,Denis Smith,0.818,8344ef4d,Ben Smith,0.8
+Oshane Thomas,ambiguous_initials,d9792701,SE Thomas,0.818,d4c0dc60,Ian Thomas,0.783
+Parthiv Patel,ambiguous_initials,c5147782,ARH Patel,0.818,8372988e,Paresh Patel,0.8
+Prashant Chopra,ambiguous_initials,ad1e02b4,Prashant Gupta,0.759,0a15f357,Prashant Shukla,0.733
+Prashant Solanki,ambiguous_initials,0a15f357,Prashant Shukla,0.774,c695b423,PH Solanki,0.769
+Prince Balwant Rai Singh,ambiguous_initials,,,,,,
+Prithvi Shaw,ambiguous_initials,cfa4bd2b,Y Prithvi Raj,0.72,,,
+Raghav Goyal,ambiguous_initials,266849c1,R Goyal,0.737,42cfdb1b,RR Goyal,0.7
+Rahul Shukla,ambiguous_initials,a1e80d06,A Shukla,0.8,de4b0555,R Shukla,0.8
+Rajat Bhatia,ambiguous_initials,e415a5ab,Rachit Bhatia,0.8,33a364a6,R Bhatia,0.8
+Ramakrishna Ghosh,ambiguous_initials,b0f5175e,S Ramakrishnan,0.71,,,
+Ranganath Vinay Kumar,ambiguous_initials,41eb4a4f,R Vinay Kumar,0.765,f21b01e1,Kranthi Kumar,0.706
+Rishi Dhawan,ambiguous_initials,26a85969,R Dhawan,0.8,0a476045,S Dhawan,0.8
+Rovman Powell,ambiguous_initials,e012ad13,KOA Powell,0.783,650d5e49,R Powell,0.762
+Sachin Rana,ambiguous_initials,d5d87f3f,Kanchan Rana,0.783,501fca0d,Sachin Mandy,0.783
+Sarfaraz Khan,ambiguous_initials,db95ddeb,Sarfaraz Ali,0.8,8be36d3e,Sarfaraz Ashraf,0.786
+Sarfaraz Naushad Khan,ambiguous_initials,8be36d3e,Sarfaraz Ashraf,0.722,,,
+Shamar Joseph,ambiguous_initials,b18ba97a,M Joseph,0.762,97290faf,S Joseph,0.762
+Shardul Narendra Thakur,ambiguous_initials,,,,,,
+Shardul Thakur,ambiguous_initials,18192294,R Thakur,0.727,a073f2ff,S Thakur,0.727
+Sheldon Jackson,ambiguous_initials,d8d6b739,HL Jackson,0.8,68ac12a0,L Jackson,0.75
+Shreyas Iyer,ambiguous_initials,85ec8e33,SS Iyer,0.737,,,
+Spencer Johnson,ambiguous_initials,8e958038,NC Johnson,0.8,fabbb9e0,R Johnson,0.75
+Steven Smith,ambiguous_initials,8344ef4d,Ben Smith,0.762,94f9675c,N Smith,0.737
+Syed Khaleel Ahmed,ambiguous_initials,74d27e26,Shakeel Ahmed,0.774,5dbdecf1,Khaled Ahmed,0.733
+Tejasvi Singh,ambiguous_initials,6043dfe7,Jasbir Singh,0.8,548516a6,Ravi Singh,0.783
+Umesh Yadav,ambiguous_initials,b54a1aad,Hitesh Yadav,0.783,cc1e8c68,UT Yadav,0.737
+Upendra Singh Yadav,ambiguous_initials,80ffea17,Upendra Yadav,0.812,4c450aee,Narsingh Yadav,0.788
+Venkatesh Iyer,ambiguous_initials,06b45b20,A Venkatesh,0.72,,,
+Vishwanath Pratap Singh,ambiguous_initials,d718440b,V Pratap Singh,0.757,dfa6db1a,Vichanath Singh,0.737
+NR Sciver-Brunt,no_register_entry,f3a18a0c,NR Sciver,0.75,,,
+Dinesh  Karthik,no_register_entry,14c90152,S Karthik,0.75,c03f1114,KD Karthik,0.72
+Prithvi Raj Yarra,no_register_entry,cfa4bd2b,Y Prithvi Raj,0.733,,,
+Abdul P A,genuinely_unmatched_after_initials,10d94c90,Abdul Haq,0.778,db07c3e8,Abdul Nabi,0.737
+Abhinav Sadarangani,genuinely_unmatched_after_initials,0cb292b1,Abhinav Raman,0.75,acd030a0,S Sadarangani,0.75
+Agnivesh Ayachi,genuinely_unmatched_after_initials,,,,,,
+Ajantha Mendis,genuinely_unmatched_after_initials,9868bc75,BMAJ Mendis,0.72,,,
+Akila Dhananjaya,genuinely_unmatched_after_initials,5b16a806,A Dananjaya,0.815,185dcaf6,Vishwa Dananjaya,0.75
+Albie Morkel,genuinely_unmatched_after_initials,c3d35165,JA Morkel,0.762,0c390eb1,Malan Morkel,0.75
+Aman Rao Perala,genuinely_unmatched_after_initials,,,,,,
+Andre Siddarth,genuinely_unmatched_after_initials,028b7f77,AE Stoddart,0.72,80de053e,B Siddharth,0.72
+Ankeet Bawane,genuinely_unmatched_after_initials,,,,,,
+Aryaman Vikram Birla,genuinely_unmatched_after_initials,,,,,,
+Asela Gunarathna,genuinely_unmatched_after_initials,e2584589,Ranul Gunarathna,0.812,770494eb,DAS Gunaratne,0.759
+Asif K M,genuinely_unmatched_after_initials,074acfb4,Asif Khan,0.706,,,
+Avanish Rao Aravelly,genuinely_unmatched_after_initials,,,,,,
+Baltej Dhanda,genuinely_unmatched_after_initials,,,,,,
+Barinder Singh Saran,genuinely_unmatched_after_initials,f957f558,Baljinder Singh,0.743,903d35ed,Harvinder Singh,0.743
+Bhanuka Rajapaksa,genuinely_unmatched_after_initials,84f43704,HM Rajapaksha,0.733,6c882e9a,PBB Rajapaksa,0.733
+Brad Hogg,genuinely_unmatched_after_initials,993d93ec,A Hogg,0.8,b4fd80a2,DM Hogg,0.75
+Daksh Kamra,genuinely_unmatched_after_initials,0be1b885,Danish Kaneria,0.72,cca4633d,DK Sharma,0.7
+Dinesh Karthik,genuinely_unmatched_after_initials,14c90152,S Karthik,0.783,c03f1114,KD Karthik,0.75
+Domnic Joseph Muthuswamy,genuinely_unmatched_after_initials,,,,,,
+Dushmanta Chameera,genuinely_unmatched_after_initials,,,,,,
+Dushmantha Chameera,genuinely_unmatched_after_initials,,,,,,
+Gurkirat Singh Mann,genuinely_unmatched_after_initials,6eb146d2,Gurkeerat Singh,0.765,49235be5,Gurpratap Singh,0.706
+HS Sharath,genuinely_unmatched_after_initials,c2dd89ea,BR Sharath,0.8,52294a79,H Sharma,0.778
+Hanuma Vihari,genuinely_unmatched_after_initials,94253925,GH Vihari,0.727,,,
+Harnoor Pannu,genuinely_unmatched_after_initials,,,,,,
+Javon Searless,genuinely_unmatched_after_initials,ded9ff1e,JNT Seales,0.75,,,
+Jeevan Mendis,genuinely_unmatched_after_initials,327abda5,Jeevan Amana,0.72,,,
+K.K. Jiyaz,genuinely_unmatched_after_initials,,,,,,
+Kamindu Mendis,genuinely_unmatched_after_initials,bb792968,Suminda Mendis,0.786,08548b13,PHKD Mendis,0.72
+Kanishk Chouhan,genuinely_unmatched_after_initials,0f60513c,Akash Choudhary,0.733,a64608ec,Rishabh Chouhan,0.733
+Kishore Pramod Kamath,genuinely_unmatched_after_initials,,,,,,
+Krains Fuletra,genuinely_unmatched_after_initials,,,,,,
+Manvanth Kumar L,genuinely_unmatched_after_initials,6301a6d3,Pavan Kumar,0.741,da596754,Mathan Kumar,0.714
+Midhun S,genuinely_unmatched_after_initials,ade90de7,S Midhun,0.75,,,
+Milind Tandon,genuinely_unmatched_after_initials,,,,,,
+Mujeeb Zadran,genuinely_unmatched_after_initials,,,,,,
+Nidheesh M D Dinesan,genuinely_unmatched_after_initials,,,,,,
+Onkar Tarmale,genuinely_unmatched_after_initials,,,,,,
+Prasanth Padmanabhan,genuinely_unmatched_after_initials,5fe1265d,R Padmanaban,0.75,,,
+Prithviraj Yarra,genuinely_unmatched_after_initials,,,,,,
+Pyla Avinash,genuinely_unmatched_after_initials,,,,,,
+Rashid Khan Arman,genuinely_unmatched_after_initials,5f547c8b,Rashid Khan,0.786,69cccff3,Rashid Khan (2),0.75
+Sachithra Senanayaka,genuinely_unmatched_after_initials,,,,,,
+Sandeep Bavanaka,genuinely_unmatched_after_initials,7db2113f,Sandeep Pattnaik,0.75,6ceec40d,Sandeep Nair,0.714
+Satvik Deswal,genuinely_unmatched_after_initials,e3626fb1,Pratik Desai,0.72,,,
+Shelley Shaurya,genuinely_unmatched_after_initials,,,,,,
+Shishir Bhavane,genuinely_unmatched_after_initials,,,,,,
+Shubam Agrawal,genuinely_unmatched_after_initials,263f1761,Shubham Arora,0.741,d1f8b722,Shubham Sharma,0.714
+Shubham Garhwal,genuinely_unmatched_after_initials,263f1761,Shubham Arora,0.786,d1f8b722,Shubham Sharma,0.759
+Sushant Marathe,genuinely_unmatched_after_initials,,,,,,
+Swastik Chhikara,genuinely_unmatched_after_initials,,,,,,
+Vaibhav Rawal,genuinely_unmatched_after_initials,4d1cc284,B Rawal,0.7,,,
+Varun Chakaravarthy,genuinely_unmatched_after_initials,,,,,,
+Venkata Satyanarayana Penmetsa,genuinely_unmatched_after_initials,,,,,,
+Vicky Ostwal,genuinely_unmatched_after_initials,,,,,,
+Vishal Nishad,genuinely_unmatched_after_initials,f555bcf4,Vishal Sharma,0.769,cc8531c2,Vishal Kushwah,0.741
+Vyshak Vijaykumar,genuinely_unmatched_after_initials,44c69e2b,S Vijayakumar,0.8,acd4f5dc,DP Vijaykumar,0.733
+Wanindu Hasaranga,genuinely_unmatched_after_initials,7e443b44,AS Hasaranga,0.759,7ed9fd56,WU Tharanga,0.714
+Yogesh Gowalkar,genuinely_unmatched_after_initials,144fdfd4,Yogesh Tiwari,0.714,,,
+Yudhvir Charak,genuinely_unmatched_after_initials,,,,,,
+Zahir Khan Pakteen,genuinely_unmatched_after_initials,c9a38569,Zakir Husain Patel,0.722,43602937,Ahmed Shah Pakteen,0.722

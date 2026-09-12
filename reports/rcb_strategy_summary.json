@@ -1,0 +1,146 @@
+{
+  "total_players_evaluated": 551,
+  "total_underpriced_targets_found": 391,
+  "role_breakdown": {
+    "All-Rounder": {
+      "total_underpriced_targets": 130,
+      "top_value_picks": [
+        {
+          "canonical_name": "AD Russell",
+          "valuation_diff": 33818948.37,
+          "value_margin_ratio": 6.64
+        },
+        {
+          "canonical_name": "GJ Maxwell",
+          "valuation_diff": 29270253.5,
+          "value_margin_ratio": 1.7
+        },
+        {
+          "canonical_name": "Yuvraj Singh",
+          "valuation_diff": 26852534.98,
+          "value_margin_ratio": 3.69
+        }
+      ]
+    },
+    "Batsman": {
+      "total_underpriced_targets": 56,
+      "top_value_picks": [
+        {
+          "canonical_name": "MK Pandey",
+          "valuation_diff": 41257174.78,
+          "value_margin_ratio": 6.5
+        },
+        {
+          "canonical_name": "F du Plessis",
+          "valuation_diff": 35895120.58,
+          "value_margin_ratio": 2.79
+        },
+        {
+          "canonical_name": "AM Rahane",
+          "valuation_diff": 29921202.3,
+          "value_margin_ratio": 2.99
+        }
+      ]
+    },
+    "Batter": {
+      "total_underpriced_targets": 5,
+      "top_value_picks": [
+        {
+          "canonical_name": "JE Root",
+          "valuation_diff": 23895438.31,
+          "value_margin_ratio": 3.39
+        },
+        {
+          "canonical_name": "Shubham Chaubey",
+          "valuation_diff": 20085335.43,
+          "value_margin_ratio": 3.51
+        },
+        {
+          "canonical_name": "SK Rasheed",
+          "valuation_diff": 20041270.29,
+          "value_margin_ratio": 7.68
+        }
+      ]
+    },
+    "Bowler": {
+      "total_underpriced_targets": 111,
+      "top_value_picks": [
+        {
+          "canonical_name": "JD Unadkat",
+          "valuation_diff": 49282369.56,
+          "value_margin_ratio": 5.93
+        },
+        {
+          "canonical_name": "PP Chawla",
+          "valuation_diff": 42922312.23,
+          "value_margin_ratio": 9.58
+        },
+        {
+          "canonical_name": "NM Coulter-Nile",
+          "valuation_diff": 34875983.93,
+          "value_margin_ratio": 2.74
+        }
+      ]
+    },
+    "Unknown": {
+      "total_underpriced_targets": 51,
+      "top_value_picks": [
+        {
+          "canonical_name": "XC Bartlett",
+          "valuation_diff": 29344604.51,
+          "value_margin_ratio": 4.67
+        },
+        {
+          "canonical_name": "AM Hardie",
+          "valuation_diff": 28033910.14,
+          "value_margin_ratio": 3.24
+        },
+        {
+          "canonical_name": "ZGF Foulkes",
+          "valuation_diff": 26583768.03,
+          "value_margin_ratio": 4.54
+        }
+      ]
+    },
+    "Wicket Keeper": {
+      "total_underpriced_targets": 31,
+      "top_value_picks": [
+        {
+          "canonical_name": "Q de Kock",
+          "valuation_diff": 48036194.54,
+          "value_margin_ratio": 5.8
+        },
+        {
+          "canonical_name": "SW Billings",
+          "valuation_diff": 25024464.22,
+          "value_margin_ratio": 2.25
+        },
+        {
+          "canonical_name": "WP Saha",
+          "valuation_diff": 20980474.62,
+          "value_margin_ratio": 2.1
+        }
+      ]
+    },
+    "Wicket-Keeper": {
+      "total_underpriced_targets": 7,
+      "top_value_picks": [
+        {
+          "canonical_name": "T Stubbs",
+          "valuation_diff": 21242898.5,
+          "value_margin_ratio": 5.25
+        },
+        {
+          "canonical_name": "T Kohler-Cadmore",
+          "valuation_diff": 18069689.58,
+          "value_margin_ratio": 5.52
+        },
+        {
+          "canonical_name": "SD Hope",
+          "valuation_diff": 16635535.93,
+          "value_margin_ratio": 3.22
+        }
+      ]
+    }
+  }
+}

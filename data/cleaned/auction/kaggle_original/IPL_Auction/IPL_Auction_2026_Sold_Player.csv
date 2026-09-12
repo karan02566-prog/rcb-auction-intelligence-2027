@@ -1,0 +1,78 @@
+Unnamed: 0,Name,Nationality,BasePrices in Rs,Winning Bid in Rs,TeamName,Capped/UnCapped,Name_canonical_id,Name_canonical_name,Name_mapping_method
+0,Kartik Sharma,Indian,"30,00,000 ","14,20,00,000 ", Chennai Super Kings,Uncapped,7b679de5,Kartik Sharma,exact_match
+1,Prashant Veer,Indian,"30,00,000 ","14,20,00,000 ", Chennai Super Kings,Uncapped,e148e6bd,PR Veer,surname_initials_matching
+2,Rahul Chahar,Indian,"1,00,00,000 ","5,20,00,000 ", Chennai Super Kings,Capped,2ed569a0,RD Chahar,surname_initials_matching
+3,Matt Henry  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Chennai Super Kings,Capped,UNRESOLVED,Matt Henry,unresolved
+4,Akeal Hosein  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Chennai Super Kings,Capped,4d7f517e,AJ Hosein,surname_initials_matching
+5,Matthew Short  ,Overseas,"1,50,00,000 ","1,50,00,000 ", Chennai Super Kings,Capped,UNRESOLVED,Matthew Short,unresolved
+6,Zak Foulkes  ,Overseas,"75,00,000 ","75,00,000 ", Chennai Super Kings,Capped,30f92334,ZGF Foulkes,fuzzy_string_matching
+7,Sarfaraz Khan,Indian,"75,00,000 ","75,00,000 ", Chennai Super Kings,Capped,UNRESOLVED,Sarfaraz Khan,unresolved
+8,Aman Khan,Indian,"30,00,000 ","40,00,000 ", Chennai Super Kings,Uncapped,28392e11,Zaman Khan,fuzzy_string_matching
+9,Auqib Dar,Indian,"30,00,000 ","8,40,00,000 ", Delhi Capitals,Uncapped,f02778d1,Aleem Dar,surname_initials_matching
+10,Pathum Nissanka  ,Overseas,"75,00,000 ","4,00,00,000 ", Delhi Capitals,Capped,8ee36b18,P Nissanka,surname_initials_matching
+11,Kyle Jamieson  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Delhi Capitals,Capped,68c56d09,KA Jamieson,fuzzy_string_matching
+12,Lungisani Ngidi  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Delhi Capitals,Capped,f834dcfc,L Ngidi,surname_initials_matching
+13,Ben Duckett  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Delhi Capitals,Capped,5f26f677,BM Duckett,fuzzy_string_matching
+14,David Miller  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Delhi Capitals,Capped,fc0b4157,David Mills,fuzzy_string_matching
+15,Prithvi Shaw,Indian,"75,00,000 ","75,00,000 ", Delhi Capitals,Capped,UNRESOLVED,Prithvi Shaw,unresolved
+16,Sahil Parakh,Indian,"30,00,000 ","30,00,000 ", Delhi Capitals,Uncapped,8a3dd116,Sahil Tarakhil,fuzzy_string_matching
+17,Jason Holder  ,Overseas,"2,00,00,000 ","7,00,00,000 ", Gujarat Titans,Capped,0f721006,JO Holder,fuzzy_string_matching
+18,Tom Banton  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Gujarat Titans,Capped,25f7b7d6,T Banton,fuzzy_string_matching
+19,Ashok Sharma,Indian,"30,00,000 ","90,00,000 ", Gujarat Titans,Uncapped,50c09020,Ashok Sharma,exact_match
+20,Luke Wood  ,Overseas,"75,00,000 ","75,00,000 ", Gujarat Titans,Capped,0996f198,Luka Woods,fuzzy_string_matching
+21,Prithviraj Yarra,Indian,"30,00,000 ","30,00,000 ", Gujarat Titans,Uncapped,UNRESOLVED,Prithviraj Yarra,unresolved
+22,Cameron Green  ,Overseas,"2,00,00,000 ","25,20,00,000 ", Kolkata Knight Riders,Capped,UNRESOLVED,Cameron Green,unresolved
+23,Matheesha Pathirana  ,Overseas,"2,00,00,000 ","18,00,00,000 ", Kolkata Knight Riders,Capped,64839cb3,M Pathirana,surname_initials_matching
+24,Mustafizur Rahman  ,Overseas,"2,00,00,000 ","9,20,00,000 ", Kolkata Knight Riders,Capped,0a8fce53,Mustafizur Rahman,exact_match
+25,Tejasvi Singh,Indian,"30,00,000 ","3,00,00,000 ", Kolkata Knight Riders,Uncapped,UNRESOLVED,Tejasvi Singh,unresolved
+26,Rachin Ravindra  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Kolkata Knight Riders,Capped,ba5e1069,R Ravindra,surname_initials_matching
+27,Finn Allen  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Kolkata Knight Riders,Capped,04f6c7f8,N Allen,fuzzy_string_matching
+28,Tim Seifert  ,Overseas,"1,50,00,000 ","1,50,00,000 ", Kolkata Knight Riders,Capped,4663bd23,TL Seifert,fuzzy_string_matching
+29,Akash Deep,Indian,"1,00,00,000 ","1,00,00,000 ", Kolkata Knight Riders,Capped,0a67aec0,Akash Deep,exact_match
+30,Rahul Tripathi,Indian,"75,00,000 ","75,00,000 ", Kolkata Knight Riders,Capped,65ff7036,Anshul Tripathi,fuzzy_string_matching
+31,Daksh Kamra,Indian,"30,00,000 ","30,00,000 ", Kolkata Knight Riders,Uncapped,UNRESOLVED,Daksh Kamra,unresolved
+32,Sarthak Ranjan,Indian,"30,00,000 ","30,00,000 ", Kolkata Knight Riders,Uncapped,d7cdefa9,Sarthak Ranjan,exact_match
+33,Prashant Solanki,Indian,"30,00,000 ","30,00,000 ", Kolkata Knight Riders,Uncapped,UNRESOLVED,Prashant Solanki,unresolved
+34,Kartik Tyagi,Indian,"30,00,000 ","30,00,000 ", Kolkata Knight Riders,Uncapped,5d2eea49,Kartik Tyagi,exact_match
+35,Josh Inglis  ,Overseas,"2,00,00,000 ","8,60,00,000 ", Lucknow Super Giants,Capped,UNRESOLVED,Josh Inglis,unresolved
+36,Mukul Choudhary,Indian,"30,00,000 ","2,60,00,000 ", Lucknow Super Giants,Uncapped,765a4731,Mukesh Choudhary,fuzzy_string_matching
+37,Akshat Raghuwanshi,Indian,"30,00,000 ","2,20,00,000 ", Lucknow Super Giants,Uncapped,d8d67045,Akshat Raghuwanshi,exact_match
+38,Anrich Nortje  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Lucknow Super Giants,Capped,acdc62f5,A Nortje,surname_initials_matching
+39,Wanindu Hasaranga  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Lucknow Super Giants,Capped,UNRESOLVED,Wanindu Hasaranga,unresolved
+40,Naman Tiwari,Indian,"30,00,000 ","1,00,00,000 ", Lucknow Super Giants,Uncapped,97f44626,NK Tiwari,surname_initials_matching
+41,Quinton De Kock  ,Overseas,"1,00,00,000 ","1,00,00,000 ", Mumbai Indians,Capped,372455c4,Q de Kock,surname_initials_matching
+42,Mayank Rawat,Indian,"30,00,000 ","30,00,000 ", Mumbai Indians,Uncapped,2b801189,Mayank Rawat,exact_match
+43,Atharva Ankolekar,Indian,"30,00,000 ","30,00,000 ", Mumbai Indians,Uncapped,d6cd318e,Atharva Ankolekar,exact_match
+44,Mohammad Izhar,Indian,"30,00,000 ","30,00,000 ", Mumbai Indians,Uncapped,510e33d3,Mohammad Ihsan,fuzzy_string_matching
+45,Danish Malewar,Indian,"30,00,000 ","30,00,000 ", Mumbai Indians,Uncapped,9e6032fa,DV Malewar,surname_initials_matching
+46,Ben Dwarshuis  ,Overseas,"1,00,00,000 ","4,40,00,000 ", Punjab Kings,Capped,e1b9f3a9,BJ Dwarshuis,fuzzy_string_matching
+47,Cooper Connolly  ,Overseas,"2,00,00,000 ","3,00,00,000 ", Punjab Kings,Capped,fe366f34,C Connolly,fuzzy_string_matching
+48,Vishal Nishad,Indian,"30,00,000 ","30,00,000 ", Punjab Kings,Uncapped,UNRESOLVED,Vishal Nishad,unresolved
+49,Pravin Dubey,Indian,"30,00,000 ","30,00,000 ", Punjab Kings,Uncapped,ed5a5510,P Dubey,surname_initials_matching
+50,Ravi Bishnoi,Indian,"2,00,00,000 ","7,20,00,000 ", Rajasthan Royals,Capped,df064e1a,Ravi Bishnoi,exact_match
+51,Adam Milne  ,Overseas,"2,00,00,000 ","2,40,00,000 ", Rajasthan Royals,Capped,eaa918a8,D Milne,fuzzy_string_matching
+52,Ravi Singh,Indian,"30,00,000 ","95,00,000 ", Rajasthan Royals,Uncapped,548516a6,Ravi Singh,exact_match
+53,Sushant Mishra,Indian,"30,00,000 ","90,00,000 ", Rajasthan Royals,Uncapped,c562ac6d,Shantanu Mishra,fuzzy_string_matching
+54,Kuldeep Sen,Indian,"75,00,000 ","75,00,000 ", Rajasthan Royals,Capped,8c483884,Kuldeep Singh,fuzzy_string_matching
+55,Brijesh Sharma,Indian,"30,00,000 ","30,00,000 ", Rajasthan Royals,Uncapped,133bbd61,Brijesh Sharma,exact_match
+56,Aman Rao Perala,Indian,"30,00,000 ","30,00,000 ", Rajasthan Royals,Uncapped,UNRESOLVED,Aman Rao Perala,unresolved
+57,Vignesh Puthur,Indian,"30,00,000 ","30,00,000 ", Rajasthan Royals,Uncapped,1e030637,V Puthur,surname_initials_matching
+58,Yash Raj Punja,Indian,"30,00,000 ","30,00,000 ", Rajasthan Royals,Uncapped,02dfebbe,Yash Raj Punja,exact_match
+59,Venkatesh Iyer,Indian,"2,00,00,000 ","7,00,00,000 ", Royal Challengers Bengaluru,Capped,UNRESOLVED,Venkatesh Iyer,unresolved
+60,Mangesh Yadav,Indian,"30,00,000 ","5,20,00,000 ", Royal Challengers Bengaluru,Uncapped,UNRESOLVED,Mangesh Yadav,unresolved
+61,Jacob Duffy  ,Overseas,"2,00,00,000 ","2,00,00,000 ", Royal Challengers Bengaluru,Capped,dadbdb68,JA Duffy,fuzzy_string_matching
+62,Jordan Cox  ,Overseas,"75,00,000 ","75,00,000 ", Royal Challengers Bengaluru,Capped,UNRESOLVED,Jordan Cox,unresolved
+63,Kanishk Chouhan,Indian,"30,00,000 ","30,00,000 ", Royal Challengers Bengaluru,Uncapped,UNRESOLVED,Kanishk Chouhan,unresolved
+64,Vihaan Malhotra,Indian,"30,00,000 ","30,00,000 ", Royal Challengers Bengaluru,Uncapped,452837d1,Vinay Malhotra,fuzzy_string_matching
+65,Vicky Ostwal,Indian,"30,00,000 ","30,00,000 ", Royal Challengers Bengaluru,Uncapped,UNRESOLVED,Vicky Ostwal,unresolved
+66,Satvik Deswal,Indian,"30,00,000 ","30,00,000 ", Royal Challengers Bengaluru,Uncapped,UNRESOLVED,Satvik Deswal,unresolved
+67,Liam Livingstone  ,Overseas,"2,00,00,000 ","13,00,00,000 ", Sunrisers Hyderabad,Capped,50c6bc2b,LS Livingstone,fuzzy_string_matching
+68,Jack Edwards  ,Overseas,"50,00,000 ","3,00,00,000 ", Sunrisers Hyderabad,Uncapped,2a5ca58b,A Edwards,fuzzy_string_matching
+69,Salil Arora,Indian,"30,00,000 ","1,50,00,000 ", Sunrisers Hyderabad,Uncapped,d7423da1,Salil Arora,exact_match
+70,Shivam Mavi,Indian,"75,00,000 ","75,00,000 ", Sunrisers Hyderabad,Capped,c38d3503,Shivam Mavi,exact_match
+71,Krains Fuletra,Indian,"30,00,000 ","30,00,000 ", Sunrisers Hyderabad,Uncapped,UNRESOLVED,Krains Fuletra,unresolved
+72,Praful Hinge,Indian,"30,00,000 ","30,00,000 ", Sunrisers Hyderabad,Uncapped,ece7b6b3,PP Hinge,surname_initials_matching
+73,Amit Kumar,Indian,"30,00,000 ","30,00,000 ", Sunrisers Hyderabad,Uncapped,e3e9f70a,Amit Kumar,exact_match
+74,Onkar Tarmale,Indian,"30,00,000 ","30,00,000 ", Sunrisers Hyderabad,Uncapped,UNRESOLVED,Onkar Tarmale,unresolved
+75,Sakib Hussain,Indian,"30,00,000 ","30,00,000 ", Sunrisers Hyderabad,Uncapped,280fff14,Sakib Hussain,exact_match
+76,Shivang Kumar,Indian,"30,00,000 ","30,00,000 ", Sunrisers Hyderabad,Uncapped,7b44eb3e,Shivang Kumar,exact_match

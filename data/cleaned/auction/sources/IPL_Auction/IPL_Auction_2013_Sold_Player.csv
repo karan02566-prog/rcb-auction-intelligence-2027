@@ -1,0 +1,38 @@
+Unnamed: 0,Name,Price in $,Role,TeamName,Name_canonical_id,Name_canonical_name,Name_mapping_method
+0,Christopher Morris,"625,000",All-Rounder,Chennai Super Kings,UNRESOLVED,Christopher Morris,unresolved
+1,Dirk Nannes,"600,000",Bowler,Chennai Super Kings,c404f58a,DP Nannes,surname_initials_matching
+2,Ben Laughlin,"20,000",Bowler,Chennai Super Kings,b2a79f17,B Laughlin,fuzzy_string_matching
+3,Akila Dananjaya,"20,000",All-Rounder,Chennai Super Kings,5b16a806,A Dananjaya,fuzzy_string_matching
+4,Jason Holder,"20,000",Bowler,Chennai Super Kings,0f721006,JO Holder,fuzzy_string_matching
+5,Johan Botha,"450,000",All-Rounder,Delhi Daredevils,UNRESOLVED,Johan Botha,unresolved
+6,Jesse Ryder,"260,000",All-Rounder,Delhi Daredevils,UNRESOLVED,Jesse Ryder,unresolved
+7,Jeevan Mendis,"50,000",All-Rounder,Delhi Daredevils,UNRESOLVED,Jeevan Mendis,unresolved
+8,Manpreet Gony,"500,000",Bowler,Kings XI Punjab,ae78bc32,MS Gony,surname_initials_matching
+9,Luke Pomersbach,"300,000",Batsman,Kings XI Punjab,b63ab531,LA Pomersbach,fuzzy_string_matching
+10,Sachithra Senanayaka,"625,000",All-Rounder,Kolkata Knight Riders,UNRESOLVED,Sachithra Senanayaka,unresolved
+11,Ryan McLaren,"50,000",Bowler,Kolkata Knight Riders,c654af19,R McLaren,fuzzy_string_matching
+12,Glenn Maxwell,"1,000,000",All-Rounder,Mumbai Indians,b681e71e,GJ Maxwell,surname_initials_matching
+13,Nathan Coulter-Nile,"450,000",Bowler,Mumbai Indians,56ab442f,NM Coulter-Nile,fuzzy_string_matching
+14,Ricky Ponting,"400,000",Batsman,Mumbai Indians,7d415ea5,RT Ponting,fuzzy_string_matching
+15,Philip Hughes,"100,000",Batsman,Mumbai Indians,004c9e85,PJ Hughes,surname_initials_matching
+16,Jacob Oram,"50,000",All-Rounder,Mumbai Indians,3eac9d95,JDP Oram,surname_initials_matching
+17,Ajantha Mendis,"725,000",Bowler,Pune Warriors India,UNRESOLVED,Ajantha Mendis,unresolved
+18,Kane Richardson,"700,000",Bowler,Pune Warriors India,f308f629,A Richardson,fuzzy_string_matching
+19,Abhishek Nayar,"675,000",All-Rounder,Pune Warriors India,c8ded7bc,Abhishek Tanwar,fuzzy_string_matching
+20,Michael Clarke,"400,000",Batsman,Pune Warriors India,UNRESOLVED,Michael Clarke,unresolved
+21,James Faulkner,"400,000",All-Rounder,Rajasthan Royals,808f425a,JP Faulkner,surname_initials_matching
+22,Fidel Edwards,"210,000",Bowler,Rajasthan Royals,a7c226e1,FH Edwards,surname_initials_matching
+23,Kusal Janith Perera,"20,000",Wicket Keeper,Rajasthan Royals,UNRESOLVED,Kusal Janith Perera,unresolved
+24,Jaydev Unadkat,"525,000",Bowler, Royal Challengers Bengaluru,1e66c162,JD Unadkat,fuzzy_string_matching
+25,Rudra Pratap Singh,"400,000",Bowler, Royal Challengers Bengaluru,7700398a,R Pratap Singh,fuzzy_string_matching
+26,Moises Henriques,"300,000",All-Rounder, Royal Challengers Bengaluru,32198ae0,MC Henriques,fuzzy_string_matching
+27,Ravi Rampaul,"290,000",Bowler, Royal Challengers Bengaluru,d68e7f48,R Rampaul,fuzzy_string_matching
+28,Pankaj Singh,"150,000",Bowler, Royal Challengers Bengaluru,e32d22f6,Pankaj Singh,exact_match
+29,Daniel Christian,"100,000",All-Rounder, Royal Challengers Bengaluru,UNRESOLVED,Daniel Christian,unresolved
+30,Christopher Barnwell,"50,000",All-Rounder, Royal Challengers Bengaluru,0d51e658,CD Barnwell,surname_initials_matching
+31,Thisara Perera,"675,000",All-Rounder, Sunrisers Hyderabad,7af95dbb,Ishara Perera,fuzzy_string_matching
+32,Darren Sammy,"425,000",All-Rounder, Sunrisers Hyderabad,c03c6200,DJG Sammy,surname_initials_matching
+33,Sudeep Tyagi,"100,000",Bowler, Sunrisers Hyderabad,c24a2c5d,S Tyagi,surname_initials_matching
+34,Clinton McKay,"100,000",Bowler, Sunrisers Hyderabad,94eac556,CJ McKay,surname_initials_matching
+35,Nathan McCullum,"100,000",Bowler, Sunrisers Hyderabad,5673a3fc,NL McCullum,surname_initials_matching
+36,Quinton De Kock,"20,000",Wicket Keeper, Sunrisers Hyderabad,372455c4,Q de Kock,surname_initials_matching
