@@ -13,9 +13,13 @@
 ## Phase 2.4: Competition & Season Normalization (Completed)
 - **Script**: `src/cleaning/normalize_competitions.py`
 - **Output Artifacts**: `data/processed/dim_competitions.parquet` & `data/processed/dim_competitions.csv`
-- **Standardization & Validation Results**:
-  - Total Mapped Competitions/Seasons: **75**
-  - **IPL**: 19 seasons
-  - **Overseas Franchise**: 33 seasons (BBL, CPL, PSL, SA20, ILT20, MLC, The Hundred, BPL, LPL, Super Smash, T20 Blast)
-  - **Domestic**: 23 seasons (Syed Mushtaq Ali, Ranji Trophy, Vijay Hazare, etc.)
-  - ISO-8601 match date format validation applied (`YYYY-MM-DD`).
+- **Standardization Results**: 75 total series mapped (33 Overseas Franchise, 23 Domestic, 19 IPL).
+
+## Phase 2.5: Delivery-Level Cleaning & Feature Prep (Completed)
+- **Script**: `src/features/build_delivery_features.py`
+- **Output Artifacts**:
+  - `data/processed/fact_deliveries.parquet` (and CSV fallback)
+  - `data/processed/player_phase_features.parquet` (and CSV fallback)
+- **Feature Engineering & Phase Segmentation**:
+  - Overs partitioned into Powerplay (Overs 1–6), Middle Overs (Overs 7–15), and Death Overs (Overs 16–20).
+  - Engineered phase-wise Strike Rates, Boundary %, and Dot Ball % metrics mapped to canonical player IDs.
