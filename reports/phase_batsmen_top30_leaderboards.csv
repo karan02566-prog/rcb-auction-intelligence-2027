@@ -1,0 +1,541 @@
+batter_canonical_id,batter_canonical_name,phase,runs_scored,balls_faced,fours,sixes,dot_balls,strike_rate,boundary_pct,dot_pct,boundary_runs_pct,window,metric_rank_type
+470f446b,V Suryavanshi,Powerplay,665,293,59,60,112,226.96,40.61,38.23,89.62,Career (2013-2026),Top Strike Rate
+f2c936d7,MJ Owen,Powerplay,1084,570,97,80,223,190.18,31.05,39.12,80.07,Career (2013-2026),Top Strike Rate
+b2b4f545,A Mhatre,Powerplay,275,145,42,11,57,189.66,36.55,39.31,85.09,Career (2013-2026),Top Strike Rate
+72918338,AHT Donald,Powerplay,94,50,11,5,16,188.0,32.0,32.0,78.72,Career (2013-2026),Top Strike Rate
+b5797845,Priyansh Arya,Powerplay,878,486,99,52,194,180.66,31.07,39.92,80.64,Career (2013-2026),Top Strike Rate
+84d9c311,Ashutosh Sharma,Powerplay,119,68,18,4,26,175.0,32.35,38.24,80.67,Career (2013-2026),Top Strike Rate
+bbd41817,AD Russell,Powerplay,175,100,16,15,48,175.0,31.0,48.0,88.0,Career (2013-2026),Top Strike Rate
+d83c2dbe,K Pooran,Powerplay,150,86,20,7,35,174.42,31.4,40.7,81.33,Career (2013-2026),Top Strike Rate
+3b16788a,Tarang Gohel,Powerplay,120,69,14,7,30,173.91,30.43,43.48,81.67,Career (2013-2026),Top Strike Rate
+8ee36b18,P Nissanka,Powerplay,378,218,43,20,86,173.39,28.9,39.45,77.25,Career (2013-2026),Top Strike Rate
+57590dbb,PI Walter,Powerplay,142,82,17,7,29,173.17,29.27,35.37,77.46,Career (2013-2026),Top Strike Rate
+cf59b3f0,Urvil Patel,Powerplay,560,329,68,26,126,170.21,28.57,38.3,76.43,Career (2013-2026),Top Strike Rate
+d162e895,Suryansh Raina,Powerplay,71,42,8,4,16,169.05,28.57,38.1,78.87,Career (2013-2026),Top Strike Rate
+6287d981,MJ Ackerman,Powerplay,88,53,12,3,21,166.04,28.3,39.62,75.0,Career (2013-2026),Top Strike Rate
+bf74b130,FH Allen,Powerplay,1524,936,172,80,379,162.82,26.92,40.49,76.64,Career (2013-2026),Top Strike Rate
+7bcde3fe,AM Rossington,Powerplay,709,436,83,36,186,162.61,27.29,42.66,77.29,Career (2013-2026),Top Strike Rate
+adf454e9,Rahul Singh,Powerplay,260,160,40,7,63,162.5,29.38,39.38,77.69,Career (2013-2026),Top Strike Rate
+f29185a1,Abhishek Sharma,Powerplay,1786,1115,209,93,475,160.18,27.09,42.6,78.05,Career (2013-2026),Top Strike Rate
+e8a552ef,Usman Khan,Powerplay,83,52,10,4,22,159.62,26.92,42.31,77.11,Career (2013-2026),Top Strike Rate
+9caf69a1,WG Jacks,Powerplay,1612,1020,183,82,437,158.04,25.98,42.84,75.93,Career (2013-2026),Top Strike Rate
+1957c6b7,LWP Wells,Powerplay,216,137,22,11,58,157.66,24.09,42.34,71.3,Career (2013-2026),Top Strike Rate
+8f607eea,NA Rathva,Powerplay,116,74,16,4,29,156.76,27.03,39.19,75.86,Career (2013-2026),Top Strike Rate
+9d430b40,SP Narine,Powerplay,1940,1240,224,117,620,156.45,27.5,50.0,82.37,Career (2013-2026),Top Strike Rate
+d8f59089,Shafali Verma,Powerplay,134,86,20,2,30,155.81,25.58,34.88,68.66,Career (2013-2026),Top Strike Rate
+ba5e1069,R Ravindra,Powerplay,587,378,74,21,144,155.29,25.13,38.1,71.89,Career (2013-2026),Top Strike Rate
+3d284ca3,PD Salt,Powerplay,2635,1698,313,111,684,155.18,24.97,40.28,72.79,Career (2013-2026),Top Strike Rate
+e66732f8,RD Rickelton,Powerplay,1593,1034,168,87,440,154.06,24.66,42.55,74.95,Career (2013-2026),Top Strike Rate
+6c19c6e5,YBK Jaiswal,Powerplay,1895,1232,262,79,571,153.81,27.68,46.35,80.32,Career (2013-2026),Top Strike Rate
+a9d2dab9,S Fanning,Powerplay,106,69,11,5,26,153.62,23.19,37.68,69.81,Career (2013-2026),Top Strike Rate
+f21043a5,MDKJ Perera,Powerplay,344,224,48,11,90,153.57,26.34,40.18,75.0,Career (2013-2026),Top Strike Rate
+470f446b,V Suryavanshi,Powerplay,665,293,59,60,112,226.96,40.61,38.23,89.62,Career (2013-2026),Top Boundary %
+b2b4f545,A Mhatre,Powerplay,275,145,42,11,57,189.66,36.55,39.31,85.09,Career (2013-2026),Top Boundary %
+84d9c311,Ashutosh Sharma,Powerplay,119,68,18,4,26,175.0,32.35,38.24,80.67,Career (2013-2026),Top Boundary %
+72918338,AHT Donald,Powerplay,94,50,11,5,16,188.0,32.0,32.0,78.72,Career (2013-2026),Top Boundary %
+d83c2dbe,K Pooran,Powerplay,150,86,20,7,35,174.42,31.4,40.7,81.33,Career (2013-2026),Top Boundary %
+321644de,AJ Healy,Powerplay,117,77,21,3,41,151.95,31.17,53.25,87.18,Career (2013-2026),Top Boundary %
+b5797845,Priyansh Arya,Powerplay,878,486,99,52,194,180.66,31.07,39.92,80.64,Career (2013-2026),Top Boundary %
+f2c936d7,MJ Owen,Powerplay,1084,570,97,80,223,190.18,31.05,39.12,80.07,Career (2013-2026),Top Boundary %
+bbd41817,AD Russell,Powerplay,175,100,16,15,48,175.0,31.0,48.0,88.0,Career (2013-2026),Top Boundary %
+3b16788a,Tarang Gohel,Powerplay,120,69,14,7,30,173.91,30.43,43.48,81.67,Career (2013-2026),Top Boundary %
+adf454e9,Rahul Singh,Powerplay,260,160,40,7,63,162.5,29.38,39.38,77.69,Career (2013-2026),Top Boundary %
+57590dbb,PI Walter,Powerplay,142,82,17,7,29,173.17,29.27,35.37,77.46,Career (2013-2026),Top Boundary %
+8ee36b18,P Nissanka,Powerplay,378,218,43,20,86,173.39,28.9,39.45,77.25,Career (2013-2026),Top Boundary %
+cf59b3f0,Urvil Patel,Powerplay,560,329,68,26,126,170.21,28.57,38.3,76.43,Career (2013-2026),Top Boundary %
+d162e895,Suryansh Raina,Powerplay,71,42,8,4,16,169.05,28.57,38.1,78.87,Career (2013-2026),Top Boundary %
+6287d981,MJ Ackerman,Powerplay,88,53,12,3,21,166.04,28.3,39.62,75.0,Career (2013-2026),Top Boundary %
+228bd0b0,Mayank Raghav,Powerplay,152,108,24,6,59,140.74,27.78,54.63,86.84,Career (2013-2026),Top Boundary %
+6c19c6e5,YBK Jaiswal,Powerplay,1895,1232,262,79,571,153.81,27.68,46.35,80.32,Career (2013-2026),Top Boundary %
+f986ca1a,HV Patel,Powerplay,481,316,66,21,150,152.22,27.53,47.47,81.08,Career (2013-2026),Top Boundary %
+9d430b40,SP Narine,Powerplay,1940,1240,224,117,620,156.45,27.5,50.0,82.37,Career (2013-2026),Top Boundary %
+7bcde3fe,AM Rossington,Powerplay,709,436,83,36,186,162.61,27.29,42.66,77.29,Career (2013-2026),Top Boundary %
+f29185a1,Abhishek Sharma,Powerplay,1786,1115,209,93,475,160.18,27.09,42.6,78.05,Career (2013-2026),Top Boundary %
+8f607eea,NA Rathva,Powerplay,116,74,16,4,29,156.76,27.03,39.19,75.86,Career (2013-2026),Top Boundary %
+e8a552ef,Usman Khan,Powerplay,83,52,10,4,22,159.62,26.92,42.31,77.11,Career (2013-2026),Top Boundary %
+bf74b130,FH Allen,Powerplay,1524,936,172,80,379,162.82,26.92,40.49,76.64,Career (2013-2026),Top Boundary %
+f21043a5,MDKJ Perera,Powerplay,344,224,48,11,90,153.57,26.34,40.18,75.0,Career (2013-2026),Top Boundary %
+6c882e9a,PBB Rajapaksa,Powerplay,174,118,22,9,58,147.46,26.27,49.15,81.61,Career (2013-2026),Top Boundary %
+12b610c2,TM Head,Powerplay,1530,997,195,66,435,153.46,26.18,43.63,76.86,Career (2013-2026),Top Boundary %
+9caf69a1,WG Jacks,Powerplay,1612,1020,183,82,437,158.04,25.98,42.84,75.93,Career (2013-2026),Top Boundary %
+c4d9634c,RRS Cornwall,Powerplay,1088,741,121,71,391,146.83,25.91,52.77,83.64,Career (2013-2026),Top Boundary %
+72918338,AHT Donald,Powerplay,94,50,11,5,16,188.0,32.0,32.0,78.72,Career (2013-2026),Lowest Dot %
+d8f59089,Shafali Verma,Powerplay,134,86,20,2,30,155.81,25.58,34.88,68.66,Career (2013-2026),Lowest Dot %
+e2b74f6e,AV Kolhar,Powerplay,80,74,9,0,26,108.11,12.16,35.14,45.0,Career (2013-2026),Lowest Dot %
+57590dbb,PI Walter,Powerplay,142,82,17,7,29,173.17,29.27,35.37,77.46,Career (2013-2026),Lowest Dot %
+1f84183a,Nikhil Chaudhary,Powerplay,144,119,10,5,43,121.01,12.61,36.13,48.61,Career (2013-2026),Lowest Dot %
+0ea1455a,HJ Nielsen,Powerplay,42,41,4,0,15,102.44,9.76,36.59,38.1,Career (2013-2026),Lowest Dot %
+542fd5a6,IA Cockbain,Powerplay,83,78,8,1,29,106.41,11.54,37.18,45.78,Career (2013-2026),Lowest Dot %
+c96a215f,JS Lehmann,Powerplay,60,51,9,0,19,117.65,17.65,37.25,60.0,Career (2013-2026),Lowest Dot %
+03252e44,PA Jaques,Powerplay,71,72,4,1,27,98.61,6.94,37.5,30.99,Career (2013-2026),Lowest Dot %
+a9d2dab9,S Fanning,Powerplay,106,69,11,5,26,153.62,23.19,37.68,69.81,Career (2013-2026),Lowest Dot %
+172dff15,C Bosch,Powerplay,73,61,11,0,23,119.67,18.03,37.7,60.27,Career (2013-2026),Lowest Dot %
+f7ce1f24,Ravi Chauhan,Powerplay,362,298,48,4,113,121.48,17.45,37.92,59.67,Career (2013-2026),Lowest Dot %
+eade4650,DJ Mitchell,Powerplay,122,100,14,2,38,122.0,16.0,38.0,55.74,Career (2013-2026),Lowest Dot %
+d162e895,Suryansh Raina,Powerplay,71,42,8,4,16,169.05,28.57,38.1,78.87,Career (2013-2026),Lowest Dot %
+ba5e1069,R Ravindra,Powerplay,587,378,74,21,144,155.29,25.13,38.1,71.89,Career (2013-2026),Lowest Dot %
+470f446b,V Suryavanshi,Powerplay,665,293,59,60,112,226.96,40.61,38.23,89.62,Career (2013-2026),Lowest Dot %
+84d9c311,Ashutosh Sharma,Powerplay,119,68,18,4,26,175.0,32.35,38.24,80.67,Career (2013-2026),Lowest Dot %
+eb67df8f,Aditya Waghmode,Powerplay,176,115,21,7,44,153.04,24.35,38.26,71.59,Career (2013-2026),Lowest Dot %
+d34a2268,MDE Holden,Powerplay,372,282,54,3,108,131.91,20.21,38.3,62.9,Career (2013-2026),Lowest Dot %
+cf59b3f0,Urvil Patel,Powerplay,560,329,68,26,126,170.21,28.57,38.3,76.43,Career (2013-2026),Lowest Dot %
+6f0f39fb,Umang Sharma,Powerplay,78,60,9,2,23,130.0,18.33,38.33,61.54,Career (2013-2026),Lowest Dot %
+eaa76d3c,C Green,Powerplay,269,190,33,8,73,141.58,21.58,38.42,66.91,Career (2013-2026),Lowest Dot %
+605b7efa,MC Juneja,Powerplay,69,57,10,0,22,121.05,17.54,38.6,57.97,Career (2013-2026),Lowest Dot %
+afa7e784,MS Wade,Powerplay,1562,1136,181,45,444,137.5,19.89,39.08,63.64,Career (2013-2026),Lowest Dot %
+f2c936d7,MJ Owen,Powerplay,1084,570,97,80,223,190.18,31.05,39.12,80.07,Career (2013-2026),Lowest Dot %
+ef33e040,RG Hazarika,Powerplay,58,46,9,0,18,126.09,19.57,39.13,62.07,Career (2013-2026),Lowest Dot %
+8f607eea,NA Rathva,Powerplay,116,74,16,4,29,156.76,27.03,39.19,75.86,Career (2013-2026),Lowest Dot %
+a392328e,SU Shrivastava,Powerplay,67,56,10,0,22,119.64,17.86,39.29,59.7,Career (2013-2026),Lowest Dot %
+b2b4f545,A Mhatre,Powerplay,275,145,42,11,57,189.66,36.55,39.31,85.09,Career (2013-2026),Lowest Dot %
+adf454e9,Rahul Singh,Powerplay,260,160,40,7,63,162.5,29.38,39.38,77.69,Career (2013-2026),Lowest Dot %
+470f446b,V Suryavanshi,Middle,334,146,20,33,39,228.77,36.3,26.71,83.23,Career (2013-2026),Top Strike Rate
+bf74b130,FH Allen,Middle,956,449,47,88,111,212.92,30.07,24.72,74.9,Career (2013-2026),Top Strike Rate
+f2c936d7,MJ Owen,Middle,373,196,25,29,60,190.31,27.55,30.61,73.46,Career (2013-2026),Top Strike Rate
+53c5c146,Abhishek Goswami,Middle,74,40,8,4,11,185.0,30.0,27.5,75.68,Career (2013-2026),Top Strike Rate
+b2b4f545,A Mhatre,Middle,157,85,9,12,20,184.71,24.71,23.53,68.79,Career (2013-2026),Top Strike Rate
+238ce998,Q Sampson,Middle,120,65,3,13,23,184.62,24.62,35.38,75.0,Career (2013-2026),Top Strike Rate
+b5797845,Priyansh Arya,Middle,297,161,16,25,44,184.47,25.47,27.33,72.05,Career (2013-2026),Top Strike Rate
+c122ab7f,J Brown,Middle,300,165,22,23,57,181.82,27.27,34.55,75.33,Career (2013-2026),Top Strike Rate
+6f0f39fb,Umang Sharma,Middle,140,77,12,8,14,181.82,25.97,18.18,68.57,Career (2013-2026),Top Strike Rate
+b690f34a,AA Barot,Middle,166,94,12,10,15,176.6,23.4,15.96,65.06,Career (2013-2026),Top Strike Rate
+e66732f8,RD Rickelton,Middle,994,567,59,73,152,175.31,23.28,26.81,67.81,Career (2013-2026),Top Strike Rate
+8ba8195d,V Sehwag,Middle,1062,615,96,55,156,172.68,24.55,25.37,67.23,Career (2013-2026),Top Strike Rate
+f29185a1,Abhishek Sharma,Middle,1189,691,67,88,188,172.07,22.43,27.21,66.95,Career (2013-2026),Top Strike Rate
+36e2dc83,L Harris,Middle,108,63,15,5,26,171.43,31.75,41.27,83.33,Career (2013-2026),Top Strike Rate
+74bace71,Hiten Dalal,Middle,201,118,16,14,38,170.34,25.42,32.2,73.63,Career (2013-2026),Top Strike Rate
+0095ce38,CJ Simmons,Middle,170,100,11,12,32,170.0,23.0,32.0,68.24,Career (2013-2026),Top Strike Rate
+c4d9634c,RRS Cornwall,Middle,314,186,13,32,74,168.82,24.19,39.78,77.71,Career (2013-2026),Top Strike Rate
+c740ea83,RM Patidar,Middle,1717,1020,95,116,240,168.33,20.69,23.53,62.67,Career (2013-2026),Top Strike Rate
+60aa2db3,LG Pretorius,Middle,432,259,33,22,55,166.8,21.24,21.24,61.11,Career (2013-2026),Top Strike Rate
+26b6a4e9,SL Verma,Middle,95,57,7,5,15,166.67,21.05,26.32,61.05,Career (2013-2026),Top Strike Rate
+08548b13,PHKD Mendis,Middle,73,44,6,3,12,165.91,20.45,27.27,57.53,Career (2013-2026),Top Strike Rate
+33609a8c,Saim Ayub,Middle,300,181,12,23,52,165.75,19.34,28.73,62.0,Career (2013-2026),Top Strike Rate
+4e6ef14f,P Litchfield,Middle,680,412,104,10,127,165.05,27.67,30.83,70.0,Career (2013-2026),Top Strike Rate
+970ddd24,Suryansh Shedge,Middle,107,65,4,8,15,164.62,18.46,23.08,59.81,Career (2013-2026),Top Strike Rate
+8ee36b18,P Nissanka,Middle,143,87,10,7,20,164.37,19.54,22.99,57.34,Career (2013-2026),Top Strike Rate
+91cd48e0,JF Smith,Middle,84,52,5,6,17,161.54,21.15,32.69,66.67,Career (2013-2026),Top Strike Rate
+d83c2dbe,K Pooran,Middle,66,41,7,3,12,160.98,24.39,29.27,69.7,Career (2013-2026),Top Strike Rate
+9418198b,P Simran Singh,Middle,1026,641,76,59,178,160.06,21.06,27.77,64.13,Career (2013-2026),Top Strike Rate
+6165bca6,A Mukund,Middle,91,57,7,4,15,159.65,19.3,26.32,57.14,Career (2013-2026),Top Strike Rate
+72166006,GM Harris,Middle,203,128,25,5,34,158.59,23.44,26.56,64.04,Career (2013-2026),Top Strike Rate
+470f446b,V Suryavanshi,Middle,334,146,20,33,39,228.77,36.3,26.71,83.23,Career (2013-2026),Top Boundary %
+36e2dc83,L Harris,Middle,108,63,15,5,26,171.43,31.75,41.27,83.33,Career (2013-2026),Top Boundary %
+bf74b130,FH Allen,Middle,956,449,47,88,111,212.92,30.07,24.72,74.9,Career (2013-2026),Top Boundary %
+53c5c146,Abhishek Goswami,Middle,74,40,8,4,11,185.0,30.0,27.5,75.68,Career (2013-2026),Top Boundary %
+4e6ef14f,P Litchfield,Middle,680,412,104,10,127,165.05,27.67,30.83,70.0,Career (2013-2026),Top Boundary %
+f2c936d7,MJ Owen,Middle,373,196,25,29,60,190.31,27.55,30.61,73.46,Career (2013-2026),Top Boundary %
+c122ab7f,J Brown,Middle,300,165,22,23,57,181.82,27.27,34.55,75.33,Career (2013-2026),Top Boundary %
+6f0f39fb,Umang Sharma,Middle,140,77,12,8,14,181.82,25.97,18.18,68.57,Career (2013-2026),Top Boundary %
+b5797845,Priyansh Arya,Middle,297,161,16,25,44,184.47,25.47,27.33,72.05,Career (2013-2026),Top Boundary %
+74bace71,Hiten Dalal,Middle,201,118,16,14,38,170.34,25.42,32.2,73.63,Career (2013-2026),Top Boundary %
+b2b4f545,A Mhatre,Middle,157,85,9,12,20,184.71,24.71,23.53,68.79,Career (2013-2026),Top Boundary %
+238ce998,Q Sampson,Middle,120,65,3,13,23,184.62,24.62,35.38,75.0,Career (2013-2026),Top Boundary %
+8ba8195d,V Sehwag,Middle,1062,615,96,55,156,172.68,24.55,25.37,67.23,Career (2013-2026),Top Boundary %
+d83c2dbe,K Pooran,Middle,66,41,7,3,12,160.98,24.39,29.27,69.7,Career (2013-2026),Top Boundary %
+c4d9634c,RRS Cornwall,Middle,314,186,13,32,74,168.82,24.19,39.78,77.71,Career (2013-2026),Top Boundary %
+72166006,GM Harris,Middle,203,128,25,5,34,158.59,23.44,26.56,64.04,Career (2013-2026),Top Boundary %
+b690f34a,AA Barot,Middle,166,94,12,10,15,176.6,23.4,15.96,65.06,Career (2013-2026),Top Boundary %
+d3a1c63d,T de Zorzi,Middle,72,47,8,3,18,153.19,23.4,38.3,69.44,Career (2013-2026),Top Boundary %
+e66732f8,RD Rickelton,Middle,994,567,59,73,152,175.31,23.28,26.81,67.81,Career (2013-2026),Top Boundary %
+7aa74830,S Arora,Middle,75,52,8,4,22,144.23,23.08,42.31,74.67,Career (2013-2026),Top Boundary %
+0095ce38,CJ Simmons,Middle,170,100,11,12,32,170.0,23.0,32.0,68.24,Career (2013-2026),Top Boundary %
+5ffc0565,V Nigam,Middle,60,40,6,3,14,150.0,22.5,35.0,70.0,Career (2013-2026),Top Boundary %
+f29185a1,Abhishek Sharma,Middle,1189,691,67,88,188,172.07,22.43,27.21,66.95,Career (2013-2026),Top Boundary %
+6ffbf04c,KM Chathli,Middle,124,90,19,1,33,137.78,22.22,36.67,66.13,Career (2013-2026),Top Boundary %
+cf59b3f0,Urvil Patel,Middle,238,158,25,10,56,150.63,22.15,35.44,67.23,Career (2013-2026),Top Boundary %
+dd73b2ff,AR Pandey,Middle,75,55,10,2,21,136.36,21.82,38.18,69.33,Career (2013-2026),Top Boundary %
+bfa0fa33,D Perrin,Middle,130,83,15,3,20,156.63,21.69,24.1,60.0,Career (2013-2026),Top Boundary %
+310bddc0,Punit Bisht,Middle,208,143,23,8,52,145.45,21.68,36.36,67.31,Career (2013-2026),Top Boundary %
+d2763568,DR Gibson,Middle,259,195,40,2,81,132.82,21.54,41.54,66.41,Career (2013-2026),Top Boundary %
+60aa2db3,LG Pretorius,Middle,432,259,33,22,55,166.8,21.24,21.24,61.11,Career (2013-2026),Top Boundary %
+b690f34a,AA Barot,Middle,166,94,12,10,15,176.6,23.4,15.96,65.06,Career (2013-2026),Lowest Dot %
+6f0f39fb,Umang Sharma,Middle,140,77,12,8,14,181.82,25.97,18.18,68.57,Career (2013-2026),Lowest Dot %
+bbbc7d28,Prashant Awasthi,Middle,59,44,4,2,8,134.09,13.64,18.18,47.46,Career (2013-2026),Lowest Dot %
+9ffd1ac1,T Bavuma,Middle,57,42,2,3,8,135.71,11.9,19.05,45.61,Career (2013-2026),Lowest Dot %
+fa433be6,M Labuschagne,Middle,334,261,25,2,51,127.97,10.34,19.54,33.53,Career (2013-2026),Lowest Dot %
+78bb68d4,Y Cariah,Middle,51,40,4,0,8,127.5,10.0,20.0,31.37,Career (2013-2026),Lowest Dot %
+9fe56f2b,Samarth Seth,Middle,104,79,9,2,16,131.65,13.92,20.25,46.15,Career (2013-2026),Lowest Dot %
+64677a10,UR Patel,Middle,48,43,2,0,9,111.63,4.65,20.93,16.67,Career (2013-2026),Lowest Dot %
+228bd0b0,Mayank Raghav,Middle,129,85,7,8,18,151.76,17.65,21.18,58.91,Career (2013-2026),Lowest Dot %
+60aa2db3,LG Pretorius,Middle,432,259,33,22,55,166.8,21.24,21.24,61.11,Career (2013-2026),Lowest Dot %
+5c30d455,G Voll,Middle,112,78,12,2,17,143.59,17.95,21.79,53.57,Career (2013-2026),Lowest Dot %
+d5130a30,B Sai Sudharsan,Middle,1350,938,114,38,205,143.92,16.2,21.86,50.67,Career (2013-2026),Lowest Dot %
+ac64c2ef,Raghav Dhawan,Middle,71,50,5,2,11,142.0,14.0,22.0,45.07,Career (2013-2026),Lowest Dot %
+601398c4,Bikramkumar Das,Middle,137,108,13,1,24,126.85,12.96,22.22,42.34,Career (2013-2026),Lowest Dot %
+254c7802,Ashish Yadav,Middle,108,89,6,4,20,121.35,11.24,22.47,44.44,Career (2013-2026),Lowest Dot %
+f2dbbff5,Ravikumar Samarth,Middle,76,62,7,1,14,122.58,12.9,22.58,44.74,Career (2013-2026),Lowest Dot %
+ff1e68fa,B Indrajith,Middle,64,66,3,0,15,96.97,4.55,22.73,18.75,Career (2013-2026),Lowest Dot %
+10b58586,AR Easwaran,Middle,333,253,26,6,58,131.62,12.65,22.92,42.04,Career (2013-2026),Lowest Dot %
+8ee36b18,P Nissanka,Middle,143,87,10,7,20,164.37,19.54,22.99,57.34,Career (2013-2026),Lowest Dot %
+ba5e1069,R Ravindra,Middle,469,300,30,23,69,156.33,17.67,23.0,55.01,Career (2013-2026),Lowest Dot %
+970ddd24,Suryansh Shedge,Middle,107,65,4,8,15,164.62,18.46,23.08,59.81,Career (2013-2026),Lowest Dot %
+3d8348d0,Sibsankar Roy,Middle,285,212,31,3,49,134.43,16.04,23.11,49.82,Career (2013-2026),Lowest Dot %
+a343262c,JE Root,Middle,573,466,43,9,108,122.96,11.16,23.18,39.44,Career (2013-2026),Lowest Dot %
+29ede60b,AL Davies,Middle,224,185,14,3,43,121.08,9.19,23.24,33.04,Career (2013-2026),Lowest Dot %
+de8cce37,VVS Laxman,Middle,92,73,9,1,17,126.03,13.7,23.29,45.65,Career (2013-2026),Lowest Dot %
+39086549,JR Philippe,Middle,1113,740,87,39,173,150.41,17.03,23.38,52.29,Career (2013-2026),Lowest Dot %
+ab636882,Mitesh Patel,Middle,70,51,7,1,12,137.25,15.69,23.53,48.57,Career (2013-2026),Lowest Dot %
+c740ea83,RM Patidar,Middle,1717,1020,95,116,240,168.33,20.69,23.53,62.67,Career (2013-2026),Lowest Dot %
+b2b4f545,A Mhatre,Middle,157,85,9,12,20,184.71,24.71,23.53,68.79,Career (2013-2026),Lowest Dot %
+2fcb040c,Rajat Paliwal,Middle,373,331,26,2,78,112.69,8.46,23.56,31.1,Career (2013-2026),Lowest Dot %
+310bddc0,Punit Bisht,Death,136,53,9,12,10,256.6,39.62,18.87,79.41,Career (2013-2026),Top Strike Rate
+c9d6f9f2,Uvais Ahmad,Death,143,58,14,11,13,246.55,43.1,22.41,85.31,Career (2013-2026),Top Strike Rate
+9caf69a1,WG Jacks,Death,156,64,9,14,10,243.75,35.94,15.62,76.92,Career (2013-2026),Top Strike Rate
+b63e358a,RK Bhui,Death,378,160,26,31,31,236.25,35.62,19.38,76.72,Career (2013-2026),Top Strike Rate
+e798611a,HM Amla,Death,197,88,18,13,19,223.86,35.23,21.59,76.14,Career (2013-2026),Top Strike Rate
+c4487b84,AB de Villiers,Death,1974,891,143,147,190,221.55,32.55,21.32,73.66,Career (2013-2026),Top Strike Rate
+c910e89d,Kshitiz Sharma,Death,93,42,16,2,7,221.43,42.86,16.67,81.72,Career (2013-2026),Top Strike Rate
+52d1dbc8,BL Mooney,Death,115,52,19,2,8,221.15,40.38,15.38,76.52,Career (2013-2026),Top Strike Rate
+c740ea83,RM Patidar,Death,434,198,26,41,56,219.19,33.84,28.28,80.65,Career (2013-2026),Top Strike Rate
+970ddd24,Suryansh Shedge,Death,120,55,7,11,14,218.18,32.73,25.45,78.33,Career (2013-2026),Top Strike Rate
+1399b39c,Anmolpreet Singh,Death,255,117,13,22,19,217.95,29.91,16.24,72.16,Career (2013-2026),Top Strike Rate
+4ae1755b,HC Brook,Death,355,163,29,23,31,217.79,31.9,19.02,71.55,Career (2013-2026),Top Strike Rate
+a3690f55,Khuzaima Tanveer,Death,88,41,7,6,11,214.63,31.71,26.83,72.73,Career (2013-2026),Top Strike Rate
+4ba0289e,HC Knight,Death,92,43,14,2,9,213.95,37.21,20.93,73.91,Career (2013-2026),Top Strike Rate
+e94d2d50,NA McSweeney,Death,130,62,17,5,12,209.68,35.48,19.35,75.38,Career (2013-2026),Top Strike Rate
+844e79d1,D Brevis,Death,482,231,20,49,65,208.66,29.87,28.14,77.59,Career (2013-2026),Top Strike Rate
+cc8531c2,Vishal Kushwah,Death,211,102,11,19,29,206.86,29.41,28.43,74.88,Career (2013-2026),Top Strike Rate
+3b30b8c4,Amit Verma,Death,122,59,6,10,12,206.78,27.12,20.34,68.85,Career (2013-2026),Top Strike Rate
+60aa2db3,LG Pretorius,Death,82,40,6,4,6,205.0,25.0,15.0,58.54,Career (2013-2026),Top Strike Rate
+f89d3b11,Sameer Rizvi,Death,188,92,11,16,21,204.35,29.35,22.83,74.47,Career (2013-2026),Top Strike Rate
+7673c908,AC Kerr,Death,140,69,18,4,13,202.9,31.88,18.84,68.57,Career (2013-2026),Top Strike Rate
+919a3be2,RR Pant,Death,1095,540,93,78,157,202.78,31.67,29.07,76.71,Career (2013-2026),Top Strike Rate
+e00a9155,SD Heazlett,Death,91,45,9,5,11,202.22,31.11,24.44,72.53,Career (2013-2026),Top Strike Rate
+ba5e1069,R Ravindra,Death,109,54,7,8,12,201.85,27.78,22.22,69.72,Career (2013-2026),Top Strike Rate
+25f7b7d6,T Banton,Death,220,109,19,14,29,201.83,30.28,26.61,72.73,Career (2013-2026),Top Strike Rate
+c03e2850,M Vohra,Death,137,68,11,10,19,201.47,30.88,27.94,75.91,Career (2013-2026),Top Strike Rate
+52cb36a0,Manisankar Murasingh,Death,274,136,17,18,17,201.47,25.74,12.5,64.23,Career (2013-2026),Top Strike Rate
+b0482a1d,Tilak Varma,Death,636,316,51,44,82,201.27,30.06,25.95,73.58,Career (2013-2026),Top Strike Rate
+db584dad,CH Gayle,Death,855,426,54,70,106,200.7,29.11,24.88,74.39,Career (2013-2026),Top Strike Rate
+235c2bb6,H Klaasen,Death,1473,734,95,108,171,200.68,27.66,23.3,69.79,Career (2013-2026),Top Strike Rate
+c9d6f9f2,Uvais Ahmad,Death,143,58,14,11,13,246.55,43.1,22.41,85.31,Career (2013-2026),Top Boundary %
+c910e89d,Kshitiz Sharma,Death,93,42,16,2,7,221.43,42.86,16.67,81.72,Career (2013-2026),Top Boundary %
+52d1dbc8,BL Mooney,Death,115,52,19,2,8,221.15,40.38,15.38,76.52,Career (2013-2026),Top Boundary %
+310bddc0,Punit Bisht,Death,136,53,9,12,10,256.6,39.62,18.87,79.41,Career (2013-2026),Top Boundary %
+4ba0289e,HC Knight,Death,92,43,14,2,9,213.95,37.21,20.93,73.91,Career (2013-2026),Top Boundary %
+9caf69a1,WG Jacks,Death,156,64,9,14,10,243.75,35.94,15.62,76.92,Career (2013-2026),Top Boundary %
+b63e358a,RK Bhui,Death,378,160,26,31,31,236.25,35.62,19.38,76.72,Career (2013-2026),Top Boundary %
+e94d2d50,NA McSweeney,Death,130,62,17,5,12,209.68,35.48,19.35,75.38,Career (2013-2026),Top Boundary %
+e798611a,HM Amla,Death,197,88,18,13,19,223.86,35.23,21.59,76.14,Career (2013-2026),Top Boundary %
+c740ea83,RM Patidar,Death,434,198,26,41,56,219.19,33.84,28.28,80.65,Career (2013-2026),Top Boundary %
+6c19c6e5,YBK Jaiswal,Death,101,51,10,7,16,198.04,33.33,31.37,81.19,Career (2013-2026),Top Boundary %
+970ddd24,Suryansh Shedge,Death,120,55,7,11,14,218.18,32.73,25.45,78.33,Career (2013-2026),Top Boundary %
+c4487b84,AB de Villiers,Death,1974,891,143,147,190,221.55,32.55,21.32,73.66,Career (2013-2026),Top Boundary %
+4ae1755b,HC Brook,Death,355,163,29,23,31,217.79,31.9,19.02,71.55,Career (2013-2026),Top Boundary %
+7673c908,AC Kerr,Death,140,69,18,4,13,202.9,31.88,18.84,68.57,Career (2013-2026),Top Boundary %
+34819e70,Samarth Vyas,Death,80,44,10,4,16,181.82,31.82,36.36,80.0,Career (2013-2026),Top Boundary %
+7b679de5,Kartik Sharma,Death,77,44,11,3,18,175.0,31.82,40.91,80.52,Career (2013-2026),Top Boundary %
+a3690f55,Khuzaima Tanveer,Death,88,41,7,6,11,214.63,31.71,26.83,72.73,Career (2013-2026),Top Boundary %
+919a3be2,RR Pant,Death,1095,540,93,78,157,202.78,31.67,29.07,76.71,Career (2013-2026),Top Boundary %
+e00a9155,SD Heazlett,Death,91,45,9,5,11,202.22,31.11,24.44,72.53,Career (2013-2026),Top Boundary %
+88fccd6c,SM Pollock,Death,80,42,8,5,13,190.48,30.95,30.95,77.5,Career (2013-2026),Top Boundary %
+cb08b611,JI Rodrigues,Death,81,42,13,0,7,192.86,30.95,16.67,64.2,Career (2013-2026),Top Boundary %
+c03e2850,M Vohra,Death,137,68,11,10,19,201.47,30.88,27.94,75.91,Career (2013-2026),Top Boundary %
+9d3940b3,Himanshu Rana,Death,90,46,10,4,11,195.65,30.43,23.91,71.11,Career (2013-2026),Top Boundary %
+ee8f1a6d,Azam Khan,Death,315,165,24,26,55,190.91,30.3,33.33,80.0,Career (2013-2026),Top Boundary %
+25f7b7d6,T Banton,Death,220,109,19,14,29,201.83,30.28,26.61,72.73,Career (2013-2026),Top Boundary %
+b0482a1d,Tilak Varma,Death,636,316,51,44,82,201.27,30.06,25.95,73.58,Career (2013-2026),Top Boundary %
+bee290b6,Suboth Bhati,Death,91,50,7,8,21,182.0,30.0,42.0,83.52,Career (2013-2026),Top Boundary %
+c2dd89ea,BR Sharath,Death,76,40,7,5,14,190.0,30.0,35.0,76.32,Career (2013-2026),Top Boundary %
+0a509d6b,RK Singh,Death,1299,650,112,83,165,199.85,30.0,25.38,72.83,Career (2013-2026),Top Boundary %
+52cb36a0,Manisankar Murasingh,Death,274,136,17,18,17,201.47,25.74,12.5,64.23,Career (2013-2026),Lowest Dot %
+60aa2db3,LG Pretorius,Death,82,40,6,4,6,205.0,25.0,15.0,58.54,Career (2013-2026),Lowest Dot %
+7d3937ed,DJ Thornely,Death,76,40,3,5,6,190.0,20.0,15.0,55.26,Career (2013-2026),Lowest Dot %
+52d1dbc8,BL Mooney,Death,115,52,19,2,8,221.15,40.38,15.38,76.52,Career (2013-2026),Lowest Dot %
+02181d9a,EL Lamb,Death,89,58,9,1,9,153.45,17.24,15.52,47.19,Career (2013-2026),Lowest Dot %
+9caf69a1,WG Jacks,Death,156,64,9,14,10,243.75,35.94,15.62,76.92,Career (2013-2026),Lowest Dot %
+0ebb3444,L Scott,Death,110,63,8,5,10,174.6,20.63,15.87,56.36,Career (2013-2026),Lowest Dot %
+1399b39c,Anmolpreet Singh,Death,255,117,13,22,19,217.95,29.91,16.24,72.16,Career (2013-2026),Lowest Dot %
+61b9410c,Langlonyamba Meitan Keishangbam,Death,58,43,3,1,7,134.88,9.3,16.28,31.03,Career (2013-2026),Lowest Dot %
+a7b20d59,Naren Reddy,Death,82,43,5,6,7,190.7,25.58,16.28,68.29,Career (2013-2026),Lowest Dot %
+26d76ad9,Virat Singh,Death,298,153,26,15,25,194.77,26.8,16.34,65.1,Career (2013-2026),Lowest Dot %
+df5a6881,DP Conway,Death,191,120,20,4,20,159.17,20.0,16.67,54.45,Career (2013-2026),Lowest Dot %
+cb08b611,JI Rodrigues,Death,81,42,13,0,7,192.86,30.95,16.67,64.2,Career (2013-2026),Lowest Dot %
+c910e89d,Kshitiz Sharma,Death,93,42,16,2,7,221.43,42.86,16.67,81.72,Career (2013-2026),Lowest Dot %
+2fcb040c,Rajat Paliwal,Death,106,75,11,1,13,141.33,16.0,17.33,47.17,Career (2013-2026),Lowest Dot %
+10b58586,AR Easwaran,Death,73,46,4,3,8,158.7,15.22,17.39,46.58,Career (2013-2026),Lowest Dot %
+7306c48d,G Scrivens,Death,52,40,3,0,7,130.0,7.5,17.5,23.08,Career (2013-2026),Lowest Dot %
+d027ba9f,KS Williamson,Death,562,328,53,19,58,171.34,21.95,17.68,58.01,Career (2013-2026),Lowest Dot %
+5451a2c1,B Chipli,Death,100,56,11,3,10,178.57,25.0,17.86,62.0,Career (2013-2026),Lowest Dot %
+e94bc520,OJ Pope,Death,85,55,5,2,10,154.55,12.73,18.18,37.65,Career (2013-2026),Lowest Dot %
+864c199e,AC Voges,Death,374,242,29,10,44,154.55,16.12,18.18,47.06,Career (2013-2026),Lowest Dot %
+bc67cc22,Bavanaka Sandeep,Death,206,123,7,14,23,167.48,17.07,18.7,54.37,Career (2013-2026),Lowest Dot %
+85b3fab2,T Stubbs,Death,1189,624,85,69,117,190.54,24.68,18.75,63.41,Career (2013-2026),Lowest Dot %
+60500956,RV Patel,Death,239,133,16,14,25,179.7,22.56,18.8,61.92,Career (2013-2026),Lowest Dot %
+7673c908,AC Kerr,Death,140,69,18,4,13,202.9,31.88,18.84,68.57,Career (2013-2026),Lowest Dot %
+310bddc0,Punit Bisht,Death,136,53,9,12,10,256.6,39.62,18.87,79.41,Career (2013-2026),Lowest Dot %
+39086549,JR Philippe,Death,230,127,23,7,24,181.1,23.62,18.9,58.26,Career (2013-2026),Lowest Dot %
+4ae1755b,HC Brook,Death,355,163,29,23,31,217.79,31.9,19.02,71.55,Career (2013-2026),Lowest Dot %
+5d2eda89,S Mandhana,Death,100,52,7,6,10,192.31,25.0,19.23,64.0,Career (2013-2026),Lowest Dot %
+eaa76d3c,C Green,Death,296,171,24,13,33,173.1,21.64,19.3,58.78,Career (2013-2026),Lowest Dot %
+470f446b,V Suryavanshi,Powerplay,665,293,59,60,112,226.96,40.61,38.23,89.62,Recent Form (2024-2026),Top Strike Rate
+cf59b3f0,Urvil Patel,Powerplay,144,68,5,17,29,211.76,32.35,42.65,84.72,Recent Form (2024-2026),Top Strike Rate
+a24be938,VR Iyer,Powerplay,210,103,28,12,42,203.88,38.83,40.78,87.62,Recent Form (2024-2026),Top Strike Rate
+f29185a1,Abhishek Sharma,Powerplay,972,494,97,70,183,196.76,33.81,37.04,83.13,Recent Form (2024-2026),Top Strike Rate
+f2c936d7,MJ Owen,Powerplay,1084,570,97,80,223,190.18,31.05,39.12,80.07,Recent Form (2024-2026),Top Strike Rate
+b2b4f545,A Mhatre,Powerplay,275,145,42,11,57,189.66,36.55,39.31,85.09,Recent Form (2024-2026),Top Strike Rate
+f088b960,SN Khan,Powerplay,83,44,13,3,18,188.64,36.36,40.91,84.34,Recent Form (2024-2026),Top Strike Rate
+72918338,AHT Donald,Powerplay,94,50,11,5,16,188.0,32.0,32.0,78.72,Recent Form (2024-2026),Top Strike Rate
+b5797845,Priyansh Arya,Powerplay,728,388,78,46,148,187.63,31.96,38.14,80.77,Recent Form (2024-2026),Top Strike Rate
+57590dbb,PI Walter,Powerplay,131,72,15,7,24,181.94,30.56,33.33,77.86,Recent Form (2024-2026),Top Strike Rate
+12b610c2,TM Head,Powerplay,1222,678,160,63,278,180.24,32.89,41.0,83.31,Recent Form (2024-2026),Top Strike Rate
+9550470d,WIA Fernando,Powerplay,48,27,3,5,13,177.78,29.63,48.15,87.5,Recent Form (2024-2026),Top Strike Rate
+d83c2dbe,K Pooran,Powerplay,150,86,20,7,35,174.42,31.4,40.7,81.33,Recent Form (2024-2026),Top Strike Rate
+8ee36b18,P Nissanka,Powerplay,378,218,43,20,86,173.39,28.9,39.45,77.25,Recent Form (2024-2026),Top Strike Rate
+989889ff,JP Inglis,Powerplay,364,211,39,23,92,172.51,29.38,43.6,80.77,Recent Form (2024-2026),Top Strike Rate
+d67d5f00,DA Miller,Powerplay,62,36,4,5,15,172.22,25.0,41.67,74.19,Recent Form (2024-2026),Top Strike Rate
+69d03465,AT Carey,Powerplay,98,57,13,3,21,171.93,28.07,36.84,71.43,Recent Form (2024-2026),Top Strike Rate
+bf74b130,FH Allen,Powerplay,1187,699,125,70,278,169.81,27.9,39.77,77.51,Recent Form (2024-2026),Top Strike Rate
+fe93fd9d,RA Jadeja,Powerplay,105,62,16,3,24,169.35,30.65,38.71,78.1,Recent Form (2024-2026),Top Strike Rate
+bcf325d2,Dhruv Jurel,Powerplay,151,90,17,9,39,167.78,28.89,43.33,80.79,Recent Form (2024-2026),Top Strike Rate
+8b3e9c7c,PP Shaw,Powerplay,207,124,33,6,50,166.94,31.45,40.32,81.16,Recent Form (2024-2026),Top Strike Rate
+6287d981,MJ Ackerman,Powerplay,88,53,12,3,21,166.04,28.3,39.62,75.0,Recent Form (2024-2026),Top Strike Rate
+331ea488,UT Khawaja,Powerplay,73,44,7,3,10,165.91,22.73,22.73,63.01,Recent Form (2024-2026),Top Strike Rate
+6c19c6e5,YBK Jaiswal,Powerplay,953,579,127,45,254,164.59,29.71,43.87,81.64,Recent Form (2024-2026),Top Strike Rate
+ba607b88,V Kohli,Powerplay,1051,639,126,40,208,164.48,25.98,32.55,70.79,Recent Form (2024-2026),Top Strike Rate
+2b8f219a,KSA McKenzie,Powerplay,98,60,10,7,29,163.33,28.33,48.33,83.67,Recent Form (2024-2026),Top Strike Rate
+c834c290,JL Smith,Powerplay,269,167,26,15,65,161.08,24.55,38.92,72.12,Recent Form (2024-2026),Top Strike Rate
+944533a5,KK Nair,Powerplay,141,88,18,7,40,160.23,28.41,45.45,80.85,Recent Form (2024-2026),Top Strike Rate
+9418198b,P Simran Singh,Powerplay,889,557,107,42,225,159.61,26.75,40.39,76.49,Recent Form (2024-2026),Top Strike Rate
+752f7486,Ishan Kishan,Powerplay,512,322,62,26,138,159.01,27.33,42.86,78.91,Recent Form (2024-2026),Top Strike Rate
+470f446b,V Suryavanshi,Powerplay,665,293,59,60,112,226.96,40.61,38.23,89.62,Recent Form (2024-2026),Top Boundary %
+a24be938,VR Iyer,Powerplay,210,103,28,12,42,203.88,38.83,40.78,87.62,Recent Form (2024-2026),Top Boundary %
+b2b4f545,A Mhatre,Powerplay,275,145,42,11,57,189.66,36.55,39.31,85.09,Recent Form (2024-2026),Top Boundary %
+f088b960,SN Khan,Powerplay,83,44,13,3,18,188.64,36.36,40.91,84.34,Recent Form (2024-2026),Top Boundary %
+f29185a1,Abhishek Sharma,Powerplay,972,494,97,70,183,196.76,33.81,37.04,83.13,Recent Form (2024-2026),Top Boundary %
+12b610c2,TM Head,Powerplay,1222,678,160,63,278,180.24,32.89,41.0,83.31,Recent Form (2024-2026),Top Boundary %
+cf59b3f0,Urvil Patel,Powerplay,144,68,5,17,29,211.76,32.35,42.65,84.72,Recent Form (2024-2026),Top Boundary %
+72918338,AHT Donald,Powerplay,94,50,11,5,16,188.0,32.0,32.0,78.72,Recent Form (2024-2026),Top Boundary %
+b5797845,Priyansh Arya,Powerplay,728,388,78,46,148,187.63,31.96,38.14,80.77,Recent Form (2024-2026),Top Boundary %
+8b3e9c7c,PP Shaw,Powerplay,207,124,33,6,50,166.94,31.45,40.32,81.16,Recent Form (2024-2026),Top Boundary %
+d83c2dbe,K Pooran,Powerplay,150,86,20,7,35,174.42,31.4,40.7,81.33,Recent Form (2024-2026),Top Boundary %
+f2c936d7,MJ Owen,Powerplay,1084,570,97,80,223,190.18,31.05,39.12,80.07,Recent Form (2024-2026),Top Boundary %
+1d8c298b,M Louis,Powerplay,46,29,7,2,16,158.62,31.03,55.17,86.96,Recent Form (2024-2026),Top Boundary %
+fe93fd9d,RA Jadeja,Powerplay,105,62,16,3,24,169.35,30.65,38.71,78.1,Recent Form (2024-2026),Top Boundary %
+57590dbb,PI Walter,Powerplay,131,72,15,7,24,181.94,30.56,33.33,77.86,Recent Form (2024-2026),Top Boundary %
+6c19c6e5,YBK Jaiswal,Powerplay,953,579,127,45,254,164.59,29.71,43.87,81.64,Recent Form (2024-2026),Top Boundary %
+9550470d,WIA Fernando,Powerplay,48,27,3,5,13,177.78,29.63,48.15,87.5,Recent Form (2024-2026),Top Boundary %
+989889ff,JP Inglis,Powerplay,364,211,39,23,92,172.51,29.38,43.6,80.77,Recent Form (2024-2026),Top Boundary %
+8ee36b18,P Nissanka,Powerplay,378,218,43,20,86,173.39,28.9,39.45,77.25,Recent Form (2024-2026),Top Boundary %
+bcf325d2,Dhruv Jurel,Powerplay,151,90,17,9,39,167.78,28.89,43.33,80.79,Recent Form (2024-2026),Top Boundary %
+944533a5,KK Nair,Powerplay,141,88,18,7,40,160.23,28.41,45.45,80.85,Recent Form (2024-2026),Top Boundary %
+2b8f219a,KSA McKenzie,Powerplay,98,60,10,7,29,163.33,28.33,48.33,83.67,Recent Form (2024-2026),Top Boundary %
+6287d981,MJ Ackerman,Powerplay,88,53,12,3,21,166.04,28.3,39.62,75.0,Recent Form (2024-2026),Top Boundary %
+69d03465,AT Carey,Powerplay,98,57,13,3,21,171.93,28.07,36.84,71.43,Recent Form (2024-2026),Top Boundary %
+bf74b130,FH Allen,Powerplay,1187,699,125,70,278,169.81,27.9,39.77,77.51,Recent Form (2024-2026),Top Boundary %
+1ac746c8,Atharva Taide,Powerplay,90,58,15,1,22,155.17,27.59,37.93,73.33,Recent Form (2024-2026),Top Boundary %
+9d430b40,SP Narine,Powerplay,702,444,74,48,221,158.11,27.48,49.77,83.19,Recent Form (2024-2026),Top Boundary %
+752f7486,Ishan Kishan,Powerplay,512,322,62,26,138,159.01,27.33,42.86,78.91,Recent Form (2024-2026),Top Boundary %
+04a418e8,R Parag,Powerplay,191,127,22,12,63,150.39,26.77,49.61,83.77,Recent Form (2024-2026),Top Boundary %
+9418198b,P Simran Singh,Powerplay,889,557,107,42,225,159.61,26.75,40.39,76.49,Recent Form (2024-2026),Top Boundary %
+331ea488,UT Khawaja,Powerplay,73,44,7,3,10,165.91,22.73,22.73,63.01,Recent Form (2024-2026),Lowest Dot %
+bc969efb,A Gardner,Powerplay,53,35,8,0,10,151.43,22.86,28.57,60.38,Recent Form (2024-2026),Lowest Dot %
+e3bf8356,KR Patterson,Powerplay,84,68,5,2,21,123.53,10.29,30.88,38.1,Recent Form (2024-2026),Lowest Dot %
+02181d9a,EL Lamb,Powerplay,107,88,13,0,28,121.59,14.77,31.82,48.6,Recent Form (2024-2026),Lowest Dot %
+72918338,AHT Donald,Powerplay,94,50,11,5,16,188.0,32.0,32.0,78.72,Recent Form (2024-2026),Lowest Dot %
+ba607b88,V Kohli,Powerplay,1051,639,126,40,208,164.48,25.98,32.55,70.79,Recent Form (2024-2026),Lowest Dot %
+74d12124,JP Greaves,Powerplay,147,95,19,4,31,154.74,24.21,32.63,68.03,Recent Form (2024-2026),Lowest Dot %
+a9d2dab9,S Fanning,Powerplay,75,49,8,3,16,153.06,22.45,32.65,66.67,Recent Form (2024-2026),Lowest Dot %
+56b93d46,BJ Webster,Powerplay,104,82,9,3,27,126.83,14.63,32.93,51.92,Recent Form (2024-2026),Lowest Dot %
+57590dbb,PI Walter,Powerplay,131,72,15,7,24,181.94,30.56,33.33,77.86,Recent Form (2024-2026),Lowest Dot %
+521595e7,JEK Rew,Powerplay,47,35,8,0,12,134.29,22.86,34.29,68.09,Recent Form (2024-2026),Lowest Dot %
+2c693be3,HP Gawli,Powerplay,43,32,5,1,11,134.38,18.75,34.38,60.47,Recent Form (2024-2026),Lowest Dot %
+eade4650,DJ Mitchell,Powerplay,112,86,13,2,30,130.23,17.44,34.88,57.14,Recent Form (2024-2026),Lowest Dot %
+7e435410,Shashwat Rawat,Powerplay,40,31,4,1,11,129.03,16.13,35.48,55.0,Recent Form (2024-2026),Lowest Dot %
+afa7e784,MS Wade,Powerplay,68,50,7,3,18,136.0,20.0,36.0,67.65,Recent Form (2024-2026),Lowest Dot %
+1f84183a,Nikhil Chaudhary,Powerplay,128,107,10,4,39,119.63,13.08,36.45,50.0,Recent Form (2024-2026),Lowest Dot %
+69d03465,AT Carey,Powerplay,98,57,13,3,21,171.93,28.07,36.84,71.43,Recent Form (2024-2026),Lowest Dot %
+f29185a1,Abhishek Sharma,Powerplay,972,494,97,70,183,196.76,33.81,37.04,83.13,Recent Form (2024-2026),Lowest Dot %
+d85b0f8b,M Gilkes,Powerplay,246,162,26,10,61,151.85,22.22,37.65,66.67,Recent Form (2024-2026),Lowest Dot %
+1ac746c8,Atharva Taide,Powerplay,90,58,15,1,22,155.17,27.59,37.93,73.33,Recent Form (2024-2026),Lowest Dot %
+ba5e1069,R Ravindra,Powerplay,587,378,74,21,144,155.29,25.13,38.1,71.89,Recent Form (2024-2026),Lowest Dot %
+b5797845,Priyansh Arya,Powerplay,728,388,78,46,148,187.63,31.96,38.14,80.77,Recent Form (2024-2026),Lowest Dot %
+470f446b,V Suryavanshi,Powerplay,665,293,59,60,112,226.96,40.61,38.23,89.62,Recent Form (2024-2026),Lowest Dot %
+b4b99816,Shubman Gill,Powerplay,806,554,94,29,212,145.49,22.2,38.27,68.24,Recent Form (2024-2026),Lowest Dot %
+d34a2268,MDE Holden,Powerplay,284,224,38,3,86,126.79,18.3,38.39,59.86,Recent Form (2024-2026),Lowest Dot %
+86e0f3f0,WL Madsen,Powerplay,18,26,0,0,10,69.23,0.0,38.46,0.0,Recent Form (2024-2026),Lowest Dot %
+fe93fd9d,RA Jadeja,Powerplay,105,62,16,3,24,169.35,30.65,38.71,78.1,Recent Form (2024-2026),Lowest Dot %
+edc7ddb6,J Weatherald,Powerplay,72,49,10,2,19,146.94,24.49,38.78,72.22,Recent Form (2024-2026),Lowest Dot %
+d5130a30,B Sai Sudharsan,Powerplay,913,643,120,23,250,141.99,22.24,38.88,67.69,Recent Form (2024-2026),Lowest Dot %
+c834c290,JL Smith,Powerplay,269,167,26,15,65,161.08,24.55,38.92,72.12,Recent Form (2024-2026),Lowest Dot %
+470f446b,V Suryavanshi,Middle,334,146,20,33,39,228.77,36.3,26.71,83.23,Recent Form (2024-2026),Top Strike Rate
+9550470d,WIA Fernando,Middle,75,33,7,6,10,227.27,39.39,30.3,85.33,Recent Form (2024-2026),Top Strike Rate
+bf74b130,FH Allen,Middle,813,364,38,78,85,223.35,31.87,23.35,76.26,Recent Form (2024-2026),Top Strike Rate
+f1c61793,JD Wildermuth,Middle,59,27,3,6,8,218.52,33.33,29.63,81.36,Recent Form (2024-2026),Top Strike Rate
+f29185a1,Abhishek Sharma,Middle,478,221,31,42,59,216.29,33.03,26.7,78.66,Recent Form (2024-2026),Top Strike Rate
+f2c936d7,MJ Owen,Middle,339,169,23,28,52,200.59,30.18,30.77,76.7,Recent Form (2024-2026),Top Strike Rate
+72918338,AHT Donald,Middle,65,33,6,5,14,196.97,33.33,42.42,83.08,Recent Form (2024-2026),Top Strike Rate
+cf59b3f0,Urvil Patel,Middle,53,28,6,3,9,189.29,32.14,32.14,79.25,Recent Form (2024-2026),Top Strike Rate
+b5797845,Priyansh Arya,Middle,254,135,15,21,37,188.15,26.67,27.41,73.23,Recent Form (2024-2026),Top Strike Rate
+b2b4f545,A Mhatre,Middle,157,85,9,12,20,184.71,24.71,23.53,68.79,Recent Form (2024-2026),Top Strike Rate
+238ce998,Q Sampson,Middle,120,65,3,13,23,184.62,24.62,35.38,75.0,Recent Form (2024-2026),Top Strike Rate
+c740ea83,RM Patidar,Middle,975,537,50,77,130,181.56,23.65,24.21,67.9,Recent Form (2024-2026),Top Strike Rate
+e66732f8,RD Rickelton,Middle,716,402,49,50,105,178.11,24.63,26.12,69.27,Recent Form (2024-2026),Top Strike Rate
+9b6e1b3f,J Fraser-McGurk,Middle,457,263,22,37,85,173.76,22.43,32.32,67.83,Recent Form (2024-2026),Top Strike Rate
+218d4d78,MT Renshaw,Middle,437,252,35,22,63,173.41,22.62,25.0,62.24,Recent Form (2024-2026),Top Strike Rate
+4e6ef14f,P Litchfield,Middle,485,283,74,9,86,171.38,29.33,30.39,72.16,Recent Form (2024-2026),Top Strike Rate
+45eda7c8,CA Lynn,Middle,197,116,19,9,35,169.83,24.14,30.17,65.99,Recent Form (2024-2026),Top Strike Rate
+7dcb9bc9,M Shahrukh Khan,Middle,222,131,17,15,40,169.47,24.43,30.53,71.17,Recent Form (2024-2026),Top Strike Rate
+944533a5,KK Nair,Middle,101,60,12,4,17,168.33,26.67,28.33,71.29,Recent Form (2024-2026),Top Strike Rate
+9d430b40,SP Narine,Middle,391,234,19,36,90,167.09,23.5,38.46,74.68,Recent Form (2024-2026),Top Strike Rate
+60aa2db3,LG Pretorius,Middle,432,259,33,22,55,166.8,21.24,21.24,61.11,Recent Form (2024-2026),Top Strike Rate
+9418198b,P Simran Singh,Middle,528,318,44,28,81,166.04,22.64,25.47,65.15,Recent Form (2024-2026),Top Strike Rate
+08548b13,PHKD Mendis,Middle,73,44,6,3,12,165.91,20.45,27.27,57.53,Recent Form (2024-2026),Top Strike Rate
+5708d0b6,AV Wankhade,Middle,48,29,2,3,5,165.52,17.24,17.24,54.17,Recent Form (2024-2026),Top Strike Rate
+e19307f3,SN Luff,Middle,61,37,8,2,11,164.86,27.03,29.73,72.13,Recent Form (2024-2026),Top Strike Rate
+970ddd24,Suryansh Shedge,Middle,107,65,4,8,15,164.62,18.46,23.08,59.81,Recent Form (2024-2026),Top Strike Rate
+b4b99816,Shubman Gill,Middle,846,514,66,35,103,164.59,19.65,20.04,56.03,Recent Form (2024-2026),Top Strike Rate
+0ebfb1ad,E Lewis,Middle,240,146,6,26,59,164.38,21.92,40.41,75.0,Recent Form (2024-2026),Top Strike Rate
+8ee36b18,P Nissanka,Middle,143,87,10,7,20,164.37,19.54,22.99,57.34,Recent Form (2024-2026),Top Strike Rate
+12b610c2,TM Head,Middle,465,283,40,25,77,164.31,22.97,27.21,66.67,Recent Form (2024-2026),Top Strike Rate
+9550470d,WIA Fernando,Middle,75,33,7,6,10,227.27,39.39,30.3,85.33,Recent Form (2024-2026),Top Boundary %
+470f446b,V Suryavanshi,Middle,334,146,20,33,39,228.77,36.3,26.71,83.23,Recent Form (2024-2026),Top Boundary %
+f1c61793,JD Wildermuth,Middle,59,27,3,6,8,218.52,33.33,29.63,81.36,Recent Form (2024-2026),Top Boundary %
+72918338,AHT Donald,Middle,65,33,6,5,14,196.97,33.33,42.42,83.08,Recent Form (2024-2026),Top Boundary %
+f29185a1,Abhishek Sharma,Middle,478,221,31,42,59,216.29,33.03,26.7,78.66,Recent Form (2024-2026),Top Boundary %
+cf59b3f0,Urvil Patel,Middle,53,28,6,3,9,189.29,32.14,32.14,79.25,Recent Form (2024-2026),Top Boundary %
+bf74b130,FH Allen,Middle,813,364,38,78,85,223.35,31.87,23.35,76.26,Recent Form (2024-2026),Top Boundary %
+f2c936d7,MJ Owen,Middle,339,169,23,28,52,200.59,30.18,30.77,76.7,Recent Form (2024-2026),Top Boundary %
+4e6ef14f,P Litchfield,Middle,485,283,74,9,86,171.38,29.33,30.39,72.16,Recent Form (2024-2026),Top Boundary %
+e19307f3,SN Luff,Middle,61,37,8,2,11,164.86,27.03,29.73,72.13,Recent Form (2024-2026),Top Boundary %
+944533a5,KK Nair,Middle,101,60,12,4,17,168.33,26.67,28.33,71.29,Recent Form (2024-2026),Top Boundary %
+b5797845,Priyansh Arya,Middle,254,135,15,21,37,188.15,26.67,27.41,73.23,Recent Form (2024-2026),Top Boundary %
+6ffbf04c,KM Chathli,Middle,119,78,19,1,25,152.56,25.64,32.05,68.91,Recent Form (2024-2026),Top Boundary %
+e148e6bd,PR Veer,Middle,43,28,6,1,8,153.57,25.0,28.57,69.77,Recent Form (2024-2026),Top Boundary %
+b2b4f545,A Mhatre,Middle,157,85,9,12,20,184.71,24.71,23.53,68.79,Recent Form (2024-2026),Top Boundary %
+e66732f8,RD Rickelton,Middle,716,402,49,50,105,178.11,24.63,26.12,69.27,Recent Form (2024-2026),Top Boundary %
+238ce998,Q Sampson,Middle,120,65,3,13,23,184.62,24.62,35.38,75.0,Recent Form (2024-2026),Top Boundary %
+7dcb9bc9,M Shahrukh Khan,Middle,222,131,17,15,40,169.47,24.43,30.53,71.17,Recent Form (2024-2026),Top Boundary %
+d83c2dbe,K Pooran,Middle,66,41,7,3,12,160.98,24.39,29.27,69.7,Recent Form (2024-2026),Top Boundary %
+45eda7c8,CA Lynn,Middle,197,116,19,9,35,169.83,24.14,30.17,65.99,Recent Form (2024-2026),Top Boundary %
+c740ea83,RM Patidar,Middle,975,537,50,77,130,181.56,23.65,24.21,67.9,Recent Form (2024-2026),Top Boundary %
+fb2d1dda,N Rana,Middle,277,174,31,10,47,159.2,23.56,27.01,66.43,Recent Form (2024-2026),Top Boundary %
+72166006,GM Harris,Middle,164,102,19,5,26,160.78,23.53,25.49,64.63,Recent Form (2024-2026),Top Boundary %
+9d430b40,SP Narine,Middle,391,234,19,36,90,167.09,23.5,38.46,74.68,Recent Form (2024-2026),Top Boundary %
+d3a1c63d,T de Zorzi,Middle,72,47,8,3,18,153.19,23.4,38.3,69.44,Recent Form (2024-2026),Top Boundary %
+ea9c54de,Fatima Sana,Middle,31,26,6,0,13,119.23,23.08,50.0,77.42,Recent Form (2024-2026),Top Boundary %
+f3982af9,DP Hughes,Middle,56,39,7,2,14,143.59,23.08,35.9,71.43,Recent Form (2024-2026),Top Boundary %
+9eb1455b,NT Ellis,Middle,36,26,5,1,14,138.46,23.08,53.85,72.22,Recent Form (2024-2026),Top Boundary %
+271f83cd,SA Yadav,Middle,967,598,94,44,177,161.71,23.08,29.6,66.18,Recent Form (2024-2026),Top Boundary %
+12b610c2,TM Head,Middle,465,283,40,25,77,164.31,22.97,27.21,66.67,Recent Form (2024-2026),Top Boundary %
+33609a8c,Saim Ayub,Middle,75,47,2,5,8,159.57,14.89,17.02,50.67,Recent Form (2024-2026),Lowest Dot %
+5708d0b6,AV Wankhade,Middle,48,29,2,3,5,165.52,17.24,17.24,54.17,Recent Form (2024-2026),Lowest Dot %
+b0af303d,Kunwarjeet Singh,Middle,37,28,3,1,5,132.14,14.29,17.86,48.65,Recent Form (2024-2026),Lowest Dot %
+d5130a30,B Sai Sudharsan,Middle,907,583,79,30,112,155.57,18.7,19.21,54.69,Recent Form (2024-2026),Lowest Dot %
+1ac746c8,Atharva Taide,Middle,50,31,5,2,6,161.29,22.58,19.35,64.0,Recent Form (2024-2026),Lowest Dot %
+fa433be6,M Labuschagne,Middle,47,30,5,1,6,156.67,20.0,20.0,55.32,Recent Form (2024-2026),Lowest Dot %
+a9d2dab9,S Fanning,Middle,27,25,0,1,5,108.0,4.0,20.0,22.22,Recent Form (2024-2026),Lowest Dot %
+b4b99816,Shubman Gill,Middle,846,514,66,35,103,164.59,19.65,20.04,56.03,Recent Form (2024-2026),Lowest Dot %
+b17e2f24,KL Rahul,Middle,780,491,58,34,99,158.86,18.74,20.16,55.9,Recent Form (2024-2026),Lowest Dot %
+60aa2db3,LG Pretorius,Middle,432,259,33,22,55,166.8,21.24,21.24,61.11,Recent Form (2024-2026),Lowest Dot %
+a343262c,JE Root,Middle,352,287,21,8,62,122.65,10.1,21.6,37.5,Recent Form (2024-2026),Lowest Dot %
+5c30d455,G Voll,Middle,112,78,12,2,17,143.59,17.95,21.79,53.57,Recent Form (2024-2026),Lowest Dot %
+752f7486,Ishan Kishan,Middle,596,370,50,27,83,161.08,20.81,22.43,60.74,Recent Form (2024-2026),Lowest Dot %
+331ea488,UT Khawaja,Middle,56,35,5,2,8,160.0,20.0,22.86,57.14,Recent Form (2024-2026),Lowest Dot %
+fdd837ba,TP Ward,Middle,56,35,3,3,8,160.0,17.14,22.86,53.57,Recent Form (2024-2026),Lowest Dot %
+8ee36b18,P Nissanka,Middle,143,87,10,7,20,164.37,19.54,22.99,57.34,Recent Form (2024-2026),Lowest Dot %
+ba5e1069,R Ravindra,Middle,469,300,30,23,69,156.33,17.67,23.0,55.01,Recent Form (2024-2026),Lowest Dot %
+3355b542,F du Plessis,Middle,857,555,47,47,128,154.41,16.94,23.06,54.84,Recent Form (2024-2026),Lowest Dot %
+970ddd24,Suryansh Shedge,Middle,107,65,4,8,15,164.62,18.46,23.08,59.81,Recent Form (2024-2026),Lowest Dot %
+a4cc73aa,SV Samson,Middle,573,380,38,30,88,150.79,17.89,23.16,57.94,Recent Form (2024-2026),Lowest Dot %
+bf74b130,FH Allen,Middle,813,364,38,78,85,223.35,31.87,23.35,76.26,Recent Form (2024-2026),Lowest Dot %
+b2b4f545,A Mhatre,Middle,157,85,9,12,20,184.71,24.71,23.53,68.79,Recent Form (2024-2026),Lowest Dot %
+6a26221c,AK Markram,Middle,750,578,47,22,136,129.76,11.94,23.53,42.67,Recent Form (2024-2026),Lowest Dot %
+436c763a,BJ McMullen,Middle,132,105,8,4,25,125.71,11.43,23.81,42.42,Recent Form (2024-2026),Lowest Dot %
+7fca84b7,BA King,Middle,135,88,10,7,21,153.41,19.32,23.86,60.74,Recent Form (2024-2026),Lowest Dot %
+fc60e81a,B Parsons,Middle,90,67,4,4,16,134.33,11.94,23.88,44.44,Recent Form (2024-2026),Lowest Dot %
+bfa0fa33,D Perrin,Middle,130,83,15,3,20,156.63,21.69,24.1,60.0,Recent Form (2024-2026),Lowest Dot %
+69d03465,AT Carey,Middle,47,29,4,2,7,162.07,20.69,24.14,59.57,Recent Form (2024-2026),Lowest Dot %
+ba607b88,V Kohli,Middle,821,600,54,32,145,136.83,14.33,24.17,49.7,Recent Form (2024-2026),Lowest Dot %
+c740ea83,RM Patidar,Middle,975,537,50,77,130,181.56,23.65,24.21,67.9,Recent Form (2024-2026),Lowest Dot %
+72166006,GM Harris,Death,78,28,5,7,2,278.57,42.86,7.14,79.49,Recent Form (2024-2026),Top Strike Rate
+52d1dbc8,BL Mooney,Death,77,32,12,2,3,240.62,43.75,9.38,77.92,Recent Form (2024-2026),Top Strike Rate
+9caf69a1,WG Jacks,Death,101,42,5,9,5,240.48,33.33,11.9,73.27,Recent Form (2024-2026),Top Strike Rate
+4ba0289e,HC Knight,Death,90,39,14,2,7,230.77,41.03,17.95,75.56,Recent Form (2024-2026),Top Strike Rate
+7673c908,AC Kerr,Death,70,31,8,4,8,225.81,38.71,25.81,80.0,Recent Form (2024-2026),Top Strike Rate
+4ae1755b,HC Brook,Death,170,77,14,12,17,220.78,33.77,22.08,75.29,Recent Form (2024-2026),Top Strike Rate
+1bae756b,ADS Fletcher,Death,204,93,9,18,18,219.35,29.03,19.35,70.59,Recent Form (2024-2026),Top Strike Rate
+970ddd24,Suryansh Shedge,Death,120,55,7,11,14,218.18,32.73,25.45,78.33,Recent Form (2024-2026),Top Strike Rate
+fe366f34,C Connolly,Death,197,91,13,15,18,216.48,30.77,19.78,72.08,Recent Form (2024-2026),Top Strike Rate
+85ec8e33,SS Iyer,Death,444,206,29,38,48,215.53,32.52,23.3,77.48,Recent Form (2024-2026),Top Strike Rate
+a3690f55,Khuzaima Tanveer,Death,88,41,7,6,11,214.63,31.71,26.83,72.73,Recent Form (2024-2026),Top Strike Rate
+9de62878,Shadab Khan,Death,148,69,10,12,16,214.49,31.88,23.19,75.68,Recent Form (2024-2026),Top Strike Rate
+844e79d1,D Brevis,Death,363,170,18,35,44,213.53,31.18,25.88,77.69,Recent Form (2024-2026),Top Strike Rate
+e94d2d50,NA McSweeney,Death,83,39,12,3,10,212.82,38.46,25.64,79.52,Recent Form (2024-2026),Top Strike Rate
+25f7b7d6,T Banton,Death,208,98,17,14,24,212.24,31.63,24.49,73.08,Recent Form (2024-2026),Top Strike Rate
+b0482a1d,Tilak Varma,Death,319,151,25,23,34,211.26,31.79,22.52,74.61,Recent Form (2024-2026),Top Strike Rate
+919a3be2,RR Pant,Death,305,145,25,22,40,210.34,32.41,27.59,76.07,Recent Form (2024-2026),Top Strike Rate
+3ff033bb,MD Shanaka,Death,516,246,39,40,73,209.76,32.11,29.67,76.74,Recent Form (2024-2026),Top Strike Rate
+d5130a30,B Sai Sudharsan,Death,188,90,12,15,19,208.89,30.0,21.11,73.4,Recent Form (2024-2026),Top Strike Rate
+a0f612b6,TD Andrews,Death,66,32,5,5,11,206.25,31.25,34.38,75.76,Recent Form (2024-2026),Top Strike Rate
+f32012f4,M Bryant,Death,245,119,24,14,38,205.88,31.93,31.93,73.47,Recent Form (2024-2026),Top Strike Rate
+2b55c3b4,JJ Peirson,Death,105,51,7,7,10,205.88,27.45,19.61,66.67,Recent Form (2024-2026),Top Strike Rate
+60aa2db3,LG Pretorius,Death,82,40,6,4,6,205.0,25.0,15.0,58.54,Recent Form (2024-2026),Top Strike Rate
+d027ba9f,KS Williamson,Death,94,46,7,5,5,204.35,26.09,10.87,61.7,Recent Form (2024-2026),Top Strike Rate
+c8f5f961,Anuj Rawat,Death,130,64,14,8,17,203.12,34.38,26.56,80.0,Recent Form (2024-2026),Top Strike Rate
+c740ea83,RM Patidar,Death,272,134,20,23,41,202.99,32.09,30.6,80.15,Recent Form (2024-2026),Top Strike Rate
+abb83e27,JM Bairstow,Death,164,81,10,14,25,202.47,29.63,30.86,75.61,Recent Form (2024-2026),Top Strike Rate
+26989d80,Shashank Singh,Death,465,230,35,30,45,202.17,28.26,19.57,68.82,Recent Form (2024-2026),Top Strike Rate
+ba5e1069,R Ravindra,Death,109,54,7,8,12,201.85,27.78,22.22,69.72,Recent Form (2024-2026),Top Strike Rate
+b681e71e,GJ Maxwell,Death,331,164,17,31,55,201.83,29.27,33.54,76.74,Recent Form (2024-2026),Top Strike Rate
+52d1dbc8,BL Mooney,Death,77,32,12,2,3,240.62,43.75,9.38,77.92,Recent Form (2024-2026),Top Boundary %
+72166006,GM Harris,Death,78,28,5,7,2,278.57,42.86,7.14,79.49,Recent Form (2024-2026),Top Boundary %
+4ba0289e,HC Knight,Death,90,39,14,2,7,230.77,41.03,17.95,75.56,Recent Form (2024-2026),Top Boundary %
+7673c908,AC Kerr,Death,70,31,8,4,8,225.81,38.71,25.81,80.0,Recent Form (2024-2026),Top Boundary %
+e94d2d50,NA McSweeney,Death,83,39,12,3,10,212.82,38.46,25.64,79.52,Recent Form (2024-2026),Top Boundary %
+c8f5f961,Anuj Rawat,Death,130,64,14,8,17,203.12,34.38,26.56,80.0,Recent Form (2024-2026),Top Boundary %
+4ae1755b,HC Brook,Death,170,77,14,12,17,220.78,33.77,22.08,75.29,Recent Form (2024-2026),Top Boundary %
+9caf69a1,WG Jacks,Death,101,42,5,9,5,240.48,33.33,11.9,73.27,Recent Form (2024-2026),Top Boundary %
+970ddd24,Suryansh Shedge,Death,120,55,7,11,14,218.18,32.73,25.45,78.33,Recent Form (2024-2026),Top Boundary %
+0ecb4de6,Rehan Ahmed,Death,85,43,6,8,18,197.67,32.56,41.86,84.71,Recent Form (2024-2026),Top Boundary %
+85ec8e33,SS Iyer,Death,444,206,29,38,48,215.53,32.52,23.3,77.48,Recent Form (2024-2026),Top Boundary %
+919a3be2,RR Pant,Death,305,145,25,22,40,210.34,32.41,27.59,76.07,Recent Form (2024-2026),Top Boundary %
+3ff033bb,MD Shanaka,Death,516,246,39,40,73,209.76,32.11,29.67,76.74,Recent Form (2024-2026),Top Boundary %
+c740ea83,RM Patidar,Death,272,134,20,23,41,202.99,32.09,30.6,80.15,Recent Form (2024-2026),Top Boundary %
+f32012f4,M Bryant,Death,245,119,24,14,38,205.88,31.93,31.93,73.47,Recent Form (2024-2026),Top Boundary %
+9de62878,Shadab Khan,Death,148,69,10,12,16,214.49,31.88,23.19,75.68,Recent Form (2024-2026),Top Boundary %
+7b679de5,Kartik Sharma,Death,77,44,11,3,18,175.0,31.82,40.91,80.52,Recent Form (2024-2026),Top Boundary %
+b0482a1d,Tilak Varma,Death,319,151,25,23,34,211.26,31.79,22.52,74.61,Recent Form (2024-2026),Top Boundary %
+a3690f55,Khuzaima Tanveer,Death,88,41,7,6,11,214.63,31.71,26.83,72.73,Recent Form (2024-2026),Top Boundary %
+25f7b7d6,T Banton,Death,208,98,17,14,24,212.24,31.63,24.49,73.08,Recent Form (2024-2026),Top Boundary %
+a0f612b6,TD Andrews,Death,66,32,5,5,11,206.25,31.25,34.38,75.76,Recent Form (2024-2026),Top Boundary %
+844e79d1,D Brevis,Death,363,170,18,35,44,213.53,31.18,25.88,77.69,Recent Form (2024-2026),Top Boundary %
+38c276e1,N McAndrew,Death,54,29,8,1,9,186.21,31.03,31.03,70.37,Recent Form (2024-2026),Top Boundary %
+0a509d6b,RK Singh,Death,378,191,38,21,51,197.91,30.89,26.7,73.54,Recent Form (2024-2026),Top Boundary %
+fe366f34,C Connolly,Death,197,91,13,15,18,216.48,30.77,19.78,72.08,Recent Form (2024-2026),Top Boundary %
+ba607b88,V Kohli,Death,201,101,21,10,22,199.01,30.69,21.78,71.64,Recent Form (2024-2026),Top Boundary %
+752f7486,Ishan Kishan,Death,168,85,16,10,22,197.65,30.59,25.88,73.81,Recent Form (2024-2026),Top Boundary %
+da934ee8,MK Lomror,Death,86,43,7,6,12,200.0,30.23,27.91,74.42,Recent Form (2024-2026),Top Boundary %
+3241e3fd,N Pooran,Death,1053,535,77,84,164,196.82,30.09,30.65,77.11,Recent Form (2024-2026),Top Boundary %
+d5130a30,B Sai Sudharsan,Death,188,90,12,15,19,208.89,30.0,21.11,73.4,Recent Form (2024-2026),Top Boundary %
+df5a6881,DP Conway,Death,66,38,5,2,2,173.68,18.42,5.26,48.48,Recent Form (2024-2026),Lowest Dot %
+72166006,GM Harris,Death,78,28,5,7,2,278.57,42.86,7.14,79.49,Recent Form (2024-2026),Lowest Dot %
+52d1dbc8,BL Mooney,Death,77,32,12,2,3,240.62,43.75,9.38,77.92,Recent Form (2024-2026),Lowest Dot %
+0ebb3444,L Scott,Death,107,56,8,5,6,191.07,23.21,10.71,57.94,Recent Form (2024-2026),Lowest Dot %
+d027ba9f,KS Williamson,Death,94,46,7,5,5,204.35,26.09,10.87,61.7,Recent Form (2024-2026),Lowest Dot %
+9caf69a1,WG Jacks,Death,101,42,5,9,5,240.48,33.33,11.9,73.27,Recent Form (2024-2026),Lowest Dot %
+02181d9a,EL Lamb,Death,76,48,8,1,7,158.33,18.75,14.58,50.0,Recent Form (2024-2026),Lowest Dot %
+60aa2db3,LG Pretorius,Death,82,40,6,4,6,205.0,25.0,15.0,58.54,Recent Form (2024-2026),Lowest Dot %
+dcce6f09,DA Warner,Death,217,110,21,9,18,197.27,27.27,16.36,63.59,Recent Form (2024-2026),Lowest Dot %
+85b3fab2,T Stubbs,Death,825,428,62,45,72,192.76,25.0,16.82,62.79,Recent Form (2024-2026),Lowest Dot %
+7a6dc294,JC Silk,Death,94,53,8,3,9,177.36,20.75,16.98,53.19,Recent Form (2024-2026),Lowest Dot %
+4ba0289e,HC Knight,Death,90,39,14,2,7,230.77,41.03,17.95,75.56,Recent Form (2024-2026),Lowest Dot %
+30a45b23,SPD Smith,Death,120,66,6,8,12,181.82,21.21,18.18,60.0,Recent Form (2024-2026),Lowest Dot %
+e94bc520,OJ Pope,Death,85,55,5,2,10,154.55,12.73,18.18,37.65,Recent Form (2024-2026),Lowest Dot %
+1bae756b,ADS Fletcher,Death,204,93,9,18,18,219.35,29.03,19.35,70.59,Recent Form (2024-2026),Lowest Dot %
+bab78fa2,J Da Silva,Death,65,41,4,4,8,158.54,19.51,19.51,61.54,Recent Form (2024-2026),Lowest Dot %
+26989d80,Shashank Singh,Death,465,230,35,30,45,202.17,28.26,19.57,68.82,Recent Form (2024-2026),Lowest Dot %
+0994d0ae,V Shankar,Death,60,46,5,1,9,130.43,13.04,19.57,43.33,Recent Form (2024-2026),Lowest Dot %
+2b55c3b4,JJ Peirson,Death,105,51,7,7,10,205.88,27.45,19.61,66.67,Recent Form (2024-2026),Lowest Dot %
+4b685e2d,DW Lawrence,Death,267,157,17,13,31,170.06,19.11,19.75,54.68,Recent Form (2024-2026),Lowest Dot %
+fe366f34,C Connolly,Death,197,91,13,15,18,216.48,30.77,19.78,72.08,Recent Form (2024-2026),Lowest Dot %
+46e4a4e0,M Van Buuren,Death,30,25,2,0,5,120.0,8.0,20.0,26.67,Recent Form (2024-2026),Lowest Dot %
+324b9eee,G Redmayne,Death,55,35,9,0,7,157.14,25.71,20.0,65.45,Recent Form (2024-2026),Lowest Dot %
+86e0f3f0,WL Madsen,Death,42,25,5,0,5,168.0,20.0,20.0,47.62,Recent Form (2024-2026),Lowest Dot %
+65d9b6b6,A Sutherland,Death,189,98,16,10,20,192.86,26.53,20.41,65.61,Recent Form (2024-2026),Lowest Dot %
+dff806f4,NJ Carey,Death,85,49,12,1,10,173.47,26.53,20.41,63.53,Recent Form (2024-2026),Lowest Dot %
+f0b4e47d,G Wareham,Death,160,93,17,5,19,172.04,23.66,20.43,61.25,Recent Form (2024-2026),Lowest Dot %
+922e1b19,Z Crawley,Death,58,29,3,5,6,200.0,27.59,20.69,72.41,Recent Form (2024-2026),Lowest Dot %
+fe93fd9d,RA Jadeja,Death,383,245,28,15,51,156.33,17.55,20.82,52.74,Recent Form (2024-2026),Lowest Dot %
+a343262c,JE Root,Death,121,76,12,3,16,159.21,19.74,21.05,54.55,Recent Form (2024-2026),Lowest Dot %
