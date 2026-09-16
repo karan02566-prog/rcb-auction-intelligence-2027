@@ -213,7 +213,9 @@ def main():
           f"to qualify): {len(season_agg):,} rows -> {season_path}")
     bumrah_seasons = season_agg[(season_agg["bowler_canonical_name"] == "JJ Bumrah") & season_agg["qualified"]]
     if len(bumrah_seasons):
-        print(bumrah_seasons[["season", "overs", "economy", "wickets", "strike_rate"]].to_string(index=False))
+        print("JJ Bumrah, IPL, by season:")
+        print(bumrah_seasons[["bowler_canonical_name", "season", "overs", "economy", "wickets", "strike_rate"]]
+              .to_string(index=False))
 
     print(f"\nBowlers analyzed: {len(bowler_summary):,} | spells: {len(spells):,} | overs: {len(over_agg):,}")
     print(f"Recently active (last_active_season >= 2025) and qualified (>= {MIN_SPELLS_FOR_STATS} spells): "

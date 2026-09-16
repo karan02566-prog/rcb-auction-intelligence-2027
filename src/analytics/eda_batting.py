@@ -522,7 +522,9 @@ def main() -> Path:
               f"to qualify): {len(by_season):,} rows -> {season_path}")
         kohli_seasons = by_season[by_season["player_name"].eq("V Kohli") & by_season["qualified"]]
         if len(kohli_seasons):
-            print(kohli_seasons[["season", "innings", "batting_average", "median_score"]].to_string(index=False))
+            print("V Kohli, IPL, by season:")
+            print(kohli_seasons[["player_name", "season", "innings", "batting_average", "median_score"]]
+                  .to_string(index=False))
 
     return out_path
 
