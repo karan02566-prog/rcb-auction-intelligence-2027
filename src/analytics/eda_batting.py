@@ -376,6 +376,20 @@ def main() -> Path:
     ipl_tbl = player_distribution_table(ipl_innings, "ipl_2018_2026") if len(ipl_innings) else pd.DataFrame()
     dist = pd.concat([all_tbl, ipl_tbl], ignore_index=True)
 
+    # Recency: last season each player actually appeared in, per scope. Dataset
+    # covers IPL + 4 domestic + 3 overseas-franchise T20 leagues, no
+    # international (bilateral/World Cup) ball-by-ball data -- can't filter for
+    # "international" because it isn't in the source at this grain.
+    last_active_all = innings.groupby("player_id")["start_year"].max().rename("last_active_season")
+    last_active_ipl = (
+        innings.loc[innings["competition"].eq("ipl")].groupby("player_id")["start_year"].max()
+        .rename("last_active_season")
+    )
+    dist_all = dist.loc[dist["scope"].eq("all_t20_2018_2026")].merge(last_active_all, on="player_id", how="left")
+    dist_ipl = dist.loc[dist["scope"].eq("ipl_2018_2026")].merge(last_active_ipl, on="player_id", how="left")
+    dist = pd.concat([dist_all, dist_ipl], ignore_index=True)
+    dist["is_recently_active"] = dist["last_active_season"] >= 2025
+
     ipl_qualified = dist.loc[dist["scope"].eq("ipl_2018_2026") & dist["qualified"]]
     if len(ipl_qualified):
         share = float(ipl_qualified["median_lt_mean"].mean())
@@ -405,6 +419,8 @@ def main() -> Path:
         "player_id",
         "player_name",
         "qualified",
+        "last_active_season",
+        "is_recently_active",
         "innings",
         "dismissals",
         "not_outs",
@@ -441,6 +457,14 @@ def main() -> Path:
     dist.to_parquet(out_path, index=False)
     dist.to_csv(reports / "eda_batting_distributions.csv", index=False)
     print(f"Saved: {out_path} ({len(dist):,} rows)")
+
+    active_qualified = dist.loc[
+        dist["scope"].eq("all_t20_2018_2026") & dist["qualified"] & dist["is_recently_active"]
+    ].sort_values("batting_average", ascending=False)
+    active_path = reports / "eda_batting_active_shortlist.csv"
+    active_qualified.to_csv(active_path, index=False)
+    print(f"Recently active (last_active_season >= 2025) and qualified (all leagues in dataset): "
+          f"{len(active_qualified):,} batters -> {active_path}")
     return out_path
 
 

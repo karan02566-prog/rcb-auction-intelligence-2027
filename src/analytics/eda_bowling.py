@@ -137,7 +137,25 @@ def main():
         on="bowler_canonical_id", how="left",
     )
 
+    # --- Recency: last season each bowler actually appeared in, across ALL
+    # competitions already in this dataset (IPL + 4 domestic leagues + 3
+    # overseas franchise T20 leagues). NOTE: this pipeline has no international
+    # (bilateral/World Cup) ball-by-ball data at all -- "international" can't be
+    # filtered here because it isn't in the source; it only shows up later in
+    # phase.md as a feature column ("international experience") fed from
+    # elsewhere, not from this delivery-level dataset.
+    last_active = fact.groupby("bowler_canonical_id")["start_year"].max().rename("last_active_season")
+    bowler_summary = bowler_summary.merge(last_active, on="bowler_canonical_id", how="left")
+    bowler_summary["is_recently_active"] = bowler_summary["last_active_season"] >= 2025
+
     bowler_summary = bowler_summary.sort_values("legal_balls", ascending=False).reset_index(drop=True)
+
+    # --- Also emit a recently-active shortlist, since the full table is
+    # dominated by long-retired low-sample domestic names once you sort by
+    # rate stats alone. ---
+    active_qualified = bowler_summary[bowler_summary["is_recently_active"] & bowler_summary["qualified"]]
+    active_path = reports_dir / "eda_bowling_active_shortlist.csv"
+    active_qualified.sort_values("economy_overall").to_csv(active_path, index=False)
 
     # --- Validation: cross-check bowling strike rate against known T20 scorecard
     # aggregates (~15-26 balls per wicket is the typical published IPL band) ---
@@ -153,11 +171,13 @@ def main():
     bowler_summary.to_csv(reports_dir / "eda_bowling_distributions.csv", index=False)
 
     print(f"\nBowlers analyzed: {len(bowler_summary):,} | spells: {len(spells):,} | overs: {len(over_agg):,}")
-    qualified = bowler_summary[bowler_summary["qualified"]]
-    top10 = qualified.nsmallest(10, "economy_overall")
-    print(f"\nTop 10 (min {MIN_SPELLS_FOR_STATS} spells) by economy:")
-    print(top10[["bowler_canonical_name", "spells", "economy_overall", "strike_rate_balls_per_wicket",
-                  "two_plus_wicket_spell_rate", "expensive_over_rate"]].to_string(index=False))
+    print(f"Recently active (last_active_season >= 2025) and qualified (>= {MIN_SPELLS_FOR_STATS} spells): "
+          f"{len(active_qualified):,} bowlers -> {active_path}")
+    top10 = active_qualified.nsmallest(10, "economy_overall")
+    print(f"\nTop 10 RECENTLY ACTIVE (min {MIN_SPELLS_FOR_STATS} spells) by economy:")
+    print(top10[["bowler_canonical_name", "last_active_season", "spells", "economy_overall",
+                  "strike_rate_balls_per_wicket", "two_plus_wicket_spell_rate", "expensive_over_rate"]]
+          .to_string(index=False))
 
     print(f"\nSaved: {out_path}")
 

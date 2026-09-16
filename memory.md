@@ -69,3 +69,8 @@
 - **Validation**: overall strike rate 19.37 balls/wicket — within ~15-26 sanity band from published scorecard aggregates.
 - **Scale**: 1,666 bowlers, 97,805 spells, 2018-2026, super overs excluded.
 - **Top economy (min 10 spells)**: mostly low-sample domestic bowlers (10-32 spells) — best read as a shortlist worth cross-checking, not a definitive ranking, given the qualification threshold is only 10 spells.
+
+## Add-on: recency filtering for batting/bowling distributions (active-players ask)
+- **Gap confirmed**: this pipeline has NO international (bilateral/World Cup) ball-by-ball data at all — only IPL + 4 domestic leagues (hnd/ilt/sat/sma) + 3 overseas franchise T20 leagues (bbl/cpl/mlc). "International experience" appears later in phase.md only as a feature column fed from elsewhere (auction data), not derivable from this dataset.
+- **Data-quality note**: the bowler/batter pools mix men's and women's cricket (e.g. M Kapp, DB Sharma, SL Bates appear in the active bowling shortlist) — the dataset has no gender/competition-tier split. Flagged, not fixed (would need a different data source to separate WPL/women's leagues from men's competitions).
+- **Fix**: added `last_active_season` (max start_year of any appearance, per scope) and `is_recently_active` (>= 2025) to both `eda_batting.py` and `eda_bowling.py` outputs. Added `reports/eda_batting_active_shortlist.csv` (533 batters) and `reports/eda_bowling_active_shortlist.csv` (482 bowlers) — qualified + recently active, sorted by batting average / economy respectively.
