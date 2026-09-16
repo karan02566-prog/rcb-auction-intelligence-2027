@@ -59,3 +59,13 @@
 - **IPL qualified batters (>=10 innings, 2018-2026)**: 202 players; median<mean holds for 96.5% of them. Duck rate distribution: p10=0%, median=7.5%, p90=20%.
 - **V Kohli, IPL 2018-2026**: avg 43.52 across 134 innings, median 31.5, duck rate 4.5%, Kaplan-Meier P(50+) 34.8%.
 - **Tests**: 11/11 pass (`tests/test_dim_players.py`, `tests/test_eda_batting.py`) — covers not-out-zero-not-a-duck, retired-hurt censoring, KM correctness, conversion excluding stranded not-outs, right-skew assertion.
+## Phase 3.4: Bowler Distributions & Spell Profile Analysis (Completed)
+- **Script**: `src/analytics/eda_bowling.py`
+- **Output Artifacts**: `reports/eda_bowling_distributions.parquet` (+ .csv), one row per bowler.
+- **Grain fix**: used `is_legal_ball` (excludes wides AND no-balls — true 6-ball-over count), not `is_legal_delivery` (excludes only wides, used for batter balls-faced). Using the wrong flag would have silently misstated every economy rate.
+- **Runs conceded**: excludes byes/leg-byes (not bowler's fault), includes wides/no-balls (is bowler's fault) — matches scorecard convention.
+- **Partial-over handling (the failure mode phase.md warns about)**: overs aggregated at (bowler, match, innings, over) grain using each delivery's own bowler column, so a bowler injured/replaced mid-over is only charged for balls they actually bowled.
+- **Spell definition**: maximal run of consecutive over_numbers by the same bowler in the same innings; broken by any gap.
+- **Validation**: overall strike rate 19.37 balls/wicket — within ~15-26 sanity band from published scorecard aggregates.
+- **Scale**: 1,666 bowlers, 97,805 spells, 2018-2026, super overs excluded.
+- **Top economy (min 10 spells)**: mostly low-sample domestic bowlers (10-32 spells) — best read as a shortlist worth cross-checking, not a definitive ranking, given the qualification threshold is only 10 spells.
