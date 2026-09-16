@@ -3,6 +3,8 @@ import re
 import pandas as pd
 from pathlib import Path
 
+from src.utils.config import get_project_root
+
 def normalize_string(val: str) -> str:
     if not isinstance(val, str):
         return ""
@@ -11,7 +13,7 @@ def normalize_string(val: str) -> str:
     return re.sub(r'\s+', ' ', val)
 
 def get_mapping_lookups():
-    mapping_file = Path("configs/player_mapping.json")
+    mapping_file = get_project_root() / "configs" / "player_mapping.json"
     if not mapping_file.exists():
         raise FileNotFoundError(f"{mapping_file} not found. Run generate_player_mapping.py first.")
     

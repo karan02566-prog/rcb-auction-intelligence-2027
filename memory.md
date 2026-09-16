@@ -45,3 +45,17 @@
 - **Scope**: Seasons 2018-2026, super overs excluded (different format, not a truncation case); no DLS/rain-truncation adjustment (scoped down per phase.md v1.1).
 - **Result** (run rate / boundary% / wicket rate per 100 legal balls): IPL 8.89 / 19.05% / 5.18 — highest run rate and boundary% of all 8 competitions in range. Full ranked table in the JSON report.
 - **Validation**: Computed IPL run rate (8.89) checked against published IPL season summaries (~7.0-9.5 historical band) — within range.
+
+## Gap Fix: dim_players.parquet was never built (found while starting Phase 3.3)
+- **Root cause**: Phase 2.3 spec'd `processed/dim_players.parquet` as a deliverable, but the implemented pipeline (`generate_player_mapping.py` -> `apply_player_mapping.py` -> `apply_fuzzy_overrides.py`) only ever produced `configs/player_mapping.json`. No script wrote the dimension table itself.
+- **Fix**: Added `src/cleaning/build_dim_players.py` — collapses `player_mapping.json`'s `mapped` entries to one row per `canonical_id` (best confidence + majority name kept), joins Cricsheet register fields (`identifier`, `name`, `unique_name`, key_* ids) where available, and attaches batter/bowler appearance counts from `fact_deliveries.parquet`. Validates zero duplicate/null `player_id`. Also fixed `apply_player_mapping.py`'s mapping-file path to be project-root-relative (`get_project_root()`) instead of cwd-relative, since it's now imported from a different working directory.
+- **Result**: **3,048 unique canonical players.**
+
+## Phase 3.3: Batter Distributions & Milestone Profile Analysis (Completed)
+- **Script**: `src/analytics/eda_batting.py`
+- **Output Artifacts**: `reports/eda_batting_distributions.parquet` (+ .csv), scoped both `all_t20_2018_2026` and `ipl_2018_2026`.
+- **Not-out handling (the failure mode phase.md explicitly warns about)**: not-out innings are censored, not treated as completed/failed scores. Milestone reach rates reported three ways per threshold (20/30/50): `naive` (not-outs below threshold count as failures), `complete_case` (drop not-outs that never reached it), and `kaplan_meier` (product-limit survival estimate of true latent score). `retired hurt`/`retired not out` are treated as censored, matching batting-average convention; other dismissal kinds count. Handles pipe-separated multi-dismissal Cricsheet records and run-out non-strikers who never faced a ball.
+- **Validation**: pooled median 11.0 < mean 18.55 (skew 1.673, n=40,338 innings) — right-skewed as required, check passes.
+- **IPL qualified batters (>=10 innings, 2018-2026)**: 202 players; median<mean holds for 96.5% of them. Duck rate distribution: p10=0%, median=7.5%, p90=20%.
+- **V Kohli, IPL 2018-2026**: avg 43.52 across 134 innings, median 31.5, duck rate 4.5%, Kaplan-Meier P(50+) 34.8%.
+- **Tests**: 11/11 pass (`tests/test_dim_players.py`, `tests/test_eda_batting.py`) — covers not-out-zero-not-a-duck, retired-hurt censoring, KM correctness, conversion excluding stranded not-outs, right-skew assertion.
