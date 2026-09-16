@@ -47,15 +47,18 @@ def main():
 
     fact = pd.read_parquet(processed_dir / "fact_deliveries.parquet")
     dim_comp = pd.read_parquet(processed_dir / "dim_competitions.parquet")
+    matches_gender = pd.read_parquet(Path("data/interim/matches.parquet"))[["match_id", "gender"]]
 
     if "start_year" not in fact.columns:
         fact = fact.merge(dim_comp[["competition_id", "start_year"]], on="competition_id", how="left")
+    fact = fact.merge(matches_gender, on="match_id", how="left")
 
     n_before = len(fact)
     fact = fact[(fact["start_year"] >= 2018) & (fact["start_year"] <= 2026)]
     fact = fact[fact["is_super_over"] == False]
     fact = fact[fact["bowler_canonical_id"] != "UNRESOLVED"]
-    print(f"Filtered to 2018-2026, non-super-over, resolved bowlers: {len(fact):,} / {n_before:,} rows")
+    fact = fact[fact["gender"] == "male"]  # matches.gender is a real source field, not inferred
+    print(f"Filtered to 2018-2026, non-super-over, resolved bowlers, men's matches: {len(fact):,} / {n_before:,} rows")
 
     fact = fact.copy()
     fact["bowler_runs"] = fact["total_runs"] - fact["byes_runs"] - fact["legbyes_runs"]

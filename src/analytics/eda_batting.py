@@ -351,6 +351,9 @@ def main() -> Path:
     fact = pd.read_parquet(fact_path)
     dim_players = pd.read_parquet(dim_players_path)
     dim_comp = pd.read_parquet(dim_comp_path)
+    matches_gender = pd.read_parquet(root / "data" / "interim" / "matches.parquet")[["match_id", "gender"]]
+    fact = fact.merge(matches_gender, on="match_id", how="left")
+    fact = fact[fact["gender"] == "male"]  # matches.gender is a real source field, not inferred
     fact = prepare_fact(fact, dim_comp)
 
     exact_lookup, norm_lookup = get_mapping_lookups()
