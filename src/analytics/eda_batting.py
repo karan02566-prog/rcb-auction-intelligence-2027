@@ -304,6 +304,31 @@ def player_distribution_table(innings: pd.DataFrame, scope: str) -> pd.DataFrame
     return pd.DataFrame(rows)
 
 
+MIN_INNINGS_SEASON = 5
+
+
+def season_distribution_table(innings: pd.DataFrame, scope: str) -> pd.DataFrame:
+    """Same stats as player_distribution_table, but one row per (player, season)."""
+    rows = []
+    grouped = innings.groupby(["player_id", "player_name", "start_year"], dropna=False)
+    for (player_id, player_name, season), grp in grouped:
+        stats_row = summarize_score_vector(grp["runs"].to_numpy(), grp["is_out"].to_numpy())
+        stats_row.update(
+            {
+                "player_id": player_id,
+                "player_name": player_name,
+                "season": int(season) if pd.notna(season) else None,
+                "scope": scope,
+                "balls_faced": int(grp["balls_faced"].sum()),
+                "qualified": stats_row["innings"] >= MIN_INNINGS_SEASON,
+            }
+        )
+        rows.append(stats_row)
+    if not rows:
+        return pd.DataFrame()
+    return pd.DataFrame(rows)
+
+
 def assert_right_skew(innings: pd.DataFrame) -> dict:
     scores = innings["runs"].to_numpy(dtype=float)
     mean_score = float(scores.mean())
@@ -378,6 +403,11 @@ def main() -> Path:
     ipl_innings = innings.loc[innings["competition"].eq("ipl")].copy()
     ipl_tbl = player_distribution_table(ipl_innings, "ipl_2018_2026") if len(ipl_innings) else pd.DataFrame()
     dist = pd.concat([all_tbl, ipl_tbl], ignore_index=True)
+
+    # Year-by-year breakdown (same stats, grain = player x season instead of
+    # player pooled across all seasons). IPL only -- most relevant for auction
+    # trend-spotting (improving/declining form by season).
+    by_season = season_distribution_table(ipl_innings, "ipl_by_season") if len(ipl_innings) else pd.DataFrame()
 
     # Recency: last season each player actually appeared in, per scope. Dataset
     # covers IPL + 4 domestic + 3 overseas-franchise T20 leagues, no
@@ -479,6 +509,21 @@ def main() -> Path:
     print("Top 10 IPL-ACTIVE by batting average:")
     print(top10_ipl[["player_name", "last_active_season", "innings", "batting_average", "median_score"]]
           .to_string(index=False))
+
+    if len(by_season):
+        season_cols = ["player_id", "player_name", "season", "scope", "qualified", "innings",
+                        "dismissals", "not_outs", "runs", "balls_faced", "batting_average",
+                        "mean_score", "median_score", "duck_count", "duck_rate",
+                        "rate_20_km", "rate_30_km", "rate_50_km"]
+        by_season = by_season[season_cols].sort_values(["player_name", "season"]).reset_index(drop=True)
+        season_path = reports / "eda_batting_by_season_ipl.csv"
+        by_season.to_csv(season_path, index=False)
+        print(f"Year-by-year IPL batting (player x season, min {MIN_INNINGS_SEASON} innings/season "
+              f"to qualify): {len(by_season):,} rows -> {season_path}")
+        kohli_seasons = by_season[by_season["player_name"].eq("V Kohli") & by_season["qualified"]]
+        if len(kohli_seasons):
+            print(kohli_seasons[["season", "innings", "batting_average", "median_score"]].to_string(index=False))
+
     return out_path
 
 

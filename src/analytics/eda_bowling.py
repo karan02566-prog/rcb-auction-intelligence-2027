@@ -75,6 +75,7 @@ def main():
         wickets=("bowler_wicket", "sum"),
         dots=("is_dot_ball", "sum"),
         competition=("competition", "first"),
+        start_year=("start_year", "first"),
     ).reset_index()
 
     # --- Spell detection: consecutive over_numbers by the same bowler in the
@@ -95,6 +96,7 @@ def main():
         wickets=("wickets", "sum"),
         dots=("dots", "sum"),
         competition=("competition", "first"),
+        start_year=("start_year", "first"),
     ).reset_index()
     spells["economy"] = spells["runs"] / (spells["legal_balls"] / 6)
     spells["is_2plus_wicket_spell"] = spells["wickets"] >= 2
@@ -186,6 +188,32 @@ def main():
     print(f"\nTop 10 IPL-ACTIVE (min {MIN_SPELLS_FOR_STATS} spells) by economy:")
     print(top10_ipl[["bowler_canonical_name", "last_active_season", "spells", "economy_overall",
                       "strike_rate_balls_per_wicket", "two_plus_wicket_spell_rate"]].to_string(index=False))
+
+    # Year-by-year breakdown, IPL only: same over-level source, grouped by
+    # (bowler, season) instead of pooling across all seasons.
+    ipl_overs = over_agg[over_agg["competition"] == "ipl"]
+    season_agg = ipl_overs.groupby(["bowler_canonical_id", "bowler_canonical_name", "start_year"]).agg(
+        overs=("over_number", "count"),
+        legal_balls=("legal_balls", "sum"),
+        runs=("runs", "sum"),
+        wickets=("wickets", "sum"),
+    ).reset_index()
+    MIN_OVERS_SEASON = 10
+    season_agg["economy"] = round(season_agg["runs"] / (season_agg["legal_balls"] / 6), 3)
+    season_agg["strike_rate"] = season_agg.apply(
+        lambda r: round(r["legal_balls"] / r["wickets"], 2) if r["wickets"] else None, axis=1
+    )
+    season_agg["qualified"] = season_agg["overs"] >= MIN_OVERS_SEASON
+    season_agg = season_agg.rename(columns={"start_year": "season"}).sort_values(
+        ["bowler_canonical_name", "season"]
+    ).reset_index(drop=True)
+    season_path = reports_dir / "eda_bowling_by_season_ipl.csv"
+    season_agg.to_csv(season_path, index=False)
+    print(f"\nYear-by-year IPL bowling (bowler x season, min {MIN_OVERS_SEASON} overs/season "
+          f"to qualify): {len(season_agg):,} rows -> {season_path}")
+    bumrah_seasons = season_agg[(season_agg["bowler_canonical_name"] == "JJ Bumrah") & season_agg["qualified"]]
+    if len(bumrah_seasons):
+        print(bumrah_seasons[["season", "overs", "economy", "wickets", "strike_rate"]].to_string(index=False))
 
     print(f"\nBowlers analyzed: {len(bowler_summary):,} | spells: {len(spells):,} | overs: {len(over_agg):,}")
     print(f"Recently active (last_active_season >= 2025) and qualified (>= {MIN_SPELLS_FOR_STATS} spells): "

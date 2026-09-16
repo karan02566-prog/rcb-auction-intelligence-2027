@@ -79,3 +79,8 @@
 - **Root cause resolved**: `matches.parquet` has a real `gender` field (male/female) straight from the Cricsheet source, not inferred. Only `hnd` (The Hundred) mixes genders (201 male, 188 female matches); all 7 other competitions were already men's-only.
 - **Fix**: both `eda_batting.py` and `eda_bowling.py` now merge `matches.gender` and filter to `gender == "male"` before all other processing.
 - **Verified surgical**: IPL-specific numbers (Kohli avg 43.52, etc.) unchanged since IPL was already men's-only; only `hnd` rows and the previously-mixed active shortlists changed. Women's players (Kapp, Deepti Sharma, Bates) no longer appear. Bowling active shortlist top 10 is now: SP Narine, R Sai Kishore, Imad Wasim, Haider Ali, etc. — all correctly men's T20.
+
+## Add-on: year-by-year breakdowns (IPL only)
+- **Script changes**: `eda_batting.py` adds `season_distribution_table()` (same stats as the pooled table, grain = player x season, min 5 innings/season to qualify) -> `reports/eda_batting_by_season_ipl.csv` (1,429 rows). `eda_bowling.py` adds a season-grouped rollup from the same over-level data (min 10 overs/season to qualify) -> `reports/eda_bowling_by_season_ipl.csv` (1,059 rows).
+- **Sanity check passed**: Bumrah's season table has no 2023 row — he missed IPL 2023 with a back injury, a real known fact, confirming the season split is correctly picking up match-level absence rather than defaulting/interpolating.
+- **Kohli trend** (IPL by season): dipped to a 22.7 average in 2022, recovered to 53-62 average range 2023-2026.
