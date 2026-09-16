@@ -74,6 +74,7 @@ def main():
         runs=("bowler_runs", "sum"),
         wickets=("bowler_wicket", "sum"),
         dots=("is_dot_ball", "sum"),
+        competition=("competition", "first"),
     ).reset_index()
 
     # --- Spell detection: consecutive over_numbers by the same bowler in the
@@ -93,6 +94,7 @@ def main():
         runs=("runs", "sum"),
         wickets=("wickets", "sum"),
         dots=("dots", "sum"),
+        competition=("competition", "first"),
     ).reset_index()
     spells["economy"] = spells["runs"] / (spells["legal_balls"] / 6)
     spells["is_2plus_wicket_spell"] = spells["wickets"] >= 2
@@ -160,6 +162,11 @@ def main():
     active_path = reports_dir / "eda_bowling_active_shortlist.csv"
     active_qualified.sort_values("economy_overall").to_csv(active_path, index=False)
 
+    ipl_bowler_ids = set(spells.loc[spells["competition"] == "ipl", "bowler_canonical_id"])
+    ipl_active_qualified = active_qualified[active_qualified["bowler_canonical_id"].isin(ipl_bowler_ids)]
+    ipl_active_path = reports_dir / "eda_bowling_active_shortlist_ipl.csv"
+    ipl_active_qualified.sort_values("economy_overall").to_csv(ipl_active_path, index=False)
+
     # --- Validation: cross-check bowling strike rate against known T20 scorecard
     # aggregates (~15-26 balls per wicket is the typical published IPL band) ---
     total_balls = int(over_agg["legal_balls"].sum())
@@ -172,6 +179,9 @@ def main():
     out_path = reports_dir / "eda_bowling_distributions.parquet"
     bowler_summary.to_parquet(out_path, index=False)
     bowler_summary.to_csv(reports_dir / "eda_bowling_distributions.csv", index=False)
+
+    print(f"IPL-only recently active + qualified (stats still pooled across all their "
+          f"leagues, not IPL-specific): {len(ipl_active_qualified):,} bowlers -> {ipl_active_path}")
 
     print(f"\nBowlers analyzed: {len(bowler_summary):,} | spells: {len(spells):,} | overs: {len(over_agg):,}")
     print(f"Recently active (last_active_season >= 2025) and qualified (>= {MIN_SPELLS_FOR_STATS} spells): "

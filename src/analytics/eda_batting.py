@@ -468,6 +468,13 @@ def main() -> Path:
     active_qualified.to_csv(active_path, index=False)
     print(f"Recently active (last_active_season >= 2025) and qualified (all leagues in dataset): "
           f"{len(active_qualified):,} batters -> {active_path}")
+
+    ipl_active_qualified = dist.loc[
+        dist["scope"].eq("ipl_2018_2026") & dist["qualified"] & dist["is_recently_active"]
+    ].sort_values("batting_average", ascending=False)
+    ipl_active_path = reports / "eda_batting_active_shortlist_ipl.csv"
+    ipl_active_qualified.to_csv(ipl_active_path, index=False)
+    print(f"IPL-only recently active + qualified: {len(ipl_active_qualified):,} batters -> {ipl_active_path}")
     return out_path
 
 
