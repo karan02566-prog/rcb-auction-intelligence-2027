@@ -41,7 +41,11 @@
     {
       "check": "wicket_sanity",
       "status": "PASS",
-      "detail": "0 rows with is_wicket outside {0,1}"
+      "detail": {
+        "rows_outside_0_1_domain": 0,
+        "wicket_rate_on_legal_balls": 0.0542,
+        "plausible_range": "0.01-0.15"
+      }
     },
     {
       "check": "phase_over_boundary_5_6_to_6_0",

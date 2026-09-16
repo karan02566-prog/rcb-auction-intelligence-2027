@@ -31,3 +31,17 @@
 - **Output Artifacts**: `reports/data_quality_report.json`
 - **Result**: 8/8 checks passed (no duplicate deliveries, required fields non-null, competition FK integrity, venue FK integrity, no orphan matches, run sanity, wicket sanity, phase over-boundary at 5.6->6.0).
 - **New dependency**: `pandera` was imported by `src/validation/__init__.py` but missing from `requirements.txt` — added `pandera==0.33.1`.
+
+## Bug Fix: is_wicket derivation (found via Phase 3.1 sanity check)
+- **Root cause**: `build_delivery_features.py` checked `df[dismissal_col].dtype in [int, float]` to branch its wicket logic. `dismissal_count` is pandas nullable `Int64`, which never matches Python's built-in `int`/`float` types, so every row fell to the `.notna()` branch — and since non-wicket rows have `dismissal_count == 0` (not null), **100% of the 871,141 deliveries were flagged as wickets.**
+- **Impact**: `is_wicket` in `fact_deliveries.parquet`, and `wickets` in `bowler_phase_features.csv`/`player_phase_features.parquet`, were wrong in every prior run (including the Phase 4.4 output logged above and the Phase 2.7 QA run — the old `wicket_sanity` check only verified values were in `{0,1}`, which 100%-wickets still satisfies).
+- **Fix**: switched to `pd.api.types.is_numeric_dtype(...)` and compare `> 0` regardless of dtype family. Verified: wicket rate now 5.42% of legal balls (correct order of magnitude for T20 cricket).
+- **Hardened**: Phase 2.7's `wicket_sanity` check now also asserts the overall wicket rate falls in a plausible 1%-15% band, not just that values are binary — this specific bug would now fail Phase 2.7 QA instead of passing silently.
+- **Action required downstream**: `player_phase_features.parquet` and `bowler_phase_features.csv` (Phase 4.4 outputs) must be regenerated — done as part of this fix by rerunning `build_delivery_features.py`. Any report or model built on the old wicket counts before this fix should be treated as invalid.
+
+## Phase 3.1: League Scoring Environments & Baseline Comparison (Completed)
+- **Script**: `src/analytics/eda_leagues.py`
+- **Output Artifacts**: `reports/eda_league_baselines.json`
+- **Scope**: Seasons 2018-2026, super overs excluded (different format, not a truncation case); no DLS/rain-truncation adjustment (scoped down per phase.md v1.1).
+- **Result** (run rate / boundary% / wicket rate per 100 legal balls): IPL 8.89 / 19.05% / 5.18 — highest run rate and boundary% of all 8 competitions in range. Full ranked table in the JSON report.
+- **Validation**: Computed IPL run rate (8.89) checked against published IPL season summaries (~7.0-9.5 historical band) — within range.

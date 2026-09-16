@@ -133,10 +133,16 @@ def main():
     bat_df["dot_pct"] = np.round((bat_df["dot_balls"] / bat_df["balls_faced"].replace(0, 1)) * 100, 2)
 
     # Bowling Phase Aggregations
+    # NOTE: dismissal_count is pandas nullable Int64, which `dtype in [int, float]`
+    # does not match (that checks against Python's built-in types, not pandas
+    # ExtensionDtypes). That previously fell through to `.notna()`, which is True
+    # for every row -- including dismissal_count == 0 rows -- flagging 100% of
+    # deliveries as wickets. Use pd.api.types.is_numeric_dtype and compare > 0
+    # regardless of dtype family.
     df["is_wicket"] = 0
     if dismissal_col in df.columns:
-        if df[dismissal_col].dtype in [int, float]:
-            df["is_wicket"] = (df[dismissal_col] > 0).astype(int)
+        if pd.api.types.is_numeric_dtype(df[dismissal_col]):
+            df["is_wicket"] = (df[dismissal_col].fillna(0) > 0).astype(int)
         else:
             df["is_wicket"] = df[dismissal_col].notna().astype(int)
 

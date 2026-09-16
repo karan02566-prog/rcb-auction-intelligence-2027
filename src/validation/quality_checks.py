@@ -89,11 +89,22 @@ def check_run_sanity(fact: pd.DataFrame) -> dict:
 
 
 def check_wicket_sanity(fact: pd.DataFrame) -> dict:
-    bad = int(((fact["is_wicket"] != 0) & (fact["is_wicket"] != 1)).sum())
+    bad_domain = int(((fact["is_wicket"] != 0) & (fact["is_wicket"] != 1)).sum())
+    # A wicket falls roughly every ~20-25 legal balls in T20 cricket (~4-5%).
+    # Bound generously (1%-15%) to catch gross derivation bugs (e.g. every ball
+    # flagged as a wicket) without false-failing on small/unusual samples.
+    legal = fact["is_legal_delivery"] == 1
+    wicket_rate = fact.loc[legal, "is_wicket"].mean() if legal.any() else 0.0
+    plausible = 0.01 <= wicket_rate <= 0.15
+    ok = bad_domain == 0 and plausible
     return {
         "check": "wicket_sanity",
-        "status": "PASS" if bad == 0 else "FAIL",
-        "detail": f"{bad} rows with is_wicket outside {{0,1}}",
+        "status": "PASS" if ok else "FAIL",
+        "detail": {
+            "rows_outside_0_1_domain": bad_domain,
+            "wicket_rate_on_legal_balls": round(float(wicket_rate), 4),
+            "plausible_range": "0.01-0.15",
+        },
     }
 
 
