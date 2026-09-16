@@ -182,6 +182,10 @@ def main():
 
     print(f"IPL-only recently active + qualified (stats still pooled across all their "
           f"leagues, not IPL-specific): {len(ipl_active_qualified):,} bowlers -> {ipl_active_path}")
+    top10_ipl = ipl_active_qualified.nsmallest(10, "economy_overall")
+    print(f"\nTop 10 IPL-ACTIVE (min {MIN_SPELLS_FOR_STATS} spells) by economy:")
+    print(top10_ipl[["bowler_canonical_name", "last_active_season", "spells", "economy_overall",
+                      "strike_rate_balls_per_wicket", "two_plus_wicket_spell_rate"]].to_string(index=False))
 
     print(f"\nBowlers analyzed: {len(bowler_summary):,} | spells: {len(spells):,} | overs: {len(over_agg):,}")
     print(f"Recently active (last_active_season >= 2025) and qualified (>= {MIN_SPELLS_FOR_STATS} spells): "

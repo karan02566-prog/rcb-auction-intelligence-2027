@@ -475,6 +475,10 @@ def main() -> Path:
     ipl_active_path = reports / "eda_batting_active_shortlist_ipl.csv"
     ipl_active_qualified.to_csv(ipl_active_path, index=False)
     print(f"IPL-only recently active + qualified: {len(ipl_active_qualified):,} batters -> {ipl_active_path}")
+    top10_ipl = ipl_active_qualified.nlargest(10, "batting_average")
+    print("Top 10 IPL-ACTIVE by batting average:")
+    print(top10_ipl[["player_name", "last_active_season", "innings", "batting_average", "median_score"]]
+          .to_string(index=False))
     return out_path
 
 
