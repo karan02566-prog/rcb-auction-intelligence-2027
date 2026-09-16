@@ -1,0 +1,52 @@
+{
+  "row_count": 871141,
+  "checks_run": 8,
+  "checks_passed": 8,
+  "checks_failed": 0,
+  "overall_status": "PASS",
+  "results": [
+    {
+      "check": "no_duplicate_deliveries",
+      "status": "PASS",
+      "detail": "0 duplicate delivery_key values"
+    },
+    {
+      "check": "required_fields_not_null",
+      "status": "PASS",
+      "detail": "all required fields fully populated"
+    },
+    {
+      "check": "competition_fk_integrity",
+      "status": "PASS",
+      "detail": "0 rows with no matching competition_id (dim_competitions FK)"
+    },
+    {
+      "check": "venue_fk_integrity",
+      "status": "PASS",
+      "detail": "0 rows with no matching venue_id (dim_venues FK)"
+    },
+    {
+      "check": "no_orphan_matches",
+      "status": "PASS",
+      "detail": "0 match_id(s) in fact_deliveries absent from matches.parquet"
+    },
+    {
+      "check": "run_sanity",
+      "status": "PASS",
+      "detail": {
+        "batter_runs_out_of_0_6_range": 0,
+        "total_runs_less_than_batter_runs": 0
+      }
+    },
+    {
+      "check": "wicket_sanity",
+      "status": "PASS",
+      "detail": "0 rows with is_wicket outside {0,1}"
+    },
+    {
+      "check": "phase_over_boundary_5_6_to_6_0",
+      "status": "PASS",
+      "detail": "0 rows at over_number=5 (last powerplay over) not labeled Powerplay"
+    }
+  ]
+}
