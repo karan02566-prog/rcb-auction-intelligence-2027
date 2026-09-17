@@ -84,3 +84,12 @@
 - **Script changes**: `eda_batting.py` adds `season_distribution_table()` (same stats as the pooled table, grain = player x season, min 5 innings/season to qualify) -> `reports/eda_batting_by_season_ipl.csv` (1,429 rows). `eda_bowling.py` adds a season-grouped rollup from the same over-level data (min 10 overs/season to qualify) -> `reports/eda_bowling_by_season_ipl.csv` (1,059 rows).
 - **Sanity check passed**: Bumrah's season table has no 2023 row — he missed IPL 2023 with a back injury, a real known fact, confirming the season split is correctly picking up match-level absence rather than defaulting/interpolating.
 - **Kohli trend** (IPL by season): dipped to a 22.7 average in 2022, recovered to 53-62 average range 2023-2026.
+
+## Phase 3.5: Domestic vs Franchise Competition Comparison (Completed)
+- **Script**: `src/analytics/eda_domestic_translation.py`
+- **Output Artifacts**: `reports/eda_domestic_vs_franchise.json`
+- **Scope**: BATTERS ONLY -- "scoring rate"/"dot-ball %"/"boundary concessions" are batting-innings metrics; bowler-side comparison would double scope and isn't required by the single 30-player validation check. Not done for bowlers.
+- **Crossover definition**: player has >=1 Domestic-category season (start_year) and >=1 IPL season with |domestic_year - ipl_year| <= 1 (adjacent seasons). Domestic = `competition_category == "Domestic"` (real column: sat/hnd/ilt/sma; verified against `eda_league_baselines.json`).
+- **Survivorship-bias guard**: cohort membership decided purely by adjacent-season participation timing, never by IPL outcome. Same >=60-legal-balls-faced floor applied symmetrically to both tiers (not tuned toward IPL success).
+- **Validation Check**: cohort must have >=30 qualified players -- run against real data and record actual count here (do not lower threshold to force a pass).
+- **Result**: [PENDING -- run `python -m src.analytics.eda_domestic_translation` and record cohort size + mean scoring-rate ratio (IPL/Domestic) here].
