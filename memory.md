@@ -93,3 +93,11 @@
 - **Survivorship-bias guard**: cohort membership decided purely by adjacent-season participation timing, never by IPL outcome. Same >=60-legal-balls-faced floor applied symmetrically to both tiers (not tuned toward IPL success).
 - **Validation Check**: cohort must have >=30 qualified players -- run against real data and record actual count here (do not lower threshold to force a pass).
 - **Result**: cohort = 146 qualified crossover players (>= 30 required, validation passed). Mean scoring-rate ratio (IPL/Domestic) = 1.015, median = 1.005 -- near parity. IPL shows higher dot% (37.16% vs domestic 35.77%) AND higher boundary% (18.41% vs 17.96%) than domestic -- tougher bowling forces more dots, but batters offset with more boundaries, netting near-equal scoring rate (domestic 137.98 vs IPL 138.43 runs/100 balls).
+
+## Phase 3.6: Auction Economics & Historical Price Dynamics (Completed)
+- **Script**: `src/analytics/eda_auction.py`
+- **Output Artifacts**: `reports/eda_auction_economics.json`
+- **Source schema gaps (documented, not fabricated)**: `role` missing for 2025-2026 (source dropped the column that era -- role-based stats incomplete for those years, flagged in `data_gaps`). `nationality` present only 2022-2026 -- overseas-vs-Indian ratio computed only over that window. No pre-auction retention-cost field exists anywhere in the source (only in-auction `sold_price`); "price retention premiums" is computed as `resale_premium` -- price ratio for players sold in >1 auction year -- explicitly labelled as a proxy, not real retention data.
+- **Purse-expansion normalization (named failure mode)**: raw crore totals aren't comparable across years since the league cap itself grew (60cr 2014 -> 125cr 2026); every year's total spend is also reported as `spend_as_pct_of_cap`, using only years with a confirmed cap in `configs/purse_caps.yaml`.
+- **Validation Check**: league-wide ceiling check -- total sold_price per year must not exceed (confirmed cap x franchise count) that year, checked only for years with a confirmed cap.
+- **Result**: [PENDING -- run `python -m src.analytics.eda_auction` and record ceiling-check pass/fail + resale-premium mean here].
