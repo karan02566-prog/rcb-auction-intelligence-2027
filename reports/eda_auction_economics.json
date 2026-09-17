@@ -1,0 +1,3267 @@
+{
+  "seasons_filtered": "2018-2026",
+  "data_gaps": {
+    "role_missing_for_years": [
+      2025,
+      2026
+    ],
+    "nationality_available_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "retention_cost_field": "not present in source; resale_premium is a proxy, not real retention data"
+  },
+  "role_price_summary": [
+    {
+      "role": "All-Rounder",
+      "n_sales": 270,
+      "median_price_inr": 7500000.0,
+      "peak_price_inr": 205000000.0,
+      "years_covered": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "role": "Batter",
+      "n_sales": 123,
+      "median_price_inr": 14000000.0,
+      "peak_price_inr": 132500000.0,
+      "years_covered": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "role": "Bowler",
+      "n_sales": 236,
+      "median_price_inr": 10500000.0,
+      "peak_price_inr": 247500000.0,
+      "years_covered": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "role": "Wicket-Keeper",
+      "n_sales": 75,
+      "median_price_inr": 8000000.0,
+      "peak_price_inr": 160000000.0,
+      "years_covered": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    }
+  ],
+  "overseas_vs_indian": {
+    "years_covered": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "indian_total_inr": 8726500000.0,
+    "overseas_total_inr": 9311000000.0,
+    "overseas_to_indian_spend_ratio": 1.067,
+    "indian_median_price_inr": 5000000.0,
+    "overseas_median_price_inr": 20000000.0
+  },
+  "resale_premiums": [
+    {
+      "player_name": "Aaron Finch",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 62000000.0,
+      "to_price_inr": 44000000.0,
+      "resale_premium_ratio": 0.71
+    },
+    {
+      "player_name": "Abdul Samad",
+      "from_year": 2020,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 21.0
+    },
+    {
+      "player_name": "Abhishek Sharma",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 5500000.0,
+      "to_price_inr": 65000000.0,
+      "resale_premium_ratio": 11.818
+    },
+    {
+      "player_name": "Adam Milne",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 19000000.0,
+      "resale_premium_ratio": 0.594
+    },
+    {
+      "player_name": "Adam Milne",
+      "from_year": 2022,
+      "to_year": 2026,
+      "from_price_inr": 19000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 1.263
+    },
+    {
+      "player_name": "Adam Zampa",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 1.6
+    },
+    {
+      "player_name": "Aiden Markram",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 26000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.769
+    },
+    {
+      "player_name": "Ajay Mandal",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Ajinkya Rahane",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 40000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.25
+    },
+    {
+      "player_name": "Ajinkya Rahane",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Ajinkya Rahane",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Akash Deep",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 80000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.125
+    },
+    {
+      "player_name": "Akash Singh",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Akash Singh",
+      "from_year": 2021,
+      "to_year": 2024,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Akash Singh",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Akeal Hosein",
+      "from_year": 2023,
+      "to_year": 2026,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Akshdeep Nath",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 36000000.0,
+      "resale_premium_ratio": 3.6
+    },
+    {
+      "player_name": "Alzarri Joseph",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 24000000.0,
+      "to_price_inr": 115000000.0,
+      "resale_premium_ratio": 4.792
+    },
+    {
+      "player_name": "Aman Khan",
+      "from_year": 2022,
+      "to_year": 2026,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 4000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Ambati Rayudu",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 67500000.0,
+      "resale_premium_ratio": 3.068
+    },
+    {
+      "player_name": "Amit Mishra",
+      "from_year": 2018,
+      "to_year": 2023,
+      "from_price_inr": 40000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.125
+    },
+    {
+      "player_name": "Andrew Tye",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 72000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.139
+    },
+    {
+      "player_name": "Angkrish Raghuvanshi",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 30000000.0,
+      "resale_premium_ratio": 15.0
+    },
+    {
+      "player_name": "Anirudha Ashok Joshi",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Ankit Singh Rajpoot",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.167
+    },
+    {
+      "player_name": "Anmolpreet Singh",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 8000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.25
+    },
+    {
+      "player_name": "Anmolpreet Singh",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Anrich Nortje",
+      "from_year": 2019,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 65000000.0,
+      "resale_premium_ratio": 32.5
+    },
+    {
+      "player_name": "Anrich Nortje",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 65000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.308
+    },
+    {
+      "player_name": "Anshul Kamboj",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 34000000.0,
+      "resale_premium_ratio": 17.0
+    },
+    {
+      "player_name": "Anuj Rawat",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 8000000.0,
+      "to_price_inr": 34000000.0,
+      "resale_premium_ratio": 4.25
+    },
+    {
+      "player_name": "Anuj Rawat",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 34000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.088
+    },
+    {
+      "player_name": "Anukul Roy",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Anukul Roy",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 4000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Arjun  Tendulkar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 3000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Arshdeep Singh",
+      "from_year": 2019,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 180000000.0,
+      "resale_premium_ratio": 90.0
+    },
+    {
+      "player_name": "Arshin Kulkarni",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Aryan Juyal",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Ashok Sharma",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 5500000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.545
+    },
+    {
+      "player_name": "Ashok Sharma",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 3000000.0,
+      "to_price_inr": 9000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Ashton Turner",
+      "from_year": 2019,
+      "to_year": 2024,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Ashutosh Sharma",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 38000000.0,
+      "resale_premium_ratio": 19.0
+    },
+    {
+      "player_name": "Atharva Taide",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Avesh Khan",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 7000000.0,
+      "to_price_inr": 100000000.0,
+      "resale_premium_ratio": 14.286
+    },
+    {
+      "player_name": "Avesh Khan",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 100000000.0,
+      "to_price_inr": 97500000.0,
+      "resale_premium_ratio": 0.975
+    },
+    {
+      "player_name": "Azmatullah Omarzai",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 4.8
+    },
+    {
+      "player_name": "Barinder Singh Sran",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 34000000.0,
+      "resale_premium_ratio": 1.545
+    },
+    {
+      "player_name": "Basil Thampi",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 9500000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.316
+    },
+    {
+      "player_name": "Ben Cutting",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.341
+    },
+    {
+      "player_name": "Ben Dwarshuis",
+      "from_year": 2018,
+      "to_year": 2026,
+      "from_price_inr": 14000000.0,
+      "to_price_inr": 44000000.0,
+      "resale_premium_ratio": 3.143
+    },
+    {
+      "player_name": "Bhuvneshwar Kumar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 42000000.0,
+      "to_price_inr": 107500000.0,
+      "resale_premium_ratio": 2.56
+    },
+    {
+      "player_name": "Cameron Green",
+      "from_year": 2023,
+      "to_year": 2026,
+      "from_price_inr": 175000000.0,
+      "to_price_inr": 252000000.0,
+      "resale_premium_ratio": 1.44
+    },
+    {
+      "player_name": "Carlos Brathwaite",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 50000000.0,
+      "resale_premium_ratio": 2.5
+    },
+    {
+      "player_name": "Chetan Sakariya",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 12000000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 3.5
+    },
+    {
+      "player_name": "Chetan Sakariya",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 42000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.119
+    },
+    {
+      "player_name": "Chris Jordan",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 30000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Chris Jordan",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 36000000.0,
+      "resale_premium_ratio": 1.2
+    },
+    {
+      "player_name": "Chris Lynn",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 96000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.208
+    },
+    {
+      "player_name": "Chris Woakes",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 74000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.203
+    },
+    {
+      "player_name": "Chris Woakes",
+      "from_year": 2020,
+      "to_year": 2024,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 2.8
+    },
+    {
+      "player_name": "Christopher Morris",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 100000000.0,
+      "to_price_inr": 162500000.0,
+      "resale_premium_ratio": 1.625
+    },
+    {
+      "player_name": "Daniel Sams",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 26000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.288
+    },
+    {
+      "player_name": "Darshan Nalkande",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 3000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.667
+    },
+    {
+      "player_name": "Darshan Nalkande",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Daryl Mitchell",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 7500000.0,
+      "to_price_inr": 140000000.0,
+      "resale_premium_ratio": 18.667
+    },
+    {
+      "player_name": "David Miller",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.25
+    },
+    {
+      "player_name": "David Miller",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 7500000.0,
+      "to_price_inr": 30000000.0,
+      "resale_premium_ratio": 4.0
+    },
+    {
+      "player_name": "David Miller",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 75000000.0,
+      "resale_premium_ratio": 2.5
+    },
+    {
+      "player_name": "David Miller",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 75000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.267
+    },
+    {
+      "player_name": "David Willey",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Deepak Chahar",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 8000000.0,
+      "to_price_inr": 140000000.0,
+      "resale_premium_ratio": 17.5
+    },
+    {
+      "player_name": "Deepak Chahar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 140000000.0,
+      "to_price_inr": 92500000.0,
+      "resale_premium_ratio": 0.661
+    },
+    {
+      "player_name": "Deepak Hooda",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 36000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.139
+    },
+    {
+      "player_name": "Deepak Hooda",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 57500000.0,
+      "resale_premium_ratio": 11.5
+    },
+    {
+      "player_name": "Deepak Hooda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 57500000.0,
+      "to_price_inr": 17000000.0,
+      "resale_premium_ratio": 0.296
+    },
+    {
+      "player_name": "Devdutt Padikkal",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 77500000.0,
+      "resale_premium_ratio": 38.75
+    },
+    {
+      "player_name": "Devdutt Padikkal",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 77500000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.258
+    },
+    {
+      "player_name": "Devon Conway",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 62500000.0,
+      "resale_premium_ratio": 6.25
+    },
+    {
+      "player_name": "Donovan Ferreira",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Dushmantha Chameera",
+      "from_year": 2018,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Dwayne Bravo",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 64000000.0,
+      "to_price_inr": 44000000.0,
+      "resale_premium_ratio": 0.688
+    },
+    {
+      "player_name": "Evin Lewis",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 38000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.526
+    },
+    {
+      "player_name": "Fabian Allen",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Fabian Allen",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 7500000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Faf Du Plessis",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 16000000.0,
+      "to_price_inr": 70000000.0,
+      "resale_premium_ratio": 4.375
+    },
+    {
+      "player_name": "Faf Du Plessis",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 70000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.286
+    },
+    {
+      "player_name": "Fazalhaq Farooqi",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 4.0
+    },
+    {
+      "player_name": "Finn Allen",
+      "from_year": 2022,
+      "to_year": 2026,
+      "from_price_inr": 8000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.5
+    },
+    {
+      "player_name": "Gerald Coetzee",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 50000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 0.48
+    },
+    {
+      "player_name": "Glenn Maxwell",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 90000000.0,
+      "to_price_inr": 107500000.0,
+      "resale_premium_ratio": 1.194
+    },
+    {
+      "player_name": "Glenn Maxwell",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 107500000.0,
+      "to_price_inr": 142500000.0,
+      "resale_premium_ratio": 1.326
+    },
+    {
+      "player_name": "Glenn Maxwell",
+      "from_year": 2021,
+      "to_year": 2025,
+      "from_price_inr": 142500000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 0.295
+    },
+    {
+      "player_name": "Glenn Phillips",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.333
+    },
+    {
+      "player_name": "Gurkeerat Singh Mann",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 7500000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.667
+    },
+    {
+      "player_name": "Harbhajan Singh",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Harpreet  Brar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 38000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.395
+    },
+    {
+      "player_name": "Harry Brook",
+      "from_year": 2023,
+      "to_year": 2024,
+      "from_price_inr": 132500000.0,
+      "to_price_inr": 40000000.0,
+      "resale_premium_ratio": 0.302
+    },
+    {
+      "player_name": "Harry Brook",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 40000000.0,
+      "to_price_inr": 62500000.0,
+      "resale_premium_ratio": 1.562
+    },
+    {
+      "player_name": "Harshal Patel",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 107500000.0,
+      "resale_premium_ratio": 53.75
+    },
+    {
+      "player_name": "Harshal Patel",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 107500000.0,
+      "to_price_inr": 117500000.0,
+      "resale_premium_ratio": 1.093
+    },
+    {
+      "player_name": "Harshal Patel",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 117500000.0,
+      "to_price_inr": 80000000.0,
+      "resale_premium_ratio": 0.681
+    },
+    {
+      "player_name": "Heinrich Klaasen",
+      "from_year": 2019,
+      "to_year": 2023,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 52500000.0,
+      "resale_premium_ratio": 10.5
+    },
+    {
+      "player_name": "Himmat Singh",
+      "from_year": 2019,
+      "to_year": 2025,
+      "from_price_inr": 6500000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.462
+    },
+    {
+      "player_name": "Ishan Kishan",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 62000000.0,
+      "to_price_inr": 152500000.0,
+      "resale_premium_ratio": 2.46
+    },
+    {
+      "player_name": "Ishan Kishan",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 152500000.0,
+      "to_price_inr": 112500000.0,
+      "resale_premium_ratio": 0.738
+    },
+    {
+      "player_name": "Ishan Porel",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2500000.0,
+      "resale_premium_ratio": 1.25
+    },
+    {
+      "player_name": "Ishant Sharma",
+      "from_year": 2019,
+      "to_year": 2023,
+      "from_price_inr": 11000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.455
+    },
+    {
+      "player_name": "Ishant Sharma",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Jalaj Saxena",
+      "from_year": 2019,
+      "to_year": 2021,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "James Neesham",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "James Neesham",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Jason Behrendorff",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Jason Holder",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 87500000.0,
+      "to_price_inr": 57500000.0,
+      "resale_premium_ratio": 0.657
+    },
+    {
+      "player_name": "Jason Holder",
+      "from_year": 2023,
+      "to_year": 2026,
+      "from_price_inr": 57500000.0,
+      "to_price_inr": 70000000.0,
+      "resale_premium_ratio": 1.217
+    },
+    {
+      "player_name": "Jason Roy",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Jason Roy",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.333
+    },
+    {
+      "player_name": "Jayant Yadav",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 17000000.0,
+      "resale_premium_ratio": 3.4
+    },
+    {
+      "player_name": "Jayant Yadav",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 17000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.441
+    },
+    {
+      "player_name": "Jaydev Unadkat",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 115000000.0,
+      "to_price_inr": 84000000.0,
+      "resale_premium_ratio": 0.73
+    },
+    {
+      "player_name": "Jaydev Unadkat",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 84000000.0,
+      "to_price_inr": 30000000.0,
+      "resale_premium_ratio": 0.357
+    },
+    {
+      "player_name": "Jaydev Unadkat",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 13000000.0,
+      "resale_premium_ratio": 0.433
+    },
+    {
+      "player_name": "Jaydev Unadkat",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 13000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.385
+    },
+    {
+      "player_name": "Jaydev Unadkat",
+      "from_year": 2023,
+      "to_year": 2024,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 16000000.0,
+      "resale_premium_ratio": 3.2
+    },
+    {
+      "player_name": "Jaydev Unadkat",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 16000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.625
+    },
+    {
+      "player_name": "Jhye Richardson",
+      "from_year": 2021,
+      "to_year": 2023,
+      "from_price_inr": 140000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.107
+    },
+    {
+      "player_name": "Jhye Richardson",
+      "from_year": 2023,
+      "to_year": 2024,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 50000000.0,
+      "resale_premium_ratio": 3.333
+    },
+    {
+      "player_name": "Jitesh Sharma",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 110000000.0,
+      "resale_premium_ratio": 55.0
+    },
+    {
+      "player_name": "Jofra Archer",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 72000000.0,
+      "to_price_inr": 80000000.0,
+      "resale_premium_ratio": 1.111
+    },
+    {
+      "player_name": "Jofra Archer",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 80000000.0,
+      "to_price_inr": 125000000.0,
+      "resale_premium_ratio": 1.562
+    },
+    {
+      "player_name": "Jonny Bairstow",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 67500000.0,
+      "resale_premium_ratio": 3.068
+    },
+    {
+      "player_name": "Josh Hazlewood",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 77500000.0,
+      "resale_premium_ratio": 3.875
+    },
+    {
+      "player_name": "Josh Hazlewood",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 77500000.0,
+      "to_price_inr": 125000000.0,
+      "resale_premium_ratio": 1.613
+    },
+    {
+      "player_name": "Josh Inglis",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 26000000.0,
+      "to_price_inr": 86000000.0,
+      "resale_premium_ratio": 3.308
+    },
+    {
+      "player_name": "K.Bhagath Varma",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "K.C Cariappa",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "K.M. Asif",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "K.S. Bharat",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 12000000.0,
+      "resale_premium_ratio": 0.6
+    },
+    {
+      "player_name": "K.S. Bharat",
+      "from_year": 2023,
+      "to_year": 2024,
+      "from_price_inr": 12000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.417
+    },
+    {
+      "player_name": "KL Rahul",
+      "from_year": 2018,
+      "to_year": 2025,
+      "from_price_inr": 110000000.0,
+      "to_price_inr": 140000000.0,
+      "resale_premium_ratio": 1.273
+    },
+    {
+      "player_name": "Kagiso Rabada",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 42000000.0,
+      "to_price_inr": 92500000.0,
+      "resale_premium_ratio": 2.202
+    },
+    {
+      "player_name": "Kagiso Rabada",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 92500000.0,
+      "to_price_inr": 107500000.0,
+      "resale_premium_ratio": 1.162
+    },
+    {
+      "player_name": "Kamlesh Nagarkoti",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 11000000.0,
+      "resale_premium_ratio": 0.344
+    },
+    {
+      "player_name": "Kamlesh Nagarkoti",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 11000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.273
+    },
+    {
+      "player_name": "Kane Williamson",
+      "from_year": 2018,
+      "to_year": 2023,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.667
+    },
+    {
+      "player_name": "Karn Sharma",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 50000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.1
+    },
+    {
+      "player_name": "Karn Sharma",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Kartik Tyagi",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 13000000.0,
+      "to_price_inr": 40000000.0,
+      "resale_premium_ratio": 3.077
+    },
+    {
+      "player_name": "Kartik Tyagi",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 40000000.0,
+      "to_price_inr": 6000000.0,
+      "resale_premium_ratio": 0.15
+    },
+    {
+      "player_name": "Kartik Tyagi",
+      "from_year": 2024,
+      "to_year": 2026,
+      "from_price_inr": 6000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Karun Nair",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 56000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.089
+    },
+    {
+      "player_name": "Karun Nair",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 14000000.0,
+      "resale_premium_ratio": 2.8
+    },
+    {
+      "player_name": "Karun Nair",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 14000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.357
+    },
+    {
+      "player_name": "Kedar Jadhav",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 78000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.256
+    },
+    {
+      "player_name": "Krishnappa Gowtham",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 62000000.0,
+      "to_price_inr": 92500000.0,
+      "resale_premium_ratio": 1.492
+    },
+    {
+      "player_name": "Krunal Pandya",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 88000000.0,
+      "to_price_inr": 82500000.0,
+      "resale_premium_ratio": 0.938
+    },
+    {
+      "player_name": "Krunal Pandya",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 82500000.0,
+      "to_price_inr": 57500000.0,
+      "resale_premium_ratio": 0.697
+    },
+    {
+      "player_name": "Kuldeep  Sen",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 8000000.0,
+      "resale_premium_ratio": 4.0
+    },
+    {
+      "player_name": "Kuldip Yadav",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Kulwant Khejroliya",
+      "from_year": 2018,
+      "to_year": 2023,
+      "from_price_inr": 8500000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.235
+    },
+    {
+      "player_name": "Kulwant Khejroliya",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Kumar Kushagra",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 72000000.0,
+      "to_price_inr": 6500000.0,
+      "resale_premium_ratio": 0.09
+    },
+    {
+      "player_name": "Kunal Rathore",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Kyle Jamieson",
+      "from_year": 2021,
+      "to_year": 2023,
+      "from_price_inr": 150000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.067
+    },
+    {
+      "player_name": "Kyle Jamieson",
+      "from_year": 2023,
+      "to_year": 2026,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Lalit Yadav",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 6500000.0,
+      "resale_premium_ratio": 3.25
+    },
+    {
+      "player_name": "Liam Livingstone",
+      "from_year": 2019,
+      "to_year": 2021,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Liam Livingstone",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 7500000.0,
+      "to_price_inr": 115000000.0,
+      "resale_premium_ratio": 15.333
+    },
+    {
+      "player_name": "Liam Livingstone",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 115000000.0,
+      "to_price_inr": 87500000.0,
+      "resale_premium_ratio": 0.761
+    },
+    {
+      "player_name": "Liam Livingstone",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 87500000.0,
+      "to_price_inr": 130000000.0,
+      "resale_premium_ratio": 1.486
+    },
+    {
+      "player_name": "Lockie Ferguson",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 16000000.0,
+      "to_price_inr": 100000000.0,
+      "resale_premium_ratio": 6.25
+    },
+    {
+      "player_name": "Lockie Ferguson",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 100000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.2
+    },
+    {
+      "player_name": "Lockie Ferguson",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Lungisani Ngidi",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Lungisani Ngidi",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Lungisani Ngidi",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Luvnith Sisodia",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "M Siddharth",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "M. Ashwin",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.091
+    },
+    {
+      "player_name": "M. Siddharth",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 24000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.312
+    },
+    {
+      "player_name": "Maheesh Theekshana",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 7000000.0,
+      "to_price_inr": 44000000.0,
+      "resale_premium_ratio": 6.286
+    },
+    {
+      "player_name": "Mahipal Lomror",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 9500000.0,
+      "resale_premium_ratio": 4.75
+    },
+    {
+      "player_name": "Mahipal Lomror",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 9500000.0,
+      "to_price_inr": 17000000.0,
+      "resale_premium_ratio": 1.789
+    },
+    {
+      "player_name": "Manan Vohra",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 11000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.182
+    },
+    {
+      "player_name": "Manan Vohra",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Manav Suthar",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Mandeep Singh",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 14000000.0,
+      "to_price_inr": 11000000.0,
+      "resale_premium_ratio": 0.786
+    },
+    {
+      "player_name": "Mandeep Singh",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 11000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.455
+    },
+    {
+      "player_name": "Manish Pandey",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 110000000.0,
+      "to_price_inr": 46000000.0,
+      "resale_premium_ratio": 0.418
+    },
+    {
+      "player_name": "Manish Pandey",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 46000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 0.522
+    },
+    {
+      "player_name": "Manish Pandey",
+      "from_year": 2023,
+      "to_year": 2024,
+      "from_price_inr": 24000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.208
+    },
+    {
+      "player_name": "Manish Pandey",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Manoj Bhandage",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Marco Jansen",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 21.0
+    },
+    {
+      "player_name": "Marco Jansen",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 42000000.0,
+      "to_price_inr": 70000000.0,
+      "resale_premium_ratio": 1.667
+    },
+    {
+      "player_name": "Marcus Stoinis",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 62000000.0,
+      "to_price_inr": 48000000.0,
+      "resale_premium_ratio": 0.774
+    },
+    {
+      "player_name": "Marcus Stoinis",
+      "from_year": 2020,
+      "to_year": 2025,
+      "from_price_inr": 48000000.0,
+      "to_price_inr": 110000000.0,
+      "resale_premium_ratio": 2.292
+    },
+    {
+      "player_name": "Mark Wood",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 75000000.0,
+      "resale_premium_ratio": 5.0
+    },
+    {
+      "player_name": "Mayank Agarwal",
+      "from_year": 2018,
+      "to_year": 2023,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 82500000.0,
+      "resale_premium_ratio": 8.25
+    },
+    {
+      "player_name": "Mayank Dagar",
+      "from_year": 2018,
+      "to_year": 2023,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 18000000.0,
+      "resale_premium_ratio": 9.0
+    },
+    {
+      "player_name": "Mayank Markande",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 6500000.0,
+      "resale_premium_ratio": 3.25
+    },
+    {
+      "player_name": "Mayank Markande",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 6500000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.769
+    },
+    {
+      "player_name": "Mayank Markande",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.6
+    },
+    {
+      "player_name": "Mitchell Marsh",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 65000000.0,
+      "resale_premium_ratio": 3.25
+    },
+    {
+      "player_name": "Mitchell Marsh",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 65000000.0,
+      "to_price_inr": 34000000.0,
+      "resale_premium_ratio": 0.523
+    },
+    {
+      "player_name": "Mitchell Santner",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 19000000.0,
+      "resale_premium_ratio": 3.8
+    },
+    {
+      "player_name": "Mitchell Santner",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 19000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.053
+    },
+    {
+      "player_name": "Mitchell Starc",
+      "from_year": 2018,
+      "to_year": 2025,
+      "from_price_inr": 94000000.0,
+      "to_price_inr": 117500000.0,
+      "resale_premium_ratio": 1.25
+    },
+    {
+      "player_name": "Moeen Ali",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 17000000.0,
+      "to_price_inr": 70000000.0,
+      "resale_premium_ratio": 4.118
+    },
+    {
+      "player_name": "Moeen Ali",
+      "from_year": 2021,
+      "to_year": 2025,
+      "from_price_inr": 70000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.286
+    },
+    {
+      "player_name": "Mohammad Nabi",
+      "from_year": 2018,
+      "to_year": 2024,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Mohammad Shami",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 48000000.0,
+      "resale_premium_ratio": 1.6
+    },
+    {
+      "player_name": "Mohammad Shami",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 48000000.0,
+      "to_price_inr": 62500000.0,
+      "resale_premium_ratio": 1.302
+    },
+    {
+      "player_name": "Mohammad Shami",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 62500000.0,
+      "to_price_inr": 100000000.0,
+      "resale_premium_ratio": 1.6
+    },
+    {
+      "player_name": "Mohd. Arshad Khan",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Mohd. Arshad Khan",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 13000000.0,
+      "resale_premium_ratio": 6.5
+    },
+    {
+      "player_name": "Mohit Rathee",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Mohit Sharma",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 24000000.0,
+      "to_price_inr": 50000000.0,
+      "resale_premium_ratio": 2.083
+    },
+    {
+      "player_name": "Mohit Sharma",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 50000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.1
+    },
+    {
+      "player_name": "Mohit Sharma",
+      "from_year": 2020,
+      "to_year": 2023,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Mohit Sharma",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 22000000.0,
+      "resale_premium_ratio": 4.4
+    },
+    {
+      "player_name": "Mohsin Khan",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Mohsin Khan",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Moises Henriques",
+      "from_year": 2019,
+      "to_year": 2021,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 4.2
+    },
+    {
+      "player_name": "Mujeeb Zadran",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 40000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.375
+    },
+    {
+      "player_name": "Mukesh Choudhary",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Mukesh Kumar",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 55000000.0,
+      "to_price_inr": 80000000.0,
+      "resale_premium_ratio": 1.455
+    },
+    {
+      "player_name": "Murugan Ashwin",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 16000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.125
+    },
+    {
+      "player_name": "Mustafizur Rahman",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.455
+    },
+    {
+      "player_name": "Mustafizur Rahman",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Mustafizur Rahman",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Mustafizur Rahman",
+      "from_year": 2024,
+      "to_year": 2026,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 92000000.0,
+      "resale_premium_ratio": 4.6
+    },
+    {
+      "player_name": "N. Jagadeesan",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 9000000.0,
+      "resale_premium_ratio": 4.5
+    },
+    {
+      "player_name": "Naman Dhir",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 52500000.0,
+      "resale_premium_ratio": 26.25
+    },
+    {
+      "player_name": "Nathan Coulter-Nile",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 80000000.0,
+      "resale_premium_ratio": 3.636
+    },
+    {
+      "player_name": "Nathan Coulter-Nile",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 80000000.0,
+      "to_price_inr": 50000000.0,
+      "resale_premium_ratio": 0.625
+    },
+    {
+      "player_name": "Nathan Coulter-Nile",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 50000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.4
+    },
+    {
+      "player_name": "Nathan Ellis",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 7500000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.667
+    },
+    {
+      "player_name": "Navdeep Saini",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 26000000.0,
+      "resale_premium_ratio": 0.867
+    },
+    {
+      "player_name": "Nehal Wadhera",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 21.0
+    },
+    {
+      "player_name": "Nicholas Pooran",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 107500000.0,
+      "to_price_inr": 160000000.0,
+      "resale_premium_ratio": 1.488
+    },
+    {
+      "player_name": "Nikhil Shankar Naik",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Nishant Sindhu",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 6000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Nitish Rana",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 34000000.0,
+      "to_price_inr": 80000000.0,
+      "resale_premium_ratio": 2.353
+    },
+    {
+      "player_name": "Nitish Rana",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 80000000.0,
+      "to_price_inr": 42000000.0,
+      "resale_premium_ratio": 0.525
+    },
+    {
+      "player_name": "Nuwan Thushara",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 48000000.0,
+      "to_price_inr": 16000000.0,
+      "resale_premium_ratio": 0.333
+    },
+    {
+      "player_name": "Odean Smith",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 60000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.083
+    },
+    {
+      "player_name": "Oshane Thomas",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 11000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.455
+    },
+    {
+      "player_name": "Pat Cummins",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 54000000.0,
+      "to_price_inr": 155000000.0,
+      "resale_premium_ratio": 2.87
+    },
+    {
+      "player_name": "Pat Cummins",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 155000000.0,
+      "to_price_inr": 72500000.0,
+      "resale_premium_ratio": 0.468
+    },
+    {
+      "player_name": "Pat Cummins",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 72500000.0,
+      "to_price_inr": 205000000.0,
+      "resale_premium_ratio": 2.828
+    },
+    {
+      "player_name": "Pavan Deshpande",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Pawan Negi",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Phil Salt",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 115000000.0,
+      "resale_premium_ratio": 5.75
+    },
+    {
+      "player_name": "Piyush Chawla",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 42000000.0,
+      "to_price_inr": 67500000.0,
+      "resale_premium_ratio": 1.607
+    },
+    {
+      "player_name": "Piyush Chawla",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 67500000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 0.356
+    },
+    {
+      "player_name": "Piyush Chawla",
+      "from_year": 2021,
+      "to_year": 2023,
+      "from_price_inr": 24000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.208
+    },
+    {
+      "player_name": "Prabhsimran Singh",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 48000000.0,
+      "to_price_inr": 5500000.0,
+      "resale_premium_ratio": 0.115
+    },
+    {
+      "player_name": "Prabhsimran Singh",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 5500000.0,
+      "to_price_inr": 6000000.0,
+      "resale_premium_ratio": 1.091
+    },
+    {
+      "player_name": "Pradeep Sangwan",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.133
+    },
+    {
+      "player_name": "Prashant Solanki",
+      "from_year": 2022,
+      "to_year": 2026,
+      "from_price_inr": 12000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.25
+    },
+    {
+      "player_name": "Prasidh Krishna",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 100000000.0,
+      "to_price_inr": 95000000.0,
+      "resale_premium_ratio": 0.95
+    },
+    {
+      "player_name": "Pravin Dubey",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.6
+    },
+    {
+      "player_name": "Pravin Dubey",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 3000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Prerak Mankad",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Prithvi Shaw",
+      "from_year": 2018,
+      "to_year": 2026,
+      "from_price_inr": 12000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.625
+    },
+    {
+      "player_name": "Quinton De Kock",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 28000000.0,
+      "to_price_inr": 67500000.0,
+      "resale_premium_ratio": 2.411
+    },
+    {
+      "player_name": "Quinton De Kock",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 67500000.0,
+      "to_price_inr": 36000000.0,
+      "resale_premium_ratio": 0.533
+    },
+    {
+      "player_name": "Quinton De Kock",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 36000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.278
+    },
+    {
+      "player_name": "R. Sai Kishore",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 30000000.0,
+      "resale_premium_ratio": 15.0
+    },
+    {
+      "player_name": "R. Sai Kishore",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.667
+    },
+    {
+      "player_name": "Rachin Ravindra",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 18000000.0,
+      "to_price_inr": 40000000.0,
+      "resale_premium_ratio": 2.222
+    },
+    {
+      "player_name": "Rachin Ravindra",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 40000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Rahul Chahar",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 19000000.0,
+      "to_price_inr": 52500000.0,
+      "resale_premium_ratio": 2.763
+    },
+    {
+      "player_name": "Rahul Chahar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 52500000.0,
+      "to_price_inr": 32000000.0,
+      "resale_premium_ratio": 0.61
+    },
+    {
+      "player_name": "Rahul Chahar",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 52000000.0,
+      "resale_premium_ratio": 1.625
+    },
+    {
+      "player_name": "Rahul Tewatia",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 90000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Rahul Tripathi",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 34000000.0,
+      "to_price_inr": 6000000.0,
+      "resale_premium_ratio": 0.176
+    },
+    {
+      "player_name": "Rahul Tripathi",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 6000000.0,
+      "to_price_inr": 85000000.0,
+      "resale_premium_ratio": 14.167
+    },
+    {
+      "player_name": "Rahul Tripathi",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 85000000.0,
+      "to_price_inr": 34000000.0,
+      "resale_premium_ratio": 0.4
+    },
+    {
+      "player_name": "Rahul Tripathi",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 34000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.221
+    },
+    {
+      "player_name": "Raj Angad Bawa",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.15
+    },
+    {
+      "player_name": "Rajvardhan Hangargekar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 0.2
+    },
+    {
+      "player_name": "Ramandeep  Singh",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Rasikh Dar",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Rasikh Dar",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Rasikh Dar",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 60000000.0,
+      "resale_premium_ratio": 30.0
+    },
+    {
+      "player_name": "Ravi Bishnoi",
+      "from_year": 2020,
+      "to_year": 2026,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 72000000.0,
+      "resale_premium_ratio": 3.6
+    },
+    {
+      "player_name": "Reece Topley",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 19000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.395
+    },
+    {
+      "player_name": "Ricky Bhui",
+      "from_year": 2018,
+      "to_year": 2024,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Rilee Rossouw",
+      "from_year": 2023,
+      "to_year": 2024,
+      "from_price_inr": 46000000.0,
+      "to_price_inr": 80000000.0,
+      "resale_premium_ratio": 1.739
+    },
+    {
+      "player_name": "Riley Meredith",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 80000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.125
+    },
+    {
+      "player_name": "Rinku Singh",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 8000000.0,
+      "to_price_inr": 5500000.0,
+      "resale_premium_ratio": 0.688
+    },
+    {
+      "player_name": "Ripal Patel",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Riyan Parag",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 38000000.0,
+      "resale_premium_ratio": 19.0
+    },
+    {
+      "player_name": "Robin Minz",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 36000000.0,
+      "to_price_inr": 6500000.0,
+      "resale_premium_ratio": 0.181
+    },
+    {
+      "player_name": "Robin Uthappa",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 64000000.0,
+      "to_price_inr": 30000000.0,
+      "resale_premium_ratio": 0.469
+    },
+    {
+      "player_name": "Robin Uthappa",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.667
+    },
+    {
+      "player_name": "Romario Shepherd",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 77500000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.065
+    },
+    {
+      "player_name": "Romario Shepherd",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Rovman Powell",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 28000000.0,
+      "to_price_inr": 74000000.0,
+      "resale_premium_ratio": 2.643
+    },
+    {
+      "player_name": "Rovman Powell",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 74000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.203
+    },
+    {
+      "player_name": "Sachin Baby",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Sachin Baby",
+      "from_year": 2021,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Sakib Hussain",
+      "from_year": 2024,
+      "to_year": 2026,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Sam Billings",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Sam Billings",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Sam Curran",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 72000000.0,
+      "to_price_inr": 55000000.0,
+      "resale_premium_ratio": 0.764
+    },
+    {
+      "player_name": "Sam Curran",
+      "from_year": 2020,
+      "to_year": 2023,
+      "from_price_inr": 55000000.0,
+      "to_price_inr": 185000000.0,
+      "resale_premium_ratio": 3.364
+    },
+    {
+      "player_name": "Sam Curran",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 185000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 0.13
+    },
+    {
+      "player_name": "Sameer Rizvi",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 84000000.0,
+      "to_price_inr": 9500000.0,
+      "resale_premium_ratio": 0.113
+    },
+    {
+      "player_name": "Sandeep Sharma",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.167
+    },
+    {
+      "player_name": "Sanjay Yadav",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 2.5
+    },
+    {
+      "player_name": "Sarfaraz Khan",
+      "from_year": 2022,
+      "to_year": 2026,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 3.75
+    },
+    {
+      "player_name": "Saurabh Tiwary",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 8000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.625
+    },
+    {
+      "player_name": "Shahbaz Ahamad",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 12.0
+    },
+    {
+      "player_name": "Shahbaz Ahamad",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 24000000.0,
+      "to_price_inr": 24000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Shahbaz Nadeem",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.156
+    },
+    {
+      "player_name": "Shahrukh Khan",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 52500000.0,
+      "to_price_inr": 90000000.0,
+      "resale_premium_ratio": 1.714
+    },
+    {
+      "player_name": "Shahrukh Khan",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 90000000.0,
+      "to_price_inr": 74000000.0,
+      "resale_premium_ratio": 0.822
+    },
+    {
+      "player_name": "Shaik Rasheed",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Shakib Al Hasan",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 32000000.0,
+      "resale_premium_ratio": 1.6
+    },
+    {
+      "player_name": "Shakib Al Hasan",
+      "from_year": 2021,
+      "to_year": 2023,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.469
+    },
+    {
+      "player_name": "Shardul Thakur",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 107500000.0,
+      "to_price_inr": 40000000.0,
+      "resale_premium_ratio": 0.372
+    },
+    {
+      "player_name": "Shashank Singh",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 3000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.667
+    },
+    {
+      "player_name": "Sheldon Jackson",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 6000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Sherfane Rutherford",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Sherfane Rutherford",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Sherfane Rutherford",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 26000000.0,
+      "resale_premium_ratio": 1.733
+    },
+    {
+      "player_name": "Shikhar Dhawan",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 52000000.0,
+      "to_price_inr": 82500000.0,
+      "resale_premium_ratio": 1.587
+    },
+    {
+      "player_name": "Shimron Hetmyer",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 42000000.0,
+      "to_price_inr": 77500000.0,
+      "resale_premium_ratio": 1.845
+    },
+    {
+      "player_name": "Shimron Hetmyer",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 77500000.0,
+      "to_price_inr": 85000000.0,
+      "resale_premium_ratio": 1.097
+    },
+    {
+      "player_name": "Shivam  Mavi",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 72500000.0,
+      "to_price_inr": 64000000.0,
+      "resale_premium_ratio": 0.883
+    },
+    {
+      "player_name": "Shivam Dube",
+      "from_year": 2019,
+      "to_year": 2021,
+      "from_price_inr": 50000000.0,
+      "to_price_inr": 44000000.0,
+      "resale_premium_ratio": 0.88
+    },
+    {
+      "player_name": "Shivam Dube",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 44000000.0,
+      "to_price_inr": 40000000.0,
+      "resale_premium_ratio": 0.909
+    },
+    {
+      "player_name": "Shivam Mavi",
+      "from_year": 2018,
+      "to_year": 2023,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 60000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Shivam Mavi",
+      "from_year": 2023,
+      "to_year": 2026,
+      "from_price_inr": 60000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 0.125
+    },
+    {
+      "player_name": "Shreyas Gopal",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 7500000.0,
+      "resale_premium_ratio": 3.75
+    },
+    {
+      "player_name": "Shreyas Gopal",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 7500000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.267
+    },
+    {
+      "player_name": "Shreyas Gopal",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Shreyas Iyer",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 122500000.0,
+      "to_price_inr": 267500000.0,
+      "resale_premium_ratio": 2.184
+    },
+    {
+      "player_name": "Shubham Dubey",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 58000000.0,
+      "to_price_inr": 8000000.0,
+      "resale_premium_ratio": 0.138
+    },
+    {
+      "player_name": "Simarjeet Singh",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 7.5
+    },
+    {
+      "player_name": "Spencer Johnson",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 100000000.0,
+      "to_price_inr": 28000000.0,
+      "resale_premium_ratio": 0.28
+    },
+    {
+      "player_name": "Sushant Mishra",
+      "from_year": 2024,
+      "to_year": 2026,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 9000000.0,
+      "resale_premium_ratio": 0.409
+    },
+    {
+      "player_name": "Suyash Sharma",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 26000000.0,
+      "resale_premium_ratio": 13.0
+    },
+    {
+      "player_name": "Swapnil Singh",
+      "from_year": 2023,
+      "to_year": 2024,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Swapnil Singh",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 2.5
+    },
+    {
+      "player_name": "Swastik Chhikara",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Syed Khaleel Ahmed",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 30000000.0,
+      "to_price_inr": 52500000.0,
+      "resale_premium_ratio": 1.75
+    },
+    {
+      "player_name": "Syed Khaleel Ahmed",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 52500000.0,
+      "to_price_inr": 48000000.0,
+      "resale_premium_ratio": 0.914
+    },
+    {
+      "player_name": "T. Natarajan",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 40000000.0,
+      "to_price_inr": 107500000.0,
+      "resale_premium_ratio": 2.688
+    },
+    {
+      "player_name": "Tajinder Dhillon",
+      "from_year": 2018,
+      "to_year": 2020,
+      "from_price_inr": 5500000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.364
+    },
+    {
+      "player_name": "Tim David",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 82500000.0,
+      "to_price_inr": 30000000.0,
+      "resale_premium_ratio": 0.364
+    },
+    {
+      "player_name": "Tim Seifert",
+      "from_year": 2022,
+      "to_year": 2026,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Tim Southee",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Tom Banton",
+      "from_year": 2020,
+      "to_year": 2026,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Tom Curran",
+      "from_year": 2020,
+      "to_year": 2021,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 52500000.0,
+      "resale_premium_ratio": 5.25
+    },
+    {
+      "player_name": "Tom Curran",
+      "from_year": 2021,
+      "to_year": 2024,
+      "from_price_inr": 52500000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.286
+    },
+    {
+      "player_name": "Trent Boult",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 22000000.0,
+      "to_price_inr": 80000000.0,
+      "resale_premium_ratio": 3.636
+    },
+    {
+      "player_name": "Trent Boult",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 80000000.0,
+      "to_price_inr": 125000000.0,
+      "resale_premium_ratio": 1.562
+    },
+    {
+      "player_name": "Tushar Deshpande",
+      "from_year": 2020,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Tushar Deshpande",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 65000000.0,
+      "resale_premium_ratio": 32.5
+    },
+    {
+      "player_name": "Umesh Yadav",
+      "from_year": 2018,
+      "to_year": 2021,
+      "from_price_inr": 42000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.238
+    },
+    {
+      "player_name": "Umesh Yadav",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 10000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 2.0
+    },
+    {
+      "player_name": "Umesh Yadav",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 58000000.0,
+      "resale_premium_ratio": 2.9
+    },
+    {
+      "player_name": "Vaibhav Arora",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 10.0
+    },
+    {
+      "player_name": "Vaibhav Arora",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 6000000.0,
+      "resale_premium_ratio": 0.3
+    },
+    {
+      "player_name": "Vaibhav Arora",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 6000000.0,
+      "to_price_inr": 18000000.0,
+      "resale_premium_ratio": 3.0
+    },
+    {
+      "player_name": "Varun Aaron",
+      "from_year": 2019,
+      "to_year": 2022,
+      "from_price_inr": 24000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 0.208
+    },
+    {
+      "player_name": "Varun Chakaravarthy",
+      "from_year": 2019,
+      "to_year": 2020,
+      "from_price_inr": 84000000.0,
+      "to_price_inr": 40000000.0,
+      "resale_premium_ratio": 0.476
+    },
+    {
+      "player_name": "Venkatesh Iyer",
+      "from_year": 2021,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 237500000.0,
+      "resale_premium_ratio": 118.75
+    },
+    {
+      "player_name": "Venkatesh Iyer",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 237500000.0,
+      "to_price_inr": 70000000.0,
+      "resale_premium_ratio": 0.295
+    },
+    {
+      "player_name": "Vicky Ostwal",
+      "from_year": 2022,
+      "to_year": 2026,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.5
+    },
+    {
+      "player_name": "Vignesh Puthur",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 3000000.0,
+      "to_price_inr": 3000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Vijay Shankar",
+      "from_year": 2018,
+      "to_year": 2022,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 14000000.0,
+      "resale_premium_ratio": 0.438
+    },
+    {
+      "player_name": "Vijay Shankar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 14000000.0,
+      "to_price_inr": 12000000.0,
+      "resale_premium_ratio": 0.857
+    },
+    {
+      "player_name": "Vishnu Vinod",
+      "from_year": 2021,
+      "to_year": 2022,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 5000000.0,
+      "resale_premium_ratio": 2.5
+    },
+    {
+      "player_name": "Vishnu Vinod",
+      "from_year": 2022,
+      "to_year": 2023,
+      "from_price_inr": 5000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 0.4
+    },
+    {
+      "player_name": "Vishnu Vinod",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 9500000.0,
+      "resale_premium_ratio": 4.75
+    },
+    {
+      "player_name": "Wanindu Hasaranga",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 107500000.0,
+      "to_price_inr": 15000000.0,
+      "resale_premium_ratio": 0.14
+    },
+    {
+      "player_name": "Wanindu Hasaranga",
+      "from_year": 2024,
+      "to_year": 2025,
+      "from_price_inr": 15000000.0,
+      "to_price_inr": 52500000.0,
+      "resale_premium_ratio": 3.5
+    },
+    {
+      "player_name": "Wanindu Hasaranga",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_price_inr": 52500000.0,
+      "to_price_inr": 20000000.0,
+      "resale_premium_ratio": 0.381
+    },
+    {
+      "player_name": "Washington Sundar",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 87500000.0,
+      "to_price_inr": 32000000.0,
+      "resale_premium_ratio": 0.366
+    },
+    {
+      "player_name": "Will Jacks",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 52500000.0,
+      "resale_premium_ratio": 1.641
+    },
+    {
+      "player_name": "Wriddhiman Saha",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 50000000.0,
+      "to_price_inr": 12000000.0,
+      "resale_premium_ratio": 0.24
+    },
+    {
+      "player_name": "Yash  Dayal",
+      "from_year": 2022,
+      "to_year": 2024,
+      "from_price_inr": 32000000.0,
+      "to_price_inr": 50000000.0,
+      "resale_premium_ratio": 1.562
+    },
+    {
+      "player_name": "Yash Thakur",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 4500000.0,
+      "to_price_inr": 16000000.0,
+      "resale_premium_ratio": 3.556
+    },
+    {
+      "player_name": "Yudhvir Charak",
+      "from_year": 2021,
+      "to_year": 2023,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 2000000.0,
+      "resale_premium_ratio": 1.0
+    },
+    {
+      "player_name": "Yudhvir Charak",
+      "from_year": 2023,
+      "to_year": 2025,
+      "from_price_inr": 2000000.0,
+      "to_price_inr": 3500000.0,
+      "resale_premium_ratio": 1.75
+    },
+    {
+      "player_name": "Yuvraj Singh",
+      "from_year": 2018,
+      "to_year": 2019,
+      "from_price_inr": 20000000.0,
+      "to_price_inr": 10000000.0,
+      "resale_premium_ratio": 0.5
+    },
+    {
+      "player_name": "Yuzvendra Chahal",
+      "from_year": 2022,
+      "to_year": 2025,
+      "from_price_inr": 65000000.0,
+      "to_price_inr": 180000000.0,
+      "resale_premium_ratio": 2.769
+    }
+  ],
+  "spend_vs_purse_cap_ceiling": [
+    {
+      "year": 2018,
+      "n_franchises": 8,
+      "total_spend_cr": 431.7,
+      "total_available_cap_cr": 640.0,
+      "spend_as_pct_of_cap": 67.45,
+      "within_ceiling": true
+    },
+    {
+      "year": 2020,
+      "n_franchises": 8,
+      "total_spend_cr": 140.3,
+      "total_available_cap_cr": 680.0,
+      "spend_as_pct_of_cap": 20.63,
+      "within_ceiling": true
+    },
+    {
+      "year": 2024,
+      "n_franchises": 10,
+      "total_spend_cr": 230.45,
+      "total_available_cap_cr": 1000.0,
+      "spend_as_pct_of_cap": 23.04,
+      "within_ceiling": true
+    },
+    {
+      "year": 2025,
+      "n_franchises": 10,
+      "total_spend_cr": 639.15,
+      "total_available_cap_cr": 1200.0,
+      "spend_as_pct_of_cap": 53.26,
+      "within_ceiling": true
+    },
+    {
+      "year": 2026,
+      "n_franchises": 10,
+      "total_spend_cr": 215.45,
+      "total_available_cap_cr": 1250.0,
+      "spend_as_pct_of_cap": 17.24,
+      "within_ceiling": true
+    }
+  ],
+  "ceiling_violations": [],
+  "validation_passed": true
+}
