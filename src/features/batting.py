@@ -162,6 +162,9 @@ def validate_boundary_dependency(df: pd.DataFrame) -> None:
         raise AssertionError(f"boundary_dependency out of [0,1] bounds for {len(bad)} rows")
 
 
+QUALIFIED_BALLS_SEASON = 150  # ~25 overs faced; filters out cameo/short-stint noise
+
+
 def main() -> Path:
     root = get_project_root()
     out_dir = root / "data" / "features"
@@ -172,20 +175,31 @@ def main() -> Path:
     if not exact_lookup:
         raise RuntimeError("player_mapping.json lookups are empty; run from the repo root")
 
-    features = compute_batting_features(fact, exact_lookup, norm_lookup)
+    # Two scopes, matching Phase 3.3's convention: pooled across every
+    # competition in the dataset, and IPL-only (players like TH David play
+    # 5+ leagues/year, so the pooled total is not what "season stats"
+    # usually means in an IPL/RCB context).
+    all_feats = compute_batting_features(fact, exact_lookup, norm_lookup)
+    all_feats["scope"] = "all_t20_2018_2026"
+    ipl_fact = fact.loc[fact["competition"].eq("ipl")]
+    ipl_feats = compute_batting_features(ipl_fact, exact_lookup, norm_lookup)
+    ipl_feats["scope"] = "ipl_2018_2026"
+
+    features = pd.concat([all_feats, ipl_feats], ignore_index=True)
     validate_boundary_dependency(features)
-    print(f"boundary_dependency bounds check passed: {len(features):,} player-seasons, all in [0,1]")
+    print(f"boundary_dependency bounds check passed: {len(features):,} player-season-scope rows, all in [0,1]")
+    features["qualified"] = features["balls_faced"] >= QUALIFIED_BALLS_SEASON
 
     cols = [
-        "player_id", "player_name", "start_year", "runs", "balls_faced", "dismissals",
+        "scope", "player_id", "player_name", "start_year", "qualified", "runs", "balls_faced", "dismissals",
         "batting_average", "strike_rate", "dot_pct", "boundary_pct",
         "boundary_dependency", "rotation_rate", "acceleration_rate",
     ]
-    features = features[cols].sort_values(["player_name", "start_year"]).reset_index(drop=True)
+    features = features[cols].sort_values(["scope", "player_name", "start_year"]).reset_index(drop=True)
 
     out_path = out_dir / "batting_features.parquet"
     features.to_parquet(out_path, index=False)
-    print(f"Saved: {out_path} ({len(features):,} player-season rows)")
+    print(f"Saved: {out_path} ({len(features):,} rows: {len(all_feats):,} all_t20 + {len(ipl_feats):,} ipl)")
     return out_path
 
 
