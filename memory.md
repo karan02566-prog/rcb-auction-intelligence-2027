@@ -1,4 +1,4 @@
-﻿# Project Memory & Progress Log
+# Project Memory & Progress Log
 
 ## Phase 2.3: Player Identity Resolution & Baseline Valuation (Completed)
 - **Identity Resolution Strategy**: Multi-pass pipeline (Exact matching, Normalized strings, Fuzzy similarity >= 0.82, Surname + Initial patterns).
@@ -110,3 +110,25 @@
 - **Formula decisions (spec left implicit, stated explicitly here)**: `batting_average` = runs/dismissals, **NaN** (not 0) when never dismissed, matching real cricket convention. `boundary_dependency` = (4*fours+6*sixes)/runs, guarded to 0.0 at runs==0 (mathematically always in [0,1] since boundary runs are a subset of total runs). `rotation_rate` = (singles+doubles)/(balls_faced-fours-sixes), guarded to 0.0 at zero non-boundary balls. `acceleration_rate` = Death-phase strike rate minus Powerplay-phase strike rate per player-season (phase column from Phase 4.4's build_delivery_features.py); **NaN** (not 0) when a player faced 0 balls in either phase that season -- missing data, not "no acceleration".
 - **Validation**: `validate_boundary_dependency()` asserts every row in [0,1]; covered by tests for zero-balls, zero-runs, mixed-scoring (dep==1.0 case), rotation-rate arithmetic, batting-average NaN vs computed, and both acceleration-rate cases.
 - **Add-on: dual scope**: output now has both `all_t20_2018_2026` (pooled across every league) and `ipl_2018_2026` (IPL-only) rows per player-season, `scope` column. Needed because pooled numbers for globe-trotting T20 players (e.g. TH David) are much bigger than their IPL-only stats and were initially mistaken for a bug (his pooled 2022 total 761 runs = 354 BBL + 186 IPL + 85 CPL + 84 Hundred + 52 SMAT, confirmed by competition breakdown -- not an error). Also added `qualified` flag (`balls_faced >= 150` that season/scope, ~25 overs, filters cameo/short-stint noise).
+
+## Phase 4.2: Bowling Features (Completed)
+- **Script**: `src/features/bowling.py`; **Tests**: `tests/test_bowling_features.py` (8/8 pass, run locally before push)
+- **Output Artifacts**: `data/features/bowling_features.parquet` (5,648 rows: 4,589 `all_t20_2018_2026` + 1,059 `ipl_2018_2026`), grain = `(scope, player_id, start_year)`
+- **Column Schema**:
+  - `scope` (string): `all_t20_2018_2026` or `ipl_2018_2026`
+  - `player_id` (string): Canonical player ID
+  - `player_name` (string): Canonical player name
+  - `start_year` (int): Season calendar year (2018-2026)
+  - `qualified` (bool): `overs_bowled >= 20.0` (120 legal balls) in that season/scope
+  - `overs_bowled` (float): `legal_balls / 6.0` (unrounded fractional overs, uses `is_legal_ball`)
+  - `legal_balls` (int): Total legal balls bowled (excludes wides and no-balls)
+  - `runs_conceded` (int): `total_runs - byes_runs - legbyes_runs` (includes wides/no-balls, excludes byes/leg-byes)
+  - `wickets` (int): Bowler-credited dismissals (`is_wicket` & `is_bowler_credited(dismissal_type)`)
+  - `economy_rate` (float): `runs_conceded / overs_bowled` (0.0 when overs_bowled == 0)
+  - `bowling_strike_rate` (float): `legal_balls / wickets` (NaN when wickets == 0, not 0.0 or inf)
+  - `dot_ball_pct` (float): `(dots / legal_balls) * 100` (0.0 when legal_balls == 0)
+  - `boundary_concession_pct` (float): `((fours + sixes) / legal_balls) * 100` (0.0 when legal_balls == 0)
+  - `wicket_rate_per_over` (float): `wickets / overs_bowled` (0.0 when overs_bowled == 0)
+  - `economy_variance_across_spells` (float): Population variance (`ddof=0`) of per-spell economy rates within player-season (0.0 when <= 1 spell)
+- **Reuse**: Reuses `is_bowler_credited` and `BOWLER_CREDITED_KINDS` from `src.analytics.eda_bowling` for consistent wicket definitions across the pipeline.
+- **Spell Detection**: Over-level aggregation (`bowler_canonical_id, match_id, innings_number, over_number`) with consecutive over sequence detection (`diff > 1` triggers new spell).
