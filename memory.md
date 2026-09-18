@@ -132,3 +132,28 @@
   - `economy_variance_across_spells` (float): Population variance (`ddof=0`) of per-spell economy rates within player-season (0.0 when <= 1 spell)
 - **Reuse**: Reuses `is_bowler_credited` and `BOWLER_CREDITED_KINDS` from `src.analytics.eda_bowling` for consistent wicket definitions across the pipeline.
 - **Spell Detection**: Over-level aggregation (`bowler_canonical_id, match_id, innings_number, over_number`) with consecutive over sequence detection (`diff > 1` triggers new spell).
+
+## Phase 4.3: Consistency Features (Completed)
+- **Script**: `src/features/consistency.py`; **Tests**: `tests/test_consistency.py` (5/5 pass)
+- **Output Artifacts**: `data/features/consistency_features.parquet` (8,795 rows: 7,158 `all_t20_2018_2026` + 1,637 `ipl_2018_2026`), grain = `(scope, player_id, start_year)`
+- **PRD Note**: PRD.md SS5 defines the conceptual framework and badge names but does NOT specify numerical cutoffs. All thresholds below are explicit named constants, not black-box values.
+- **Score Definition**: "score" = batting innings runs. Percentiles/median computed strictly on the batting-innings-runs distribution (runs and wickets are never merged into one scalar distribution).
+- **Column Schema**:
+  - `scope`, `player_id`, `player_name`, `start_year`
+  - `qualified` (bool): `innings_batted >= QUALIFIED_INNINGS_SEASON` (10)
+  - `matches_played`, `innings_batted`
+  - `p10, p25, p50, p75, p90` (float): percentiles of innings-runs distribution
+  - `median_score` (float): asserted equal to p50 at computation time
+  - `failure_rate` (float): share of batting innings with runs < 10; denominator = innings_batted
+  - `high_impact_rate` (float): share of match appearances with runs > 45 OR bowler-credited wickets >= 3 in that match; denominator = matches_played (includes bowling-only appearances) -- intentionally different denominator from failure_rate, documented in code
+  - `consistency_badge` (string): one of Elite / High Floor / Boom-or-Bust / Moderate / Unqualified
+- **Badge Thresholds** (named constants in consistency.py):
+  - `ELITE_MAX_FAILURE_RATE = 0.35`, `ELITE_MIN_HIGH_IMPACT_RATE = 0.20`
+  - `HIGH_FLOOR_MAX_FAILURE_RATE = 0.40`, `BOOM_MIN_HIGH_IMPACT_RATE = 0.20`
+  - Elite: failure_rate <= 0.35 AND high_impact_rate >= 0.20
+  - High Floor: failure_rate <= 0.40 AND high_impact_rate < 0.20
+  - Boom-or-Bust: failure_rate > 0.35 AND high_impact_rate >= 0.20
+  - Moderate: remaining qualified players
+  - Unqualified: innings_batted < 10
+- **Actual Badge Distribution**: Unqualified 7117, High Floor 559, Elite 487, Moderate 448, Boom-or-Bust 184
+- **Reuse**: Reuses `is_bowler_credited` from `src.analytics.eda_bowling` for wicket crediting, consistent with Phase 4.2.
