@@ -157,3 +157,23 @@
   - Unqualified: innings_batted < 10
 - **Actual Badge Distribution**: Unqualified 7117, High Floor 559, Elite 487, Moderate 448, Boom-or-Bust 184
 - **Reuse**: Reuses `is_bowler_credited` from `src.analytics.eda_bowling` for wicket crediting, consistent with Phase 4.2.
+
+## Phase 4.9: League-Strength Adjustment Features (Completed)
+- **Script**: `src/analytics/league_adjustment.py`; **Tests**: `tests/test_league_adjustment.py` (5/5 pass)
+- **Output Artifacts**: `configs/league_strength_factors.json`, `data/features/league_adjusted_features.parquet` (8,795 rows)
+- **Methodology**: Empirical crossover-player differential, NOT opinion-based. For each non-IPL competition, found players with qualified samples in both IPL and that competition; averaged the ratio of (other-league stat / IPL stat) across all crossover players. IPL fixed at 1.0 by definition.
+- **Sample thresholds**: MIN_DISMISSALS_BATTING = 5, MIN_OVERS_BOWLING = 10.0. A league with zero qualified crossover players gets an explicit null factor + note, never silently defaults to 1.0.
+- **Batting factor direction**: M_batting = 1 / mean(other_avg / ipl_avg). Multiplying a raw batting average in that league by M_batting scales it down to an IPL-equivalent.
+- **Bowling factor direction**: M_bowling = 1 / mean(other_econ / ipl_econ). Multiplying a raw economy in that league by M_bowling scales it up to an IPL-equivalent (penalizes economies inflated only by easier league conditions).
+- **Computed Factors** (M_batting / M_bowling / crossover player counts):
+  - SMAT: 0.70 / 1.28 (n=78/94, largest crossover sample, most run-suppressive relative to IPL)
+  - Hundred: 0.78 / 1.05 (n=58/48)
+  - BBL: 0.79 / 1.11 (n=55/51)
+  - MLC: 0.81 / 1.05 (n=44/37)
+  - CPL: 0.81 / 1.09 (n=43/44)
+  - ILT20: 0.76 / 1.12 (n=38/51)
+  - SA20: 1.04 / 1.09 (n=37/47) -- see finding below
+  - IPL: 1.00 / 1.00 (baseline, by definition)
+- **Known finding**: SA20 does NOT follow the "all non-IPL leagues are easier" pattern -- batting factor is >1.0 (SA20 batting is marginally harder than IPL for crossover players) and bowling factor is >1.0 (SA20 bowling conditions favor bowlers more than IPL). This is reported as-is from real data rather than artificially capped at 1.0, consistent with SA20's reputation as a more bowler-friendly competition. Documented explicitly rather than treated as an anomaly to suppress.
+- **Bug fixed during build**: initial implementation had batting and bowling per-competition diagnostic dicts sharing key names (`raw_ratio_other_over_ipl`, `n_crossover_players`, `note`), causing bowling values to silently overwrite batting ones on merge. Fixed by suffixing keys `_batting` / `_bowling`. Also fixed: leagues with zero qualified crossover players were being dropped entirely instead of appearing with a null factor + note (loop now iterates all competitions in raw data, not just those surviving the sample filter).
+- **Known limitation**: `league_adjusted_features.parquet` applies factor=1.0 only to `ipl_2018_2026` scope rows; `all_t20_2018_2026` scope rows (which pool all competitions together) are left unadjusted since a single pooled scope cannot be assigned one league factor without breaking it into per-competition components -- would require a further per-competition feature rebuild if a fully adjusted blended metric is needed later.

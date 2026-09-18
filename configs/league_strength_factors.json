@@ -1,0 +1,80 @@
+{
+  "bbl": {
+    "M_batting": 0.7927405990939469,
+    "raw_ratio_other_over_ipl_batting": 1.261446684000968,
+    "n_crossover_players_batting": 55,
+    "note_batting": null,
+    "M_bowling": 1.1145572607583831,
+    "raw_ratio_other_over_ipl_bowling": 0.8972172495826419,
+    "n_crossover_players_bowling": 51,
+    "note_bowling": null
+  },
+  "cpl": {
+    "M_batting": 0.8058841466494274,
+    "raw_ratio_other_over_ipl_batting": 1.240873150511318,
+    "n_crossover_players_batting": 43,
+    "note_batting": null,
+    "M_bowling": 1.0912832505601489,
+    "raw_ratio_other_over_ipl_bowling": 0.9163523764217092,
+    "n_crossover_players_bowling": 44,
+    "note_bowling": null
+  },
+  "hnd": {
+    "M_batting": 0.7833356043273325,
+    "raw_ratio_other_over_ipl_batting": 1.2765920436601652,
+    "n_crossover_players_batting": 58,
+    "note_batting": null,
+    "M_bowling": 1.0500182101321485,
+    "raw_ratio_other_over_ipl_bowling": 0.9523644355407385,
+    "n_crossover_players_bowling": 48,
+    "note_bowling": null
+  },
+  "ilt": {
+    "M_batting": 0.7582140084721726,
+    "raw_ratio_other_over_ipl_batting": 1.3188888477740401,
+    "n_crossover_players_batting": 38,
+    "note_batting": null,
+    "M_bowling": 1.1185568336166796,
+    "raw_ratio_other_over_ipl_bowling": 0.8940091106203835,
+    "n_crossover_players_bowling": 51,
+    "note_bowling": null
+  },
+  "ipl": {
+    "M_batting": 1.0,
+    "n_crossover_players_batting": null,
+    "note_batting": "baseline",
+    "M_bowling": 1.0,
+    "n_crossover_players_bowling": null,
+    "note_bowling": "baseline"
+  },
+  "mlc": {
+    "M_batting": 0.8113244858374522,
+    "raw_ratio_other_over_ipl_batting": 1.2325524712443459,
+    "n_crossover_players_batting": 44,
+    "note_batting": null,
+    "M_bowling": 1.0546882401256397,
+    "raw_ratio_other_over_ipl_bowling": 0.9481474827868328,
+    "n_crossover_players_bowling": 37,
+    "note_bowling": null
+  },
+  "sat": {
+    "M_batting": 1.0433602516855596,
+    "raw_ratio_other_over_ipl_batting": 0.9584417255540351,
+    "n_crossover_players_batting": 37,
+    "note_batting": null,
+    "M_bowling": 1.0904386281522342,
+    "raw_ratio_other_over_ipl_bowling": 0.9170621566245467,
+    "n_crossover_players_bowling": 47,
+    "note_bowling": null
+  },
+  "sma": {
+    "M_batting": 0.7027154462379858,
+    "raw_ratio_other_over_ipl_batting": 1.4230511160008485,
+    "n_crossover_players_batting": 78,
+    "note_batting": null,
+    "M_bowling": 1.276117252728021,
+    "raw_ratio_other_over_ipl_bowling": 0.7836270514031912,
+    "n_crossover_players_bowling": 94,
+    "note_bowling": null
+  }
+}
