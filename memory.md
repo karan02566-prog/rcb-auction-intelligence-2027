@@ -177,3 +177,48 @@
 - **Known finding**: SA20 does NOT follow the "all non-IPL leagues are easier" pattern -- batting factor is >1.0 (SA20 batting is marginally harder than IPL for crossover players) and bowling factor is >1.0 (SA20 bowling conditions favor bowlers more than IPL). This is reported as-is from real data rather than artificially capped at 1.0, consistent with SA20's reputation as a more bowler-friendly competition. Documented explicitly rather than treated as an anomaly to suppress.
 - **Bug fixed during build**: initial implementation had batting and bowling per-competition diagnostic dicts sharing key names (`raw_ratio_other_over_ipl`, `n_crossover_players`, `note`), causing bowling values to silently overwrite batting ones on merge. Fixed by suffixing keys `_batting` / `_bowling`. Also fixed: leagues with zero qualified crossover players were being dropped entirely instead of appearing with a null factor + note (loop now iterates all competitions in raw data, not just those surviving the sample filter).
 - **Known limitation**: `league_adjusted_features.parquet` applies factor=1.0 only to `ipl_2018_2026` scope rows; `all_t20_2018_2026` scope rows (which pool all competitions together) are left unadjusted since a single pooled scope cannot be assigned one league factor without breaking it into per-competition components -- would require a further per-competition feature rebuild if a fully adjusted blended metric is needed later.
+
+## Phase 4.10: Domestic-to-Franchise Translation Features
+
+Status: COMPLETE.
+
+Scope note: "age trajectory factors" from the original spec was dropped --
+no birth/DOB data exists anywhere in the pipeline (checked people.csv and
+dim_players.parquet, neither has it). Ages will be looked up manually per
+candidate outside the pipeline rather than sourcing DOB data in.
+
+Domestic feature mapping rules:
+  - Uncapped = canonical player_id (batter or bowler) present in SMAT
+    (competition == "sma") that never appears in IPL (competition == "ipl")
+    as batter or bowler, anywhere in fact_deliveries.parquet. 1,065 players
+    under the full filter stack (men's, 2018-2026, non-super-over, resolved
+    canonical IDs only -- same filters as Phase 4.1/4.2).
+  - Domestic performance percentile: per-season (start_year) percentile
+    rank (0-100) among QUALIFIED SMAT players that season only, computed
+    separately for strike_rate, batting_average (batting) and economy_rate,
+    wicket_rate_per_over (bowling). economy_rate is ranked inverted (lower
+    is better) so percentile direction is consistent across all four
+    metrics: higher percentile always means better.
+  - Domain dominance ratio: player's season metric / season mean of the
+    same qualified pool, per metric, per player-season.
+  - Transition variance flag: True if a player's career (qualified-season-
+    only) population variance (ddof=0) for a metric exceeds the population
+    median variance across all players for that metric; NaN (not False)
+    when a player has fewer than 2 qualified seasons -- variance is
+    undefined on one point, not "consistent," per this project's existing
+    NaN-vs-0.0 convention.
+  - Metric formulas and qualified thresholds (QUALIFIED_BALLS_SEASON=150,
+    QUALIFIED_OVERS_SEASON=20.0) are reused directly from Phase 4.1/4.2's
+    compute_batting_features/compute_bowling_features -- not re-derived.
+
+Leakage guard: main() asserts zero "ipl"-competition rows in the SMAT
+input slice before any feature is computed; validated at runtime.
+
+Output: data/features/domestic_translation_features.parquet
+  (4,575 rows: 2,634 batting player-seasons + 1,941 bowling player-seasons)
+Tests: tests/test_domestic_translation.py (8 tests, all passing)
+
+Housekeeping: added missing `pandera` to requirements.txt -- it was absent
+despite being a hard runtime dependency of src/validation/schemas.py,
+which meant a fresh venv install would fail 150/150 tests at collection
+time. Reinstalled and reverified full suite (158/158) before this commit.
