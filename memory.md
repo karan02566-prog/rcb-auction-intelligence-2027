@@ -222,3 +222,17 @@ Housekeeping: added missing `pandera` to requirements.txt -- it was absent
 despite being a hard runtime dependency of src/validation/schemas.py,
 which meant a fresh venv install would fail 150/150 tests at collection
 time. Reinstalled and reverified full suite (158/158) before this commit.
+
+## Phase 5: Squad Diagnosis & Gap Analysis (5.1-5.7)
+
+Status: DEFERRED.
+
+Blocked on real-world inputs not yet available: RCB's official retained
+player list, contract prices, and remaining purse cap for the 2026
+auction. Karan will source these himself and specify which roles RCB
+actually needs before this phase resumes -- not something to derive or
+guess from the existing feature/delivery data.
+
+Decided against filler/placeholder commits per sub-phase (5.1-5.7) purely
+to keep the GitHub contribution graph active; will build real skeleton
+scaffolding for each sub-phase once the inputs above are available.
