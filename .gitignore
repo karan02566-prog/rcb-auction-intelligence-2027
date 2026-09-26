@@ -45,4 +45,4 @@ Thumbs.db
 
 # Temporary files
 *.tmp
-*.temp
+*.tempdata/interim/_check_*
