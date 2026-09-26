@@ -324,3 +324,32 @@ Result: 267 Stage 2 input -> 248 passed Stage 3, 19 dropped (all Moderate badge)
 Output: data/interim/funnel_stage3_consistency.parquet, reports/funnel_audit.json updated
 Tests: tests/test_funnel_consistency.py (6 tests, all passing)
 Full suite: 172/172 passing.
+
+## Phase 6.4: Pitch Adaptability & Matchup Filtering
+
+Status: COMPLETE (Chinnaswamy only -- spin/pace matchup half DEFERRED).
+
+KNOWN LIMITATION: no bowler-style (pace/spin) field exists anywhere in
+this project's data -- checked dim_players.parquet, people.csv,
+fact_deliveries.parquet. Not a workaround-able gap like 5.7 or 6.2's
+role profiles; the raw attribute simply isn't present. Spin/pace matchup
+vulnerability filtering deferred until an external bowler-style source is
+added (e.g. scraping Cricinfo via dim_players.key_cricinfo).
+
+Chinnaswamy sample coverage checked before designing the filter: only 20
+batters / 19 bowlers (recent window, >=30 balls) have meaningful sample at
+M Chinnaswamy Stadium out of the ~248 Stage 3 pool. A hard adaptability
+requirement would have disqualified almost everyone for lack of data, not
+weakness -- exactly the spec's own named failure mode, just as data
+sparsity rather than batting order. So the filter only applies to
+candidates clearing a minimum Chinnaswamy sample threshold (>=30 balls);
+everyone else (untested) passes through unaffected. Sampled candidates are
+compared only against the same small sampled group's median (SR for
+batting, economy for bowling), not the full Stage 3 pool.
+
+Result: 248 Stage 3 input -> 25 candidates had sufficient Chinnaswamy
+sample -> 236 passed Stage 4, 12 dropped (all from the sampled group).
+
+Output: data/interim/funnel_stage4_adaptability.parquet, reports/funnel_audit.json updated
+Tests: tests/test_funnel_adaptability.py (4 tests, all passing)
+Full suite: 176/176 passing.

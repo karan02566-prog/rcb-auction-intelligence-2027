@@ -32,5 +32,13 @@
     "dropped_badge_breakdown": {
       "Moderate": 19
     }
+  },
+  "stage4_adaptability_filter": {
+    "scope_note": "Chinnaswamy pitch-adaptability only; spin/pace matchup filtering DEFERRED -- no bowler-style field exists in the dataset",
+    "min_chinnaswamy_balls_threshold": 30,
+    "candidates_with_chinnaswamy_sample": 25,
+    "stage3_input_count": 248,
+    "passed_stage4": 236,
+    "dropped_stage4": 12
   }
 }
