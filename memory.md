@@ -264,3 +264,37 @@ Stage 1 result: 716 total players in provisional universe, 492 passed,
 Output: data/interim/funnel_stage1_sample.parquet, reports/funnel_audit.json
 Tests: tests/test_funnel_sample.py (3 tests, all passing)
 Full suite: 161/161 passing.
+
+## Phase 6.2: Performance Threshold & Role Alignment Filtering
+
+Status: COMPLETE (provisional, no role profiles -- see limitation below).
+
+KNOWN LIMITATION: configs/target_role_profiles.json (Phase 5.5 output)
+doesn't exist. src/analytics/funnel_performance.py filters against the
+global median league-adjusted performance among Stage 1-passed candidates
+per discipline, not role-specific thresholds. Must be re-applied with real
+role profiles once Phase 5 unblocks.
+
+CORRECTION to a prior memory note: league_adjusted_features.parquet's
+all_t20-scope rows use NaN for the applied factor, not 1.0 as previously
+stated -- verified directly, earlier note was wrong.
+
+League adjustment formula reused exactly from Phase 4.9's
+src/analytics/league_adjustment.py (not re-derived): adjusted_batting_avg =
+raw_avg * M_batting; adjusted_economy = raw_economy * M_bowling. Recomputed
+here per-competition on the recent window (2025+2026, matching Stage 1)
+rather than reusing the incomplete pooled parquet. Cross-competition
+combination: dismissals-weighted average for batting, overs-weighted for
+bowling economy.
+
+Pass condition: candidate passes if EITHER Stage-1-eligible discipline
+clears the recent-window global median (batting: adjusted_avg >= median;
+bowling: adjusted_economy <= median, lower is better). A never-dismissed
+batter (NaN adjusted_avg) passes automatically rather than failing a NaN
+comparison.
+
+Result: 492 Stage 1 input -> 267 passed Stage 2, 225 dropped.
+
+Output: data/interim/funnel_stage2_performance.parquet, reports/funnel_audit.json updated
+Tests: tests/test_funnel_performance.py (5 tests, all passing)
+Full suite: 166/166 passing.

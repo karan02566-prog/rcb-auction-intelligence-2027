@@ -11,5 +11,17 @@
     "total_universe": 716,
     "passed_stage1": 492,
     "dropped_stage1": 224
+  },
+  "stage2_performance_filter": {
+    "provisional_note": "no target_role_profiles.json input (Phase 5 deferred); filtered against global median of Stage 1-passed candidates per discipline, not role-specific thresholds",
+    "recent_seasons_used": [
+      2025,
+      2026
+    ],
+    "batting_median_adjusted_avg": 23.343716114945536,
+    "bowling_median_adjusted_economy": 9.485905930298006,
+    "stage1_input_count": 492,
+    "passed_stage2": 267,
+    "dropped_stage2": 225
   }
 }
