@@ -23,5 +23,14 @@
     "stage1_input_count": 492,
     "passed_stage2": 267,
     "dropped_stage2": 225
+  },
+  "stage3_consistency_filter": {
+    "note": "Boom-or-Bust badge explicitly NOT filtered (high-ceiling death-finisher profile); only Moderate badge fails; bowling-only candidates pass through unaffected (badge is batting-specific)",
+    "stage2_input_count": 267,
+    "passed_stage3": 248,
+    "dropped_stage3": 19,
+    "dropped_badge_breakdown": {
+      "Moderate": 19
+    }
   }
 }

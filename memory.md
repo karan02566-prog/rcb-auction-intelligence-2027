@@ -298,3 +298,29 @@ Result: 492 Stage 1 input -> 267 passed Stage 2, 225 dropped.
 Output: data/interim/funnel_stage2_performance.parquet, reports/funnel_audit.json updated
 Tests: tests/test_funnel_performance.py (5 tests, all passing)
 Full suite: 166/166 passing.
+
+## Phase 6.3: Consistency & Floor/Ceiling Filtering
+
+Status: COMPLETE.
+
+Reuses the pre-built consistency_badge column directly from Phase 4.3
+(Elite / High Floor / Boom-or-Bust / Moderate / Unqualified) -- no new
+consistency metric invented. Badge is batting-specific per 4.3's own
+docstring, so this filter only applies to Stage-2-passed candidates
+eligible on batting; bowling-only candidates pass through unaffected.
+
+Common failure mode explicitly guarded (per spec wording, "uniformly
+penalizing high-ceiling death finishers for natural high variance"):
+Boom-or-Bust is NOT filtered out -- only Moderate (high failure rate AND
+low impact rate: no floor, no ceiling) fails. Unqualified badge (fewer
+than 10 batting innings in the recent window) also passes through --
+treated as a data-sufficiency gap, not evidence of inconsistency.
+
+Recent-season badge lookup: prefers 2026 (if qualified that season),
+falls back to 2025, else Unqualified.
+
+Result: 267 Stage 2 input -> 248 passed Stage 3, 19 dropped (all Moderate badge).
+
+Output: data/interim/funnel_stage3_consistency.parquet, reports/funnel_audit.json updated
+Tests: tests/test_funnel_consistency.py (6 tests, all passing)
+Full suite: 172/172 passing.
