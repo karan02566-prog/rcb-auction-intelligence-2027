@@ -1,0 +1,15 @@
+{
+  "stage1_sample_filter": {
+    "provisional_universe_note": "no candidate_universe_broad.parquet input (Phase 5 deferred); universe built from batting/bowling feature tables directly, no retained-player exclusion or role-profile matching applied yet",
+    "recent_seasons_used": [
+      2025,
+      2026
+    ],
+    "scope": "all_t20_2018_2026",
+    "min_batting_balls": 100,
+    "min_bowling_balls": 60,
+    "total_universe": 716,
+    "passed_stage1": 492,
+    "dropped_stage1": 224
+  }
+}

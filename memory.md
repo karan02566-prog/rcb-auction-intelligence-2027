@@ -236,3 +236,31 @@ guess from the existing feature/delivery data.
 Decided against filler/placeholder commits per sub-phase (5.1-5.7) purely
 to keep the GitHub contribution graph active; will build real skeleton
 scaffolding for each sub-phase once the inputs above are available.
+
+## Phase 6.1: Universe Definition & Minimum Sample Filtering
+
+Status: COMPLETE (provisional universe -- see limitation below).
+
+KNOWN LIMITATION: Phase 5 (5.1-5.7) is deferred, so the spec's stated
+input data/processed/candidate_universe_broad.parquet does not exist.
+src/analytics/funnel_sample.py instead builds its own minimal universe =
+every player_id appearing in batting_features.parquet or
+bowling_features.parquet. No retained-player exclusion and no
+target-role-profile matching applied yet -- both must be re-applied once
+Phase 5 unblocks. This Stage 1 output is provisional.
+
+Recent window definition: last 2 seasons (2025, 2026) pooled, all_t20_2018_2026
+scope (not ipl_2018_2026, to preserve domestic-only prospects per this
+phase's own safeguard). 2026 alone was checked and found partial/thin
+(397 batting rows vs ~600-770 for 2022-2025) -- too thin standalone.
+
+Sample thresholds: minimum 100 pooled batting balls_faced OR minimum 60
+pooled bowling legal_balls (either, not both -- so pure specialists in
+one discipline aren't dropped for the other).
+
+Stage 1 result: 716 total players in provisional universe, 492 passed,
+224 dropped.
+
+Output: data/interim/funnel_stage1_sample.parquet, reports/funnel_audit.json
+Tests: tests/test_funnel_sample.py (3 tests, all passing)
+Full suite: 161/161 passing.
