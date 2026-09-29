@@ -40,5 +40,30 @@
     "stage3_input_count": 248,
     "passed_stage4": 236,
     "dropped_stage4": 12
+  },
+  "stage5_final_shortlist": {
+    "stage4_passers": 236,
+    "dropped_no_qualified_translation_row": 210,
+    "dropped_unstable_transition_flag": 10,
+    "final_shortlist": 16,
+    "count_target_30_40_status": "WARN_OUTSIDE_30_40",
+    "variance_untested_count": 14,
+    "variance_flag_note": "flag is True when a player's metric variance across qualified SMAT seasons exceeds the cohort median (relative, ~half of multi-season players flagged); NaN with <2 qualified seasons -> kept, tagged variance_untested",
+    "role_representation_substitute": "player_type x is_uncapped (Phase 5 role profiles do not exist)",
+    "role_representation": {
+      "counts": {
+        "batter|uncapped=False": 11,
+        "bowler|uncapped=False": 7
+      },
+      "empty_cells": [
+        "batter|uncapped=True",
+        "bowler|uncapped=True"
+      ]
+    },
+    "availability_noc_check": {
+      "status": "DEFERRED",
+      "evidence": "configs/data_sources.yaml known_limitations: no injury availability status; no NOC/availability field in any parquet/csv"
+    },
+    "no_forced_cut": true
   }
 }
