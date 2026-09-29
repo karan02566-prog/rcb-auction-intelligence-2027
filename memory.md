@@ -353,3 +353,12 @@ sample -> 236 passed Stage 4, 12 dropped (all from the sampled group).
 Output: data/interim/funnel_stage4_adaptability.parquet, reports/funnel_audit.json updated
 Tests: tests/test_funnel_adaptability.py (4 tests, all passing)
 Full suite: 176/176 passing.
+
+## Phase 6.5 - Final Funnel (Domestic Translation Filter)
+- Built src/analytics/funnel_final.py: Stage 4 passers (236) filtered to those with a qualified SMAT translation row and no True transition_variance_flag on their role's metrics (batter: SR/avg; bowler: economy/wicket rate). Per-player aggregation across seasons/roles.
+- Availability/NOC/injury check DEFERRED: no such field in any dataset (configs/data_sources.yaml known_limitations); logged as explicit gap in reports/funnel_audit.json (stage5_final_shortlist). Revisit if an external availability source is added.
+- Final shortlist N = 16 (outside 30-40 target; recorded as WARN_OUTSIDE_30_40, deliberately NOT forced to hit 40). Data/processed/candidate_shortlist_30_40.parquet.
+- Role breakdown (player-role pairs): 11 batter, 7 bowler (2 players qualify as both); 0 uncapped - uncapped cells empty. Multi-role check uses provisional substitute player_type x is_uncapped since Phase 5 role profiles do not exist; empty cells reported, not asserted.
+- Limitation: 14 of 16 have variance_untested=True (only 1 qualified SMAT season, flag NaN), so the stage is effectively "has a qualified SMAT season minus 10 flagged players". Flag is relative (above-median variance), not absolute instability.
+- Funnel drop counts: universe 716 -> S1 492 (-224) -> S2 267 (-225) -> S3 248 (-19) -> S4 236 (-12) -> S5 16 (-220: 210 no qualified translation row, 10 unstable flag).
+- tests/test_funnel_final.py added (4 tests, synthetic DataFrames).
