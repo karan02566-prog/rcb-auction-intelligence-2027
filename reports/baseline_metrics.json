@@ -1,0 +1,148 @@
+{
+  "split_sizes": {
+    "train": 1013,
+    "validation": 254,
+    "holdout_2026_not_scored": 77
+  },
+  "baselines": {
+    "global_mean": {
+      "train": {
+        "n": 1013,
+        "mae_inr": 20669504.730702255,
+        "rmse_inr": 29387070.364304967,
+        "mae_log1p": 1.4042378168444976,
+        "rmse_log1p": 1.680371700962838
+      },
+      "validation": {
+        "n": 254,
+        "mae_inr": 29688607.16201196,
+        "rmse_inr": 49613322.19035638,
+        "mae_log1p": 1.2348381910435535,
+        "rmse_log1p": 1.443066428416152
+      }
+    },
+    "global_median": {
+      "train": {
+        "n": 1013,
+        "mae_inr": 17971865.74531096,
+        "rmse_inr": 32105602.98976837,
+        "mae_log1p": 1.2308028650550273,
+        "rmse_log1p": 1.4128449156073852
+      },
+      "validation": {
+        "n": 254,
+        "mae_inr": 29692913.38582677,
+        "rmse_inr": 54522930.955699734,
+        "mae_log1p": 1.2635545514996585,
+        "rmse_log1p": 1.4983295842742628
+      }
+    },
+    "role_median": {
+      "train": {
+        "n": 1013,
+        "mae_inr": 17884007.89733465,
+        "rmse_inr": 32430330.063014336,
+        "mae_log1p": 1.219749975183727,
+        "rmse_log1p": 1.4278266778550937
+      },
+      "validation": {
+        "n": 254,
+        "mae_inr": 29647637.79527559,
+        "rmse_inr": 54572831.13086397,
+        "mae_log1p": 1.2581887012623392,
+        "rmse_log1p": 1.5016582373242877
+      }
+    },
+    "prev_year_median": {
+      "train": {
+        "n": 1013,
+        "mae_inr": 18506910.16781836,
+        "rmse_inr": 32871526.66895588,
+        "mae_log1p": 1.3062378461769737,
+        "rmse_log1p": 1.539561953054073
+      },
+      "validation": {
+        "n": 254,
+        "mae_inr": 29303149.606299214,
+        "rmse_inr": 53439328.31748189,
+        "mae_log1p": 1.2293527978825196,
+        "rmse_log1p": 1.4596965762787435
+      }
+    }
+  },
+  "notes": [
+    "Auction file is sold-only (no unsold rows): selection bias, models never see unsold players.",
+    "2013 excluded: only USD year, pre-2018 (no features), no FX assumption made.",
+    "base_price, capped_status, nationality not used: unavailable across training years.",
+    "2026 is held out: counted in split_sizes, never scored in 7.1.",
+    "prev_year_median uses only pre-2026 labels; first-year rows fall back to train median."
+  ],
+  "performance_baseline": {
+    "lag_years": 1,
+    "metrics": {
+      "strike_rate": {
+        "n": 15,
+        "players": 12,
+        "domestic_pct_scale_divisor": 100.0,
+        "pct_orientation_corr_with_raw": 0.9795214107227832,
+        "identity": {
+          "mae": 0.4482254197239462,
+          "rmse": 0.5013546760624473
+        },
+        "constant_0_5": {
+          "mae": 0.21557123265649902,
+          "rmse": 0.24616295816784234
+        }
+      },
+      "batting_average": {
+        "n": 15,
+        "players": 12,
+        "domestic_pct_scale_divisor": 100.0,
+        "pct_orientation_corr_with_raw": 0.9063672726043742,
+        "identity": {
+          "mae": 0.3256510423203247,
+          "rmse": 0.3726545691801884
+        },
+        "constant_0_5": {
+          "mae": 0.2185515877085226,
+          "rmse": 0.26029890812471446
+        }
+      },
+      "economy_rate": {
+        "n": 36,
+        "players": 28,
+        "domestic_pct_scale_divisor": 100.0,
+        "pct_orientation_corr_with_raw": -0.952643272257442,
+        "identity": {
+          "mae": 0.3050473574328205,
+          "rmse": 0.3771574693896833
+        },
+        "constant_0_5": {
+          "mae": 0.2617728692062497,
+          "rmse": 0.2902735845539292
+        }
+      },
+      "wicket_rate_per_over": {
+        "n": 36,
+        "players": 28,
+        "domestic_pct_scale_divisor": 100.0,
+        "pct_orientation_corr_with_raw": 0.9876560216290202,
+        "identity": {
+          "mae": 0.3134749455802827,
+          "rmse": 0.38353666972251865
+        },
+        "constant_0_5": {
+          "mae": 0.24135482341176676,
+          "rmse": 0.2831112908078739
+        }
+      }
+    },
+    "notes": [
+      "Identity baseline: SMAT percentile in season Y predicts same player's IPL percentile in Y+1 (no fitting).",
+      "Constant 0.5 reported as the naive reference the domestic percentile must beat.",
+      "Cohort is small (players with a qualified SMAT season and a qualified IPL season next year): indicative only.",
+      "Survivorship bias: only players who reached a qualified IPL season appear; those who never did are invisible.",
+      "IPL percentile = within-season rank among qualified ipl_2018_2026 players, same orientation as domestic."
+    ]
+  }
+}
