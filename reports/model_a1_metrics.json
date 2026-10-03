@@ -1,0 +1,145 @@
+{
+  "target": "log1p(sold_price_inr)",
+  "model": "NumPy closed-form Ridge",
+  "train_years": [
+    2015,
+    2023
+  ],
+  "validation_years": [
+    2024,
+    2025
+  ],
+  "coverage": {
+    "train": {
+      "n": 722,
+      "has_prev_price": 401,
+      "has_t20_prior": 311
+    },
+    "validation": {
+      "n": 212,
+      "has_prev_price": 149,
+      "has_t20_prior": 167
+    },
+    "holdout_2026_not_scored": {
+      "n": 56,
+      "has_prev_price": 28,
+      "has_t20_prior": 28
+    }
+  },
+  "models": {
+    "full": {
+      "alpha": 100.0,
+      "cv_log_mae_by_alpha": {
+        "0.1": 1.0394162020755868,
+        "1.0": 1.0380699101241704,
+        "10.0": 1.0315494488466599,
+        "100.0": 1.0247922498189872,
+        "1000.0": 1.0864113131375108
+      },
+      "validation": {
+        "n": 212,
+        "mae_inr": 24548670.25483242,
+        "rmse_inr": 44207400.18591941,
+        "mae_log1p": 0.9489743083431205,
+        "rmse_log1p": 1.168973906585201
+      },
+      "coefficients_standardised": {
+        "market_prev_median_log": -0.09415475373368458,
+        "prev_log_price": 0.4470802405641273,
+        "has_prev_price": 0.3159635701192126,
+        "years_since_prev": 0.09286411605331839,
+        "t20_log_bat_balls": 0.12922062907428492,
+        "t20_bat_sr": 0.10157442132441226,
+        "t20_log_bowl_balls": 0.036999243340193735,
+        "t20_bowl_econ": -0.021855160475381292,
+        "t20_bowl_wpb24": 0.038632063989367034,
+        "ipl_log_balls_all_prior": 0.16576586205986632,
+        "has_t20_prior": -0.12624340737764345
+      }
+    },
+    "price_history_only": {
+      "alpha": 0.1,
+      "cv_log_mae_by_alpha": {
+        "0.1": 1.0140514193399504,
+        "1.0": 1.0141391250003382,
+        "10.0": 1.0149973528408707,
+        "100.0": 1.029635600225682,
+        "1000.0": 1.1145920661826303
+      },
+      "validation": {
+        "n": 212,
+        "mae_inr": 24684638.524347126,
+        "rmse_inr": 44498150.51980627,
+        "mae_log1p": 0.9912835167276419,
+        "rmse_log1p": 1.219501581323253
+      },
+      "coefficients_standardised": {
+        "market_prev_median_log": -0.0898422757247252,
+        "prev_log_price": 0.566510024263289,
+        "has_prev_price": 0.429134740823703,
+        "years_since_prev": 0.1111050591926936
+      }
+    }
+  },
+  "same_row_baselines_validation": {
+    "global_median": {
+      "n": 212,
+      "mae_inr": 29169811.320754718,
+      "rmse_inr": 52562317.01334447,
+      "mae_log1p": 1.263390629950805,
+      "rmse_log1p": 1.5113340473664956
+    },
+    "prev_year_median": {
+      "n": 212,
+      "mae_inr": 28540310.95650161,
+      "rmse_inr": 51270600.19761944,
+      "mae_log1p": 1.2008893216186227,
+      "rmse_log1p": 1.4364025815724282
+    }
+  },
+  "reference_7_1_baselines_all_rows_validation": {
+    "global_mean": {
+      "n": 254,
+      "mae_inr": 29688607.16201196,
+      "rmse_inr": 49613322.19035638,
+      "mae_log1p": 1.2348381910435535,
+      "rmse_log1p": 1.443066428416152
+    },
+    "global_median": {
+      "n": 254,
+      "mae_inr": 29692913.38582677,
+      "rmse_inr": 54522930.955699734,
+      "mae_log1p": 1.2635545514996585,
+      "rmse_log1p": 1.4983295842742628
+    },
+    "role_median": {
+      "n": 254,
+      "mae_inr": 29647637.79527559,
+      "rmse_inr": 54572831.13086397,
+      "mae_log1p": 1.2581887012623392,
+      "rmse_log1p": 1.5016582373242877
+    },
+    "prev_year_median": {
+      "n": 254,
+      "mae_inr": 29303149.606299214,
+      "rmse_inr": 53439328.31748189,
+      "mae_log1p": 1.2293527978825196,
+      "rmse_log1p": 1.4596965762787435
+    }
+  },
+  "beats_best_baseline_mae_inr": true,
+  "beats_best_baseline_mae_log1p": true,
+  "exit_criteria_met": true,
+  "notes": [
+    "Target log1p(INR); Ridge fit in NumPy (sklearn/xgboost not importable: Code Integrity blocks native wheels).",
+    "Only ID-resolved auction rows used (shortlist players are mapped by construction); unmapped rows dropped.",
+    "Features: previous auction price of the same player (earlier years only), previous-year market median, pooled stats from the 2 seasons before the auction year (all_t20 scope), prior IPL balls as experience proxy.",
+    "Age and international experience unavailable (no DOB; capped_status/nationality absent in training years).",
+    "Auction role not used: null for all 2025-26 rows, so validation would shift distribution.",
+    "all_t20 seasons that straddle the year boundary (e.g. BBL) make the timing slightly loose; IPL-scope features are exact.",
+    "Sold-only data: selection bias, A1 never sees unsold players.",
+    "Same-row baselines are computed on A1's own validation rows; 7.1 numbers cover all rows and are reference only.",
+    "Validation touched once; alpha chosen by expanding-window CV inside training years.",
+    "Train rows 2015-2018 have structurally missing performance features (tables start 2018): has_t20_prior=0 there is partly an era indicator, not no history."
+  ]
+}
