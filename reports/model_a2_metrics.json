@@ -1,0 +1,139 @@
+{
+  "version": "v2 (symmetric dismissal cost, per-discipline z, bounded sigmoid, quality-supply scarcity)",
+  "n_player_seasons": 7765,
+  "n_qualified_any": 2722,
+  "positive_all": true,
+  "fv_qualified_quantiles": {
+    "0.0": 10.217,
+    "0.1": 34.063,
+    "0.5": 47.991,
+    "0.9": 64.417,
+    "1.0": 94.222
+  },
+  "discipline_impact_scale": {
+    "bat": 88.3398764702552,
+    "bowl": 81.62623086560122,
+    "bat_median_z": -0.46791341760881167,
+    "bowl_median_z": 0.21979077080414156
+  },
+  "qualified_median_z": {
+    "bat": 0.0,
+    "bowl": 0.0
+  },
+  "fv_median_by_primary_disc": [
+    {
+      "primary_disc": "bat",
+      "count": 1139,
+      "median": 47.79,
+      "mean": 48.62,
+      "max": 91.62
+    },
+    {
+      "primary_disc": "bowl",
+      "count": 1583,
+      "median": 48.15,
+      "mean": 48.81,
+      "max": 94.22
+    }
+  ],
+  "phase_weights": {
+    "Death": 1.1566533894708475,
+    "Middle": 0.9438353719751165,
+    "Powerplay": 0.9694840366806019
+  },
+  "wicket_value_runs_phase": {
+    "Death": 22.897577560560986,
+    "Middle": 31.97148014440433,
+    "Powerplay": 36.90979689366786
+  },
+  "lambda": 0.5,
+  "clip": [
+    0.8,
+    1.5
+  ],
+  "wicket_scale": 0.5,
+  "logit_div": 2.0,
+  "scarcity_mode": "all",
+  "qualification": {
+    "bat": 150,
+    "bowl": 120
+  },
+  "dismissal_rule": "excl ('retired hurt','retired not out'), attributed to player out",
+  "scarcity_by_cell_mean": [
+    {
+      "disc": "bat",
+      "phase": "Death",
+      "S_all": 0.933,
+      "S_quality": 0.75,
+      "mult": 0.966,
+      "n_qual": 37.111,
+      "n_pos": 25.333
+    },
+    {
+      "disc": "bat",
+      "phase": "Middle",
+      "S_all": 0.838,
+      "S_quality": 0.728,
+      "mult": 0.919,
+      "n_qual": 41.222,
+      "n_pos": 26.111
+    },
+    {
+      "disc": "bat",
+      "phase": "Powerplay",
+      "S_all": 1.04,
+      "S_quality": 1.025,
+      "mult": 1.02,
+      "n_qual": 33.222,
+      "n_pos": 18.444
+    },
+    {
+      "disc": "bowl",
+      "phase": "Death",
+      "S_all": 1.016,
+      "S_quality": 1.072,
+      "mult": 1.008,
+      "n_qual": 42.333,
+      "n_pos": 22.222
+    },
+    {
+      "disc": "bowl",
+      "phase": "Middle",
+      "S_all": 1.05,
+      "S_quality": 1.092,
+      "mult": 1.025,
+      "n_qual": 41.111,
+      "n_pos": 21.667
+    },
+    {
+      "disc": "bowl",
+      "phase": "Powerplay",
+      "S_all": 1.025,
+      "S_quality": 1.133,
+      "mult": 1.013,
+      "n_qual": 41.889,
+      "n_pos": 20.889
+    }
+  ],
+  "scarcity_spread": {
+    "std_S_all_norm": 0.0933342303433482,
+    "std_S_quality_norm": 0.19105511123473742,
+    "mult_min": 0.8760381123206316,
+    "mult_max": 1.066006348391106
+  },
+  "premium_direction": {
+    "all_S_gt1_have_mult_gt1": true,
+    "mean_mult_top_tercile_S": 1.0392023089063895,
+    "mean_mult_bottom_tercile_S": 0.9363678938715359,
+    "share_cells_clipped": 0.0
+  },
+  "spearman_fv_vs_no_scarcity_qualified": 0.9915607126449199,
+  "note": "No ground truth; sanity checks only. Spearman vs A1 not computed here (report-only, later).",
+  "sensitivity_spearman_vs_default": {
+    "lambda_0.25": 0.9978435892175188,
+    "lambda_1.0": 0.9920142573202029,
+    "wicket_scale_0.25": 0.9424838991394836,
+    "wicket_scale_1.0": 0.9508273081997886,
+    "scarcity_mode_all": 0.9999999999999999
+  }
+}
